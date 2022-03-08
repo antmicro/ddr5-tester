@@ -1,0 +1,31 @@
+03-04 13:12:01 length_stats.action_length_stats 304:Plugin executed on: 'linux'
+03-04 13:12:01 length_stats.action_length_stats 305:Plugin executed with python version: '3.9.7 (default, Sep 24 2021, 09:43:00) \n[GCC 10.3.0]'
+03-04 13:12:01 length_stats.action_length_stats 306:KiCad build version: 5.99.0+really5.1.10+dfsg1-1+b1
+03-04 13:12:01 length_stats.action_length_stats 307:Length stats plugin version: 30 started
+03-04 13:12:02 STDERR 345:/home/pszczygiel/.kicad_plugins/length_stats/action_length_stats.py:55: wxPyDeprecationWarning: Call to deprecated item. Use SetSizeHints instead.
+03-04 13:12:02 STDERR 345:  self.SetSizeHintsSz(sz1, sz2)
+03-04 13:12:02 STDERR 345:/home/pszczygiel/.kicad_plugins/length_stats/action_length_stats.py:76: wxPyDeprecationWarning: Call to deprecated item. Use InsertItem instead.
+03-04 13:12:02 STDERR 345:  index = self.net_list.InsertStringItem(index_net, net)
+03-04 13:12:02 STDERR 345:/home/pszczygiel/.kicad_plugins/length_stats/action_length_stats.py:77: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+03-04 13:12:02 STDERR 345:  self.net_list.SetStringItem(index, 1, "0.0")
+03-04 13:12:02 length_stats.action_length_stats 207:Sorting list
+03-04 13:12:02 STDERR 345:/home/pszczygiel/.kicad_plugins/length_stats/action_length_stats.py:242: wxPyDeprecationWarning: Call to deprecated item. Use InsertItem instead.
+03-04 13:12:02 STDERR 345:  index = self.net_list.InsertStringItem(index_net, net[0])
+03-04 13:12:02 STDERR 345:/home/pszczygiel/.kicad_plugins/length_stats/action_length_stats.py:243: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+03-04 13:12:02 STDERR 345:  self.net_list.SetStringItem(index, 1, "%.2f" % net[1])
+03-04 13:12:02 length_stats.action_length_stats 95:Length stats gui initialized
+03-04 13:12:02 length_stats.action_length_stats 96:Nets for stats are;
+['~RESET', '~ACT', 'CKE0']
+03-04 13:12:06 length_stats.action_length_stats 100:Automatic refresh turned on
+03-04 13:12:07 length_stats.action_length_stats 127:Autimatic refresh
+03-04 13:12:07 length_stats.action_length_stats 132:Refreshing net lengths
+03-04 13:12:07 STDERR 345:/home/pszczygiel/.kicad_plugins/length_stats/action_length_stats.py:148: wxPyDeprecationWarning: Call to deprecated item. Use SetItem instead.
+03-04 13:12:07 STDERR 345:  self.net_list.SetStringItem(index_net, 1, "%.2f" % length)
+03-04 13:12:08 length_stats.action_length_stats 127:Autimatic refresh
+03-04 13:12:08 length_stats.action_length_stats 132:Refreshing net lengths
+03-04 13:12:09 length_stats.action_length_stats 127:Autimatic refresh
+03-04 13:12:09 length_stats.action_length_stats 132:Refreshing net lengths
+03-04 13:12:10 length_stats.action_length_stats 127:Autimatic refresh
+03-04 13:12:10 length_stats.action_length_stats 132:Refreshing net lengths
+03-04 13:12:11 length_stats.action_length_stats 127:Autimatic refresh
+03-04 13:12:11 length_stats.action_length_stats 132:Refreshing net lengths

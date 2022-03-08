@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name data-center-ddr5-tester)(type Legacy)(uri ${KIPRJMOD}/lib/data-center-ddr5-tester.lib)(options "")(descr ""))
+)
