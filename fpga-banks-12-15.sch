@@ -172,21 +172,21 @@ Wire Wire Line
 Connection ~ 10475 2625
 Wire Wire Line
 	10875 2625 11125 2625
-Text GLabel 9975 4950 0    50   Input ~ 0
+Text GLabel 9925 7850 0    50   Input ~ 0
 USR_LED1
-Text GLabel 9975 5150 0    50   Input ~ 0
+Text GLabel 9925 8050 0    50   Input ~ 0
 USR_LED2
-Text GLabel 9975 5650 0    50   Input ~ 0
+Text GLabel 9925 8550 0    50   Input ~ 0
 USR_LED3
-Text GLabel 9975 5450 0    50   Input ~ 0
+Text GLabel 9925 8350 0    50   Input ~ 0
 USR_LED5
-Text GLabel 9975 5550 0    50   Input ~ 0
+Text GLabel 9925 8450 0    50   Input ~ 0
 USR_BTN1
-Text GLabel 9975 5250 0    50   Input ~ 0
+Text GLabel 9925 8150 0    50   Input ~ 0
 USR_BTN2
-Text GLabel 9975 5350 0    50   Input ~ 0
+Text GLabel 9925 8250 0    50   Input ~ 0
 USR_BTN3
-Text GLabel 9975 5050 0    50   Input ~ 0
+Text GLabel 9925 7950 0    50   Input ~ 0
 USR_LED4
 Text GLabel 9975 5750 0    50   Input ~ 0
 USR_BTN4
@@ -342,10 +342,6 @@ F 7 "DNP" H 15025 4250 50  0000 C CNN "DNP"
 	1    15025 4250
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	15175 4150 15275 4150
-Wire Wire Line
-	15175 4250 15275 4250
 $Comp
 L data-center-ddr5-tester:R_0R_0201 R?
 U 1 1 6356FC5A
@@ -380,10 +376,6 @@ F 7 "DNP" H 14650 5450 50  0000 C CNN "DNP"
 	1    14650 5450
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14800 5350 15025 5350
-Wire Wire Line
-	14800 5450 15025 5450
 $Comp
 L data-center-ddr5-tester:R_0R_0201 R?
 U 1 1 6358D239
@@ -418,10 +410,6 @@ F 7 "DNP" H 14650 6650 50  0000 C CNN "DNP"
 	1    14650 6650
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14800 6550 15025 6550
-Wire Wire Line
-	14800 6650 15025 6650
 $Comp
 L data-center-ddr5-tester:R_0R_0201 R?
 U 1 1 635A9E08
@@ -456,10 +444,6 @@ F 7 "DNP" H 14650 7850 50  0000 C CNN "DNP"
 	1    14650 7850
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	14800 7750 15025 7750
-Wire Wire Line
-	14800 7850 15025 7850
 Wire Notes Line
 	8275 475  8275 11225
 Text GLabel 9975 6750 0    50   Input ~ 0
@@ -485,10 +469,6 @@ F 7 "DNP" H 7075 4225 50  0000 C CNN "DNP"
 	1    7075 4225
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7225 7825 7450 7825
-Wire Wire Line
-	7225 7725 7450 7725
 $Comp
 L data-center-ddr5-tester:R_0R_0201 R?
 U 1 1 634EE5EC
@@ -523,10 +503,6 @@ F 7 "DNP" H 7075 7725 50  0000 C CNN "DNP"
 	1    7075 7725
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7225 4225 7450 4225
-Wire Wire Line
-	7225 4125 7450 4125
 $Comp
 L data-center-ddr5-tester:R_0R_0201 R?
 U 1 1 634A1090
@@ -544,10 +520,6 @@ F 7 "DNP" H 7075 4125 50  0000 C CNN "DNP"
 	1    7075 4125
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7225 5425 7450 5425
-Wire Wire Line
-	7225 5325 7450 5325
 $Comp
 L data-center-ddr5-tester:R_0R_0201 R?
 U 1 1 6341BC52
@@ -582,8 +554,6 @@ F 7 "DNP" H 7075 5325 50  0000 C CNN "DNP"
 	1    7075 5325
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7225 6625 7450 6625
 $Comp
 L data-center-ddr5-tester:R_0R_0201 R?
 U 1 1 6340A388
@@ -601,8 +571,6 @@ F 7 "DNP" H 7075 6625 50  0000 C CNN "DNP"
 	1    7075 6625
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7225 6525 7450 6525
 $Comp
 L data-center-ddr5-tester:R_0R_0201 R?
 U 1 1 633DE639
@@ -4579,36 +4547,140 @@ Text GLabel 9975 4450 0    50   Input ~ 0
 UART1_RX
 Text GLabel 9975 4350 0    50   Input ~ 0
 UART1_TX
-Text GLabel 15300 4400 2    50   BiDi ~ 0
+Text GLabel 15850 4150 2    50   BiDi ~ 0
 DQS0_A_P
-Text GLabel 15300 4500 2    50   BiDi ~ 0
+Text GLabel 15850 4250 2    50   BiDi ~ 0
 DQS0_A_N
-Text GLabel 15000 6800 2    50   BiDi ~ 0
+Text GLabel 15475 6550 2    50   BiDi ~ 0
 DQS1_A_P
-Text GLabel 15000 6900 2    50   BiDi ~ 0
+Text GLabel 15475 6650 2    50   BiDi ~ 0
 DQS1_A_N
-Text GLabel 15000 8000 2    50   BiDi ~ 0
+Text GLabel 15475 7750 2    50   BiDi ~ 0
 DQS2_A_P
-Text GLabel 15000 8100 2    50   BiDi ~ 0
+Text GLabel 15475 7850 2    50   BiDi ~ 0
 DQS2_A_N
-Text GLabel 15100 5600 2    50   BiDi ~ 0
+Text GLabel 15475 5350 2    50   BiDi ~ 0
 DQS3_A_P
-Text GLabel 15100 5700 2    50   BiDi ~ 0
+Text GLabel 15475 5450 2    50   BiDi ~ 0
 DQS3_A_N
-Text GLabel 7450 6800 2    50   BiDi ~ 0
+Text GLabel 7900 6525 2    50   BiDi ~ 0
 DQS0_B_P
-Text GLabel 7450 6900 2    50   BiDi ~ 0
+Text GLabel 7900 6625 2    50   BiDi ~ 0
 DQS0_B_N
-Text GLabel 7450 5600 2    50   BiDi ~ 0
+Text GLabel 7900 5325 2    50   BiDi ~ 0
 DQS1_B_P
-Text GLabel 7450 5700 2    50   BiDi ~ 0
+Text GLabel 7900 5425 2    50   BiDi ~ 0
 DQS1_B_N
-Text GLabel 7450 8000 2    50   BiDi ~ 0
+Text GLabel 7900 7725 2    50   BiDi ~ 0
 DQS2_B_P
-Text GLabel 7450 8100 2    50   BiDi ~ 0
+Text GLabel 7900 7825 2    50   BiDi ~ 0
 DQS2_B_N
-Text GLabel 7450 4400 2    50   BiDi ~ 0
+Text GLabel 7900 4125 2    50   BiDi ~ 0
 DQS3_B_P
-Text GLabel 7450 4500 2    50   BiDi ~ 0
+Text GLabel 7900 4225 2    50   BiDi ~ 0
 DQS3_B_N
+Wire Wire Line
+	7225 4225 7900 4225
+Wire Wire Line
+	7225 4125 7900 4125
+Wire Wire Line
+	7225 5425 7900 5425
+Wire Wire Line
+	7225 5325 7900 5325
+Wire Wire Line
+	7225 6625 7900 6625
+Wire Wire Line
+	7225 6525 7900 6525
+Wire Wire Line
+	7225 7825 7900 7825
+Wire Wire Line
+	7225 7725 7900 7725
+Wire Wire Line
+	15175 4150 15850 4150
+Wire Wire Line
+	15175 4250 15850 4250
+Wire Wire Line
+	14800 5350 15475 5350
+Wire Wire Line
+	14800 5450 15475 5450
+Wire Wire Line
+	14800 6550 15475 6550
+Wire Wire Line
+	14800 6650 15475 6650
+Wire Wire Line
+	14800 7750 15475 7750
+Wire Wire Line
+	14800 7850 15475 7850
+Text GLabel 9625 5350 0    50   Input ~ 0
+TMDS_CLK_P
+Text GLabel 9625 5450 0    50   Input ~ 0
+TMDS_CLK_N
+Text GLabel 9625 4950 0    50   Input ~ 0
+TMDS_D0_P
+Text GLabel 9625 5050 0    50   Input ~ 0
+TMDS_D0_N
+Text GLabel 9450 5550 0    50   Input ~ 0
+TMDS_D1_P
+Text GLabel 9450 5650 0    50   Input ~ 0
+TMDS_D1_N
+Text GLabel 9400 5150 0    50   Input ~ 0
+TMDS_D2_P
+Text GLabel 9400 5250 0    50   Input ~ 0
+TMDS_D2_N
+Wire Wire Line
+	9975 5650 9450 5650
+Wire Wire Line
+	9975 5550 9450 5550
+Wire Wire Line
+	9975 5250 9400 5250
+Wire Wire Line
+	9975 5150 9400 5150
+Wire Wire Line
+	9975 4950 9625 4950
+Wire Wire Line
+	9975 5050 9625 5050
+Wire Wire Line
+	9975 5350 9625 5350
+Wire Wire Line
+	9975 5450 9625 5450
+Wire Wire Line
+	9975 7850 9925 7850
+Wire Wire Line
+	9925 7950 9975 7950
+Wire Wire Line
+	9975 8050 9925 8050
+Wire Wire Line
+	9925 8150 9975 8150
+Wire Wire Line
+	9975 8250 9925 8250
+Wire Wire Line
+	9925 8350 9975 8350
+Wire Wire Line
+	9975 8450 9925 8450
+Wire Wire Line
+	9925 8550 9975 8550
+Text GLabel 9975 5950 0    50   Input ~ 0
+SD_CD
+Text GLabel 9925 7450 0    50   Input ~ 0
+SD_DAT2
+Text GLabel 9975 6050 0    50   Input ~ 0
+SD_DAT1
+Text GLabel 9925 7650 0    50   Input ~ 0
+SD_CLK
+Text GLabel 9925 7550 0    50   Input ~ 0
+SD_DAT0
+Text GLabel 9975 6250 0    50   Input ~ 0
+SD_CMD
+Text GLabel 9975 6150 0    50   Input ~ 0
+SD_DAT3
+Text GLabel 9925 7750 0    50   Input ~ 0
+GCLK100
+Wire Wire Line
+	9975 7450 9925 7450
+Wire Wire Line
+	9975 7550 9925 7550
+Wire Wire Line
+	9975 7650 9925 7650
+Wire Wire Line
+	9975 7750 9925 7750
 $EndSCHEMATC
