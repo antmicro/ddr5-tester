@@ -3901,12 +3901,12 @@ Wire Notes Line
 Wire Notes Line
 	15300 1900 15300 7625
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:DDR504111002KQ U13
+L data-center-ddr5-tester:DDR504111002KQ U13
 U 1 1 6228701A
 P 5650 6300
 F 0 "U13" H 5650 10365 50  0000 C CNN
 F 1 "DDR504111002KQ" H 5650 10274 50  0000 C CNN
-F 2 "antmicro-footprints:DDR504111002KQ" H 4975 13000 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:DDR504111002KQ" H 4975 13000 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/ddr5-smt-ddr504111002kq.html" H 4975 13000 50  0001 C CNN
 F 4 "Amphenol FCI" H 6250 14190 50  0001 C CNN "Manufaturer"
 F 5 "DDR504111002KQ" H 6250 14099 50  0001 C CNN "MPN"
@@ -4869,12 +4869,12 @@ NoConn ~ 4850 2600
 NoConn ~ 6450 2900
 NoConn ~ 6450 3000
 $Comp
-L antmicroMemoryConnectorsPCCardSockets:DDR504111002KQ U13
+L data-center-ddr5-tester:DDR504111002KQ U13
 U 2 1 6228B4AB
 P 9300 6300
 F 0 "U13" H 9300 10365 50  0000 C CNN
 F 1 "DDR504111002KQ" H 9300 10274 50  0000 C CNN
-F 2 "antmicro-footprints:DDR504111002KQ" H 8625 13000 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:DDR504111002KQ" H 8625 13000 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/ddr5-smt-ddr504111002kq.html" H 8625 13000 50  0001 C CNN
 F 4 "Amphenol FCI" H 9900 14190 50  0001 C CNN "Manufaturer"
 F 5 "DDR504111002KQ" H 9900 14099 50  0001 C CNN "MPN"
