@@ -6014,10 +6014,10 @@ Connection ~ 10375 5975
 Text GLabel 10850 5075 1    50   Input ~ 0
 VCC1V2
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L data-center-ddr5-tester:GND #PWR0133
 U 1 1 624C4E4A
 P 9625 4000
-F 0 "#PWR?" H 9625 3750 50  0001 C CNN
+F 0 "#PWR0133" H 9625 3750 50  0001 C CNN
 F 1 "GND" H 9630 3827 50  0000 C CNN
 F 2 "" H 9625 4000 50  0001 C CNN
 F 3 "" H 9625 4000 50  0001 C CNN
@@ -6025,10 +6025,10 @@ F 3 "" H 9625 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L data-center-ddr5-tester:GND #PWR0134
 U 1 1 624C4E50
 P 8125 3975
-F 0 "#PWR?" H 8125 3725 50  0001 C CNN
+F 0 "#PWR0134" H 8125 3725 50  0001 C CNN
 F 1 "GND" H 8130 3802 50  0000 C CNN
 F 2 "" H 8125 3975 50  0001 C CNN
 F 3 "" H 8125 3975 50  0001 C CNN
@@ -6040,8 +6040,8 @@ L data-center-ddr5-tester:IHLP1212AEERR47M11 L?
 U 1 1 624C4E58
 P 9775 3050
 AR Path="/6004278D/624C4E58" Ref="L?"  Part="1" 
-AR Path="/60225B0C/624C4E58" Ref="L?"  Part="1" 
-F 0 "L?" H 9650 3250 60  0000 C CNN
+AR Path="/60225B0C/624C4E58" Ref="L1"  Part="1" 
+F 0 "L1" H 9650 3250 60  0000 C CNN
 F 1 "IHLP1212AEERR47M11" H 10100 3150 60  0000 C CNN
 F 2 "data-center-ddr5-tester-footprints:IHLP-1212AE" H 9775 3050 60  0001 C CNN
 F 3 "" H 9775 3050 60  0001 C CNN
@@ -6059,8 +6059,8 @@ L data-center-ddr5-tester:R_0R_0402 R?
 U 1 1 624C4E63
 P 7875 3200
 AR Path="/6004278D/624C4E63" Ref="R?"  Part="1" 
-AR Path="/60225B0C/624C4E63" Ref="R?"  Part="1" 
-F 0 "R?" V 7784 3270 60  0000 L CNN
+AR Path="/60225B0C/624C4E63" Ref="R35"  Part="1" 
+F 0 "R35" V 7784 3270 60  0000 L CNN
 F 1 "R_0R_0402" H 7875 3050 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 8075 3400 60  0001 L CNN
 F 3 "" H 7875 3200 50  0001 C CNN
@@ -6090,8 +6090,8 @@ L data-center-ddr5-tester:R_100k_0402 R?
 U 1 1 624C4E74
 P 10375 3675
 AR Path="/6004278D/624C4E74" Ref="R?"  Part="1" 
-AR Path="/60225B0C/624C4E74" Ref="R?"  Part="1" 
-F 0 "R?" V 10250 3725 60  0000 L CNN
+AR Path="/60225B0C/624C4E74" Ref="R40"  Part="1" 
+F 0 "R40" V 10250 3725 60  0000 L CNN
 F 1 "R_100k_0402" H 10375 3525 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 10575 3875 60  0001 L CNN
 F 3 "" H 10375 3675 50  0001 C CNN
@@ -6114,8 +6114,8 @@ L data-center-ddr5-tester:C_120p_0402 C?
 U 1 1 624C4E81
 P 10075 3250
 AR Path="/6004278D/624C4E81" Ref="C?"  Part="1" 
-AR Path="/60225B0C/624C4E81" Ref="C?"  Part="1" 
-F 0 "C?" H 10100 3350 60  0000 L CNN
+AR Path="/60225B0C/624C4E81" Ref="C2"  Part="1" 
+F 0 "C2" H 10100 3350 60  0000 L CNN
 F 1 "C_120p_0402" H 10075 3100 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-cap" H 10275 3450 60  0001 L CNN
 F 3 "" H 10075 3250 50  0001 C CNN
@@ -6137,8 +6137,8 @@ L data-center-ddr5-tester:TPS62823DLCT U?
 U 1 1 624C4E8D
 P 9075 3550
 AR Path="/6004278D/624C4E8D" Ref="U?"  Part="1" 
-AR Path="/60225B0C/624C4E8D" Ref="U?"  Part="1" 
-F 0 "U?" H 9125 4315 50  0000 C CNN
+AR Path="/60225B0C/624C4E8D" Ref="U2"  Part="1" 
+F 0 "U2" H 9125 4315 50  0000 C CNN
 F 1 "TPS62823DLCT" H 9125 4224 50  0000 C CNN
 F 2 "data-center-ddr5-tester-footprints:QFN-8_2x1mm" H 8975 3350 50  0001 C CNN
 F 3 "" H 9075 3450 50  0001 C CNN
@@ -6160,8 +6160,8 @@ L data-center-ddr5-tester:C_10u_0402 C?
 U 1 1 624C4E9A
 P 8125 3325
 AR Path="/6004278D/624C4E9A" Ref="C?"  Part="1" 
-AR Path="/60225B0C/624C4E9A" Ref="C?"  Part="1" 
-F 0 "C?" H 8200 3375 60  0000 L CNN
+AR Path="/60225B0C/624C4E9A" Ref="C1"  Part="1" 
+F 0 "C1" H 8200 3375 60  0000 L CNN
 F 1 "C_10u_0402" H 8125 3175 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8325 3525 60  0001 L CNN
 F 3 "" H 8125 3325 50  0001 C CNN
@@ -6196,10 +6196,10 @@ Wire Wire Line
 	9625 3500 9525 3500
 Connection ~ 8125 3050
 $Comp
-L data-center-ddr5-tester:R_82k5_1%_0402 R?
+L data-center-ddr5-tester:R_82k5_1%_0402 R39
 U 1 1 624C4EB1
 P 10375 3275
-F 0 "R?" V 10330 3345 60  0000 L CNN
+F 0 "R39" V 10330 3345 60  0000 L CNN
 F 1 "R_82k5_1%_0402" H 10375 3125 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 10575 3475 60  0001 L CNN
 F 3 "" H 10375 3275 50  0001 C CNN
@@ -6222,8 +6222,8 @@ L data-center-ddr5-tester:C_10u_0402 C?
 U 1 1 624C4EBE
 P 11150 3450
 AR Path="/6004278D/624C4EBE" Ref="C?"  Part="1" 
-AR Path="/60225B0C/624C4EBE" Ref="C?"  Part="1" 
-F 0 "C?" H 11175 3550 60  0000 L CNN
+AR Path="/60225B0C/624C4EBE" Ref="C27"  Part="1" 
+F 0 "C27" H 11175 3550 60  0000 L CNN
 F 1 "C_10u_0402" H 11150 3300 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11350 3650 60  0001 L CNN
 F 3 "" H 11150 3450 50  0001 C CNN
@@ -6244,8 +6244,8 @@ L data-center-ddr5-tester:C_10u_0402 C?
 U 1 1 624C4ECA
 P 10850 3450
 AR Path="/6004278D/624C4ECA" Ref="C?"  Part="1" 
-AR Path="/60225B0C/624C4ECA" Ref="C?"  Part="1" 
-F 0 "C?" H 10875 3550 60  0000 L CNN
+AR Path="/60225B0C/624C4ECA" Ref="C4"  Part="1" 
+F 0 "C4" H 10875 3550 60  0000 L CNN
 F 1 "C_10u_0402" H 10850 3300 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11050 3650 60  0001 L CNN
 F 3 "" H 10850 3450 50  0001 C CNN
