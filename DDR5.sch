@@ -4983,7 +4983,7 @@ CB0_A
 Text GLabel 4500 7700 0    50   BiDi ~ 0
 CB1_A
 Text GLabel 4500 7900 0    50   BiDi ~ 0
-DQS5_A_P
+DQS4_A_P
 Text GLabel 4500 8000 0    50   BiDi ~ 0
 DQS4_A_N
 Text GLabel 4500 8200 0    50   BiDi ~ 0
