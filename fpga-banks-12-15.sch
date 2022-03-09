@@ -4579,4 +4579,36 @@ Text GLabel 9975 4450 0    50   Input ~ 0
 UART1_RX
 Text GLabel 9975 4350 0    50   Input ~ 0
 UART1_TX
+Text GLabel 15300 4400 2    50   BiDi ~ 0
+DQS0_A_P
+Text GLabel 15300 4500 2    50   BiDi ~ 0
+DQS0_A_N
+Text GLabel 15000 6800 2    50   BiDi ~ 0
+DQS1_A_P
+Text GLabel 15000 6900 2    50   BiDi ~ 0
+DQS1_A_N
+Text GLabel 15000 8000 2    50   BiDi ~ 0
+DQS2_A_P
+Text GLabel 15000 8100 2    50   BiDi ~ 0
+DQS2_A_N
+Text GLabel 15100 5600 2    50   BiDi ~ 0
+DQS3_A_P
+Text GLabel 15100 5700 2    50   BiDi ~ 0
+DQS3_A_N
+Text GLabel 7450 6800 2    50   BiDi ~ 0
+DQS0_B_P
+Text GLabel 7450 6900 2    50   BiDi ~ 0
+DQS0_B_N
+Text GLabel 7450 5600 2    50   BiDi ~ 0
+DQS1_B_P
+Text GLabel 7450 5700 2    50   BiDi ~ 0
+DQS1_B_N
+Text GLabel 7450 8000 2    50   BiDi ~ 0
+DQS2_B_P
+Text GLabel 7450 8100 2    50   BiDi ~ 0
+DQS2_B_N
+Text GLabel 7450 4400 2    50   BiDi ~ 0
+DQS3_B_P
+Text GLabel 7450 4500 2    50   BiDi ~ 0
+DQS3_B_N
 $EndSCHEMATC

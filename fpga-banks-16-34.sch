@@ -5764,4 +5764,272 @@ F 6 "100n" H 15275 9375 50  0000 L CNN "Val"
 $EndComp
 Text GLabel 15575 9275 1    50   Input ~ 0
 VDDSPD
+Text GLabel 8950 3225 0    50   BiDi ~ 0
+DQ0_A
+Text GLabel 8950 3325 0    50   BiDi ~ 0
+DQ1_A
+Text GLabel 8950 3525 0    50   BiDi ~ 0
+DQ5_A
+Text GLabel 14950 3325 2    50   BiDi ~ 0
+DQ8_A
+Text GLabel 14950 3425 2    50   BiDi ~ 0
+DQ9_A
+Text GLabel 15025 3925 2    50   BiDi ~ 0
+DQ12_A
+Text GLabel 14950 4525 2    50   BiDi ~ 0
+DQ13_A
+Text GLabel 14950 4625 2    50   BiDi ~ 0
+DQ16_A
+Text GLabel 15025 5525 2    50   BiDi ~ 0
+DQ17_A
+Text GLabel 15025 7025 2    50   BiDi ~ 0
+DQ20_A
+Text GLabel 15025 7125 2    50   BiDi ~ 0
+DQ21_A
+Text GLabel 15025 3825 2    50   BiDi ~ 0
+DQ24_A
+Text GLabel 14950 4325 2    50   BiDi ~ 0
+DQ25_A
+Text GLabel 15025 5725 2    50   BiDi ~ 0
+DQ28_A
+Text GLabel 15025 6925 2    50   BiDi ~ 0
+DQ29_A
+Text GLabel 15025 7925 2    50   BiDi ~ 0
+CB0_A
+Text GLabel 15025 7825 2    50   BiDi ~ 0
+CB1_A
+Text GLabel 8550 4825 0    50   BiDi ~ 0
+DQS4_A_P
+Text GLabel 8550 4925 0    50   BiDi ~ 0
+DQS4_A_N
+Text GLabel 15025 7625 2    50   BiDi ~ 0
+CB4_A
+Text GLabel 15025 6625 2    50   BiDi ~ 0
+CB5_A
+Text GLabel 15025 6225 2    50   BiDi ~ 0
+ALERT_N
+Text GLabel 4500 -5000 0    50   BiDi ~ 0
+CS0_A_N
+Text GLabel 4400 -1600 0    50   BiDi ~ 0
+PAR_A
+Text GLabel 4400 -2300 0    50   BiDi ~ 0
+CA0_A
+Text GLabel 4400 -2100 0    50   BiDi ~ 0
+CA2_A
+Text GLabel 4400 -1900 0    50   BiDi ~ 0
+CA4_A
+Text GLabel 4400 -1700 0    50   BiDi ~ 0
+CA6_A
+Text GLabel 15025 6725 2    50   BiDi ~ 0
+CB6_A
+Text GLabel 15025 6325 2    50   BiDi ~ 0
+CB7_A
+Text GLabel 6100 -5500 0    50   BiDi ~ 0
+RESET_N
+Text GLabel 4500 -4900 0    50   BiDi ~ 0
+CS1_A_N
+Text GLabel 6100 -5200 0    50   BiDi ~ 0
+CK_N
+Text GLabel 4400 -2200 0    50   BiDi ~ 0
+CA1_A
+Text GLabel 4400 -2000 0    50   BiDi ~ 0
+CA3_A
+Text GLabel 4400 -1800 0    50   BiDi ~ 0
+CA5_A
+Text GLabel 6100 -5300 0    50   BiDi ~ 0
+CK_P
+Text GLabel 15025 5925 2    50   BiDi ~ 0
+DQ30_A
+Text GLabel 15025 7225 2    50   BiDi ~ 0
+DQS9_A_P
+Text GLabel 15025 5825 2    50   BiDi ~ 0
+DQ31_A
+Text GLabel 15025 7425 2    50   BiDi ~ 0
+CB2_A
+Text GLabel 15025 7725 2    50   BiDi ~ 0
+CB3_A
+Text GLabel 15025 7325 2    50   BiDi ~ 0
+DQS9_A_N
+Text GLabel 15025 5325 2    50   BiDi ~ 0
+DQ22_A
+Text GLabel 15025 6025 2    50   BiDi ~ 0
+DQS8_A_P
+Text GLabel 15025 7525 2    50   BiDi ~ 0
+DQ23_A
+Text GLabel 14950 4225 2    50   BiDi ~ 0
+DQ26_A
+Text GLabel 15025 5425 2    50   BiDi ~ 0
+DQ27_A
+Text GLabel 15025 6125 2    50   BiDi ~ 0
+DQS8_A_N
+Text GLabel 15025 5125 2    50   BiDi ~ 0
+DQ14_A
+Text GLabel 15025 4825 2    50   BiDi ~ 0
+DQS7_A_P
+Text GLabel 14950 4425 2    50   BiDi ~ 0
+DQ15_A
+Text GLabel 15025 5025 2    50   BiDi ~ 0
+DQ18_A
+Text GLabel 15025 5225 2    50   BiDi ~ 0
+DQ19_A
+Text GLabel 15025 4925 2    50   BiDi ~ 0
+DQS7_A_N
+Text GLabel 8950 4325 0    50   BiDi ~ 0
+DQ6_A
+Text GLabel 15025 3625 2    50   BiDi ~ 0
+DQS6_A_P
+Text GLabel 8950 3925 0    50   BiDi ~ 0
+DQ7_A
+Text GLabel 14950 3125 2    50   BiDi ~ 0
+DQ10_A
+Text GLabel 14950 4125 2    50   BiDi ~ 0
+DQ11_A
+Text GLabel 15025 3725 2    50   BiDi ~ 0
+DQS6_A_N
+Text GLabel 6100 -5600 0    50   BiDi ~ 0
+HSA
+Text GLabel 8825 3625 0    50   BiDi ~ 0
+DQS5_A_P
+Text GLabel 8950 4225 0    50   BiDi ~ 0
+DQ2_A
+Text GLabel 8950 4025 0    50   BiDi ~ 0
+DQ3_A
+Text GLabel 8825 3725 0    50   BiDi ~ 0
+DQS5_A_N
+Text GLabel 6100 -5800 0    50   Input ~ 0
+HSCL
+Text GLabel 6100 -5700 0    50   BiDi ~ 0
+HSDA
+Text GLabel 6100 -5900 0    50   Input ~ 0
+VIN_MGMT
+Text GLabel 7450 -5600 0    50   BiDi ~ 0
+CS0_B_N
+Text GLabel 8250 -1100 0    50   BiDi ~ 0
+CB4_B
+Text GLabel 8250 -1000 0    50   BiDi ~ 0
+CB5_B
+Text GLabel 8350 -3500 0    50   BiDi ~ 0
+DQS9_B_P
+Text GLabel 8350 -3400 0    50   BiDi ~ 0
+DQS9_B_N
+Text GLabel 8250 -1500 0    50   BiDi ~ 0
+CB0_B
+Text GLabel 8250 -1400 0    50   BiDi ~ 0
+CB1_B
+Text GLabel 7450 -5500 0    50   BiDi ~ 0
+CS1_B_N
+Text GLabel 8950 3425 0    50   BiDi ~ 0
+DQ4_A
+Text GLabel 8250 -900 0    50   BiDi ~ 0
+CB6_B
+Text GLabel 8250 -800 0    50   BiDi ~ 0
+CB7_B
+Text GLabel 8250 -1700 0    50   BiDi ~ 0
+PAR_B
+Text GLabel 8250 -2300 0    50   BiDi ~ 0
+CA1_B
+Text GLabel 8250 -2100 0    50   BiDi ~ 0
+CA3_B
+Text GLabel 8250 -1900 0    50   BiDi ~ 0
+CA5_B
+Text GLabel 8250 -1800 0    50   BiDi ~ 0
+CA6_B
+Text GLabel 8250 -2000 0    50   BiDi ~ 0
+CA4_B
+Text GLabel 8250 -2200 0    50   BiDi ~ 0
+CA2_B
+Text GLabel 8250 -2400 0    50   BiDi ~ 0
+CA0_B
+Text GLabel 6150 -5100 0    50   BiDi ~ 0
+DLBDQ
+Text GLabel 6150 -5000 0    50   BiDi ~ 0
+DLBDQS
+Text GLabel 9550 -1400 0    50   BiDi ~ 0
+DQ30_B
+Text GLabel 9550 -1300 0    50   BiDi ~ 0
+DQ31_B
+Text GLabel 9550 -2200 0    50   BiDi ~ 0
+DQ22_B
+Text GLabel 6900 4700 2    50   BiDi ~ 0
+DQS8_B_P
+Text GLabel 9550 -2100 0    50   BiDi ~ 0
+DQ23_B
+Text GLabel 9550 -1800 0    50   BiDi ~ 0
+DQ26_B
+Text GLabel 9550 -1700 0    50   BiDi ~ 0
+DQ27_B
+Text GLabel 6900 4800 2    50   BiDi ~ 0
+DQS8_B_N
+Text GLabel 6900 7100 2    50   BiDi ~ 0
+DQS7_B_P
+Text GLabel 6900 7200 2    50   BiDi ~ 0
+DQS7_B_N
+Text GLabel 6900 3500 2    50   BiDi ~ 0
+DQS6_B_P
+Text GLabel 6900 3600 2    50   BiDi ~ 0
+DQS6_B_N
+Text GLabel 6900 5900 2    50   BiDi ~ 0
+DQS5_B_P
+Text GLabel 6900 6000 2    50   BiDi ~ 0
+DQS5_B_N
+Text GLabel 8250 -1200 0    50   BiDi ~ 0
+CB3_B
+Text GLabel 8250 -1300 0    50   BiDi ~ 0
+CB2_B
+Text GLabel 8350 -3700 0    50   BiDi ~ 0
+DQS4_B_N
+Text GLabel 8350 -3800 0    50   BiDi ~ 0
+DQS4_B_P
+Text GLabel 9550 -4400 0    50   BiDi ~ 0
+DQ0_B
+Text GLabel 9550 -4300 0    50   BiDi ~ 0
+DQ1_B
+Text GLabel 9550 -3200 0    50   BiDi ~ 0
+DQ12_B
+Text GLabel 9550 -3100 0    50   BiDi ~ 0
+DQ13_B
+Text GLabel 9550 -2800 0    50   BiDi ~ 0
+DQ16_B
+Text GLabel 9550 -2400 0    50   BiDi ~ 0
+DQ20_B
+Text GLabel 9550 -2300 0    50   BiDi ~ 0
+DQ21_B
+Text GLabel 9550 -2000 0    50   BiDi ~ 0
+DQ24_B
+Text GLabel 9550 -1900 0    50   BiDi ~ 0
+DQ25_B
+Text GLabel 9550 -1600 0    50   BiDi ~ 0
+DQ28_B
+Text GLabel 9550 -1500 0    50   BiDi ~ 0
+DQ29_B
+Text GLabel 9550 -4000 0    50   BiDi ~ 0
+DQ4_B
+Text GLabel 9550 -3500 0    50   BiDi ~ 0
+DQ9_B
+Text GLabel 9550 -3600 0    50   BiDi ~ 0
+DQ8_B
+Text GLabel 9550 -3800 0    50   BiDi ~ 0
+DQ5_B
+Text GLabel 9550 -4100 0    50   BiDi ~ 0
+DQ3_B
+Text GLabel 9550 -4200 0    50   BiDi ~ 0
+DQ2_B
+Text GLabel 9550 -3300 0    50   BiDi ~ 0
+DQ11_B
+Text GLabel 9550 -3400 0    50   BiDi ~ 0
+DQ10_B
+Text GLabel 9550 -3700 0    50   BiDi ~ 0
+DQ7_B
+Text GLabel 9550 -3900 0    50   BiDi ~ 0
+DQ6_B
+Text GLabel 9550 -2700 0    50   BiDi ~ 0
+DQ17_B
+Text GLabel 9550 -2500 0    50   BiDi ~ 0
+DQ19_B
+Text GLabel 9550 -2600 0    50   BiDi ~ 0
+DQ18_B
+Text GLabel 9550 -2900 0    50   BiDi ~ 0
+DQ15_B
+Text GLabel 9550 -3000 0    50   BiDi ~ 0
+DQ14_B
 $EndSCHEMATC
