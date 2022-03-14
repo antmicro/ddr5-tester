@@ -635,7 +635,7 @@ F 3 "" H 3575 10175 50  0001 C CNN
 	1    3575 10175
 	1    0    0    -1  
 $EndComp
-Text GLabel 15450 7225 2    50   Input ~ 0
+Text GLabel 15450 6925 2    50   Output ~ 0
 3V3_SYS
 Text Notes 1925 8700 0    79   ~ 16
 3V3 supply (2A)
@@ -687,14 +687,14 @@ F 3 "" H 13425 7625 60  0001 L CNN
 	1    13225 7325
 	1    0    0    -1  
 $EndComp
-Text GLabel 14775 7500 0    50   Input ~ 0
+Text GLabel 14775 7200 0    50   Input ~ 0
 VCC1V8
-Text GLabel 15450 7500 2    50   Input ~ 0
+Text GLabel 15450 7200 2    50   Output ~ 0
 1V8_SYS
 Wire Wire Line
-	14775 7500 14975 7500
+	14775 7200 14975 7200
 Wire Wire Line
-	15275 7500 15450 7500
+	15275 7200 15450 7200
 $Comp
 L data-center-ddr5-tester:C_120p_0603 C45
 U 1 1 60B43827
@@ -798,26 +798,26 @@ $EndComp
 $Comp
 L data-center-ddr5-tester:GND #PWR019
 U 1 1 5FDF8290
-P 8325 10450
-F 0 "#PWR019" H 8325 10200 50  0001 C CNN
-F 1 "GND" H 8330 10277 50  0000 C CNN
-F 2 "" H 8325 10450 50  0001 C CNN
-F 3 "" H 8325 10450 50  0001 C CNN
-	1    8325 10450
+P 8225 10450
+F 0 "#PWR019" H 8225 10200 50  0001 C CNN
+F 1 "GND" H 8230 10277 50  0000 C CNN
+F 2 "" H 8225 10450 50  0001 C CNN
+F 3 "" H 8225 10450 50  0001 C CNN
+	1    8225 10450
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-ddr5-tester:C_10u_0402 C99
 U 1 1 5FDF8299
-P 8325 10250
-F 0 "C99" H 8440 10295 60  0000 L CNN
-F 1 "C_10u_0402" H 8325 10100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8525 10450 60  0001 L CNN
-F 3 "" H 8325 10250 50  0001 C CNN
-F 4 "MURATA" H 8525 10650 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 8525 10550 60  0001 L CNN "MPN"
-F 6 "10u" H 8440 10197 50  0000 L CNN "Val"
-	1    8325 10250
+P 8225 10250
+F 0 "C99" H 8340 10295 60  0000 L CNN
+F 1 "C_10u_0402" H 8225 10100 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8425 10450 60  0001 L CNN
+F 3 "" H 8225 10250 50  0001 C CNN
+F 4 "MURATA" H 8425 10650 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 8425 10550 60  0001 L CNN "MPN"
+F 6 "10u" H 8340 10197 50  0000 L CNN "Val"
+	1    8225 10250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -831,10 +831,8 @@ F 3 "" H 7825 10450 50  0001 C CNN
 	1    7825 10450
 	1    0    0    -1  
 $EndComp
-Text GLabel 15475 8025 2    50   Input ~ 0
-1V0_SYS
 Wire Wire Line
-	8325 10400 8325 10450
+	8225 10400 8225 10450
 $Comp
 L data-center-ddr5-tester:C_120p_0603 C98
 U 1 1 5FDF82C8
@@ -1136,40 +1134,35 @@ Power switch
 $Comp
 L data-center-ddr5-tester:GND #PWR014
 U 1 1 6002D001
-P 8775 10450
-F 0 "#PWR014" H 8775 10200 50  0001 C CNN
-F 1 "GND" H 8780 10277 50  0000 C CNN
-F 2 "" H 8775 10450 50  0001 C CNN
-F 3 "" H 8775 10450 50  0001 C CNN
-	1    8775 10450
+P 8600 10450
+F 0 "#PWR014" H 8600 10200 50  0001 C CNN
+F 1 "GND" H 8605 10277 50  0000 C CNN
+F 2 "" H 8600 10450 50  0001 C CNN
+F 3 "" H 8600 10450 50  0001 C CNN
+	1    8600 10450
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-ddr5-tester:C_10u_0402 C96
 U 1 1 6002D00A
-P 8775 10250
-F 0 "C96" H 8890 10295 60  0000 L CNN
-F 1 "C_10u_0402" H 8775 10100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8975 10450 60  0001 L CNN
-F 3 "" H 8775 10250 50  0001 C CNN
-F 4 "MURATA" H 8975 10650 60  0001 L CNN "Manufacturer"
-F 5 "GRM155R60J106ME44D" H 8975 10550 60  0001 L CNN "MPN"
-F 6 "10u" H 8890 10197 50  0000 L CNN "Val"
-	1    8775 10250
+P 8600 10250
+F 0 "C96" H 8715 10295 60  0000 L CNN
+F 1 "C_10u_0402" H 8600 10100 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8800 10450 60  0001 L CNN
+F 3 "" H 8600 10250 50  0001 C CNN
+F 4 "MURATA" H 8800 10650 60  0001 L CNN "Manufacturer"
+F 5 "GRM155R60J106ME44D" H 8800 10550 60  0001 L CNN "MPN"
+F 6 "10u" H 8715 10197 50  0000 L CNN "Val"
+	1    8600 10250
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8775 10400 8775 10450
+	8600 10400 8600 10450
 Wire Wire Line
-	7825 9850 8325 9850
-Wire Wire Line
-	8775 9850 8775 10100
+	8600 9850 8600 10100
 Connection ~ 7825 9850
 Wire Wire Line
-	8325 9850 8325 10100
-Connection ~ 8325 9850
-Wire Wire Line
-	8325 9850 8450 9850
+	8225 9850 8225 10100
 Text Label 2250 6150 0    50   ~ 0
 SYS_EN
 Text Label 12700 9275 0    50   ~ 0
@@ -1359,56 +1352,6 @@ Wire Notes Line
 	14225 5000 14225 9950
 Wire Notes Line
 	11800 5000 16050 5000
-Text GLabel 15525 6100 2    50   Input ~ 0
-VTT
-Text GLabel 15500 5900 2    50   Input ~ 0
-VDDQ
-Text GLabel 15525 5700 2    50   Input ~ 0
-VPP
-$Comp
-L data-center-ddr5-tester:R_0R_0603 R161
-U 1 1 6177CC40
-P 15125 6100
-F 0 "R161" H 14925 6150 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 5950 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-res" H 15325 6300 60  0001 L CNN
-F 3 "" H 15125 6100 50  0001 C CNN
-F 4 "BOURNS" H 15325 6500 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 6400 60  0001 L CNN "MPN"
-F 6 "0R" H 15200 6000 50  0000 C CNN "Val"
-	1    15125 6100
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0603 R159
-U 1 1 6177CC49
-P 15125 5700
-F 0 "R159" H 14925 5750 60  0000 C CNN
-F 1 "R_0R_0603" H 15125 5550 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-res" H 15325 5900 60  0001 L CNN
-F 3 "" H 15125 5700 50  0001 C CNN
-F 4 "BOURNS" H 15325 6100 60  0001 L CNN "Manufacturer"
-F 5 "CR0603-J/-000ELF" H 15325 6000 60  0001 L CNN "MPN"
-F 6 "0R" H 15300 5450 50  0000 C CNN "Val"
-	1    15125 5700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	15275 5900 15500 5900
-Wire Wire Line
-	15275 5700 15525 5700
-Wire Wire Line
-	15275 6100 15525 6100
-Wire Wire Line
-	14825 5700 14975 5700
-Wire Wire Line
-	14975 5900 14825 5900
-Wire Wire Line
-	14975 6100 14825 6100
-Text GLabel 14825 6100 0    50   Input ~ 0
-VCC0V6
-Text GLabel 14825 5700 0    50   Input ~ 0
-VCC2V5
 Text GLabel 13225 7225 1    50   Input ~ 0
 VCC0V6
 Text GLabel 12800 7225 1    50   Input ~ 0
@@ -1424,23 +1367,16 @@ F 3 "" H 12900 6450 60  0001 L CNN
 	1    12700 6150
 	1    0    0    -1  
 $EndComp
-Text Notes 15025 5525 0    39   ~ 0
-Output
-Text GLabel 8450 9675 1    50   Input ~ 0
+Text GLabel 8825 9850 2    50   Output ~ 0
 VCC1V0
-Wire Wire Line
-	8450 9675 8450 9850
-Connection ~ 8450 9850
-Wire Wire Line
-	8450 9850 8775 9850
 Text GLabel 14775 8025 0    50   Input ~ 0
 VCC1V0
-Text GLabel 15475 7775 2    50   Input ~ 0
+Text GLabel 15475 7475 2    50   Output ~ 0
 1V2_SYS
 Wire Wire Line
-	15275 7775 15475 7775
+	15275 7475 15475 7475
 Wire Wire Line
-	14975 7775 14775 7775
+	14975 7475 14775 7475
 Wire Wire Line
 	15275 8025 15475 8025
 Wire Wire Line
@@ -1454,22 +1390,22 @@ Wire Wire Line
 	3475 9575 3575 9575
 Text GLabel 4050 9275 1    50   Input ~ 0
 VCC3V3
-Text GLabel 14775 7225 0    50   Input ~ 0
+Text GLabel 14775 6925 0    50   Input ~ 0
 VCC3V3
 Wire Wire Line
-	14775 7225 14975 7225
+	14775 6925 14975 6925
 Wire Wire Line
-	15275 7225 15450 7225
+	15275 6925 15450 6925
 Text GLabel 13150 6050 1    50   Input ~ 0
 VCC3V3
-Text GLabel 14775 7000 0    50   Input ~ 0
+Text GLabel 14775 6625 0    50   Input ~ 0
 VCC5V0
 Wire Wire Line
-	14775 7000 14975 7000
-Text GLabel 15450 7000 2    50   Input ~ 0
+	14775 6625 14975 6625
+Text GLabel 15450 6625 2    50   Output ~ 0
 5V0_SYS
 Wire Wire Line
-	15275 7000 15450 7000
+	15275 6625 15450 6625
 Text GLabel 5000 5675 1    50   Input ~ 0
 VCC5V0
 Wire Wire Line
@@ -1946,70 +1882,57 @@ VCC_AUX_EN
 Text GLabel 2500 5700 1    50   Input ~ 0
 VIN
 Text Notes 14650 5275 0    79   ~ 16
-Shunt resistors
-$Comp
-L data-center-ddr5-tester:1206L450SLWR F1
-U 1 1 61277451
-P 15125 5900
-F 0 "F1" H 14975 5950 50  0000 C CNN
-F 1 "1206L450SLWR" H 15525 5975 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 5675 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5750 50  0001 C CNN
-F 4 "1206L450SLWR" H 15150 5600 50  0001 C CNN "MPN"
-F 5 "LITTELFUSE" H 15175 5525 50  0001 C CNN "Manufacturer"
-	1    15125 5900
-	1    0    0    -1  
-$EndComp
+Fuses
 $Comp
 L data-center-ddr5-tester:1206L450SLWR F2
 U 1 1 61A05999
-P 15125 7000
-F 0 "F2" H 14975 7050 50  0000 C CNN
-F 1 "1206L450SLWR" H 15525 7075 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 6775 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6850 50  0001 C CNN
-F 4 "1206L450SLWR" H 15150 6700 50  0001 C CNN "MPN"
-F 5 "LITTELFUSE" H 15175 6625 50  0001 C CNN "Manufacturer"
-	1    15125 7000
+P 15125 6625
+F 0 "F2" H 14975 6675 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 6700 50  0000 C CNN
+F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 6400 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6475 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 6325 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 6250 50  0001 C CNN "Manufacturer"
+	1    15125 6625
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-ddr5-tester:1206L450SLWR F3
 U 1 1 61A082F9
-P 15125 7225
-F 0 "F3" H 14975 7275 50  0000 C CNN
-F 1 "1206L450SLWR" H 15525 7300 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 7000 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7075 50  0001 C CNN
-F 4 "1206L450SLWR" H 15150 6925 50  0001 C CNN "MPN"
-F 5 "LITTELFUSE" H 15175 6850 50  0001 C CNN "Manufacturer"
-	1    15125 7225
+P 15125 6925
+F 0 "F3" H 14975 6975 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7000 50  0000 C CNN
+F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 6700 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6775 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 6625 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 6550 50  0001 C CNN "Manufacturer"
+	1    15125 6925
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-ddr5-tester:1206L450SLWR F4
 U 1 1 61A08A26
-P 15125 7500
-F 0 "F4" H 14975 7550 50  0000 C CNN
-F 1 "1206L450SLWR" H 15525 7575 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 7275 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7350 50  0001 C CNN
-F 4 "1206L450SLWR" H 15150 7200 50  0001 C CNN "MPN"
-F 5 "LITTELFUSE" H 15175 7125 50  0001 C CNN "Manufacturer"
-	1    15125 7500
+P 15125 7200
+F 0 "F4" H 14975 7250 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7275 50  0000 C CNN
+F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 6975 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7050 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 6900 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 6825 50  0001 C CNN "Manufacturer"
+	1    15125 7200
 	1    0    0    -1  
 $EndComp
 $Comp
 L data-center-ddr5-tester:1206L450SLWR F5
 U 1 1 61A090C6
-P 15125 7775
-F 0 "F5" H 14975 7825 50  0000 C CNN
-F 1 "1206L450SLWR" H 15525 7850 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 7550 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7625 50  0001 C CNN
-F 4 "1206L450SLWR" H 15150 7475 50  0001 C CNN "MPN"
-F 5 "LITTELFUSE" H 15175 7400 50  0001 C CNN "Manufacturer"
-	1    15125 7775
+P 15125 7475
+F 0 "F5" H 14975 7525 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7550 50  0000 C CNN
+F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 7250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7325 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 7175 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 7100 50  0001 C CNN "Manufacturer"
+	1    15125 7475
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -5930,12 +5853,10 @@ Wire Wire Line
 	10775 7075 11075 7075
 Text Label 7675 5325 2    50   ~ 0
 VCC_IO_EN
-Text GLabel 10775 6975 1    50   Input ~ 0
+Text GLabel 11175 7075 2    50   Output ~ 0
 VCC1V8
 Wire Wire Line
-	10775 6975 10775 7075
-Text GLabel 14825 5900 0    50   Input ~ 0
-VDD1V2
+	11175 7075 11075 7075
 Text GLabel 12700 6050 1    50   Input ~ 0
 VCC1V2
 $Comp
@@ -5953,12 +5874,12 @@ Text Notes 12925 6825 0    39   ~ 0
 DDR4
 Text GLabel 13000 7225 1    50   Input ~ 0
 VDD1V2
-Text GLabel 14775 7775 0    50   Input ~ 0
+Text GLabel 14775 7475 0    50   Input ~ 0
 VCC1V2
 Text Notes 10350 4900 0    50   ~ 0
 1.2V/3A
 Wire Wire Line
-	10850 5075 10850 5175
+	11250 5175 11150 5175
 Wire Wire Line
 	11150 5725 11150 5975
 $Comp
@@ -6011,7 +5932,7 @@ Connection ~ 10375 5175
 Wire Wire Line
 	10375 5975 10850 5975
 Connection ~ 10375 5975
-Text GLabel 10850 5075 1    50   Input ~ 0
+Text GLabel 11250 5175 2    50   Output ~ 0
 VCC1V2
 $Comp
 L data-center-ddr5-tester:GND #PWR0133
@@ -6191,7 +6112,7 @@ Wire Wire Line
 Wire Wire Line
 	9625 3850 10375 3850
 Text Label 8400 3350 0    50   ~ 0
-1V2_PG
+1V1_PG
 Wire Wire Line
 	9625 3500 9525 3500
 Connection ~ 8125 3050
@@ -6290,4 +6211,81 @@ Wire Notes Line
 	7000 2350 11800 2350
 Wire Notes Line
 	7000 2350 7000 10400
+Connection ~ 11150 5175
+Connection ~ 11075 7075
+Wire Wire Line
+	7825 9850 8225 9850
+Connection ~ 8600 9850
+Wire Wire Line
+	8600 9850 8825 9850
+Connection ~ 8225 9850
+Wire Wire Line
+	8225 9850 8600 9850
+Text GLabel 14775 7750 0    50   Input ~ 0
+VCC1V1
+Wire Wire Line
+	15275 7750 15475 7750
+Wire Wire Line
+	14975 7750 14775 7750
+$Comp
+L data-center-ddr5-tester:1206L450SLWR F?
+U 1 1 6256C0A5
+P 15125 7750
+F 0 "F?" H 14975 7800 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 7825 50  0000 C CNN
+F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 7525 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7600 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 7450 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 7375 50  0001 C CNN "Manufacturer"
+	1    15125 7750
+	1    0    0    -1  
+$EndComp
+Text GLabel 15475 7750 2    50   Output ~ 0
+1V1_SYS
+Text GLabel 15475 8025 2    50   Output ~ 0
+1V0_SYS
+Text GLabel 15450 5475 2    50   Output ~ 0
+VIN_BULK
+Text GLabel 15450 5725 2    50   Output ~ 0
+VIN_MGMT
+Text GLabel 14775 5725 0    50   Input ~ 0
+VCC3V3
+Wire Wire Line
+	14775 5725 14975 5725
+Wire Wire Line
+	15275 5725 15450 5725
+$Comp
+L data-center-ddr5-tester:1206L450SLWR F?
+U 1 1 62C41615
+P 15125 5725
+F 0 "F?" H 14975 5775 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 5800 50  0000 C CNN
+F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 5500 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5575 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 5425 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 5350 50  0001 C CNN "Manufacturer"
+	1    15125 5725
+	1    0    0    -1  
+$EndComp
+Text GLabel 5825 1150 2    50   Input ~ 0
+VCC12V0
+Text GLabel 14775 5475 0    50   Input ~ 0
+VCC12V0
+Wire Wire Line
+	14775 5475 14975 5475
+$Comp
+L data-center-ddr5-tester:1206L450SLWR F?
+U 1 1 62CC8265
+P 15125 5475
+F 0 "F?" H 14975 5525 50  0000 C CNN
+F 1 "1206L450SLWR" H 15525 5550 50  0000 C CNN
+F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 5250 50  0001 C CNN
+F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5325 50  0001 C CNN
+F 4 "1206L450SLWR" H 15150 5175 50  0001 C CNN "MPN"
+F 5 "LITTELFUSE" H 15175 5100 50  0001 C CNN "Manufacturer"
+	1    15125 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	15275 5475 15450 5475
 $EndSCHEMATC
