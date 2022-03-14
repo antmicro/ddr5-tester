@@ -6449,12 +6449,12 @@ VCC5V0_INT
 Wire Wire Line
 	13300 2650 12825 2650
 $Comp
-L data-center-ddr5-tester:TC33X-2-103E POT?
+L antmicroTrimmerPotentiometers:TC33X-2-103E POT1
 U 1 1 62361BA1
 P 10325 7950
-F 0 "POT?" V 10272 7862 60  0000 R CNN
+F 0 "POT1" V 10272 7862 60  0000 R CNN
 F 1 "TC33X-2-103E" V 10200 8725 60  0000 R CNN
-F 2 "data-center-ddr5-tester-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" H 10525 8150 60  0001 L CNN
+F 2 "antmicro-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" H 10525 8150 60  0001 L CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 10525 8250 60  0001 L CNN
 F 4 "TC33X-2-103E" H 10525 8450 60  0001 L CNN "MPN"
 F 5 "Bourns Inc." H 10525 9050 60  0001 L CNN "Manufacturer"
@@ -6464,10 +6464,10 @@ $EndComp
 Wire Wire Line
 	7675 7375 8075 7375
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L data-center-ddr5-tester:GND #PWR025
 U 1 1 62599B6E
 P 10325 8500
-F 0 "#PWR?" H 10325 8250 50  0001 C CNN
+F 0 "#PWR025" H 10325 8250 50  0001 C CNN
 F 1 "GND" H 10330 8327 50  0000 C CNN
 F 2 "" H 10325 8500 50  0001 C CNN
 F 3 "" H 10325 8500 50  0001 C CNN
@@ -6479,10 +6479,10 @@ Wire Wire Line
 Wire Wire Line
 	10325 8475 10325 8500
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L data-center-ddr5-tester:GND #PWR05
 U 1 1 62633CA4
 P 9975 8000
-F 0 "#PWR?" H 9975 7750 50  0001 C CNN
+F 0 "#PWR05" H 9975 7750 50  0001 C CNN
 F 1 "GND" H 9980 7827 50  0000 C CNN
 F 2 "" H 9975 8000 50  0001 C CNN
 F 3 "" H 9975 8000 50  0001 C CNN
@@ -6494,10 +6494,10 @@ Wire Wire Line
 Wire Wire Line
 	9975 7950 9975 8000
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L data-center-ddr5-tester:GND #PWR026
 U 1 1 6265F68E
 P 10800 8000
-F 0 "#PWR?" H 10800 7750 50  0001 C CNN
+F 0 "#PWR026" H 10800 7750 50  0001 C CNN
 F 1 "GND" H 10805 7827 50  0000 C CNN
 F 2 "" H 10800 8000 50  0001 C CNN
 F 3 "" H 10800 8000 50  0001 C CNN
@@ -6505,10 +6505,10 @@ F 3 "" H 10800 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L data-center-ddr5-tester:GND #PWR027
 U 1 1 62674B94
 P 11100 8000
-F 0 "#PWR?" H 11100 7750 50  0001 C CNN
+F 0 "#PWR027" H 11100 7750 50  0001 C CNN
 F 1 "GND" H 11105 7827 50  0000 C CNN
 F 2 "" H 11100 8000 50  0001 C CNN
 F 3 "" H 11100 8000 50  0001 C CNN
@@ -6571,12 +6571,12 @@ Connection ~ 3825 8025
 Wire Wire Line
 	3825 8025 4425 8025
 $Comp
-L data-center-ddr5-tester:R_43k_0402 R?
+L antmicroResistors0402:R_43k_0402 R85
 U 1 1 62CD2E8E
 P 4900 4550
-F 0 "R?" V 4855 4620 60  0000 L CNN
+F 0 "R85" V 4855 4620 60  0000 L CNN
 F 1 "R_43k_0402" H 4900 4400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 5100 4750 60  0001 L CNN
+F 2 "antmicro-footprints:0402-res" H 5100 4750 60  0001 L CNN
 F 3 "" H 4900 4550 50  0001 C CNN
 F 4 "ROYAL_OHM" H 5100 4950 60  0001 L CNN "Manufacturer"
 F 5 "0402WGF4302TCE" H 5100 4850 60  0001 L CNN "MPN"
@@ -6585,12 +6585,12 @@ F 6 "43k" V 4953 4620 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_100k_1%_0402 R?
+L antmicroResistors0402:R_100k_1%_0402 R158
 U 1 1 62CD3C38
 P 4900 4850
-F 0 "R?" V 4855 4920 60  0000 L CNN
+F 0 "R158" V 4855 4920 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 4900 4700 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402" H 5100 5050 60  0001 L CNN
+F 2 "antmicro-footprints:0402" H 5100 5050 60  0001 L CNN
 F 3 "" H 4900 4850 50  0001 C CNN
 F 4 "PANASONIC" H 5100 5250 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 5100 5150 60  0001 L CNN "MPN"
@@ -6609,10 +6609,10 @@ Wire Wire Line
 Wire Wire Line
 	2150 3950 2550 3950
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM TP?
+L data-center-ddr5-tester:TP_SMD1MM TP10
 U 1 1 62DF54C1
 P 2025 4150
-F 0 "TP?" V 2025 4025 50  0000 C CNN
+F 0 "TP10" V 2025 4025 50  0000 C CNN
 F 1 "TP_SMD1MM" H 2025 4050 50  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 2225 4350 60  0001 L CNN
 F 3 "" H 2225 4450 60  0001 L CNN
@@ -6620,10 +6620,10 @@ F 3 "" H 2225 4450 60  0001 L CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM TP?
+L data-center-ddr5-tester:TP_SMD1MM TP13
 U 1 1 62E0F73F
 P 3950 3950
-F 0 "TP?" V 3950 3825 50  0000 C CNN
+F 0 "TP13" V 3950 3825 50  0000 C CNN
 F 1 "TP_SMD1MM" H 3950 3850 50  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 4150 4150 60  0001 L CNN
 F 3 "" H 4150 4250 60  0001 L CNN
@@ -6658,12 +6658,12 @@ Wire Wire Line
 Wire Wire Line
 	14425 1975 14650 1975
 $Comp
-L data-center-ddr5-tester:R_0R_2010 R?
+L antmicroResistorsmisc:R_0R_2010 R47
 U 1 1 63342A49
 P 3150 3250
-F 0 "R?" H 3150 3463 60  0000 C CNN
+F 0 "R47" H 3150 3463 60  0000 C CNN
 F 1 "R_0R_2010" H 3150 3100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:2010-res" H 3350 3450 60  0001 L CNN
+F 2 "antmicro-footprints:2010-res" H 3350 3450 60  0001 L CNN
 F 3 "" H 3150 3250 50  0001 C CNN
 F 4 "VISHAY" H 3350 3650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW20100000Z0EF" H 3350 3550 60  0001 L CNN "MPN"
