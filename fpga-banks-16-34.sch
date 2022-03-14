@@ -35,11 +35,6 @@ F 3 "" H 11925 5225 50  0000 C CNN
 	4    11925 5225
 	1    0    0    -1  
 $EndComp
-Connection ~ 2800 1975
-Wire Wire Line
-	2950 1975 2950 1825
-Wire Wire Line
-	2800 1975 2950 1975
 Wire Wire Line
 	2800 2200 2800 1975
 Wire Wire Line
@@ -98,11 +93,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 2200 5400 1975
 Wire Wire Line
-	5400 1975 5550 1975
-Wire Wire Line
-	5550 1975 5550 1825
-Connection ~ 5400 1975
-Wire Wire Line
 	10325 2325 10325 2100
 Wire Wire Line
 	10325 2100 10425 2100
@@ -128,15 +118,6 @@ Wire Wire Line
 	10725 2100 10825 2100
 Wire Wire Line
 	10825 2325 10825 2100
-Wire Wire Line
-	10825 2100 10975 2100
-Wire Wire Line
-	10975 2100 10975 1950
-Connection ~ 10825 2100
-Text GLabel 10975 1950 1    50   Input ~ 0
-VDDQ
-Text GLabel 5550 1825 1    50   Input ~ 0
-VDDQ
 Text Notes 8975 1900 0    50   ~ 0
 VCCO (HP banks) max: 2.0V
 Wire Wire Line
@@ -165,11 +146,6 @@ Wire Wire Line
 	13425 2100 13525 2100
 Wire Wire Line
 	13525 2325 13525 2100
-Wire Wire Line
-	13525 2100 13675 2100
-Connection ~ 13525 2100
-Text GLabel 12000 9025 1    50   Input ~ 0
-VDDQ
 Text Notes 525  7625 1    50   ~ 0
 HDMI
 Wire Notes Line
@@ -1032,8 +1008,6 @@ F 6 "100n" H 8775 9625 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	8275 9150 8275 9250
-Text GLabel 8275 9150 1    50   Input ~ 0
-VDDQ
 $Comp
 L data-center-ddr5-tester:GND #PWR0144
 U 1 1 6227AF19
@@ -1077,7 +1051,7 @@ F 6 "1k" V 8325 9225 50  0000 L CNN "Val"
 	1    8275 9400
 	0    1    1    0   
 $EndComp
-Text GLabel 9300 9550 2    50   Input ~ 0
+Text GLabel 9300 9550 2    50   Output ~ 0
 VREF_33
 $Comp
 L data-center-ddr5-tester:GND #PWR0145
@@ -1096,8 +1070,6 @@ Wire Wire Line
 	8700 10500 8525 10500
 Wire Wire Line
 	9000 10500 9150 10500
-Text GLabel 9150 10500 2    50   Input ~ 0
-VDDQ
 $Comp
 L data-center-ddr5-tester:R_120R_0603 R64
 U 1 1 6227AF44
@@ -1167,8 +1139,6 @@ Text GLabel 14775 9550 2    50   Input ~ 0
 SCL_2V5
 Text GLabel 14775 9650 2    50   Input ~ 0
 SDA_2V5
-Text GLabel 14775 9450 2    50   Input ~ 0
-VDDSPD
 Wire Wire Line
 	14175 9450 14775 9450
 Wire Wire Line
@@ -1262,8 +1232,6 @@ Wire Wire Line
 Connection ~ 14575 9550
 Wire Wire Line
 	14575 9550 14775 9550
-Text GLabel 14975 8975 2    50   Input ~ 0
-VDDSPD
 Wire Wire Line
 	14375 8975 14575 8975
 Wire Wire Line
@@ -1271,8 +1239,6 @@ Wire Wire Line
 Wire Wire Line
 	14575 9100 14575 8975
 Connection ~ 14575 8975
-Wire Wire Line
-	14575 8975 14975 8975
 $Comp
 L data-center-ddr5-tester:TP_SMD1MM TP12
 U 1 1 61DDE955
@@ -1459,32 +1425,10 @@ F 3 "" H 9325 10850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9025 10850 9325 10850
-Wire Wire Line
-	12000 9175 12000 9025
-$Comp
-L data-center-ddr5-tester:R_4k7_0402 R170
-U 1 1 628AFA47
-P 12000 9325
-F 0 "R170" H 11875 9225 60  0000 L CNN
-F 1 "R_4k7_0402" H 12000 9175 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 12200 9525 60  0001 L CNN
-F 3 "" H 12000 9325 50  0001 C CNN
-F 4 "VISHAY" H 12200 9725 60  0001 L CNN "Manufacturer"
-F 5 "MCS04020C4701FE000" H 12200 9625 60  0001 L CNN "MPN"
-F 6 "4k7" H 11925 9325 50  0000 L CNN "Val"
-	1    12000 9325
-	0    1    1    0   
-$EndComp
-Text GLabel 12000 9650 3    50   Input ~ 0
-~EVENT
-Wire Wire Line
-	12000 9475 12000 9650
 Text GLabel 6525 3300 2    50   Input ~ 0
 ~EVENT
 Wire Wire Line
 	5800 3300 6025 3300
-Text Notes 12075 9900 0    50   ~ 0
-Open drain pin
 $Comp
 L data-center-ddr5-tester:R_10k_0402 R163
 U 1 1 6157F999
@@ -1501,10 +1445,6 @@ F 6 "10k" H 6175 3300 50  0000 C CNN "Val"
 $EndComp
 Text Notes 10700 9025 0    50   ~ 0
 Default 000
-Wire Wire Line
-	13675 2100 13675 1950
-Text GLabel 13675 1950 1    50   Input ~ 0
-VDDQ
 Text Label 9625 4825 0    50   ~ 0
 DQS17+
 Text Label 9625 4925 0    50   ~ 0
@@ -5444,8 +5384,6 @@ F 6 "100n" H 15275 9375 50  0000 L CNN "Val"
 	1    15575 9425
 	-1   0    0    -1  
 $EndComp
-Text GLabel 15575 9275 1    50   Input ~ 0
-VDDSPD
 Text GLabel 8825 3225 0    50   BiDi ~ 0
 DQ0_A
 Text GLabel 8825 3325 0    50   BiDi ~ 0
@@ -5938,8 +5876,6 @@ Wire Wire Line
 	13925 7825 15025 7825
 Wire Wire Line
 	13925 7925 15025 7925
-Text GLabel 2950 1825 1    50   Input ~ 0
-VDDQ
 Wire Wire Line
 	700  3500 1800 3500
 Wire Wire Line
@@ -5994,4 +5930,42 @@ Wire Wire Line
 	5800 7900 6900 7900
 Wire Wire Line
 	8800 7525 9925 7525
+Text GLabel 2150 1975 0    50   Input ~ 0
+1V1_SYS
+Wire Wire Line
+	2200 1975 2150 1975
+Text GLabel 4850 1975 0    50   Input ~ 0
+1V1_SYS
+Wire Wire Line
+	4900 1975 4850 1975
+Text GLabel 10275 2100 0    50   Input ~ 0
+1V1_SYS
+Wire Wire Line
+	10325 2100 10275 2100
+Text GLabel 12975 2100 0    50   Input ~ 0
+1V1_SYS
+Wire Wire Line
+	13025 2100 12975 2100
+Connection ~ 4900 1975
+Connection ~ 2200 1975
+Connection ~ 10325 2100
+Connection ~ 13025 2100
+Text GLabel 8225 9150 0    50   Input ~ 0
+1V1_SYS
+Wire Wire Line
+	8275 9150 8225 9150
+Text GLabel 15025 8975 2    50   Input ~ 0
+1V0_SYS
+Wire Wire Line
+	14575 8975 15025 8975
+Text GLabel 14775 9450 2    50   Input ~ 0
+1V0_SYS
+Text GLabel 15625 9225 2    50   Input ~ 0
+1V0_SYS
+Wire Wire Line
+	15625 9225 15575 9225
+Wire Wire Line
+	15575 9225 15575 9275
+Text GLabel 9150 10500 2    50   Input ~ 0
+1V1_SYS
 $EndSCHEMATC

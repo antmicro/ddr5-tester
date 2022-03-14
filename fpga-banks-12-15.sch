@@ -66,16 +66,6 @@ Wire Wire Line
 Wire Wire Line
 	5950 2825 5950 2600
 Wire Wire Line
-	5950 2600 6100 2600
-Connection ~ 5950 2600
-Text GLabel 3500 2450 1    50   Input ~ 0
-3V3_SYS
-Connection ~ 3350 2600
-Wire Wire Line
-	3500 2600 3500 2450
-Wire Wire Line
-	3350 2600 3500 2600
-Wire Wire Line
 	3350 2825 3350 2600
 Wire Wire Line
 	3250 2600 3350 2600
@@ -135,14 +125,6 @@ Wire Wire Line
 Wire Wire Line
 	13575 2850 13575 2625
 Wire Wire Line
-	13575 2625 13725 2625
-Connection ~ 13575 2625
-Text GLabel 11125 2475 1    50   Input ~ 0
-3V3_SYS
-Wire Wire Line
-	11125 2625 11125 2475
-Connection ~ 10875 2625
-Wire Wire Line
 	10875 2850 10875 2625
 Wire Wire Line
 	10775 2625 10875 2625
@@ -170,8 +152,6 @@ Wire Wire Line
 Wire Wire Line
 	10375 2625 10475 2625
 Connection ~ 10475 2625
-Wire Wire Line
-	10875 2625 11125 2625
 Text GLabel 9925 7850 0    50   Input ~ 0
 USR_LED1
 Text GLabel 9925 8050 0    50   Input ~ 0
@@ -284,14 +264,6 @@ Text Notes 10350 1500 0    118  ~ 24
 BANK 14
 Text Notes 12975 1500 0    118  ~ 24
 BANK 15
-Text GLabel 13725 2400 1    50   Input ~ 0
-VDDQ
-Wire Wire Line
-	13725 2400 13725 2625
-Text GLabel 6100 2400 1    50   Input ~ 0
-VDDQ
-Wire Wire Line
-	6100 2400 6100 2600
 Text GLabel 15275 4150 2    50   Input ~ 0
 DQS9_P
 Text GLabel 15275 4250 2    50   Input ~ 0
@@ -4683,4 +4655,28 @@ Wire Wire Line
 	9975 7650 9925 7650
 Wire Wire Line
 	9975 7750 9925 7750
+Connection ~ 10875 2625
+Wire Wire Line
+	10875 2625 11125 2625
+Wire Wire Line
+	11125 2625 11125 2475
+Text GLabel 11125 2475 1    50   Input ~ 0
+3V3_SYS
+Connection ~ 3350 2600
+Wire Wire Line
+	3350 2600 3500 2600
+Wire Wire Line
+	3500 2600 3500 2450
+Text GLabel 3500 2450 1    50   Input ~ 0
+3V3_SYS
+Text GLabel 5400 2600 0    50   Input ~ 0
+1V1_SYS
+Wire Wire Line
+	5450 2600 5400 2600
+Connection ~ 5450 2600
+Text GLabel 13025 2625 0    50   Input ~ 0
+1V1_SYS
+Wire Wire Line
+	13075 2625 13025 2625
+Connection ~ 13075 2625
 $EndSCHEMATC
