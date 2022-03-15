@@ -152,23 +152,23 @@ Wire Wire Line
 Wire Wire Line
 	10375 2625 10475 2625
 Connection ~ 10475 2625
-Text GLabel 9925 7850 0    50   Input ~ 0
+Text GLabel 9600 7850 0    50   Input ~ 0
 USR_LED1
-Text GLabel 9925 8050 0    50   Input ~ 0
+Text GLabel 9600 8050 0    50   Input ~ 0
 USR_LED2
-Text GLabel 9925 8550 0    50   Input ~ 0
+Text GLabel 9600 8550 0    50   Input ~ 0
 USR_LED3
-Text GLabel 9925 8350 0    50   Input ~ 0
+Text GLabel 9600 8350 0    50   Input ~ 0
 USR_LED5
-Text GLabel 9925 8450 0    50   Input ~ 0
+Text GLabel 9600 8450 0    50   Input ~ 0
 USR_BTN1
-Text GLabel 9925 8150 0    50   Input ~ 0
+Text GLabel 9600 8150 0    50   Input ~ 0
 USR_BTN2
-Text GLabel 9925 8250 0    50   Input ~ 0
+Text GLabel 9600 8250 0    50   Input ~ 0
 USR_BTN3
-Text GLabel 9925 7950 0    50   Input ~ 0
+Text GLabel 9600 7950 0    50   Input ~ 0
 USR_LED4
-Text GLabel 9975 5750 0    50   Input ~ 0
+Text GLabel 9625 5750 0    50   Input ~ 0
 USR_BTN4
 Text GLabel 2350 4625 0    50   Input ~ 0
 ETH_RXD0
@@ -230,31 +230,31 @@ Text GLabel 2350 6825 0    50   Input ~ 0
 HR_DQ7
 Text GLabel 2350 6725 0    50   Input ~ 0
 HR_RW
-Text GLabel 9975 6950 0    50   Input ~ 0
+Text GLabel 9625 6950 0    50   Input ~ 0
 UART0_RX
-Text GLabel 9975 7050 0    50   Input ~ 0
+Text GLabel 9625 7050 0    50   Input ~ 0
 UART0_TX
-Text GLabel 9975 4650 0    50   Input ~ 0
+Text GLabel 9625 4650 0    50   Input ~ 0
 AUX_JTAG_TDO
-Text GLabel 9975 6650 0    50   Input ~ 0
+Text GLabel 9625 6650 0    50   Input ~ 0
 AUX_JTAG_TMS
-Text GLabel 9975 4850 0    50   Input ~ 0
+Text GLabel 9625 4850 0    50   Input ~ 0
 AUX_JTAG_TCK
-Text GLabel 9975 5850 0    50   Input ~ 0
+Text GLabel 9625 5850 0    50   Input ~ 0
 AUX_JTAG_TDI
-Text GLabel 9975 4250 0    50   Input ~ 0
+Text GLabel 9625 4250 0    50   Input ~ 0
 EMCCLK
-Text GLabel 9975 3750 0    50   Input ~ 0
+Text GLabel 9625 3750 0    50   Input ~ 0
 QSPI_DQ0
-Text GLabel 9975 4050 0    50   Input ~ 0
+Text GLabel 9625 4050 0    50   Input ~ 0
 QSPI_DQ3
-Text GLabel 9975 3950 0    50   Input ~ 0
+Text GLabel 9625 3950 0    50   Input ~ 0
 QSPI_DQ2
-Text GLabel 9975 4750 0    50   Input ~ 0
+Text GLabel 9625 4750 0    50   Input ~ 0
 FCS_B
-Text GLabel 9975 3850 0    50   Input ~ 0
+Text GLabel 9625 3850 0    50   Input ~ 0
 QSPI_DQ1
-Text GLabel 9975 4150 0    50   Input ~ 0
+Text GLabel 9625 4150 0    50   Input ~ 0
 PUDC_B
 Text Notes 2700 1400 0    118  ~ 24
 BANK 12
@@ -418,7 +418,7 @@ F 7 "DNP" H 14650 7850 50  0000 C CNN "DNP"
 $EndComp
 Wire Notes Line
 	8275 475  8275 11225
-Text GLabel 9975 6750 0    50   Input ~ 0
+Text GLabel 9625 6750 0    50   Input ~ 0
 AUX_JTAG_RST
 Text Label 14400 4150 0    50   ~ 0
 DQS9+
@@ -4511,13 +4511,13 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Text GLabel 9975 6550 0    50   Input ~ 0
+Text GLabel 9625 6550 0    50   Input ~ 0
 SCL_3V3
-Text GLabel 9975 4550 0    50   Input ~ 0
+Text GLabel 9625 4550 0    50   Input ~ 0
 SDA_3V3
-Text GLabel 9975 4450 0    50   Input ~ 0
+Text GLabel 9625 4450 0    50   Input ~ 0
 UART1_RX
-Text GLabel 9975 4350 0    50   Input ~ 0
+Text GLabel 9625 4350 0    50   Input ~ 0
 UART1_TX
 Text GLabel 15850 4150 2    50   BiDi ~ 0
 DQS0_A_P
@@ -4591,22 +4591,22 @@ Text GLabel 9625 4950 0    50   Input ~ 0
 TMDS_D0_P
 Text GLabel 9625 5050 0    50   Input ~ 0
 TMDS_D0_N
-Text GLabel 9450 5550 0    50   Input ~ 0
+Text GLabel 9625 5550 0    50   Input ~ 0
 TMDS_D1_P
-Text GLabel 9450 5650 0    50   Input ~ 0
+Text GLabel 9625 5650 0    50   Input ~ 0
 TMDS_D1_N
-Text GLabel 9400 5150 0    50   Input ~ 0
+Text GLabel 9625 5150 0    50   Input ~ 0
 TMDS_D2_P
-Text GLabel 9400 5250 0    50   Input ~ 0
+Text GLabel 9625 5250 0    50   Input ~ 0
 TMDS_D2_N
 Wire Wire Line
-	9975 5650 9450 5650
+	9975 5650 9625 5650
 Wire Wire Line
-	9975 5550 9450 5550
+	9975 5550 9625 5550
 Wire Wire Line
-	9975 5250 9400 5250
+	9975 5250 9625 5250
 Wire Wire Line
-	9975 5150 9400 5150
+	9975 5150 9625 5150
 Wire Wire Line
 	9975 4950 9625 4950
 Wire Wire Line
@@ -4615,46 +4615,22 @@ Wire Wire Line
 	9975 5350 9625 5350
 Wire Wire Line
 	9975 5450 9625 5450
-Wire Wire Line
-	9975 7850 9925 7850
-Wire Wire Line
-	9925 7950 9975 7950
-Wire Wire Line
-	9975 8050 9925 8050
-Wire Wire Line
-	9925 8150 9975 8150
-Wire Wire Line
-	9975 8250 9925 8250
-Wire Wire Line
-	9925 8350 9975 8350
-Wire Wire Line
-	9975 8450 9925 8450
-Wire Wire Line
-	9925 8550 9975 8550
-Text GLabel 9975 5950 0    50   Input ~ 0
+Text GLabel 9625 6050 0    50   Input ~ 0
 SD_CD
-Text GLabel 9925 7450 0    50   Input ~ 0
+Text GLabel 9625 7450 0    50   Input ~ 0
 SD_DAT2
-Text GLabel 9975 6050 0    50   Input ~ 0
+Text GLabel 9625 6150 0    50   Input ~ 0
 SD_DAT1
-Text GLabel 9925 7650 0    50   Input ~ 0
+Text GLabel 9625 7650 0    50   Input ~ 0
 SD_CLK
-Text GLabel 9925 7550 0    50   Input ~ 0
+Text GLabel 9625 7550 0    50   Input ~ 0
 SD_DAT0
-Text GLabel 9975 6250 0    50   Input ~ 0
+Text GLabel 9625 6350 0    50   Input ~ 0
 SD_CMD
-Text GLabel 9975 6150 0    50   Input ~ 0
+Text GLabel 9625 6250 0    50   Input ~ 0
 SD_DAT3
-Text GLabel 9925 7750 0    50   Input ~ 0
+Text GLabel 9625 5950 0    50   Input ~ 0
 GCLK100
-Wire Wire Line
-	9975 7450 9925 7450
-Wire Wire Line
-	9975 7550 9925 7550
-Wire Wire Line
-	9975 7650 9925 7650
-Wire Wire Line
-	9975 7750 9925 7750
 Connection ~ 10875 2625
 Wire Wire Line
 	10875 2625 11125 2625
@@ -4679,4 +4655,74 @@ Text GLabel 13025 2625 0    50   Input ~ 0
 Wire Wire Line
 	13075 2625 13025 2625
 Connection ~ 13075 2625
+Wire Wire Line
+	9975 6350 9625 6350
+Wire Wire Line
+	9975 6050 9625 6050
+Wire Wire Line
+	9975 5750 9625 5750
+Wire Wire Line
+	9975 5850 9625 5850
+Wire Wire Line
+	9975 6150 9625 6150
+Wire Wire Line
+	9975 6250 9625 6250
+Wire Wire Line
+	9625 5950 9975 5950
+Wire Wire Line
+	9975 6750 9625 6750
+Wire Wire Line
+	9975 6550 9625 6550
+Wire Wire Line
+	9975 6650 9625 6650
+Wire Wire Line
+	9975 6950 9625 6950
+Wire Wire Line
+	9975 7050 9625 7050
+Wire Wire Line
+	9625 7450 9975 7450
+Wire Wire Line
+	9625 7550 9975 7550
+Wire Wire Line
+	9625 7650 9975 7650
+Wire Wire Line
+	9600 7850 9975 7850
+Wire Wire Line
+	9600 7950 9975 7950
+Wire Wire Line
+	9600 8050 9975 8050
+Wire Wire Line
+	9600 8150 9975 8150
+Wire Wire Line
+	9600 8250 9975 8250
+Wire Wire Line
+	9600 8350 9975 8350
+Wire Wire Line
+	9600 8450 9975 8450
+Wire Wire Line
+	9600 8550 9975 8550
+Wire Wire Line
+	9975 4150 9625 4150
+Wire Wire Line
+	9975 4050 9625 4050
+Wire Wire Line
+	9975 3950 9625 3950
+Wire Wire Line
+	9975 4850 9625 4850
+Wire Wire Line
+	9975 4550 9625 4550
+Wire Wire Line
+	9975 4250 9625 4250
+Wire Wire Line
+	9975 4350 9625 4350
+Wire Wire Line
+	9975 4650 9625 4650
+Wire Wire Line
+	9975 4750 9625 4750
+Wire Wire Line
+	9625 4450 9975 4450
+Wire Wire Line
+	9975 3850 9625 3850
+Wire Wire Line
+	9975 3750 9625 3750
 $EndSCHEMATC
