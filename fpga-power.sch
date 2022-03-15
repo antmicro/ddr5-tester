@@ -238,8 +238,6 @@ F 3 "" H 1475 7425 50  0001 C CNN
 $EndComp
 Text GLabel 13525 2675 1    50   Input ~ 0
 3V3_SYS
-Text GLabel 1150 6950 1    50   Input ~ 0
-VDDQ
 Wire Notes Line
 	12950 1950 12950 3675
 Wire Notes Line
@@ -634,10 +632,6 @@ Text GLabel 4450 5775 1    50   Input ~ 0
 1V8_SYS
 Text GLabel 13775 2675 1    50   Input ~ 0
 3V3_SYS
-Text GLabel 14025 2675 1    50   Input ~ 0
-3V3_SYS
-Text GLabel 1475 6950 1    50   Input ~ 0
-VDDQ
 $Comp
 L data-center-ddr5-tester:GND #PWR?
 U 1 1 5FF57291
@@ -682,8 +676,6 @@ F 3 "" H 3650 7450 50  0001 C CNN
 	1    3650 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 3650 6950 1    50   Input ~ 0
-VDDQ
 $Comp
 L data-center-ddr5-tester:C_100n_0201 C73
 U 1 1 5FEEF20C
@@ -715,8 +707,6 @@ F 3 "" H 3325 7450 50  0001 C CNN
 	1    3325 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 3325 6950 1    50   Input ~ 0
-VDDQ
 $Comp
 L data-center-ddr5-tester:C_100n_0201 C72
 U 1 1 5FEB255E
@@ -741,16 +731,6 @@ Wire Wire Line
 	2150 6950 2150 7075
 Wire Wire Line
 	1800 6950 1800 7075
-Text GLabel 3000 6950 1    50   Input ~ 0
-VDDQ
-Text GLabel 2725 6950 1    50   Input ~ 0
-VDDQ
-Text GLabel 2450 6950 1    50   Input ~ 0
-VDDQ
-Text GLabel 2150 6950 1    50   Input ~ 0
-VDDQ
-Text GLabel 1800 6950 1    50   Input ~ 0
-VDDQ
 Wire Wire Line
 	1800 7425 1800 7375
 Wire Wire Line
@@ -896,8 +876,6 @@ F 6 "100n" H 1850 7125 50  0000 L CNN "Val"
 	1    1800 7225
 	1    0    0    -1  
 $EndComp
-Text GLabel 4000 6950 1    50   Input ~ 0
-VDDQ
 Wire Wire Line
 	4000 6950 4000 7075
 Wire Wire Line
@@ -929,8 +907,6 @@ F 3 "" H 4325 7450 50  0001 C CNN
 	1    4325 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 4325 6950 1    50   Input ~ 0
-VDDQ
 Wire Wire Line
 	4325 6950 4325 7075
 Wire Wire Line
@@ -962,8 +938,6 @@ F 3 "" H 4675 7450 50  0001 C CNN
 	1    4675 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 4675 6950 1    50   Input ~ 0
-VDDQ
 Wire Wire Line
 	4675 6950 4675 7075
 Wire Wire Line
@@ -1030,8 +1004,6 @@ F 3 "" H 2200 8875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	2200 8875 2200 8775
-Text GLabel 2200 8325 1    50   Input ~ 0
-3V3_SYS
 Wire Wire Line
 	2200 8475 2200 8325
 $Comp
@@ -1129,8 +1101,6 @@ F 3 "" H 3200 8875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3200 8775 3200 8875
-Text GLabel 3200 8325 1    50   Input ~ 0
-3V3_SYS
 Wire Wire Line
 	3200 8475 3200 8325
 $Comp
@@ -1195,8 +1165,6 @@ F 3 "" H 3925 8875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	3925 8875 3925 8775
-Text GLabel 3925 8325 1    50   Input ~ 0
-3V3_SYS
 Wire Wire Line
 	3925 8325 3925 8475
 $Comp
@@ -1294,8 +1262,6 @@ F 3 "" H 5000 8875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	5000 8775 5000 8875
-Text GLabel 5000 8325 1    50   Input ~ 0
-3V3_SYS
 Wire Wire Line
 	5000 8325 5000 8475
 $Comp
@@ -1426,8 +1392,6 @@ F 3 "" H 6325 8875 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6325 8875 6325 8775
-Text GLabel 6325 8325 1    50   Input ~ 0
-3V3_SYS
 Wire Wire Line
 	6325 8325 6325 8475
 $Comp
@@ -1490,8 +1454,6 @@ F 3 "" H 7000 8875 50  0001 C CNN
 	1    7000 8875
 	1    0    0    -1  
 $EndComp
-Text GLabel 7000 8325 1    50   Input ~ 0
-3V3_SYS
 Wire Wire Line
 	7000 8325 7000 8475
 Wire Wire Line
@@ -2205,8 +2167,6 @@ F 3 "" H 5000 7450 50  0001 C CNN
 	1    5000 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 5000 6950 1    50   Input ~ 0
-VDDQ
 Wire Wire Line
 	5000 6950 5000 7075
 Wire Wire Line
@@ -2238,8 +2198,6 @@ F 3 "" H 5350 7450 50  0001 C CNN
 	1    5350 7450
 	1    0    0    -1  
 $EndComp
-Text GLabel 5350 6950 1    50   Input ~ 0
-VDDQ
 Wire Wire Line
 	5350 6950 5350 7075
 Wire Wire Line
@@ -2995,8 +2953,6 @@ F 6 "4u7" H 1175 8525 50  0000 L CNN "Val"
 	1    1150 8625
 	1    0    0    -1  
 $EndComp
-Text GLabel 1150 8325 1    50   Input ~ 0
-3V3_SYS
 $Bitmap
 Pos 1500 10693
 Scale 0.400000
@@ -6872,4 +6828,48 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
+Text GLabel 1150 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 1475 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 1800 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 2150 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 2450 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 2725 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 3000 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 3325 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 3650 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 4000 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 4325 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 4675 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 5000 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 5350 6950 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 3925 8325 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 1150 8325 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 7000 8325 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 14025 2675 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 2200 8325 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 3200 8325 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 6325 8325 1    50   Input ~ 0
+1V1_SYS
+Text GLabel 5000 8325 1    50   Input ~ 0
+1V1_SYS
 $EndSCHEMATC
