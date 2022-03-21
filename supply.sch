@@ -6242,12 +6242,12 @@ VCC5V0_INT
 Wire Wire Line
 	13300 2650 12825 2650
 $Comp
-L antmicroTrimmerPotentiometers:TC33X-2-103E POT1
+L data-center-ddr5-tester:TC33X-2-103E POT1
 U 1 1 62361BA1
 P 10325 7950
 F 0 "POT1" V 10272 7862 60  0000 R CNN
 F 1 "TC33X-2-103E" V 10200 8725 60  0000 R CNN
-F 2 "antmicro-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" H 10525 8150 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" H 10525 8150 60  0001 L CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 10525 8250 60  0001 L CNN
 F 4 "TC33X-2-103E" H 10525 8450 60  0001 L CNN "MPN"
 F 5 "Bourns Inc." H 10525 9050 60  0001 L CNN "Manufacturer"
@@ -6364,12 +6364,12 @@ Connection ~ 3825 8025
 Wire Wire Line
 	3825 8025 4425 8025
 $Comp
-L antmicroResistors0402:R_43k_0402 R85
+L data-center-ddr5-tester:R_43k_0402 R85
 U 1 1 62CD2E8E
 P 4900 4550
 F 0 "R85" V 4855 4620 60  0000 L CNN
 F 1 "R_43k_0402" H 4900 4400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5100 4750 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 5100 4750 60  0001 L CNN
 F 3 "" H 4900 4550 50  0001 C CNN
 F 4 "ROYAL_OHM" H 5100 4950 60  0001 L CNN "Manufacturer"
 F 5 "0402WGF4302TCE" H 5100 4850 60  0001 L CNN "MPN"
@@ -6378,12 +6378,12 @@ F 6 "43k" V 4953 4620 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_100k_1%_0402 R158
+L data-center-ddr5-tester:R_100k_1%_0402 R158
 U 1 1 62CD3C38
 P 4900 4850
 F 0 "R158" V 4855 4920 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 4900 4700 60  0001 C CNN
-F 2 "antmicro-footprints:0402" H 5100 5050 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402" H 5100 5050 60  0001 L CNN
 F 3 "" H 4900 4850 50  0001 C CNN
 F 4 "PANASONIC" H 5100 5250 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 5100 5150 60  0001 L CNN "MPN"
@@ -6451,12 +6451,12 @@ Wire Wire Line
 Wire Wire Line
 	14425 1975 14650 1975
 $Comp
-L antmicroResistorsmisc:R_0R_2010 R47
+L data-center-ddr5-tester:R_0R_2010 R47
 U 1 1 63342A49
 P 3150 3250
 F 0 "R47" H 3150 3463 60  0000 C CNN
 F 1 "R_0R_2010" H 3150 3100 60  0001 C CNN
-F 2 "antmicro-footprints:2010-res" H 3350 3450 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:2010-res" H 3350 3450 60  0001 L CNN
 F 3 "" H 3150 3250 50  0001 C CNN
 F 4 "VISHAY" H 3350 3650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW20100000Z0EF" H 3350 3550 60  0001 L CNN "MPN"
@@ -6576,12 +6576,12 @@ Wire Wire Line
 Text GLabel 11225 1525 1    50   Input ~ 0
 VCC3V3
 $Comp
-L antmicroCapacitors0402:C_120p_0402 C45
+L data-center-ddr5-tester:C_120p_0402 C45
 U 1 1 624BCCF5
 P 9975 1550
 F 0 "C45" H 10090 1595 60  0000 L CNN
 F 1 "C_120p_0402" H 9975 1400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10175 1750 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 10175 1750 60  0001 L CNN
 F 3 "" H 9975 1550 50  0001 C CNN
 F 4 "KEMET" H 10175 1950 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10175 1850 60  0001 L CNN "MPN"
@@ -6590,12 +6590,12 @@ F 6 "120p" H 10090 1497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_120p_0402 C156
+L data-center-ddr5-tester:C_120p_0402 C156
 U 1 1 624C3CA0
 P 10100 3275
 F 0 "C156" H 9986 3320 60  0000 R CNN
 F 1 "C_120p_0402" H 10100 3125 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10300 3475 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 10300 3475 60  0001 L CNN
 F 3 "" H 10100 3275 50  0001 C CNN
 F 4 "KEMET" H 10300 3675 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10300 3575 60  0001 L CNN "MPN"
@@ -6630,12 +6630,12 @@ Wire Wire Line
 Wire Wire Line
 	10225 5325 10225 5375
 $Comp
-L antmicroCapacitors0402:C_120p_0402 C150
+L data-center-ddr5-tester:C_120p_0402 C150
 U 1 1 6259F516
 P 10225 5525
 F 0 "C150" H 10111 5570 60  0000 R CNN
 F 1 "C_120p_0402" H 10225 5375 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10425 5725 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 10425 5725 60  0001 L CNN
 F 3 "" H 10225 5525 50  0001 C CNN
 F 4 "KEMET" H 10425 5925 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10425 5825 60  0001 L CNN "MPN"
@@ -6658,12 +6658,12 @@ Wire Wire Line
 Wire Wire Line
 	9750 5775 10225 5775
 $Comp
-L antmicroCapacitors0402:C_120p_0402 C2
+L data-center-ddr5-tester:C_120p_0402 C2
 U 1 1 6261A03B
 P 10150 7550
 F 0 "C2" H 10035 7595 60  0000 R CNN
 F 1 "C_120p_0402" H 10150 7400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10350 7750 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 10350 7750 60  0001 L CNN
 F 3 "" H 10150 7550 50  0001 C CNN
 F 4 "KEMET" H 10350 7950 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10350 7850 60  0001 L CNN "MPN"
@@ -6672,12 +6672,12 @@ F 6 "120p" H 10035 7497 50  0000 R CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroCapacitors0402:C_120p_0402 C98
+L data-center-ddr5-tester:C_120p_0402 C98
 U 1 1 626B30DB
 P 10050 10125
 F 0 "C98" H 9935 10170 60  0000 R CNN
 F 1 "C_120p_0402" H 10050 9975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10250 10325 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 10250 10325 60  0001 L CNN
 F 3 "" H 10050 10125 50  0001 C CNN
 F 4 "KEMET" H 10250 10525 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10250 10425 60  0001 L CNN "MPN"
@@ -6822,12 +6822,12 @@ F 6 "10u" H 8140 3297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L antmicroResistors0402:R_49R9_0402 R41
+L data-center-ddr5-tester:R_49R9_0402 R41
 U 1 1 625E0F38
 P 10275 3300
 F 0 "R41" V 10230 3370 60  0000 L CNN
 F 1 "R_49R9_0402" H 10275 3150 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10475 3500 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 10475 3500 60  0001 L CNN
 F 3 "" H 10275 3300 50  0001 C CNN
 F 4 "VISHAY" H 10475 3700 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 10475 3600 60  0001 L CNN "MPN"
@@ -6836,12 +6836,12 @@ F 6 "49R9" V 10328 3370 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L antmicroResistors0402:R_66k5_0402 R48
+L data-center-ddr5-tester:R_66k5_0402 R48
 U 1 1 62626DBC
 P 10225 10125
 F 0 "R48" V 10180 10195 60  0000 L CNN
 F 1 "R_66k5_0402" H 10225 9975 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 10425 10325 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 10425 10325 60  0001 L CNN
 F 3 "" H 10225 10125 50  0001 C CNN
 F 4 "PANASONIC" H 10425 10525 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF6652X" H 10425 10425 60  0001 L CNN "MPN"
