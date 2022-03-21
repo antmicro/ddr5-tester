@@ -1379,8 +1379,6 @@ Wire Wire Line
 	11125 10250 11125 10400
 Wire Wire Line
 	10525 10250 11125 10250
-Text GLabel 11300 9475 1    50   Input ~ 0
-VDDSPD
 Wire Wire Line
 	11300 9725 11300 9550
 Wire Wire Line
@@ -5968,4 +5966,6 @@ Wire Wire Line
 	15575 9225 15575 9275
 Text GLabel 9150 10500 2    50   Input ~ 0
 1V1_SYS
+Text GLabel 11300 9475 1    50   Input ~ 0
+1V0_SYS
 $EndSCHEMATC
