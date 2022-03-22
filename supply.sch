@@ -230,8 +230,6 @@ F 6 "100k" V 3878 7895 50  0000 L CNN "Val"
 	1    3825 7825
 	0    1    1    0   
 $EndComp
-Text GLabel 3875 7625 2    50   Input ~ 0
-VCC5V0_INT
 $Comp
 L data-center-ddr5-tester:C_47p_0402 C175
 U 1 1 6039FE7B
@@ -614,13 +612,9 @@ Wire Wire Line
 	15275 6825 15450 6825
 Text Notes 11975 850  0    79   ~ 16
 Power sequencer
-Text GLabel 6100 8425 2    50   Output ~ 0
-VCC5V0_INT
 Wire Wire Line
 	5875 8425 6100 8425
 Connection ~ 5875 8425
-Text GLabel 7550 1400 0    50   Input ~ 0
-VCC5V0_INT
 Text Notes 725  875  0    79   ~ 16
 Input power connector
 Text Notes 11975 5350 0    79   ~ 16
@@ -1136,12 +1130,6 @@ Wire Wire Line
 	15275 6550 15450 6550
 Text GLabel 13150 6050 1    50   Input ~ 0
 VCC3V3
-Wire Wire Line
-	14775 6250 14975 6250
-Text GLabel 15450 6250 2    50   Output ~ 0
-5V0_SYS
-Wire Wire Line
-	15275 6250 15450 6250
 Text GLabel 13350 6050 1    50   Input ~ 0
 VCC5V0_INT
 Text GLabel 12475 6050 1    50   Input ~ 0
@@ -1299,8 +1287,6 @@ F 5 "Texas Instruments" H 9150 6499 50  0001 C CNN "Manufacturer"
 $EndComp
 Wire Wire Line
 	8150 5325 7800 5325
-Text GLabel 7800 5325 0    50   Input ~ 0
-VCC5V0_INT
 Wire Wire Line
 	8150 5325 8150 5450
 $Comp
@@ -1416,8 +1402,6 @@ F 5 "Texas Instruments" H 9025 4249 50  0001 C CNN "Manufacturer"
 	1    8975 3575
 	1    0    0    -1  
 $EndComp
-Text GLabel 7675 3075 0    50   Input ~ 0
-VCC5V0_INT
 Text Label 8300 3375 0    50   ~ 0
 1V8_PG
 Wire Wire Line
@@ -1431,19 +1415,6 @@ Text GLabel 2175 8025 0    50   Input ~ 0
 VIN
 Text Notes 14475 5350 0    79   ~ 16
 Fuses
-$Comp
-L data-center-ddr5-tester:1206L450SLWR F2
-U 1 1 61A05999
-P 15125 6250
-F 0 "F2" H 14975 6300 50  0000 C CNN
-F 1 "1206L450SLWR" H 15525 6325 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 6025 50  0001 C CNN
-F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6100 50  0001 C CNN
-F 4 "1206L450SLWR" H 15150 5950 50  0001 C CNN "MPN"
-F 5 "LITTELFUSE" H 15175 5875 50  0001 C CNN "Manufacturer"
-	1    15125 6250
-	1    0    0    -1  
-$EndComp
 $Comp
 L data-center-ddr5-tester:1206L450SLWR F3
 U 1 1 61A082F9
@@ -5574,8 +5545,6 @@ F 5 "Texas Instruments" H 9075 8549 50  0001 C CNN "Manufacturer"
 	1    9025 7875
 	1    0    0    -1  
 $EndComp
-Text GLabel 7675 7375 0    50   Input ~ 0
-VCC5V0_INT
 Wire Wire Line
 	8075 7375 8075 7500
 $Comp
@@ -6134,8 +6103,6 @@ Wire Wire Line
 Connection ~ 5850 4350
 Wire Wire Line
 	2125 4150 2550 4150
-Text Label 2125 4150 0    50   ~ 0
-SYS_EN
 $Comp
 L data-center-ddr5-tester:C_47u_16V_1206 C28
 U 1 1 62DE6B2B
@@ -6206,8 +6173,6 @@ Text GLabel 1800 1475 2    50   Input ~ 0
 VIN
 Wire Wire Line
 	1300 1475 1500 1475
-Text GLabel 14775 6250 0    50   Input ~ 0
-VCC5V0_INT
 Text GLabel 12825 1975 0    50   Input ~ 0
 VCC5V0_INT
 $Comp
@@ -6364,20 +6329,6 @@ Connection ~ 3825 8025
 Wire Wire Line
 	3825 8025 4425 8025
 $Comp
-L data-center-ddr5-tester:R_43k_0402 R85
-U 1 1 62CD2E8E
-P 4900 4550
-F 0 "R85" V 4855 4620 60  0000 L CNN
-F 1 "R_43k_0402" H 4900 4400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 5100 4750 60  0001 L CNN
-F 3 "" H 4900 4550 50  0001 C CNN
-F 4 "ROYAL_OHM" H 5100 4950 60  0001 L CNN "Manufacturer"
-F 5 "0402WGF4302TCE" H 5100 4850 60  0001 L CNN "MPN"
-F 6 "43k" V 4953 4620 50  0000 L CNN "Val"
-	1    4900 4550
-	0    1    1    0   
-$EndComp
-$Comp
 L data-center-ddr5-tester:R_100k_1%_0402 R158
 U 1 1 62CD3C38
 P 4900 4850
@@ -6401,17 +6352,6 @@ Wire Wire Line
 	3800 3550 3800 3600
 Wire Wire Line
 	2150 3950 2550 3950
-$Comp
-L data-center-ddr5-tester:TP_SMD1MM TP10
-U 1 1 62DF54C1
-P 2025 4150
-F 0 "TP10" V 2025 4025 50  0000 C CNN
-F 1 "TP_SMD1MM" H 2025 4050 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 2225 4350 60  0001 L CNN
-F 3 "" H 2225 4450 60  0001 L CNN
-	1    2025 4150
-	0    1    1    0   
-$EndComp
 $Comp
 L data-center-ddr5-tester:TP_SMD1MM TP13
 U 1 1 62E0F73F
@@ -6890,8 +6830,8 @@ L data-center-ddr5-tester:R_0R_0402 R?
 U 1 1 6275F230
 P 7850 10125
 AR Path="/6004278D/6275F230" Ref="R?"  Part="1" 
-AR Path="/60225B0C/6275F230" Ref="R?"  Part="1" 
-F 0 "R?" H 7850 10248 60  0000 C CNN
+AR Path="/60225B0C/6275F230" Ref="R85"  Part="1" 
+F 0 "R85" H 7850 10248 60  0000 C CNN
 F 1 "R_0R_0402" H 7850 9975 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 8050 10325 60  0001 L CNN
 F 3 "" H 7850 10125 50  0001 C CNN
@@ -6903,4 +6843,61 @@ F 6 "0R" H 7850 10346 50  0000 C CNN "Val"
 $EndComp
 Wire Wire Line
 	8000 10125 8425 10125
+$Comp
+L antmicroResistors0402:R_43k_0402 R161
+U 1 1 625FE0E8
+P 4900 4550
+F 0 "R161" V 4855 4620 60  0000 L CNN
+F 1 "R_43k_0402" H 4900 4400 60  0001 C CNN
+F 2 "antmicro-footprints:0402-res" H 5100 4750 60  0001 L CNN
+F 3 "" H 4900 4550 50  0001 C CNN
+F 4 "ROYAL_OHM" H 5100 4950 60  0001 L CNN "Manufacturer"
+F 5 "0402WGF4302TCE" H 5100 4850 60  0001 L CNN "MPN"
+F 6 "43k" V 4953 4620 50  0000 L CNN "Val"
+	1    4900 4550
+	0    1    1    0   
+$EndComp
+Text GLabel 7675 7375 0    50   Input ~ 0
+VCC5V0_INT
+Text GLabel 7550 1400 0    50   Input ~ 0
+VCC5V0_INT
+Text GLabel 7675 3075 0    50   Input ~ 0
+VCC5V0_INT
+Text GLabel 7800 5325 0    50   Input ~ 0
+VCC5V0_INT
+Text GLabel 3875 7625 2    50   Input ~ 0
+VCC5V0_INT
+Text GLabel 6100 8425 2    50   Output ~ 0
+VCC5V0_INT
+$Comp
+L data-center-ddr5-tester:TP_SMD1MM TP10
+U 1 1 62DF54C1
+P 1300 4150
+F 0 "TP10" V 1300 4025 50  0000 C CNN
+F 1 "TP_SMD1MM" H 1300 4050 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 1500 4350 60  0001 L CNN
+F 3 "" H 1500 4450 60  0001 L CNN
+	1    1300 4150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1825 4150 1400 4150
+Text Label 1400 4150 0    50   ~ 0
+VCC_IO_EN
+$Comp
+L data-center-ddr5-tester:R_0R_0402 R?
+U 1 1 626F750E
+P 1975 4150
+AR Path="/6004278D/626F750E" Ref="R?"  Part="1" 
+AR Path="/60225B0C/626F750E" Ref="R170"  Part="1" 
+F 0 "R170" H 1975 4273 60  0000 C CNN
+F 1 "R_0R_0402" H 1975 4000 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 2175 4350 60  0001 L CNN
+F 3 "" H 1975 4150 50  0001 C CNN
+F 4 "PANASONIC" H 2175 4550 60  0001 L CNN "Manufacturer"
+F 5 "ERJ2GE0R00X" H 2175 4450 60  0001 L CNN "MPN"
+F 6 "0R" H 1975 4371 50  0000 C CNN "Val"
+	1    1975 4150
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
