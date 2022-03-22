@@ -579,13 +579,13 @@ Text Notes 7225 850  0    79   ~ 16
 $Comp
 L data-center-ddr5-tester:TP_SMD1MM 5V0
 U 1 1 60212554
-P 13350 6150
-F 0 "5V0" V 13255 6197 50  0000 C CNN
-F 1 "TP_SMD1MM" H 13350 6050 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13550 6350 60  0001 L CNN
-F 3 "" H 13550 6450 60  0001 L CNN
-	1    13350 6150
-	1    0    0    -1  
+P 13475 6900
+F 0 "5V0" V 13380 6947 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13475 6800 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 7100 60  0001 L CNN
+F 3 "" H 13675 7200 60  0001 L CNN
+	1    13475 6900
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	11425 1525 11425 1600
@@ -594,18 +594,16 @@ Wire Wire Line
 $Comp
 L data-center-ddr5-tester:TP_SMD1MM 3V3
 U 1 1 6026C4D0
-P 13150 6150
-F 0 "3V3" V 13055 6197 50  0000 C CNN
-F 1 "TP_SMD1MM" H 13150 6050 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13350 6350 60  0001 L CNN
-F 3 "" H 13350 6450 60  0001 L CNN
-	1    13150 6150
-	1    0    0    -1  
+P 13475 6450
+F 0 "3V3" V 13380 6497 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13475 6350 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 6650 60  0001 L CNN
+F 3 "" H 13675 6750 60  0001 L CNN
+	1    13475 6450
+	0    -1   1    0   
 $EndComp
 Text GLabel 14775 6825 0    50   Input ~ 0
 VCC1V8
-Text GLabel 15450 6825 2    50   Output ~ 0
-1V8_SYS
 Wire Wire Line
 	14775 6825 14975 6825
 Wire Wire Line
@@ -1094,19 +1092,19 @@ Wire Notes Line
 $Comp
 L data-center-ddr5-tester:TP_SMD1MM PHY1
 U 1 1 61AF8860
-P 12700 6150
-F 0 "PHY1" V 12605 6197 50  0000 C CNN
-F 1 "TP_SMD1MM" H 12700 6050 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 12900 6350 60  0001 L CNN
-F 3 "" H 12900 6450 60  0001 L CNN
-	1    12700 6150
-	1    0    0    -1  
+P 13475 6000
+F 0 "PHY1" V 13380 6047 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13475 5900 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 6200 60  0001 L CNN
+F 3 "" H 13675 6300 60  0001 L CNN
+	1    13475 6000
+	0    -1   1    0   
 $EndComp
 Text GLabel 11225 9975 2    50   Output ~ 0
 VCC1V0
 Text GLabel 14775 7650 0    50   Input ~ 0
 VCC1V0
-Text GLabel 15475 7100 2    50   Output ~ 0
+Text GLabel 15450 7100 2    50   Output ~ 0
 1V2_SYS
 Wire Wire Line
 	15275 7100 15475 7100
@@ -1128,48 +1126,42 @@ Wire Wire Line
 	14775 6550 14975 6550
 Wire Wire Line
 	15275 6550 15450 6550
-Text GLabel 13150 6050 1    50   Input ~ 0
-VCC3V3
-Text GLabel 13350 6050 1    50   Input ~ 0
+Text GLabel 13375 6900 0    50   Input ~ 0
 VCC5V0_INT
-Text GLabel 12475 6050 1    50   Input ~ 0
-VCC1V0
-Text GLabel 12925 6050 1    50   Input ~ 0
-VCC1V8
 $Comp
 L data-center-ddr5-tester:TP_SMD1MM 1V0
 U 1 1 6248DC65
-P 12475 6150
-F 0 "1V0" V 12380 6197 50  0000 C CNN
-F 1 "TP_SMD1MM" H 12475 6050 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 12675 6350 60  0001 L CNN
-F 3 "" H 12675 6450 60  0001 L CNN
-	1    12475 6150
-	1    0    0    -1  
+P 13475 5775
+F 0 "1V0" V 13380 5822 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13475 5675 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 5975 60  0001 L CNN
+F 3 "" H 13675 6075 60  0001 L CNN
+	1    13475 5775
+	0    -1   1    0   
 $EndComp
 $Comp
 L data-center-ddr5-tester:TP_SMD1MM 1V8
 U 1 1 6248DE95
-P 12925 6150
-F 0 "1V8" V 12830 6197 50  0000 C CNN
-F 1 "TP_SMD1MM" H 12925 6050 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13125 6350 60  0001 L CNN
-F 3 "" H 13125 6450 60  0001 L CNN
-	1    12925 6150
-	1    0    0    -1  
+P 13475 6225
+F 0 "1V8" V 13380 6272 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13475 6125 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 6425 60  0001 L CNN
+F 3 "" H 13675 6525 60  0001 L CNN
+	1    13475 6225
+	0    -1   1    0   
 $EndComp
-Text GLabel 13550 6050 1    50   Input ~ 0
+Text GLabel 13375 7100 0    50   Input ~ 0
 VIN
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM 12V1
+L data-center-ddr5-tester:TP_SMD1MM VIN1
 U 1 1 62506200
-P 13550 6150
-F 0 "12V1" V 13455 6197 50  0000 C CNN
-F 1 "TP_SMD1MM" H 13550 6050 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13750 6350 60  0001 L CNN
-F 3 "" H 13750 6450 60  0001 L CNN
-	1    13550 6150
-	1    0    0    -1  
+P 13475 7100
+F 0 "VIN1" V 13380 7147 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13475 7000 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 7300 60  0001 L CNN
+F 3 "" H 13675 7400 60  0001 L CNN
+	1    13475 7100
+	0    -1   1    0   
 $EndComp
 $Comp
 L data-center-ddr5-tester:GND #PWR046
@@ -5370,8 +5362,6 @@ F 5 "Wurth Electronics Inc." H 15050 10275 60  0001 L CNN "Manufacturer"
 $EndComp
 Text Label 7325 5475 0    50   ~ 0
 VCC_IO_EN
-Text GLabel 12700 6050 1    50   Input ~ 0
-VCC1V2
 Text GLabel 14775 7100 0    50   Input ~ 0
 VCC1V2
 Text Notes 11275 5475 0    50   ~ 0
@@ -5668,8 +5658,6 @@ Text GLabel 15450 5600 2    50   Output ~ 0
 VIN_BULK
 Text GLabel 15450 5850 2    50   Output ~ 0
 VIN_MGMT
-Text GLabel 14775 5850 0    50   Input ~ 0
-VCC3V3
 Wire Wire Line
 	14775 5850 14975 5850
 Wire Wire Line
@@ -6352,20 +6340,6 @@ Wire Wire Line
 	3800 3550 3800 3600
 Wire Wire Line
 	2150 3950 2550 3950
-$Comp
-L data-center-ddr5-tester:TP_SMD1MM TP13
-U 1 1 62E0F73F
-P 3950 3950
-F 0 "TP13" V 3950 3825 50  0000 C CNN
-F 1 "TP_SMD1MM" H 3950 3850 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 4150 4150 60  0001 L CNN
-F 3 "" H 4150 4250 60  0001 L CNN
-	1    3950 3950
-	0    -1   -1   0   
-$EndComp
-Connection ~ 3800 3950
-Wire Wire Line
-	3800 3950 3850 3950
 Wire Wire Line
 	8025 3075 7675 3075
 Text Notes 11225 10125 0    50   ~ 0
@@ -6869,17 +6843,6 @@ Text GLabel 3875 7625 2    50   Input ~ 0
 VCC5V0_INT
 Text GLabel 6100 8425 2    50   Output ~ 0
 VCC5V0_INT
-$Comp
-L data-center-ddr5-tester:TP_SMD1MM TP10
-U 1 1 62DF54C1
-P 1300 4150
-F 0 "TP10" V 1300 4025 50  0000 C CNN
-F 1 "TP_SMD1MM" H 1300 4050 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 1500 4350 60  0001 L CNN
-F 3 "" H 1500 4450 60  0001 L CNN
-	1    1300 4150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	1825 4150 1400 4150
 Text Label 1400 4150 0    50   ~ 0
@@ -6900,4 +6863,55 @@ F 6 "0R" H 1975 4371 50  0000 C CNN "Val"
 	1    1975 4150
 	-1   0    0    1   
 $EndComp
+Text GLabel 13375 6450 0    50   Input ~ 0
+3V3_SYS
+Text GLabel 15450 6825 2    50   Output ~ 0
+1V8_SYS
+Text GLabel 13375 6225 0    50   Input ~ 0
+1V8_SYS
+Text GLabel 13375 6000 0    50   Input ~ 0
+1V2_SYS
+Text GLabel 13375 6650 0    50   Input ~ 0
+1V1_SYS
+Text GLabel 13375 5775 0    50   Input ~ 0
+1V0_SYS
+$Comp
+L data-center-ddr5-tester:TP_SMD1MM 1V1
+U 1 1 625B8349
+P 13475 6650
+F 0 "1V1" V 13380 6697 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13475 6550 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 6850 60  0001 L CNN
+F 3 "" H 13675 6950 60  0001 L CNN
+	1    13475 6650
+	0    -1   1    0   
+$EndComp
+$Comp
+L data-center-ddr5-tester:TP_SMD1MM GND1
+U 1 1 62606CD9
+P 13475 7300
+F 0 "GND1" V 13380 7347 50  0000 C CNN
+F 1 "TP_SMD1MM" H 13475 7200 50  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 7500 60  0001 L CNN
+F 3 "" H 13675 7600 60  0001 L CNN
+	1    13475 7300
+	0    -1   1    0   
+$EndComp
+$Comp
+L data-center-ddr5-tester:GND #PWR0163
+U 1 1 62622993
+P 13325 7350
+F 0 "#PWR0163" H 13325 7100 50  0001 C CNN
+F 1 "GND" H 13330 7177 50  0000 C CNN
+F 2 "" H 13325 7350 50  0001 C CNN
+F 3 "" H 13325 7350 50  0001 C CNN
+	1    13325 7350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13375 7300 13325 7300
+Wire Wire Line
+	13325 7300 13325 7350
+Text GLabel 14775 5850 0    50   Input ~ 0
+3V3_SYS
 $EndSCHEMATC
