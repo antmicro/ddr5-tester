@@ -264,22 +264,6 @@ Text Notes 10350 1500 0    118  ~ 24
 BANK 14
 Text Notes 12975 1500 0    118  ~ 24
 BANK 15
-Text GLabel 15275 4150 2    50   Input ~ 0
-DQS9_P
-Text GLabel 15275 4250 2    50   Input ~ 0
-DQS9_N
-Text GLabel 15025 6550 2    50   Input ~ 0
-DQS10_P
-Text GLabel 15025 6650 2    50   Input ~ 0
-DQS10_N
-Text GLabel 15025 7750 2    50   Input ~ 0
-DQS11_P
-Text GLabel 15025 7850 2    50   Input ~ 0
-DQS11_N
-Text GLabel 15025 5350 2    50   Input ~ 0
-DQS12_P
-Text GLabel 15025 5450 2    50   Input ~ 0
-DQS12_N
 $Comp
 L data-center-ddr5-tester:R_0R_0201 R?
 U 1 1 6355AF6B
@@ -560,22 +544,6 @@ F 7 "DNP" H 7075 6525 50  0000 C CNN "DNP"
 	1    7075 6525
 	1    0    0    -1  
 $EndComp
-Text GLabel 7450 4225 2    50   Input ~ 0
-DQS16_N
-Text GLabel 7450 4125 2    50   Input ~ 0
-DQS16_P
-Text GLabel 7450 7825 2    50   Input ~ 0
-DQS15_N
-Text GLabel 7450 7725 2    50   Input ~ 0
-DQS15_P
-Text GLabel 7450 5425 2    50   Input ~ 0
-DQS14_N
-Text GLabel 7450 5325 2    50   Input ~ 0
-DQS14_P
-Text GLabel 7450 6625 2    50   Input ~ 0
-DQS13_N
-Text GLabel 7450 6525 2    50   Input ~ 0
-DQS13_P
 Wire Wire Line
 	6350 4125 6925 4125
 Wire Wire Line
@@ -4564,8 +4532,6 @@ Wire Wire Line
 Wire Wire Line
 	7225 6525 7900 6525
 Wire Wire Line
-	7225 7825 7900 7825
-Wire Wire Line
 	7225 7725 7900 7725
 Wire Wire Line
 	15175 4150 15850 4150
@@ -4725,4 +4691,6 @@ Wire Wire Line
 	9975 3850 9625 3850
 Wire Wire Line
 	9975 3750 9625 3750
+Wire Wire Line
+	7225 7825 7900 7825
 $EndSCHEMATC
