@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L data-center-ddr5-tester:XC7K160T-FFG676 U15
+L data-center-ddr5-tester:XC7K160T-FFG676 U8
 U 3 1 61B486C2
 P 3800 5100
-F 0 "U15" H 3800 2125 50  0000 C CNN
+F 0 "U8" H 3800 2125 50  0000 C CNN
 F 1 "XC7K160T-FFG676" H 3800 2034 50  0000 C CNN
 F 2 "data-center-ddr5-tester-footprints:BGA676C100P26X26_2700X2700X254" H 3800 1943 50  0000 C CNN
 F 3 "" H 3800 5100 50  0000 C CNN
@@ -25,10 +25,10 @@ F 3 "" H 3800 5100 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:XC7K160T-FFG676 U15
+L data-center-ddr5-tester:XC7K160T-FFG676 U8
 U 4 1 61B4F8CF
 P 11925 5225
-F 0 "U15" H 11925 2250 50  0000 C CNN
+F 0 "U8" H 11925 2250 50  0000 C CNN
 F 1 "XC7K160T-FFG676" H 11925 2159 50  0000 C CNN
 F 2 "data-center-ddr5-tester-footprints:BGA676C100P26X26_2700X2700X254" H 11925 2068 50  0000 C CNN
 F 3 "" H 11925 5225 50  0000 C CNN
@@ -153,10 +153,10 @@ Wire Notes Line
 Wire Wire Line
 	950  10050 950  10100
 $Comp
-L data-center-ddr5-tester:GND #PWR0141
+L data-center-ddr5-tester:GND #PWR0197
 U 1 1 652BE04A
 P 950 10100
-F 0 "#PWR0141" H 950 9850 50  0001 C CNN
+F 0 "#PWR0197" H 950 9850 50  0001 C CNN
 F 1 "GND" H 955 9927 50  0000 C CNN
 F 2 "" H 950 10100 50  0001 C CNN
 F 3 "" H 950 10100 50  0001 C CNN
@@ -173,10 +173,10 @@ Wire Wire Line
 	3050 9475 3050 9375
 Connection ~ 3050 9475
 $Comp
-L data-center-ddr5-tester:C_100n_0402_6V3 C145
+L data-center-ddr5-tester:C_100n_0402_6V3 C168
 U 1 1 652BE058
 P 3050 9625
-F 0 "C145" H 2775 9725 60  0000 L CNN
+F 0 "C168" H 2775 9725 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 3050 9475 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-cap" H 3250 9825 60  0001 L CNN
 F 3 "" H 3050 9625 50  0001 C CNN
@@ -201,10 +201,10 @@ Wire Wire Line
 Wire Wire Line
 	875  9950 1050 9950
 $Comp
-L data-center-ddr5-tester:GND #PWR0142
+L data-center-ddr5-tester:GND #PWR0198
 U 1 1 652BE065
 P 3050 10075
-F 0 "#PWR0142" H 3050 9825 50  0001 C CNN
+F 0 "#PWR0198" H 3050 9825 50  0001 C CNN
 F 1 "GND" H 3055 9902 50  0000 C CNN
 F 2 "" H 3050 10075 50  0001 C CNN
 F 3 "" H 3050 10075 50  0001 C CNN
@@ -219,10 +219,10 @@ Wire Wire Line
 Text Notes 1650 9100 0    98   ~ 20
 Clock source
 $Comp
-L data-center-ddr5-tester:ASFLMB-100.000MHZ-XY-T U1
+L data-center-ddr5-tester:ASFLMB-100.000MHZ-XY-T U13
 U 1 1 652BE0D1
 P 1050 9950
-F 0 "U1" H 1675 10237 60  0000 C CNN
+F 0 "U13" H 1675 10237 60  0000 C CNN
 F 1 "ASFLMB-100.000MHZ-XY-T" H 1675 10131 60  0000 C CNN
 F 2 "data-center-ddr5-tester-footprints:ASFLMB-100.000MHZ-XY-T" H 1850 10190 60  0001 C CNN
 F 3 "" H 1050 9950 60  0000 C CNN
@@ -502,12 +502,12 @@ DQS17_P
 Text GLabel 8975 4925 0    50   Input ~ 0
 DQS17_N
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R160
+L data-center-ddr5-tester:R_0R_0201 R163
 U 1 1 6145FD9B
 P 9400 4825
-AR Path="/61B4860C/6145FD9B" Ref="R160"  Part="1" 
+AR Path="/61B4860C/6145FD9B" Ref="R163"  Part="1" 
 AR Path="/61AF7FF2/6145FD9B" Ref="R?"  Part="1" 
-F 0 "R160" H 9175 4875 60  0000 C CNN
+F 0 "R163" H 9175 4875 60  0000 C CNN
 F 1 "R_0R_0201" H 9400 4675 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 9600 5025 60  0001 L CNN
 F 3 "" H 9400 4825 50  0001 C CNN
@@ -519,12 +519,12 @@ F 7 "DNP" H 9400 4825 50  0000 C CNN "DNP"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R162
+L data-center-ddr5-tester:R_0R_0201 R164
 U 1 1 6145FDA4
 P 9400 4925
-AR Path="/61B4860C/6145FDA4" Ref="R162"  Part="1" 
+AR Path="/61B4860C/6145FDA4" Ref="R164"  Part="1" 
 AR Path="/61AF7FF2/6145FDA4" Ref="R?"  Part="1" 
-F 0 "R162" H 9175 4975 60  0000 C CNN
+F 0 "R164" H 9175 4975 60  0000 C CNN
 F 1 "R_0R_0201" H 9400 4775 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 9600 5125 60  0001 L CNN
 F 3 "" H 9400 4925 50  0001 C CNN
@@ -616,10 +616,10 @@ Wire Wire Line
 Wire Wire Line
 	5800 10650 6525 10650
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R114
+L data-center-ddr5-tester:R_0R_0201 R157
 U 1 1 67A8DD4C
 P 5650 11000
-F 0 "R114" H 5425 11050 60  0000 C CNN
+F 0 "R157" H 5425 11050 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 10850 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 11200 60  0001 L CNN
 F 3 "" H 5650 11000 50  0001 C CNN
@@ -630,10 +630,10 @@ F 6 "0R" H 5650 11000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R113
+L data-center-ddr5-tester:R_0R_0201 R156
 U 1 1 67A8DD43
 P 5650 10900
-F 0 "R113" H 5425 10950 60  0000 C CNN
+F 0 "R156" H 5425 10950 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 10750 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 11100 60  0001 L CNN
 F 3 "" H 5650 10900 50  0001 C CNN
@@ -644,10 +644,10 @@ F 6 "0R" H 5650 10900 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R112
+L data-center-ddr5-tester:R_0R_0201 R155
 U 1 1 67A8DD3A
 P 5650 10750
-F 0 "R112" H 5425 10800 60  0000 C CNN
+F 0 "R155" H 5425 10800 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 10600 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10950 60  0001 L CNN
 F 3 "" H 5650 10750 50  0001 C CNN
@@ -658,10 +658,10 @@ F 6 "0R" H 5650 10750 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R111
+L data-center-ddr5-tester:R_0R_0201 R154
 U 1 1 67A8DD31
 P 5650 10650
-F 0 "R111" H 5425 10700 60  0000 C CNN
+F 0 "R154" H 5425 10700 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 10500 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10850 60  0001 L CNN
 F 3 "" H 5650 10650 50  0001 C CNN
@@ -672,10 +672,10 @@ F 6 "0R" H 5650 10650 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R110
+L data-center-ddr5-tester:R_0R_0201 R153
 U 1 1 67A8DD28
 P 5650 10500
-F 0 "R110" H 5425 10550 60  0000 C CNN
+F 0 "R153" H 5425 10550 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 10350 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10700 60  0001 L CNN
 F 3 "" H 5650 10500 50  0001 C CNN
@@ -686,10 +686,10 @@ F 6 "0R" H 5650 10500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R109
+L data-center-ddr5-tester:R_0R_0201 R152
 U 1 1 67A8DD1F
 P 5650 10400
-F 0 "R109" H 5425 10450 60  0000 C CNN
+F 0 "R152" H 5425 10450 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 10250 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10600 60  0001 L CNN
 F 3 "" H 5650 10400 50  0001 C CNN
@@ -700,10 +700,10 @@ F 6 "0R" H 5650 10400 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R108
+L data-center-ddr5-tester:R_0R_0201 R151
 U 1 1 67A47335
 P 5650 10250
-F 0 "R108" H 5425 10300 60  0000 C CNN
+F 0 "R151" H 5425 10300 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 10100 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10450 60  0001 L CNN
 F 3 "" H 5650 10250 50  0001 C CNN
@@ -714,10 +714,10 @@ F 6 "0R" H 5650 10250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R107
+L data-center-ddr5-tester:R_0R_0201 R150
 U 1 1 67A4732C
 P 5650 10150
-F 0 "R107" H 5425 10200 60  0000 C CNN
+F 0 "R150" H 5425 10200 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 10000 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10350 60  0001 L CNN
 F 3 "" H 5650 10150 50  0001 C CNN
@@ -728,10 +728,10 @@ F 6 "0R" H 5650 10150 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R106
+L data-center-ddr5-tester:R_0R_0201 R149
 U 1 1 67A47323
 P 5650 10000
-F 0 "R106" H 5425 10050 60  0000 C CNN
+F 0 "R149" H 5425 10050 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 9850 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10200 60  0001 L CNN
 F 3 "" H 5650 10000 50  0001 C CNN
@@ -742,10 +742,10 @@ F 6 "0R" H 5650 10000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R105
+L data-center-ddr5-tester:R_0R_0201 R148
 U 1 1 67A4731A
 P 5650 9900
-F 0 "R105" H 5425 9950 60  0000 C CNN
+F 0 "R148" H 5425 9950 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 9750 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10100 60  0001 L CNN
 F 3 "" H 5650 9900 50  0001 C CNN
@@ -756,10 +756,10 @@ F 6 "0R" H 5650 9900 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R104
+L data-center-ddr5-tester:R_0R_0201 R147
 U 1 1 67A47311
 P 5650 9750
-F 0 "R104" H 5425 9800 60  0000 C CNN
+F 0 "R147" H 5425 9800 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 9600 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9950 60  0001 L CNN
 F 3 "" H 5650 9750 50  0001 C CNN
@@ -770,10 +770,10 @@ F 6 "0R" H 5650 9750 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R103
+L data-center-ddr5-tester:R_0R_0201 R146
 U 1 1 67A47308
 P 5650 9650
-F 0 "R103" H 5425 9700 60  0000 C CNN
+F 0 "R146" H 5425 9700 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 9500 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9850 60  0001 L CNN
 F 3 "" H 5650 9650 50  0001 C CNN
@@ -784,10 +784,10 @@ F 6 "0R" H 5650 9650 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R102
+L data-center-ddr5-tester:R_0R_0201 R145
 U 1 1 67A3A783
 P 5650 9500
-F 0 "R102" H 5425 9550 60  0000 C CNN
+F 0 "R145" H 5425 9550 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 9350 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9700 60  0001 L CNN
 F 3 "" H 5650 9500 50  0001 C CNN
@@ -798,10 +798,10 @@ F 6 "0R" H 5650 9500 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R101
+L data-center-ddr5-tester:R_0R_0201 R144
 U 1 1 67A39AE6
 P 5650 9400
-F 0 "R101" H 5425 9450 60  0000 C CNN
+F 0 "R144" H 5425 9450 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 9250 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9600 60  0001 L CNN
 F 3 "" H 5650 9400 50  0001 C CNN
@@ -812,10 +812,10 @@ F 6 "0R" H 5650 9400 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R100
+L data-center-ddr5-tester:R_0R_0201 R143
 U 1 1 67A38ED5
 P 5650 9250
-F 0 "R100" H 5425 9300 60  0000 C CNN
+F 0 "R143" H 5425 9300 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 9100 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9450 60  0001 L CNN
 F 3 "" H 5650 9250 50  0001 C CNN
@@ -826,10 +826,10 @@ F 6 "0R" H 5650 9250 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R99
+L data-center-ddr5-tester:R_0R_0201 R142
 U 1 1 67A38118
 P 5650 9150
-F 0 "R99" H 5425 9200 60  0000 C CNN
+F 0 "R142" H 5425 9200 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 9000 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9350 60  0001 L CNN
 F 3 "" H 5650 9150 50  0001 C CNN
@@ -840,10 +840,10 @@ F 6 "0R" H 5650 9150 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R98
+L data-center-ddr5-tester:R_0R_0201 R141
 U 1 1 67A3746B
 P 5650 9000
-F 0 "R98" H 5425 9050 60  0000 C CNN
+F 0 "R141" H 5425 9050 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 8850 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9200 60  0001 L CNN
 F 3 "" H 5650 9000 50  0001 C CNN
@@ -854,10 +854,10 @@ F 6 "0R" H 5650 9000 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0201 R97
+L data-center-ddr5-tester:R_0R_0201 R140
 U 1 1 67A31A73
 P 5650 8900
-F 0 "R97" H 5425 8950 60  0000 C CNN
+F 0 "R140" H 5425 8950 60  0000 C CNN
 F 1 "R_0R_0201" H 5650 8750 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9100 60  0001 L CNN
 F 3 "" H 5650 8900 50  0001 C CNN
@@ -952,10 +952,10 @@ SCL_3V3
 Text GLabel 12900 9650 0    50   Input ~ 0
 SDA_3V3
 $Comp
-L data-center-ddr5-tester:GND #PWR0128
+L data-center-ddr5-tester:GND #PWR0201
 U 1 1 6227AEF6
 P 9150 9850
-F 0 "#PWR0128" H 9150 9600 50  0001 C CNN
+F 0 "#PWR0201" H 9150 9600 50  0001 C CNN
 F 1 "GND" H 9155 9677 50  0000 C CNN
 F 2 "" H 9150 9850 50  0001 C CNN
 F 3 "" H 9150 9850 50  0001 C CNN
@@ -963,10 +963,10 @@ F 3 "" H 9150 9850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR0143
+L data-center-ddr5-tester:GND #PWR0200
 U 1 1 6227AEFC
 P 8750 9850
-F 0 "#PWR0143" H 8750 9600 50  0001 C CNN
+F 0 "#PWR0200" H 8750 9600 50  0001 C CNN
 F 1 "GND" H 8755 9677 50  0000 C CNN
 F 2 "" H 8750 9850 50  0001 C CNN
 F 3 "" H 8750 9850 50  0001 C CNN
@@ -974,10 +974,10 @@ F 3 "" H 8750 9850 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_100n_0402_6V3 C146
+L data-center-ddr5-tester:C_100n_0402_6V3 C170
 U 1 1 6227AF05
 P 9150 9700
-F 0 "C146" H 9175 9800 60  0000 L CNN
+F 0 "C170" H 9175 9800 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 9150 9550 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-cap" H 9350 9900 60  0001 L CNN
 F 3 "" H 9150 9700 50  0001 C CNN
@@ -993,10 +993,10 @@ Wire Wire Line
 	8750 9550 8275 9550
 Connection ~ 8750 9550
 $Comp
-L data-center-ddr5-tester:C_100n_0402_6V3 C18
+L data-center-ddr5-tester:C_100n_0402_6V3 C169
 U 1 1 6227AF11
 P 8750 9700
-F 0 "C18" H 8775 9800 60  0000 L CNN
+F 0 "C169" H 8775 9800 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 8750 9550 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8950 9900 60  0001 L CNN
 F 3 "" H 8750 9700 50  0001 C CNN
@@ -1009,10 +1009,10 @@ $EndComp
 Wire Wire Line
 	8275 9150 8275 9250
 $Comp
-L data-center-ddr5-tester:GND #PWR0144
+L data-center-ddr5-tester:GND #PWR0199
 U 1 1 6227AF19
 P 8275 9850
-F 0 "#PWR0144" H 8275 9600 50  0001 C CNN
+F 0 "#PWR0199" H 8275 9600 50  0001 C CNN
 F 1 "GND" H 8280 9677 50  0000 C CNN
 F 2 "" H 8275 9850 50  0001 C CNN
 F 3 "" H 8275 9850 50  0001 C CNN
@@ -1023,10 +1023,10 @@ Connection ~ 9150 9550
 Wire Wire Line
 	9300 9550 9150 9550
 $Comp
-L data-center-ddr5-tester:R_1k_0603 R66
+L data-center-ddr5-tester:R_1k_0603 R160
 U 1 1 6227AF24
 P 8275 9700
-F 0 "R66" V 8225 9450 60  0000 L CNN
+F 0 "R160" V 8225 9450 60  0000 L CNN
 F 1 "R_1k_0603" H 8275 9550 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0603-res" H 8475 9900 60  0001 L CNN
 F 3 "" H 8275 9700 50  0001 C CNN
@@ -1038,10 +1038,10 @@ F 6 "1k" V 8325 9525 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 8275 9550
 $Comp
-L data-center-ddr5-tester:R_1k_0603 R65
+L data-center-ddr5-tester:R_1k_0603 R159
 U 1 1 6227AF2E
 P 8275 9400
-F 0 "R65" V 8225 9150 60  0000 L CNN
+F 0 "R159" V 8225 9150 60  0000 L CNN
 F 1 "R_1k_0603" H 8275 9250 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0603-res" H 8475 9600 60  0001 L CNN
 F 3 "" H 8275 9400 50  0001 C CNN
@@ -1054,10 +1054,10 @@ $EndComp
 Text GLabel 9300 9550 2    50   Output ~ 0
 VREF_33
 $Comp
-L data-center-ddr5-tester:GND #PWR0145
+L data-center-ddr5-tester:GND #PWR0207
 U 1 1 6227AF37
 P 13300 9750
-F 0 "#PWR0145" H 13300 9500 50  0001 C CNN
+F 0 "#PWR0207" H 13300 9500 50  0001 C CNN
 F 1 "GND" H 13305 9577 50  0000 C CNN
 F 2 "" H 13300 9750 50  0001 C CNN
 F 3 "" H 13300 9750 50  0001 C CNN
@@ -1071,10 +1071,10 @@ Wire Wire Line
 Wire Wire Line
 	9000 10500 9150 10500
 $Comp
-L data-center-ddr5-tester:R_120R_0603 R64
+L data-center-ddr5-tester:R_120R_0603 R162
 U 1 1 6227AF44
 P 8875 10850
-F 0 "R64" H 8875 11063 60  0000 C CNN
+F 0 "R162" H 8875 11063 60  0000 C CNN
 F 1 "R_120R_0603" H 8875 10700 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0603-res" H 9075 11050 60  0001 L CNN
 F 3 "" H 8875 10850 50  0001 C CNN
@@ -1085,10 +1085,10 @@ F 6 "120R" H 8875 10965 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_120R_0603 R63
+L data-center-ddr5-tester:R_120R_0603 R161
 U 1 1 6227AF4D
 P 8850 10500
-F 0 "R63" H 8850 10713 60  0000 C CNN
+F 0 "R161" H 8850 10713 60  0000 C CNN
 F 1 "R_120R_0603" H 8850 10350 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0603-res" H 9050 10700 60  0001 L CNN
 F 3 "" H 8850 10500 50  0001 C CNN
@@ -1121,10 +1121,10 @@ DQS0_P
 Text GLabel 6525 9000 2    50   Input ~ 0
 DQS0_N
 $Comp
-L data-center-ddr5-tester:PCA9517ADMR2G U8
+L data-center-ddr5-tester:PCA9517ADMR2G U14
 U 1 1 61682D3C
 P 13775 9750
-F 0 "U8" H 13725 10337 60  0000 C CNN
+F 0 "U14" H 13725 10337 60  0000 C CNN
 F 1 "PCA9517ADMR2G" H 13725 10231 60  0000 C CNN
 F 2 "data-center-ddr5-tester-footprints:TSSOP-8_W3mm" H 14075 10200 60  0001 L CNN
 F 3 "" H 14025 10300 60  0001 L CNN
@@ -1240,10 +1240,10 @@ Wire Wire Line
 	14575 9100 14575 8975
 Connection ~ 14575 8975
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM TP12
+L data-center-ddr5-tester:TP_SMD1MM TP11
 U 1 1 61DDE955
 P 14450 9750
-F 0 "TP12" V 14450 9700 50  0000 R CNN
+F 0 "TP11" V 14450 9700 50  0000 R CNN
 F 1 "TP_SMD1MM" H 14450 9650 50  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 14650 9950 60  0001 L CNN
 F 3 "" H 14650 10050 60  0001 L CNN
@@ -1255,10 +1255,10 @@ Wire Wire Line
 Text Notes 13125 8900 0    98   ~ 20
 I2C logic translator
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R165
+L data-center-ddr5-tester:R_0R_0402 R166
 U 1 1 61FD65FE
 P 10950 10550
-F 0 "R165" H 10650 10650 60  0000 L CNN
+F 0 "R166" H 10650 10650 60  0000 L CNN
 F 1 "R_0R_0402" H 10950 10400 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 11150 10750 60  0001 L CNN
 F 3 "" H 10950 10550 50  0001 C CNN
@@ -1269,10 +1269,10 @@ F 6 "0R" V 11100 10575 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R167
+L data-center-ddr5-tester:R_0R_0402 R168
 U 1 1 6200B3D4
 P 11125 10550
-F 0 "R167" H 10825 10650 60  0000 L CNN
+F 0 "R168" H 10825 10650 60  0000 L CNN
 F 1 "R_0R_0402" H 11125 10400 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 11325 10750 60  0001 L CNN
 F 3 "" H 11125 10550 50  0001 C CNN
@@ -1283,10 +1283,10 @@ F 6 "0R" V 11275 10575 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R169
+L data-center-ddr5-tester:R_0R_0402 R170
 U 1 1 6200BC51
 P 11300 10550
-F 0 "R169" H 11000 10650 60  0000 L CNN
+F 0 "R170" H 11000 10650 60  0000 L CNN
 F 1 "R_0R_0402" H 11300 10400 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 11500 10750 60  0001 L CNN
 F 3 "" H 11300 10550 50  0001 C CNN
@@ -1297,10 +1297,10 @@ F 6 "0R" V 11450 10575 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR0146
+L data-center-ddr5-tester:GND #PWR0203
 U 1 1 621A348D
 P 10950 10700
-F 0 "#PWR0146" H 10950 10450 50  0001 C CNN
+F 0 "#PWR0203" H 10950 10450 50  0001 C CNN
 F 1 "GND" H 10955 10527 50  0000 C CNN
 F 2 "" H 10950 10700 50  0001 C CNN
 F 3 "" H 10950 10700 50  0001 C CNN
@@ -1308,10 +1308,10 @@ F 3 "" H 10950 10700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR0265
+L data-center-ddr5-tester:GND #PWR0204
 U 1 1 621A3D5D
 P 11125 10700
-F 0 "#PWR0265" H 11125 10450 50  0001 C CNN
+F 0 "#PWR0204" H 11125 10450 50  0001 C CNN
 F 1 "GND" H 11130 10527 50  0000 C CNN
 F 2 "" H 11125 10700 50  0001 C CNN
 F 3 "" H 11125 10700 50  0001 C CNN
@@ -1319,10 +1319,10 @@ F 3 "" H 11125 10700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR0266
+L data-center-ddr5-tester:GND #PWR0205
 U 1 1 621A4B23
 P 11300 10700
-F 0 "#PWR0266" H 11300 10450 50  0001 C CNN
+F 0 "#PWR0205" H 11300 10450 50  0001 C CNN
 F 1 "GND" H 11305 10527 50  0000 C CNN
 F 2 "" H 11300 10700 50  0001 C CNN
 F 3 "" H 11300 10700 50  0001 C CNN
@@ -1330,10 +1330,10 @@ F 3 "" H 11300 10700 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R164
+L data-center-ddr5-tester:R_0R_0402 R165
 U 1 1 621FEF1F
 P 10950 9875
-F 0 "R164" H 10650 9975 60  0000 L CNN
+F 0 "R165" H 10650 9975 60  0000 L CNN
 F 1 "R_0R_0402" H 10950 9725 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 11150 10075 60  0001 L CNN
 F 3 "" H 10950 9875 50  0001 C CNN
@@ -1344,10 +1344,10 @@ F 6 "DNP" H 10875 9875 50  0000 L CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R166
+L data-center-ddr5-tester:R_0R_0402 R167
 U 1 1 62200AC4
 P 11125 9875
-F 0 "R166" H 10825 9975 60  0000 L CNN
+F 0 "R167" H 10825 9975 60  0000 L CNN
 F 1 "R_0R_0402" H 11125 9725 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 11325 10075 60  0001 L CNN
 F 3 "" H 11125 9875 50  0001 C CNN
@@ -1358,10 +1358,10 @@ F 6 "DNP" H 11050 9875 50  0000 L CNN "DNP"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R168
+L data-center-ddr5-tester:R_0R_0402 R169
 U 1 1 622013A9
 P 11300 9875
-F 0 "R168" H 11000 9975 60  0000 L CNN
+F 0 "R169" H 11000 9975 60  0000 L CNN
 F 1 "R_0R_0402" H 11300 9725 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 11500 10075 60  0001 L CNN
 F 3 "" H 11300 9875 50  0001 C CNN
@@ -1411,10 +1411,10 @@ Serial adress select
 Wire Notes Line
 	10100 11225 10100 8725
 $Comp
-L data-center-ddr5-tester:GND #PWR0267
+L data-center-ddr5-tester:GND #PWR0202
 U 1 1 6279F27C
 P 9325 10850
-F 0 "#PWR0267" H 9325 10600 50  0001 C CNN
+F 0 "#PWR0202" H 9325 10600 50  0001 C CNN
 F 1 "GND" H 9330 10677 50  0000 C CNN
 F 2 "" H 9325 10850 50  0001 C CNN
 F 3 "" H 9325 10850 50  0001 C CNN
@@ -1428,10 +1428,10 @@ Text GLabel 6525 3300 2    50   Input ~ 0
 Wire Wire Line
 	5800 3300 6025 3300
 $Comp
-L data-center-ddr5-tester:R_10k_0402 R163
+L data-center-ddr5-tester:R_10k_0402 R158
 U 1 1 6157F999
 P 6175 3300
-F 0 "R163" H 5950 3350 60  0000 C CNN
+F 0 "R158" H 5950 3350 60  0000 C CNN
 F 1 "R_10k_0402" H 6175 3150 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-res" H 6375 3500 60  0001 L CNN
 F 3 "" H 6175 3300 50  0001 C CNN
@@ -5331,10 +5331,10 @@ Text GLabel 12875 8975 0    50   Input ~ 0
 Text GLabel 12900 9450 0    50   Input ~ 0
 3V3_SYS
 $Comp
-L data-center-ddr5-tester:GND #PWR024
+L data-center-ddr5-tester:GND #PWR0206
 U 1 1 625BEB28
 P 12400 9575
-F 0 "#PWR024" H 12400 9325 50  0001 C CNN
+F 0 "#PWR0206" H 12400 9325 50  0001 C CNN
 F 1 "GND" H 12405 9402 50  0000 C CNN
 F 2 "" H 12400 9575 50  0001 C CNN
 F 3 "" H 12400 9575 50  0001 C CNN
@@ -5342,10 +5342,10 @@ F 3 "" H 12400 9575 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_100n_0402_6V3 C206
+L data-center-ddr5-tester:C_100n_0402_6V3 C171
 U 1 1 625BEB31
 P 12400 9425
-F 0 "C206" H 12500 9475 60  0000 L CNN
+F 0 "C171" H 12500 9475 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 12400 9275 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-cap" H 12600 9625 60  0001 L CNN
 F 3 "" H 12400 9425 50  0001 C CNN
@@ -5358,10 +5358,10 @@ $EndComp
 Text GLabel 12400 9275 1    50   Input ~ 0
 3V3_SYS
 $Comp
-L data-center-ddr5-tester:GND #PWR033
+L data-center-ddr5-tester:GND #PWR0208
 U 1 1 6261A291
 P 15575 9575
-F 0 "#PWR033" H 15575 9325 50  0001 C CNN
+F 0 "#PWR0208" H 15575 9325 50  0001 C CNN
 F 1 "GND" H 15580 9402 50  0000 C CNN
 F 2 "" H 15575 9575 50  0001 C CNN
 F 3 "" H 15575 9575 50  0001 C CNN
@@ -5369,10 +5369,10 @@ F 3 "" H 15575 9575 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_100n_0402_6V3 C207
+L data-center-ddr5-tester:C_100n_0402_6V3 C172
 U 1 1 6261A29A
 P 15575 9425
-F 0 "C207" H 15225 9475 60  0000 L CNN
+F 0 "C172" H 15225 9475 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 15575 9275 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0402-cap" H 15775 9625 60  0001 L CNN
 F 3 "" H 15575 9425 50  0001 C CNN

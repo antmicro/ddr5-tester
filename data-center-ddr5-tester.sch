@@ -52,10 +52,10 @@ F0 "HyperRAM" 79
 F1 "hyperram.sch" 79
 $EndSheet
 $Comp
-L data-center-ddr5-tester:oshw_logo N1
+L data-center-ddr5-tester:oshw_logo N2
 U 1 1 603B54EA
 P 15200 9475
-F 0 "N1" H 15394 9478 50  0000 L CNN
+F 0 "N2" H 15394 9478 50  0000 L CNN
 F 1 "oshw_logo" H 15394 9387 50  0000 L CNN
 F 2 "data-center-ddr5-tester-footprints:oshw-logo" H 15220 9235 50  0001 C CNN
 F 3 "" H 15200 9475 50  0001 C CNN
@@ -63,10 +63,10 @@ F 3 "" H 15200 9475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:antmicro_logo N2
+L data-center-ddr5-tester:antmicro_logo N1
 U 1 1 6003C9B5
 P 15175 9775
-F 0 "N2" H 15389 9868 50  0000 L CNN
+F 0 "N1" H 15389 9868 50  0000 L CNN
 F 1 "antmicro_logo" H 15389 9777 50  0000 L CNN
 F 2 "data-center-ddr5-tester-footprints:antmicro-logo_scaled_20mm" H 15075 10025 50  0001 C CNN
 F 3 "" H 15175 10125 50  0001 C CNN
