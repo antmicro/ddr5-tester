@@ -6901,12 +6901,12 @@ Wire Wire Line
 Text GLabel 14775 5850 0    50   Input ~ 0
 3V3_SYS
 $Comp
-L antmicroResistors0402:R_43k_0402 R10
+L data-center-ddr5-tester:R_43k_0402 R10
 U 1 1 624F6644
 P 4900 4550
 F 0 "R10" V 4855 4620 60  0000 L CNN
 F 1 "R_43k_0402" H 4900 4400 60  0001 C CNN
-F 2 "antmicro-footprints:0402-res" H 5100 4750 60  0001 L CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 5100 4750 60  0001 L CNN
 F 3 "" H 4900 4550 50  0001 C CNN
 F 4 "ROYAL_OHM" H 5100 4950 60  0001 L CNN "Manufacturer"
 F 5 "0402WGF4302TCE" H 5100 4850 60  0001 L CNN "MPN"
