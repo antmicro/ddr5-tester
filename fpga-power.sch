@@ -4,7 +4,7 @@ EELAYER END
 $Descr A3 16535 11693
 encoding utf-8
 Sheet 3 10
-Title "Data Center DDR5 Tester"
+Title "DDR5 Tester"
 Date "2022-03-08"
 Rev "1.0.0"
 Comp "Antmicro Ltd."
