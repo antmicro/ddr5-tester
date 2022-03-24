@@ -4,13 +4,13 @@ Data Center DDR5 Tester
 
 Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 
-.. figure:: img/data-center-ddr5-tester.png
+.. figure:: img/ddr5-tester.png
 
 Overview
 --------
 
 This repository contains open hardware design files for an experimental platform built around Xilinx Kintex-7 FPGA.
-The main purpose of this platform is to develop and customize RAM controllers supporting RDIMM DDR5 RAM modules used in data centers.
+The main purpose of this platform is to develop and customize RAM controllers supporting DIMM DDR5 RAM modules used in data centers.
 The design files were prepared in KiCad.
 
 Repository structure
