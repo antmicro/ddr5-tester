@@ -60,7 +60,7 @@ Wire Wire Line
 Wire Wire Line
 	2300 2200 2300 1975
 Text Notes 1675 1800 0    50   ~ 0
-VCCO (HR banks) max: 3.6V
+VCCO (HR bank) max: 3.6V
 Wire Wire Line
 	2200 2200 2200 1975
 Wire Wire Line
@@ -118,8 +118,8 @@ Wire Wire Line
 	10725 2100 10825 2100
 Wire Wire Line
 	10825 2325 10825 2100
-Text Notes 8975 1900 0    50   ~ 0
-VCCO (HP banks) max: 2.0V
+Text Notes 9725 1950 0    50   ~ 0
+VCCO (HP bank) max: 2.0V
 Wire Wire Line
 	13025 2325 13025 2100
 Wire Wire Line
@@ -146,131 +146,93 @@ Wire Wire Line
 	13425 2100 13525 2100
 Wire Wire Line
 	13525 2325 13525 2100
-Text Notes 525  7625 1    50   ~ 0
-HDMI
 Wire Notes Line
-	2225 9775 2250 9775
+	5850 10150 5875 10150
 Wire Wire Line
-	950  10050 950  10100
+	4575 10425 4575 10475
 $Comp
 L data-center-ddr5-tester:GND #PWR0197
 U 1 1 652BE04A
-P 950 10100
-F 0 "#PWR0197" H 950 9850 50  0001 C CNN
-F 1 "GND" H 955 9927 50  0000 C CNN
-F 2 "" H 950 10100 50  0001 C CNN
-F 3 "" H 950 10100 50  0001 C CNN
-	1    950  10100
+P 4575 10475
+F 0 "#PWR0197" H 4575 10225 50  0001 C CNN
+F 1 "GND" H 4580 10302 50  0000 C CNN
+F 2 "" H 4575 10475 50  0001 C CNN
+F 3 "" H 4575 10475 50  0001 C CNN
+	1    4575 10475
 	-1   0    0    -1  
 $EndComp
-Text GLabel 3050 9375 1    50   Input ~ 0
+Text GLabel 6675 9750 1    50   Input ~ 0
 3V3_SYS
 Wire Wire Line
-	2500 9475 3050 9475
+	6125 9850 6675 9850
 Wire Wire Line
-	2300 10050 2475 10050
+	5925 10425 6100 10425
 Wire Wire Line
-	3050 9475 3050 9375
-Connection ~ 3050 9475
+	6675 9850 6675 9750
+Connection ~ 6675 9850
 $Comp
 L data-center-ddr5-tester:C_100n_0402_6V3 C168
 U 1 1 652BE058
-P 3050 9625
-F 0 "C168" H 2775 9725 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 3050 9475 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 3250 9825 60  0001 L CNN
-F 3 "" H 3050 9625 50  0001 C CNN
-F 4 "Walsin" H 3250 10025 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 3250 9925 60  0001 L CNN "MPN"
-F 6 "100n" H 2725 9550 50  0000 L CNN "Val"
-	1    3050 9625
+P 6675 10000
+F 0 "C168" H 6400 10100 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 6675 9850 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 6875 10200 60  0001 L CNN
+F 3 "" H 6675 10000 50  0001 C CNN
+F 4 "Walsin" H 6875 10400 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 6875 10300 60  0001 L CNN "MPN"
+F 6 "100n" H 6350 9925 50  0000 L CNN "Val"
+	1    6675 10000
 	-1   0    0    -1  
 $EndComp
-Text Notes 1050 9650 0    50   ~ 0
+Text Notes 4675 10025 0    50   ~ 0
 IC2
 Wire Wire Line
-	1050 10050 950  10050
-Text GLabel 2475 10050 2    50   Input ~ 0
+	4675 10425 4575 10425
+Text GLabel 6100 10425 2    50   Input ~ 0
 GCLK100
 Wire Wire Line
-	2300 9950 2500 9950
+	5925 10325 6125 10325
 Wire Wire Line
-	2500 9950 2500 9475
+	6125 10325 6125 9850
 Wire Wire Line
-	875  9475 875  9950
+	4500 9850 4500 10325
 Wire Wire Line
-	875  9950 1050 9950
+	4500 10325 4675 10325
 $Comp
 L data-center-ddr5-tester:GND #PWR0198
 U 1 1 652BE065
-P 3050 10075
-F 0 "#PWR0198" H 3050 9825 50  0001 C CNN
-F 1 "GND" H 3055 9902 50  0000 C CNN
-F 2 "" H 3050 10075 50  0001 C CNN
-F 3 "" H 3050 10075 50  0001 C CNN
-	1    3050 10075
+P 6675 10450
+F 0 "#PWR0198" H 6675 10200 50  0001 C CNN
+F 1 "GND" H 6680 10277 50  0000 C CNN
+F 2 "" H 6675 10450 50  0001 C CNN
+F 3 "" H 6675 10450 50  0001 C CNN
+	1    6675 10450
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	875  9475 2500 9475
-Connection ~ 2500 9475
+	4500 9850 6125 9850
+Connection ~ 6125 9850
 Wire Wire Line
-	3050 9775 3050 10075
-Text Notes 1650 9100 0    98   ~ 20
+	6675 10150 6675 10450
+Text Notes 5275 9475 0    98   ~ 20
 Clock source
 $Comp
 L data-center-ddr5-tester:ASFLMB-100.000MHZ-XY-T U13
 U 1 1 652BE0D1
-P 1050 9950
-F 0 "U13" H 1675 10237 60  0000 C CNN
-F 1 "ASFLMB-100.000MHZ-XY-T" H 1675 10131 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:ASFLMB-100.000MHZ-XY-T" H 1850 10190 60  0001 C CNN
-F 3 "" H 1050 9950 60  0000 C CNN
-F 4 "ASFLMB-100.000MHZ-XY-T" H 1050 9950 50  0001 C CNN "MPN"
-F 5 "Abracon" H 1050 9950 50  0001 C CNN "Manufacturer"
-	1    1050 9950
+P 4675 10325
+F 0 "U13" H 5300 10612 60  0000 C CNN
+F 1 "ASFLMB-100.000MHZ-XY-T" H 5300 10506 60  0000 C CNN
+F 2 "data-center-ddr5-tester-footprints:ASFLMB-100.000MHZ-XY-T" H 5475 10565 60  0001 C CNN
+F 3 "" H 4675 10325 60  0000 C CNN
+F 4 "ASFLMB-100.000MHZ-XY-T" H 4675 10325 50  0001 C CNN "MPN"
+F 5 "Abracon" H 4675 10325 50  0001 C CNN "Manufacturer"
+	1    4675 10325
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
 	500  8725 16050 8725
 Text GLabel 10525 10350 0    50   Input ~ 0
 SA2
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R163
-U 1 1 6145FD9B
-P 9400 4825
-AR Path="/61B4860C/6145FD9B" Ref="R163"  Part="1" 
-AR Path="/61AF7FF2/6145FD9B" Ref="R?"  Part="1" 
-F 0 "R163" H 9175 4875 60  0000 C CNN
-F 1 "R_0R_0201" H 9400 4675 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 9600 5025 60  0001 L CNN
-F 3 "" H 9400 4825 50  0001 C CNN
-F 4 "VISHAY" H 9600 5225 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 9600 5125 60  0001 L CNN "MPN"
-F 6 "0R" H 9575 4775 50  0000 C CNN "Val"
-F 7 "DNP" H 9400 4825 50  0000 C CNN "DNP"
-	1    9400 4825
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R164
-U 1 1 6145FDA4
-P 9400 4925
-AR Path="/61B4860C/6145FDA4" Ref="R164"  Part="1" 
-AR Path="/61AF7FF2/6145FDA4" Ref="R?"  Part="1" 
-F 0 "R164" H 9175 4975 60  0000 C CNN
-F 1 "R_0R_0201" H 9400 4775 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 9600 5125 60  0001 L CNN
-F 3 "" H 9400 4925 50  0001 C CNN
-F 4 "VISHAY" H 9600 5325 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 9600 5225 60  0001 L CNN "MPN"
-F 6 "0R" H 9575 4875 50  0000 C CNN "Val"
-F 7 "DNP" H 9400 4925 50  0000 C CNN "DNP"
-	1    9400 4925
-	1    0    0    -1  
-$EndComp
-Wire Notes Line
-	3625 11225 3625 8725
 Text Notes 2125 975  0    98   ~ 20
 BANK 16
 Text Notes 5025 950  0    98   ~ 20
@@ -281,398 +243,6 @@ Text Notes 12850 950  0    98   ~ 20
 BANK 34
 Wire Wire Line
 	2400 1975 2400 2200
-Text GLabel 6525 9900 2    50   Input ~ 0
-DQS4_P
-Text GLabel 6525 10000 2    50   Input ~ 0
-DQS4_N
-Wire Wire Line
-	5800 10000 6525 10000
-Wire Wire Line
-	5800 9900 6525 9900
-Text GLabel 6525 10150 2    50   Input ~ 0
-DQS5_P
-Text GLabel 6525 10250 2    50   Input ~ 0
-DQS5_N
-Wire Wire Line
-	5800 10250 6525 10250
-Wire Wire Line
-	5800 10150 6525 10150
-Text GLabel 6525 9150 2    50   Input ~ 0
-DQS1_P
-Text GLabel 6525 9250 2    50   Input ~ 0
-DQS1_N
-Wire Wire Line
-	5800 9250 6525 9250
-Wire Wire Line
-	5800 9150 6525 9150
-Text GLabel 6525 9400 2    50   Input ~ 0
-DQS2_P
-Text GLabel 6525 9500 2    50   Input ~ 0
-DQS2_N
-Wire Wire Line
-	5800 9500 6525 9500
-Wire Wire Line
-	5800 9400 6525 9400
-Wire Wire Line
-	5800 9000 6525 9000
-Wire Wire Line
-	5800 8900 6525 8900
-Text GLabel 6525 9650 2    50   Input ~ 0
-DQS3_P
-Text GLabel 6525 9750 2    50   Input ~ 0
-DQS3_N
-Wire Wire Line
-	5800 9750 6525 9750
-Wire Wire Line
-	5800 9650 6525 9650
-Text GLabel 6525 10900 2    50   Input ~ 0
-DQS8_P
-Text GLabel 6525 11000 2    50   Input ~ 0
-DQS8_N
-Wire Wire Line
-	5800 11000 6525 11000
-Wire Wire Line
-	5800 10900 6525 10900
-Text GLabel 6525 10400 2    50   Input ~ 0
-DQS6_P
-Text GLabel 6525 10500 2    50   Input ~ 0
-DQS6_N
-Wire Wire Line
-	5800 10500 6525 10500
-Wire Wire Line
-	5800 10400 6525 10400
-Text GLabel 6525 10650 2    50   Input ~ 0
-DQS7_P
-Text GLabel 6525 10750 2    50   Input ~ 0
-DQS7_N
-Wire Wire Line
-	5800 10750 6525 10750
-Wire Wire Line
-	5800 10650 6525 10650
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R157
-U 1 1 67A8DD4C
-P 5650 11000
-F 0 "R157" H 5425 11050 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 10850 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 11200 60  0001 L CNN
-F 3 "" H 5650 11000 50  0001 C CNN
-F 4 "VISHAY" H 5850 11400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 11300 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 11000 50  0000 C CNN "Val"
-	1    5650 11000
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R156
-U 1 1 67A8DD43
-P 5650 10900
-F 0 "R156" H 5425 10950 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 10750 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 11100 60  0001 L CNN
-F 3 "" H 5650 10900 50  0001 C CNN
-F 4 "VISHAY" H 5850 11300 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 11200 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 10900 50  0000 C CNN "Val"
-	1    5650 10900
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R155
-U 1 1 67A8DD3A
-P 5650 10750
-F 0 "R155" H 5425 10800 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 10600 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10950 60  0001 L CNN
-F 3 "" H 5650 10750 50  0001 C CNN
-F 4 "VISHAY" H 5850 11150 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 11050 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 10750 50  0000 C CNN "Val"
-	1    5650 10750
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R154
-U 1 1 67A8DD31
-P 5650 10650
-F 0 "R154" H 5425 10700 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 10500 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10850 60  0001 L CNN
-F 3 "" H 5650 10650 50  0001 C CNN
-F 4 "VISHAY" H 5850 11050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 10950 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 10650 50  0000 C CNN "Val"
-	1    5650 10650
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R153
-U 1 1 67A8DD28
-P 5650 10500
-F 0 "R153" H 5425 10550 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 10350 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10700 60  0001 L CNN
-F 3 "" H 5650 10500 50  0001 C CNN
-F 4 "VISHAY" H 5850 10900 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 10800 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 10500 50  0000 C CNN "Val"
-	1    5650 10500
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R152
-U 1 1 67A8DD1F
-P 5650 10400
-F 0 "R152" H 5425 10450 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 10250 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10600 60  0001 L CNN
-F 3 "" H 5650 10400 50  0001 C CNN
-F 4 "VISHAY" H 5850 10800 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 10700 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 10400 50  0000 C CNN "Val"
-	1    5650 10400
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R151
-U 1 1 67A47335
-P 5650 10250
-F 0 "R151" H 5425 10300 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 10100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10450 60  0001 L CNN
-F 3 "" H 5650 10250 50  0001 C CNN
-F 4 "VISHAY" H 5850 10650 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 10550 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 10250 50  0000 C CNN "Val"
-	1    5650 10250
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R150
-U 1 1 67A4732C
-P 5650 10150
-F 0 "R150" H 5425 10200 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 10000 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10350 60  0001 L CNN
-F 3 "" H 5650 10150 50  0001 C CNN
-F 4 "VISHAY" H 5850 10550 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 10450 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 10150 50  0000 C CNN "Val"
-	1    5650 10150
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R149
-U 1 1 67A47323
-P 5650 10000
-F 0 "R149" H 5425 10050 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 9850 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10200 60  0001 L CNN
-F 3 "" H 5650 10000 50  0001 C CNN
-F 4 "VISHAY" H 5850 10400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 10300 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 10000 50  0000 C CNN "Val"
-	1    5650 10000
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R148
-U 1 1 67A4731A
-P 5650 9900
-F 0 "R148" H 5425 9950 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 9750 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 10100 60  0001 L CNN
-F 3 "" H 5650 9900 50  0001 C CNN
-F 4 "VISHAY" H 5850 10300 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 10200 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 9900 50  0000 C CNN "Val"
-	1    5650 9900
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R147
-U 1 1 67A47311
-P 5650 9750
-F 0 "R147" H 5425 9800 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 9600 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9950 60  0001 L CNN
-F 3 "" H 5650 9750 50  0001 C CNN
-F 4 "VISHAY" H 5850 10150 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 10050 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 9750 50  0000 C CNN "Val"
-	1    5650 9750
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R146
-U 1 1 67A47308
-P 5650 9650
-F 0 "R146" H 5425 9700 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 9500 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9850 60  0001 L CNN
-F 3 "" H 5650 9650 50  0001 C CNN
-F 4 "VISHAY" H 5850 10050 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 9950 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 9650 50  0000 C CNN "Val"
-	1    5650 9650
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R145
-U 1 1 67A3A783
-P 5650 9500
-F 0 "R145" H 5425 9550 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 9350 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9700 60  0001 L CNN
-F 3 "" H 5650 9500 50  0001 C CNN
-F 4 "VISHAY" H 5850 9900 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 9800 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 9500 50  0000 C CNN "Val"
-	1    5650 9500
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R144
-U 1 1 67A39AE6
-P 5650 9400
-F 0 "R144" H 5425 9450 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 9250 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9600 60  0001 L CNN
-F 3 "" H 5650 9400 50  0001 C CNN
-F 4 "VISHAY" H 5850 9800 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 9700 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 9400 50  0000 C CNN "Val"
-	1    5650 9400
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R143
-U 1 1 67A38ED5
-P 5650 9250
-F 0 "R143" H 5425 9300 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 9100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9450 60  0001 L CNN
-F 3 "" H 5650 9250 50  0001 C CNN
-F 4 "VISHAY" H 5850 9650 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 9550 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 9250 50  0000 C CNN "Val"
-	1    5650 9250
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R142
-U 1 1 67A38118
-P 5650 9150
-F 0 "R142" H 5425 9200 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 9000 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9350 60  0001 L CNN
-F 3 "" H 5650 9150 50  0001 C CNN
-F 4 "VISHAY" H 5850 9550 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 9450 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 9150 50  0000 C CNN "Val"
-	1    5650 9150
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R141
-U 1 1 67A3746B
-P 5650 9000
-F 0 "R141" H 5425 9050 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 8850 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9200 60  0001 L CNN
-F 3 "" H 5650 9000 50  0001 C CNN
-F 4 "VISHAY" H 5850 9400 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 9300 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 9000 50  0000 C CNN "Val"
-	1    5650 9000
-	1    0    0    -1  
-$EndComp
-$Comp
-L data-center-ddr5-tester:R_0R_0201 R140
-U 1 1 67A31A73
-P 5650 8900
-F 0 "R140" H 5425 8950 60  0000 C CNN
-F 1 "R_0R_0201" H 5650 8750 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0201-res" H 5850 9100 60  0001 L CNN
-F 3 "" H 5650 8900 50  0001 C CNN
-F 4 "VISHAY" H 5850 9300 60  0001 L CNN "Manufacturer"
-F 5 "CRCW02010000Z0ED" H 5850 9200 60  0001 L CNN "MPN"
-F 6 "0R" H 5650 8900 50  0000 C CNN "Val"
-	1    5650 8900
-	1    0    0    -1  
-$EndComp
-Text GLabel 4775 10750 0    50   Input ~ 0
-DQS16_N
-Text GLabel 4775 10650 0    50   Input ~ 0
-DQS16_P
-Text GLabel 4775 10500 0    50   Input ~ 0
-DQS15_N
-Text GLabel 4775 10400 0    50   Input ~ 0
-DQS15_P
-Text GLabel 4775 10250 0    50   Input ~ 0
-DQS14_N
-Text GLabel 4775 10150 0    50   Input ~ 0
-DQS14_P
-Text GLabel 4775 10000 0    50   Input ~ 0
-DQS13_N
-Text GLabel 4775 9900 0    50   Input ~ 0
-DQS13_P
-Text GLabel 4775 11000 0    50   Input ~ 0
-DQS17_N
-Text GLabel 4775 10900 0    50   Input ~ 0
-DQS17_P
-Text GLabel 4775 9750 0    50   Input ~ 0
-DQS12_N
-Text GLabel 4775 9650 0    50   Input ~ 0
-DQS12_P
-Text GLabel 4775 9500 0    50   Input ~ 0
-DQS11_N
-Text GLabel 4775 9400 0    50   Input ~ 0
-DQS11_P
-Wire Wire Line
-	5500 9150 4775 9150
-Wire Wire Line
-	5500 9250 4775 9250
-Wire Wire Line
-	5500 9400 4775 9400
-Wire Wire Line
-	5500 9500 4775 9500
-Wire Wire Line
-	5500 9650 4775 9650
-Wire Wire Line
-	5500 9750 4775 9750
-Wire Wire Line
-	5500 10900 4775 10900
-Wire Wire Line
-	5500 11000 4775 11000
-Wire Wire Line
-	5500 8900 4775 8900
-Wire Wire Line
-	5500 9000 4775 9000
-Text GLabel 4775 9250 0    50   Input ~ 0
-DQS10_N
-Text GLabel 4775 9150 0    50   Input ~ 0
-DQS10_P
-Text GLabel 4775 9000 0    50   Input ~ 0
-DQS9_N
-Text GLabel 4775 8900 0    50   Input ~ 0
-DQS9_P
-Wire Wire Line
-	5500 10750 4775 10750
-Wire Wire Line
-	5500 10650 4775 10650
-Wire Wire Line
-	5500 10500 4775 10500
-Wire Wire Line
-	5500 10400 4775 10400
-Wire Wire Line
-	5500 10250 4775 10250
-Wire Wire Line
-	5500 10150 4775 10150
-Wire Wire Line
-	5500 10000 4775 10000
-Wire Wire Line
-	5500 9900 4775 9900
 Wire Wire Line
 	13475 9650 13225 9650
 Wire Wire Line
@@ -837,8 +407,8 @@ VRN
 Text GLabel 8525 10850 0    50   Input ~ 0
 VRP
 Wire Wire Line
-	9925 3125 8825 3125
-Text GLabel 8825 3125 0    50   Input ~ 0
+	13925 3125 15025 3125
+Text GLabel 15025 3125 2    50   Input ~ 0
 VRN
 Text Notes 8675 8900 0    98   ~ 20
 VREF
@@ -846,10 +416,6 @@ Wire Notes Line
 	7725 475  7725 11225
 Wire Notes Line
 	11825 9975 11825 8725
-Text GLabel 6525 8900 2    50   Input ~ 0
-DQS0_P
-Text GLabel 6525 9000 2    50   Input ~ 0
-DQS0_N
 $Comp
 L data-center-ddr5-tester:PCA9517ADMR2G U14
 U 1 1 61682D3C
@@ -866,9 +432,9 @@ $EndComp
 Wire Wire Line
 	14175 9650 14375 9650
 Text GLabel 14775 9550 2    50   Input ~ 0
-SCL_2V5
+SCL_1V0
 Text GLabel 14775 9650 2    50   Input ~ 0
-SDA_2V5
+SDA_1V0
 Wire Wire Line
 	14175 9450 14775 9450
 Wire Wire Line
@@ -1153,32 +719,8 @@ F 3 "" H 9325 10850 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9025 10850 9325 10850
-Wire Wire Line
-	5800 3300 6025 3300
-$Comp
-L data-center-ddr5-tester:R_10k_0402 R158
-U 1 1 6157F999
-P 6175 3300
-F 0 "R158" H 5950 3350 60  0000 C CNN
-F 1 "R_10k_0402" H 6175 3150 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 6375 3500 60  0001 L CNN
-F 3 "" H 6175 3300 50  0001 C CNN
-F 4 "VISHAY" H 6375 3700 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040210K0FKEDHP" H 6375 3600 60  0001 L CNN "MPN"
-F 6 "10k" H 6175 3300 50  0000 C CNN "Val"
-	1    6175 3300
-	1    0    0    -1  
-$EndComp
 Text Notes 10700 9025 0    50   ~ 0
 Default 000
-Text Label 9625 4825 0    50   ~ 0
-DQS17+
-Text Label 9625 4925 0    50   ~ 0
-DQS17-
-Wire Wire Line
-	9550 4825 9925 4825
-Wire Wire Line
-	9550 4925 9925 4925
 $Bitmap
 Pos 1425 10725
 Scale 0.400000
@@ -5110,274 +4652,6 @@ F 6 "100n" H 15275 9375 50  0000 L CNN "Val"
 	1    15575 9425
 	-1   0    0    -1  
 $EndComp
-Text GLabel 8825 3225 0    50   BiDi ~ 0
-DQ0_A
-Text GLabel 8825 3325 0    50   BiDi ~ 0
-DQ1_A
-Text GLabel 8825 3525 0    50   BiDi ~ 0
-DQ5_A
-Text GLabel 15025 3325 2    50   BiDi ~ 0
-DQ8_A
-Text GLabel 15025 3425 2    50   BiDi ~ 0
-DQ9_A
-Text GLabel 15025 3925 2    50   BiDi ~ 0
-DQ12_A
-Text GLabel 15025 4525 2    50   BiDi ~ 0
-DQ13_A
-Text GLabel 15025 4625 2    50   BiDi ~ 0
-DQ16_A
-Text GLabel 15025 5525 2    50   BiDi ~ 0
-DQ17_A
-Text GLabel 15025 7025 2    50   BiDi ~ 0
-DQ20_A
-Text GLabel 15025 7125 2    50   BiDi ~ 0
-DQ21_A
-Text GLabel 15025 3825 2    50   BiDi ~ 0
-DQ24_A
-Text GLabel 15025 4325 2    50   BiDi ~ 0
-DQ25_A
-Text GLabel 15025 5725 2    50   BiDi ~ 0
-DQ28_A
-Text GLabel 15025 6925 2    50   BiDi ~ 0
-DQ29_A
-Text GLabel 15025 7925 2    50   BiDi ~ 0
-CB0_A
-Text GLabel 15025 7825 2    50   BiDi ~ 0
-CB1_A
-Text GLabel 8825 4825 0    50   BiDi ~ 0
-DQS4_A_P
-Text GLabel 8825 4925 0    50   BiDi ~ 0
-DQS4_A_N
-Text GLabel 15025 7625 2    50   BiDi ~ 0
-CB4_A
-Text GLabel 15025 6625 2    50   BiDi ~ 0
-CB5_A
-Text GLabel 15025 6225 2    50   BiDi ~ 0
-ALERT_N
-Text GLabel 8825 4625 0    50   BiDi ~ 0
-CS0_A_N
-Text GLabel 8800 7425 0    50   BiDi ~ 0
-PAR_A
-Text GLabel 8825 3825 0    50   BiDi ~ 0
-CA0_A
-Text GLabel 8825 5225 0    50   BiDi ~ 0
-CA2_A
-Text GLabel 8825 5025 0    50   BiDi ~ 0
-CA4_A
-Text GLabel 8825 4425 0    50   BiDi ~ 0
-CA6_A
-Text GLabel 15025 6725 2    50   BiDi ~ 0
-CB6_A
-Text GLabel 15025 6325 2    50   BiDi ~ 0
-CB7_A
-Text GLabel 8825 4725 0    50   BiDi ~ 0
-RESET_N
-Text GLabel 8825 7925 0    50   BiDi ~ 0
-CS1_A_N
-Text GLabel 8800 7325 0    50   BiDi ~ 0
-CK_N
-Text GLabel 8800 7125 0    50   BiDi ~ 0
-CA1_A
-Text GLabel 8825 5125 0    50   BiDi ~ 0
-CA3_A
-Text GLabel 8825 4525 0    50   BiDi ~ 0
-CA5_A
-Text GLabel 8800 7225 0    50   BiDi ~ 0
-CK_P
-Text GLabel 15025 5925 2    50   BiDi ~ 0
-DQ30_A
-Text GLabel 15025 7225 2    50   BiDi ~ 0
-DQS9_A_P
-Text GLabel 15025 5825 2    50   BiDi ~ 0
-DQ31_A
-Text GLabel 15025 7425 2    50   BiDi ~ 0
-CB2_A
-Text GLabel 15025 7725 2    50   BiDi ~ 0
-CB3_A
-Text GLabel 15025 7325 2    50   BiDi ~ 0
-DQS9_A_N
-Text GLabel 15025 5325 2    50   BiDi ~ 0
-DQ22_A
-Text GLabel 15025 6025 2    50   BiDi ~ 0
-DQS8_A_P
-Text GLabel 15025 7525 2    50   BiDi ~ 0
-DQ23_A
-Text GLabel 15025 4225 2    50   BiDi ~ 0
-DQ26_A
-Text GLabel 15025 5425 2    50   BiDi ~ 0
-DQ27_A
-Text GLabel 15025 6125 2    50   BiDi ~ 0
-DQS8_A_N
-Text GLabel 15025 5125 2    50   BiDi ~ 0
-DQ14_A
-Text GLabel 15025 4825 2    50   BiDi ~ 0
-DQS7_A_P
-Text GLabel 15025 4425 2    50   BiDi ~ 0
-DQ15_A
-Text GLabel 15025 5025 2    50   BiDi ~ 0
-DQ18_A
-Text GLabel 15025 5225 2    50   BiDi ~ 0
-DQ19_A
-Text GLabel 15025 4925 2    50   BiDi ~ 0
-DQS7_A_N
-Text GLabel 8825 4325 0    50   BiDi ~ 0
-DQ6_A
-Text GLabel 15025 3625 2    50   BiDi ~ 0
-DQS6_A_P
-Text GLabel 8825 3925 0    50   BiDi ~ 0
-DQ7_A
-Text GLabel 15025 3125 2    50   BiDi ~ 0
-DQ10_A
-Text GLabel 15025 4125 2    50   BiDi ~ 0
-DQ11_A
-Text GLabel 15025 3725 2    50   BiDi ~ 0
-DQS6_A_N
-Text GLabel 8825 6425 0    50   BiDi ~ 0
-HSA
-Text GLabel 8825 3625 0    50   BiDi ~ 0
-DQS5_A_P
-Text GLabel 8825 4225 0    50   BiDi ~ 0
-DQ2_A
-Text GLabel 8825 4025 0    50   BiDi ~ 0
-DQ3_A
-Text GLabel 8825 3725 0    50   BiDi ~ 0
-DQS5_A_N
-Text GLabel 8825 7725 0    50   Input ~ 0
-HSCL
-Text GLabel 8825 7825 0    50   BiDi ~ 0
-HSDA
-Text GLabel 8800 7525 0    50   Input ~ 0
-VIN_MGMT
-Text GLabel 8825 5625 0    50   BiDi ~ 0
-CS0_B_N
-Text GLabel 8825 6625 0    50   BiDi ~ 0
-CB4_B
-Text GLabel 6900 4300 2    50   BiDi ~ 0
-CB5_B
-Text GLabel 700  3500 0    50   BiDi ~ 0
-DQS9_B_P
-Text GLabel 700  3600 0    50   BiDi ~ 0
-DQS9_B_N
-Text GLabel 6900 4900 2    50   BiDi ~ 0
-CB0_B
-Text GLabel 6900 4500 2    50   BiDi ~ 0
-CB1_B
-Text GLabel 8825 5925 0    50   BiDi ~ 0
-CS1_B_N
-Text GLabel 8825 3425 0    50   BiDi ~ 0
-DQ4_A
-Text GLabel 8800 6725 0    50   BiDi ~ 0
-CB6_B
-Text GLabel 8825 6225 0    50   BiDi ~ 0
-CB7_B
-Text GLabel 8825 7625 0    50   BiDi ~ 0
-PAR_B
-Text GLabel 8825 5525 0    50   BiDi ~ 0
-CA1_B
-Text GLabel 8825 5425 0    50   BiDi ~ 0
-CA3_B
-Text GLabel 8800 6825 0    50   BiDi ~ 0
-CA5_B
-Text GLabel 6900 3300 2    50   BiDi ~ 0
-CA6_B
-Text GLabel 8825 5725 0    50   BiDi ~ 0
-CA4_B
-Text GLabel 8800 7025 0    50   BiDi ~ 0
-CA2_B
-Text GLabel 8825 5325 0    50   BiDi ~ 0
-CA0_B
-Text GLabel 8825 6325 0    50   BiDi ~ 0
-DLBDQ
-Text GLabel 6900 7900 2    50   BiDi ~ 0
-DLBDQS
-Text GLabel 6900 7000 2    50   BiDi ~ 0
-DQ30_B
-Text GLabel 6900 7300 2    50   BiDi ~ 0
-DQ31_B
-Text GLabel 6900 4700 2    50   BiDi ~ 0
-DQS8_B_P
-Text GLabel 6900 7700 2    50   BiDi ~ 0
-DQ23_B
-Text GLabel 6900 5100 2    50   BiDi ~ 0
-DQ26_B
-Text GLabel 6900 6500 2    50   BiDi ~ 0
-DQ27_B
-Text GLabel 6900 4800 2    50   BiDi ~ 0
-DQS8_B_N
-Text GLabel 6900 7100 2    50   BiDi ~ 0
-DQS7_B_P
-Text GLabel 6900 7200 2    50   BiDi ~ 0
-DQS7_B_N
-Text GLabel 6900 3500 2    50   BiDi ~ 0
-DQS6_B_P
-Text GLabel 6900 3600 2    50   BiDi ~ 0
-DQS6_B_N
-Text GLabel 6900 5900 2    50   BiDi ~ 0
-DQS5_B_P
-Text GLabel 6900 6000 2    50   BiDi ~ 0
-DQS5_B_N
-Text GLabel 8825 6525 0    50   BiDi ~ 0
-CB3_B
-Text GLabel 8825 4125 0    50   BiDi ~ 0
-CB2_B
-Text GLabel 8825 6125 0    50   BiDi ~ 0
-DQS4_B_N
-Text GLabel 8825 6025 0    50   BiDi ~ 0
-DQS4_B_P
-Text GLabel 6900 3900 2    50   BiDi ~ 0
-DQ12_B
-Text GLabel 6900 4000 2    50   BiDi ~ 0
-DQ13_B
-Text GLabel 6900 6200 2    50   BiDi ~ 0
-DQ16_B
-Text GLabel 6900 7500 2    50   BiDi ~ 0
-DQ20_B
-Text GLabel 6900 7800 2    50   BiDi ~ 0
-DQ21_B
-Text GLabel 6900 5700 2    50   BiDi ~ 0
-DQ24_B
-Text GLabel 6900 5200 2    50   BiDi ~ 0
-DQ25_B
-Text GLabel 6900 7600 2    50   BiDi ~ 0
-DQ28_B
-Text GLabel 6900 6900 2    50   BiDi ~ 0
-DQ29_B
-Text GLabel 6900 5500 2    50   BiDi ~ 0
-DQ4_B
-Text GLabel 6900 3200 2    50   BiDi ~ 0
-DQ9_B
-Text GLabel 6900 3800 2    50   BiDi ~ 0
-DQ8_B
-Text GLabel 6900 5300 2    50   BiDi ~ 0
-DQ5_B
-Text GLabel 6900 5800 2    50   BiDi ~ 0
-DQ3_B
-Text GLabel 6900 4100 2    50   BiDi ~ 0
-DQ2_B
-Text GLabel 6900 3100 2    50   BiDi ~ 0
-DQ11_B
-Text GLabel 6900 4200 2    50   BiDi ~ 0
-DQ10_B
-Text GLabel 6900 6100 2    50   BiDi ~ 0
-DQ7_B
-Text GLabel 6900 6300 2    50   BiDi ~ 0
-DQ6_B
-Text GLabel 6900 6800 2    50   BiDi ~ 0
-DQ17_B
-Text GLabel 6900 6700 2    50   BiDi ~ 0
-DQ19_B
-Text GLabel 6900 4400 2    50   BiDi ~ 0
-DQ18_B
-Text GLabel 6900 6400 2    50   BiDi ~ 0
-DQ15_B
-Text GLabel 6900 5600 2    50   BiDi ~ 0
-DQ14_B
-Text GLabel 6900 5400 2    50   BiDi ~ 0
-DQ1_B
-Text GLabel 6900 5000 2    50   BiDi ~ 0
-DQ0_B
-Text GLabel 6900 7400 2    50   BiDi ~ 0
-DQ22_B
 Wire Wire Line
 	5800 3100 6900 3100
 Wire Wire Line
@@ -5391,13 +4665,9 @@ Wire Wire Line
 Wire Wire Line
 	5800 3800 6900 3800
 Wire Wire Line
-	5800 4100 6900 4100
-Wire Wire Line
 	5800 4000 6900 4000
 Wire Wire Line
 	5800 4400 6900 4400
-Wire Wire Line
-	5800 4200 6900 4200
 Wire Wire Line
 	5800 4300 6900 4300
 Wire Wire Line
@@ -5415,11 +4685,7 @@ Wire Wire Line
 Wire Wire Line
 	5800 5100 6900 5100
 Wire Wire Line
-	5800 5300 6900 5300
-Wire Wire Line
 	5800 5600 6900 5600
-Wire Wire Line
-	5800 5400 6900 5400
 Wire Wire Line
 	5800 5500 6900 5500
 Wire Wire Line
@@ -5439,8 +4705,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 6200 6900 6200
 Wire Wire Line
-	5800 6500 6900 6500
-Wire Wire Line
 	5800 6700 6900 6700
 Wire Wire Line
 	5800 7000 6900 7000
@@ -5457,199 +4721,153 @@ Wire Wire Line
 Wire Wire Line
 	5800 7300 6900 7300
 Wire Wire Line
-	5800 7700 6900 7700
-Wire Wire Line
 	5800 7500 6900 7500
-Wire Wire Line
-	5800 7800 6900 7800
 Wire Wire Line
 	5800 7600 6900 7600
 Wire Wire Line
-	8825 3325 9925 3325
+	15025 3325 13925 3325
 Wire Wire Line
-	8825 3225 9925 3225
+	15025 3225 13925 3225
 Wire Wire Line
-	8825 3525 9925 3525
+	15025 3525 13925 3525
 Wire Wire Line
-	8825 3425 9925 3425
+	15025 3425 13925 3425
 Wire Wire Line
-	8825 3625 9925 3625
+	15025 3625 13925 3625
 Wire Wire Line
-	8825 3725 9925 3725
+	15025 3725 13925 3725
 Wire Wire Line
-	8825 3925 9925 3925
+	15025 3925 13925 3925
 Wire Wire Line
-	8825 3825 9925 3825
+	15025 3825 13925 3825
 Wire Wire Line
-	8825 4325 9925 4325
+	15025 4025 13925 4025
 Wire Wire Line
-	8825 4025 9925 4025
+	15025 4125 13925 4125
 Wire Wire Line
-	8825 4225 9925 4225
+	15025 4725 13925 4725
 Wire Wire Line
-	8825 4125 9925 4125
+	15025 4425 13925 4425
 Wire Wire Line
-	8825 4725 9925 4725
+	15025 4625 13925 4625
 Wire Wire Line
-	8825 4425 9925 4425
+	15025 4525 13925 4525
 Wire Wire Line
-	8825 4625 9925 4625
+	15025 5325 13925 5325
 Wire Wire Line
-	8825 4525 9925 4525
+	15025 5025 13925 5025
 Wire Wire Line
-	8825 5325 9925 5325
+	15025 5225 13925 5225
 Wire Wire Line
-	8825 5025 9925 5025
+	15025 5125 13925 5125
 Wire Wire Line
-	8825 5225 9925 5225
+	15025 5625 13925 5625
 Wire Wire Line
-	8825 5125 9925 5125
+	9925 3225 8825 3225
 Wire Wire Line
-	8825 5425 9925 5425
+	9925 3525 8825 3525
 Wire Wire Line
-	8825 5525 9925 5525
+	9925 3425 8825 3425
 Wire Wire Line
-	8825 5625 9925 5625
+	9925 3325 8825 3325
 Wire Wire Line
-	8825 4925 9250 4925
+	9925 3625 8825 3625
 Wire Wire Line
-	8825 4825 9250 4825
+	9925 3725 8825 3725
 Wire Wire Line
-	13925 3225 15025 3225
+	9925 3825 8825 3825
 Wire Wire Line
-	13925 3125 15025 3125
+	9925 3925 8825 3925
 Wire Wire Line
-	13925 3425 15025 3425
+	9925 4525 8825 4525
 Wire Wire Line
-	13925 3325 15025 3325
+	9925 4125 8825 4125
 Wire Wire Line
-	13925 3625 15025 3625
+	9925 4025 8825 4025
 Wire Wire Line
-	13925 3725 15025 3725
+	9925 4425 8825 4425
 Wire Wire Line
-	13925 3825 15025 3825
+	9925 4725 8825 4725
 Wire Wire Line
-	13925 3925 15025 3925
+	9925 4625 8825 4625
 Wire Wire Line
-	13925 4425 15025 4425
+	9925 5125 8825 5125
 Wire Wire Line
-	13925 4125 15025 4125
+	9925 4825 8825 4825
 Wire Wire Line
-	13925 4225 15025 4225
+	9925 4925 8825 4925
 Wire Wire Line
-	13925 4325 15025 4325
+	9925 5025 8825 5025
 Wire Wire Line
-	13925 4625 15025 4625
+	9925 5325 8825 5325
 Wire Wire Line
-	13925 4525 15025 4525
+	9925 5225 8825 5225
 Wire Wire Line
-	13925 5125 15025 5125
+	9925 5425 8825 5425
 Wire Wire Line
-	13925 4825 15025 4825
+	9925 5525 8825 5525
 Wire Wire Line
-	13925 4925 15025 4925
+	9925 5825 8825 5825
 Wire Wire Line
-	13925 5025 15025 5025
+	9925 5925 8825 5925
 Wire Wire Line
-	13925 5325 15025 5325
+	9925 6025 8825 6025
 Wire Wire Line
-	13925 5225 15025 5225
+	9925 5725 8825 5725
 Wire Wire Line
-	13925 5425 15025 5425
+	9925 6125 8825 6125
 Wire Wire Line
-	13925 5525 15025 5525
+	9925 6325 8825 6325
 Wire Wire Line
-	13925 5825 15025 5825
+	9925 6225 8825 6225
 Wire Wire Line
-	13925 5925 15025 5925
+	9925 6725 8825 6725
 Wire Wire Line
-	13925 6025 15025 6025
+	9925 6625 8825 6625
 Wire Wire Line
-	13925 5725 15025 5725
+	9925 6925 8825 6925
 Wire Wire Line
-	13925 6125 15025 6125
+	9925 7225 8825 7225
 Wire Wire Line
-	13925 6325 15025 6325
+	9925 7325 8825 7325
 Wire Wire Line
-	13925 6225 15025 6225
+	9925 7125 8825 7125
 Wire Wire Line
-	13925 6725 15025 6725
+	9925 7025 8825 7025
 Wire Wire Line
-	13925 6625 15025 6625
+	9925 7525 8825 7525
 Wire Wire Line
-	13925 6925 15025 6925
+	9925 7425 8825 7425
 Wire Wire Line
-	13925 7225 15025 7225
+	9925 7725 8825 7725
 Wire Wire Line
-	13925 7325 15025 7325
+	9925 7625 8825 7625
 Wire Wire Line
-	13925 7125 15025 7125
+	9925 7825 8825 7825
 Wire Wire Line
-	13925 7025 15025 7025
+	9925 7925 8825 7925
 Wire Wire Line
-	13925 7525 15025 7525
+	15025 6125 13925 6125
 Wire Wire Line
-	13925 7425 15025 7425
+	15025 6025 13925 6025
 Wire Wire Line
-	13925 7725 15025 7725
+	15025 5725 13925 5725
 Wire Wire Line
-	13925 7625 15025 7625
+	15025 5925 13925 5925
 Wire Wire Line
-	13925 7825 15025 7825
+	15025 6525 13925 6525
 Wire Wire Line
-	13925 7925 15025 7925
+	15025 6425 13925 6425
 Wire Wire Line
-	700  3500 1800 3500
+	15025 6225 13925 6225
 Wire Wire Line
-	700  3600 1800 3600
+	15025 6325 13925 6325
 Wire Wire Line
-	8825 6125 9925 6125
+	15025 7725 13925 7725
 Wire Wire Line
-	8825 6025 9925 6025
+	15025 7625 13925 7625
 Wire Wire Line
-	8825 5725 9925 5725
-Wire Wire Line
-	6325 3300 6900 3300
-Wire Wire Line
-	8825 5925 9925 5925
-Wire Wire Line
-	8800 6825 9925 6825
-Wire Wire Line
-	8800 6725 9925 6725
-Wire Wire Line
-	8825 6625 9925 6625
-Wire Wire Line
-	8825 6525 9925 6525
-Wire Wire Line
-	8825 6425 9925 6425
-Wire Wire Line
-	8825 6225 9925 6225
-Wire Wire Line
-	8825 6325 9925 6325
-Wire Wire Line
-	8800 7025 9925 7025
-Wire Wire Line
-	8800 7125 9925 7125
-Wire Wire Line
-	8800 7325 9925 7325
-Wire Wire Line
-	8800 7425 9925 7425
-Wire Wire Line
-	8800 7225 9925 7225
-Wire Wire Line
-	8825 7725 9925 7725
-Wire Wire Line
-	8825 7625 9925 7625
-Wire Wire Line
-	8825 7825 9925 7825
-Wire Wire Line
-	8825 8025 9925 8025
-Wire Wire Line
-	8825 7925 9925 7925
-Wire Wire Line
-	5800 7900 6900 7900
-Wire Wire Line
-	8800 7525 9925 7525
+	15025 8025 13925 8025
 Text GLabel 2150 1975 0    50   Input ~ 0
 1V1_SYS
 Wire Wire Line
@@ -5690,8 +4908,324 @@ Text GLabel 9150 10500 2    50   Input ~ 0
 1V1_SYS
 Text GLabel 11300 9475 1    50   Input ~ 0
 1V0_SYS
-Text GLabel 8825 8025 0    50   Input ~ 0
-VRP
 Wire Wire Line
 	5800 5000 6900 5000
+Text GLabel 15025 3225 2    50   BiDi ~ 0
+DQ0_A
+Text GLabel 15025 3325 2    50   BiDi ~ 0
+DQ1_A
+Text GLabel 15025 3625 2    50   BiDi ~ 0
+DQS0_A_P
+Text GLabel 15025 3725 2    50   BiDi ~ 0
+DQS0_A_N
+Text GLabel 15025 3925 2    50   BiDi ~ 0
+DQ5_A
+Text GLabel 15025 4425 2    50   BiDi ~ 0
+DQ8_A
+Text GLabel 15025 4525 2    50   BiDi ~ 0
+DQ9_A
+Text GLabel 15025 4825 2    50   BiDi ~ 0
+DQS1_A_P
+Text GLabel 15025 4925 2    50   BiDi ~ 0
+DQS1_A_N
+Text GLabel 15025 5025 2    50   BiDi ~ 0
+DQ12_A
+Text GLabel 15025 5125 2    50   BiDi ~ 0
+DQ13_A
+Text GLabel 15025 5625 2    50   BiDi ~ 0
+DQ16_A
+Text GLabel 15025 5725 2    50   BiDi ~ 0
+DQ17_A
+Text GLabel 15025 6025 2    50   BiDi ~ 0
+DQS2_A_P
+Text GLabel 15025 6125 2    50   BiDi ~ 0
+DQS2_A_N
+Text GLabel 15025 6225 2    50   BiDi ~ 0
+DQ20_A
+Text GLabel 15025 6325 2    50   BiDi ~ 0
+DQ21_A
+Text GLabel 15025 6825 2    50   BiDi ~ 0
+DQ24_A
+Text GLabel 15025 6925 2    50   BiDi ~ 0
+DQ25_A
+Text GLabel 15025 7225 2    50   BiDi ~ 0
+DQS3_A_P
+Text GLabel 15025 7325 2    50   BiDi ~ 0
+DQS3_A_N
+Text GLabel 15025 7425 2    50   BiDi ~ 0
+DQ28_A
+Text GLabel 15025 7525 2    50   BiDi ~ 0
+DQ29_A
+Text GLabel 8825 3225 0    50   BiDi ~ 0
+CB0_A
+Text GLabel 8825 3325 0    50   BiDi ~ 0
+CB1_A
+Text GLabel 8825 3725 0    50   BiDi ~ 0
+DQS4_A_N
+Text GLabel 8825 3825 0    50   BiDi ~ 0
+CB4_A
+Text GLabel 8825 3925 0    50   BiDi ~ 0
+CB5_A
+Text GLabel 8825 6525 0    50   BiDi ~ 0
+ALERT_N
+Text GLabel 8825 6725 0    50   BiDi ~ 0
+CS0_A_N
+Text GLabel 8825 5325 0    50   BiDi ~ 0
+PAR_A
+Text GLabel 8825 4425 0    50   BiDi ~ 0
+CA0_A
+Text GLabel 8825 4625 0    50   BiDi ~ 0
+CA2_A
+Text GLabel 8825 5025 0    50   BiDi ~ 0
+CA4_A
+Text GLabel 8825 5225 0    50   BiDi ~ 0
+CA6_A
+Text GLabel 15025 3825 2    50   BiDi ~ 0
+DQ4_A
+Text GLabel 8825 3625 0    50   BiDi ~ 0
+DQS4_A_P
+Text GLabel 8825 4025 0    50   BiDi ~ 0
+CB6_A
+Text GLabel 8825 4125 0    50   BiDi ~ 0
+CB7_A
+Text GLabel 8825 6425 0    50   BiDi ~ 0
+RESET_N
+Text GLabel 8825 6625 0    50   BiDi ~ 0
+CS1_A_N
+Text GLabel 8825 4925 0    50   BiDi ~ 0
+CK_N
+Text GLabel 8825 4525 0    50   BiDi ~ 0
+CA1_A
+Text GLabel 8825 4725 0    50   BiDi ~ 0
+CA3_A
+Text GLabel 8825 5125 0    50   BiDi ~ 0
+CA5_A
+Text GLabel 8825 4825 0    50   BiDi ~ 0
+CK_P
+Text GLabel 15025 7625 2    50   BiDi ~ 0
+DQ30_A
+Text GLabel 15025 7725 2    50   BiDi ~ 0
+DQ31_A
+Text GLabel 8825 3425 0    50   BiDi ~ 0
+CB2_A
+Text GLabel 8825 3525 0    50   BiDi ~ 0
+CB3_A
+Text GLabel 15025 6425 2    50   BiDi ~ 0
+DQ22_A
+Text GLabel 15025 6525 2    50   BiDi ~ 0
+DQ23_A
+Text GLabel 15025 7025 2    50   BiDi ~ 0
+DQ26_A
+Text GLabel 15025 7125 2    50   BiDi ~ 0
+DQ27_A
+Text GLabel 15025 5225 2    50   BiDi ~ 0
+DQ14_A
+Text GLabel 15025 5325 2    50   BiDi ~ 0
+DQ15_A
+Text GLabel 15025 5825 2    50   BiDi ~ 0
+DQ18_A
+Text GLabel 15025 5925 2    50   BiDi ~ 0
+DQ19_A
+Text GLabel 15025 4025 2    50   BiDi ~ 0
+DQ6_A
+Text GLabel 15025 4125 2    50   BiDi ~ 0
+DQ7_A
+Text GLabel 15025 4625 2    50   BiDi ~ 0
+DQ10_A
+Text GLabel 15025 4725 2    50   BiDi ~ 0
+DQ11_A
+Text GLabel 15025 3425 2    50   BiDi ~ 0
+DQ2_A
+Text GLabel 15025 3525 2    50   BiDi ~ 0
+DQ3_A
+Wire Wire Line
+	15025 5825 13925 5825
+Wire Wire Line
+	15025 7525 13925 7525
+Wire Wire Line
+	15025 7225 13925 7225
+Wire Wire Line
+	15025 7125 13925 7125
+Wire Wire Line
+	15025 7325 13925 7325
+Wire Wire Line
+	15025 7425 13925 7425
+Wire Wire Line
+	15025 7025 13925 7025
+Wire Wire Line
+	15025 6925 13925 6925
+Wire Wire Line
+	15025 6825 13925 6825
+Wire Wire Line
+	9925 5625 8825 5625
+Wire Wire Line
+	9925 6525 8825 6525
+Wire Wire Line
+	9925 6425 8825 6425
+Wire Wire Line
+	9925 6825 8825 6825
+Wire Wire Line
+	15025 4925 13925 4925
+Wire Wire Line
+	15025 4825 13925 4825
+Wire Wire Line
+	9925 3125 8825 3125
+Text GLabel 8825 3125 0    50   Input ~ 0
+VRN
+Text GLabel 15025 8025 2    50   Input ~ 0
+VRP
+Wire Wire Line
+	8825 8025 9925 8025
+Text GLabel 8825 8025 0    50   Input ~ 0
+VRP
+Text Notes 4425 1850 0    50   ~ 0
+VCCO (HP bank) max: 2.0V
+Text GLabel 8825 6825 0    50   BiDi ~ 0
+CB4_B
+Text GLabel 8825 6925 0    50   BiDi ~ 0
+CB5_B
+Text GLabel 8825 7425 0    50   BiDi ~ 0
+CB0_B
+Text GLabel 8825 7525 0    50   BiDi ~ 0
+CB1_B
+Text GLabel 8825 7025 0    50   BiDi ~ 0
+CB6_B
+Text GLabel 8825 7125 0    50   BiDi ~ 0
+CB7_B
+Text GLabel 8825 5525 0    50   BiDi ~ 0
+CA1_B
+Text GLabel 8825 5725 0    50   BiDi ~ 0
+CA3_B
+Text GLabel 8825 5625 0    50   BiDi ~ 0
+CA2_B
+Text GLabel 8825 5425 0    50   BiDi ~ 0
+CA0_B
+Text GLabel 8825 6225 0    50   BiDi ~ 0
+DLBDQ
+Text GLabel 8825 6325 0    50   BiDi ~ 0
+DLBDQS
+Text GLabel 6900 7500 2    50   BiDi ~ 0
+DQ30_B
+Text GLabel 6900 7600 2    50   BiDi ~ 0
+DQ31_B
+Text GLabel 6900 6300 2    50   BiDi ~ 0
+DQ22_B
+Text GLabel 6900 6400 2    50   BiDi ~ 0
+DQ23_B
+Text GLabel 6900 6900 2    50   BiDi ~ 0
+DQ26_B
+Text GLabel 6900 7000 2    50   BiDi ~ 0
+DQ27_B
+Text GLabel 6900 5100 2    50   BiDi ~ 0
+DQ14_B
+Text GLabel 6900 5200 2    50   BiDi ~ 0
+DQ15_B
+Text GLabel 6900 5700 2    50   BiDi ~ 0
+DQ18_B
+Text GLabel 6900 5800 2    50   BiDi ~ 0
+DQ19_B
+Text GLabel 6900 3900 2    50   BiDi ~ 0
+DQ6_B
+Text GLabel 6900 4000 2    50   BiDi ~ 0
+DQ7_B
+Text GLabel 6900 4500 2    50   BiDi ~ 0
+DQ10_B
+Text GLabel 6900 4600 2    50   BiDi ~ 0
+DQ11_B
+Text GLabel 6900 3300 2    50   BiDi ~ 0
+DQ2_B
+Text GLabel 6900 3400 2    50   BiDi ~ 0
+DQ3_B
+Text GLabel 8825 7725 0    50   BiDi ~ 0
+CB3_B
+Text GLabel 8825 7625 0    50   BiDi ~ 0
+CB2_B
+Text GLabel 8825 7225 0    50   BiDi ~ 0
+DQS4_B_N
+Text GLabel 8825 7325 0    50   BiDi ~ 0
+DQS4_B_P
+Text GLabel 6900 3100 2    50   BiDi ~ 0
+DQ0_B
+Text GLabel 6900 3200 2    50   BiDi ~ 0
+DQ1_B
+Text GLabel 6900 3500 2    50   BiDi ~ 0
+DQS0_B_P
+Text GLabel 6900 3600 2    50   BiDi ~ 0
+DQS0_B_N
+Text GLabel 6900 3800 2    50   BiDi ~ 0
+DQ5_B
+Text GLabel 6900 4300 2    50   BiDi ~ 0
+DQ8_B
+Text GLabel 6900 4400 2    50   BiDi ~ 0
+DQ9_B
+Text GLabel 6900 4700 2    50   BiDi ~ 0
+DQS1_B_P
+Text GLabel 6900 4800 2    50   BiDi ~ 0
+DQS1_B_N
+Text GLabel 6900 4900 2    50   BiDi ~ 0
+DQ12_B
+Text GLabel 6900 5000 2    50   BiDi ~ 0
+DQ13_B
+Text GLabel 6900 5500 2    50   BiDi ~ 0
+DQ16_B
+Text GLabel 6900 5600 2    50   BiDi ~ 0
+DQ17_B
+Text GLabel 6900 5900 2    50   BiDi ~ 0
+DQS2_B_P
+Text GLabel 6900 6000 2    50   BiDi ~ 0
+DQS2_B_N
+Text GLabel 6900 6100 2    50   BiDi ~ 0
+DQ20_B
+Text GLabel 6900 6200 2    50   BiDi ~ 0
+DQ21_B
+Text GLabel 6900 6700 2    50   BiDi ~ 0
+DQ24_B
+Text GLabel 6900 6800 2    50   BiDi ~ 0
+DQ25_B
+Text GLabel 6900 7100 2    50   BiDi ~ 0
+DQS3_B_P
+Text GLabel 6900 7200 2    50   BiDi ~ 0
+DQS3_B_N
+Text GLabel 6900 7300 2    50   BiDi ~ 0
+DQ28_B
+Text GLabel 6900 7400 2    50   BiDi ~ 0
+DQ29_B
+Text GLabel 6900 3700 2    50   BiDi ~ 0
+DQ4_B
+Text GLabel 8825 5825 0    50   BiDi ~ 0
+CA4_B
+Text GLabel 8825 6025 0    50   BiDi ~ 0
+CA6_B
+Text GLabel 8825 5925 0    50   BiDi ~ 0
+CA5_B
+Text GLabel 8825 6125 0    50   BiDi ~ 0
+PAR_B
+Text GLabel 8825 7925 0    50   BiDi ~ 0
+CS1_B_N
+Text GLabel 8825 7825 0    50   BiDi ~ 0
+CS0_B_N
+Wire Wire Line
+	5800 3400 6900 3400
+Wire Wire Line
+	5800 3300 6900 3300
+Wire Wire Line
+	5800 3700 6900 3700
+Text GLabel 950  4700 0    50   BiDi ~ 0
+DQS9_B_P
+Text GLabel 950  4800 0    50   BiDi ~ 0
+DQS9_B_N
+Text GLabel 950  3500 0    50   BiDi ~ 0
+DQS9_A_P
+Text GLabel 950  3600 0    50   BiDi ~ 0
+DQS9_A_N
+Wire Wire Line
+	1800 3500 950  3500
+Wire Wire Line
+	1800 3600 950  3600
+Wire Wire Line
+	1800 4700 950  4700
+Wire Wire Line
+	1800 4800 950  4800
+Text Notes 12500 1925 0    50   ~ 0
+VCCO (HP bank) max: 2.0V
 $EndSCHEMATC
