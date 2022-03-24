@@ -31,7 +31,7 @@ Key Features
 * Micro USB debug connector with FT4232HQ FTDI USB controller
 * JTAG
 * microSD card slot
-* 16Mbytes S25FL128S QSPI FLASH memory
+* 16 MBytes S25FL128S QSPI FLASH memory
 * S27KL0641 HyperRAM
 * External 7-12V power input
 * 5 user LEDs
