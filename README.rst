@@ -1,6 +1,6 @@
-=======================
-Data Center DDR5 Tester
-=======================
+===========
+DDR5 Tester
+===========
 
 Copyright (c) 2021 `Antmicro <https://www.antmicro.com>`_
 
