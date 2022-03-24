@@ -15,12 +15,6 @@ Comment4 ""
 $EndDescr
 Text Notes 6850 1025 0    118  ~ 24
 DDR5 RDIMM connector
-Text Notes 13550 2075 0    50   ~ 0
-Place close to the DIMM connector pins
-Wire Notes Line
-	13375 1900 15300 1900
-Wire Notes Line
-	15300 7625 13375 7625
 $Bitmap
 Pos 1500 10693
 Scale 0.400000
@@ -3896,10 +3890,6 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 80 9A EC FF 01 DB A0 61 93 2D 21 FD 01 00 00 00 00 49 45 4E 44 AE 42 60 82 
 EndData
 $EndBitmap
-Wire Notes Line
-	13375 1900 13375 7625
-Wire Notes Line
-	15300 1900 15300 7625
 $Comp
 L data-center-ddr5-tester:DDR504111002KQ U12
 U 1 1 6228701A
