@@ -6856,20 +6856,20 @@ Text GLabel 5000 6950 1    50   Input ~ 0
 1V1_SYS
 Text GLabel 5350 6950 1    50   Input ~ 0
 1V1_SYS
-Text GLabel 3925 8325 1    50   Input ~ 0
-1V1_SYS
 Text GLabel 1150 8325 1    50   Input ~ 0
-1V1_SYS
-Text GLabel 7000 8325 1    50   Input ~ 0
-1V1_SYS
-Text GLabel 14025 2675 1    50   Input ~ 0
-1V1_SYS
+3V3_SYS
 Text GLabel 2200 8325 1    50   Input ~ 0
-1V1_SYS
+3V3_SYS
 Text GLabel 3200 8325 1    50   Input ~ 0
-1V1_SYS
-Text GLabel 6325 8325 1    50   Input ~ 0
-1V1_SYS
+3V3_SYS
+Text GLabel 3925 8325 1    50   Input ~ 0
+3V3_SYS
 Text GLabel 5000 8325 1    50   Input ~ 0
-1V1_SYS
+3V3_SYS
+Text GLabel 6325 8325 1    50   Input ~ 0
+3V3_SYS
+Text GLabel 7000 8325 1    50   Input ~ 0
+3V3_SYS
+Text GLabel 14025 2675 1    50   Input ~ 0
+3V3_SYS
 $EndSCHEMATC
