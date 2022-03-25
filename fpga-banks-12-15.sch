@@ -4394,4 +4394,26 @@ Text GLabel 9625 4750 0    50   Input ~ 0
 FCS_B
 Wire Wire Line
 	9975 4750 9625 4750
+NoConn ~ 9975 7350
+NoConn ~ 9975 7450
+NoConn ~ 9975 7550
+NoConn ~ 9975 7650
+NoConn ~ 9975 7150
+NoConn ~ 9975 7250
+NoConn ~ 9975 7750
+NoConn ~ 9975 7850
+NoConn ~ 9975 7950
+NoConn ~ 9975 8050
+NoConn ~ 9975 8150
+NoConn ~ 9975 8250
+NoConn ~ 9975 8350
+NoConn ~ 9975 8450
+NoConn ~ 9975 8550
+NoConn ~ 9975 6150
+NoConn ~ 9975 6250
+NoConn ~ 9975 6350
+NoConn ~ 9975 6450
+NoConn ~ 9975 5950
+NoConn ~ 9975 6050
+NoConn ~ 9975 6850
 $EndSCHEMATC
