@@ -4836,7 +4836,7 @@ Wire Wire Line
 Wire Wire Line
 	15025 7625 13925 7625
 Text GLabel 2150 1975 0    50   Input ~ 0
-1V1_SYS
+3V3_SYS
 Wire Wire Line
 	2200 1975 2150 1975
 Text GLabel 4850 1975 0    50   Input ~ 0
@@ -5633,4 +5633,102 @@ NoConn ~ 5800 7800
 NoConn ~ 5800 4100
 NoConn ~ 13925 4225
 NoConn ~ 13925 6625
+Wire Wire Line
+	1800 4600 1450 4600
+Wire Wire Line
+	1800 4300 1450 4300
+Wire Wire Line
+	1800 4400 1450 4400
+Wire Wire Line
+	1800 4500 1450 4500
+Text GLabel 1450 4400 0    50   Input ~ 0
+SD_DAT1
+Text GLabel 1450 4600 0    50   Input ~ 0
+SD_CMD
+Text GLabel 1450 4500 0    50   Input ~ 0
+SD_DAT3
+Text GLabel 1450 4300 0    50   Input ~ 0
+SD_CD
+Text GLabel 1450 4900 0    50   Input ~ 0
+SD_DAT2
+Text GLabel 1450 5400 0    50   Input ~ 0
+SD_CLK
+Wire Wire Line
+	1450 4900 1800 4900
+Wire Wire Line
+	1450 5300 1800 5300
+Wire Wire Line
+	1450 5400 1800 5400
+Text GLabel 1450 7300 0    50   Input ~ 0
+TMDS_CLK_P
+Text GLabel 1450 7400 0    50   Input ~ 0
+TMDS_CLK_N
+Text GLabel 1450 7500 0    50   Input ~ 0
+TMDS_D1_P
+Text GLabel 1450 7600 0    50   Input ~ 0
+TMDS_D1_N
+Wire Wire Line
+	1800 7600 1450 7600
+Wire Wire Line
+	1800 7500 1450 7500
+Wire Wire Line
+	1800 7400 1450 7400
+Wire Wire Line
+	1800 7300 1450 7300
+Wire Wire Line
+	1800 7000 1450 7000
+Wire Wire Line
+	1800 6900 1450 6900
+Wire Wire Line
+	1800 7100 1450 7100
+Wire Wire Line
+	1800 7200 1450 7200
+Text GLabel 1450 7200 0    50   Input ~ 0
+TMDS_D2_N
+Text GLabel 1450 7100 0    50   Input ~ 0
+TMDS_D2_P
+Text GLabel 1450 7000 0    50   Input ~ 0
+TMDS_D0_N
+Text GLabel 1450 6900 0    50   Input ~ 0
+TMDS_D0_P
+Text GLabel 1450 5300 0    50   Input ~ 0
+SD_DAT0
+Text GLabel 1450 5500 0    50   Input ~ 0
+GCLK100
+Wire Wire Line
+	1450 5500 1800 5500
+NoConn ~ 1800 3000
+NoConn ~ 1800 3100
+NoConn ~ 1800 3200
+NoConn ~ 1800 3300
+NoConn ~ 1800 3400
+NoConn ~ 1800 3500
+NoConn ~ 1800 3600
+NoConn ~ 1800 3700
+NoConn ~ 1800 3800
+NoConn ~ 1800 3900
+NoConn ~ 1800 4000
+NoConn ~ 1800 4100
+NoConn ~ 1800 4200
+NoConn ~ 1800 4700
+NoConn ~ 1800 4800
+NoConn ~ 1800 5000
+NoConn ~ 1800 5100
+NoConn ~ 1800 5200
+NoConn ~ 1800 5600
+NoConn ~ 1800 5700
+NoConn ~ 1800 5800
+NoConn ~ 1800 5900
+NoConn ~ 1800 6000
+NoConn ~ 1800 6100
+NoConn ~ 1800 6200
+NoConn ~ 1800 6300
+NoConn ~ 1800 6400
+NoConn ~ 1800 6500
+NoConn ~ 1800 6600
+NoConn ~ 1800 6700
+NoConn ~ 1800 7700
+NoConn ~ 1800 7800
+NoConn ~ 1800 7900
+NoConn ~ 1800 6800
 $EndSCHEMATC
