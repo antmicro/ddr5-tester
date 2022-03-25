@@ -4369,12 +4369,7 @@ NoConn ~ 13975 3850
 NoConn ~ 13975 3950
 NoConn ~ 13975 4050
 NoConn ~ 13975 3650
-NoConn ~ 8925 3350
-NoConn ~ 8925 3450
-NoConn ~ 8925 3550
 NoConn ~ 9975 3650
-NoConn ~ 8925 3150
-NoConn ~ 8925 3250
 Wire Wire Line
 	9625 4450 9975 4450
 Wire Wire Line
