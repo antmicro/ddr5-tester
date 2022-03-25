@@ -147,86 +147,86 @@ Wire Wire Line
 Wire Wire Line
 	13525 2325 13525 2100
 Wire Notes Line
-	5850 10150 5875 10150
+	2225 9675 2250 9675
 Wire Wire Line
-	4575 10425 4575 10475
+	950  9950 950  10000
 $Comp
 L data-center-ddr5-tester:GND #PWR0197
 U 1 1 652BE04A
-P 4575 10475
-F 0 "#PWR0197" H 4575 10225 50  0001 C CNN
-F 1 "GND" H 4580 10302 50  0000 C CNN
-F 2 "" H 4575 10475 50  0001 C CNN
-F 3 "" H 4575 10475 50  0001 C CNN
-	1    4575 10475
+P 950 10000
+F 0 "#PWR0197" H 950 9750 50  0001 C CNN
+F 1 "GND" H 955 9827 50  0000 C CNN
+F 2 "" H 950 10000 50  0001 C CNN
+F 3 "" H 950 10000 50  0001 C CNN
+	1    950  10000
 	-1   0    0    -1  
 $EndComp
-Text GLabel 6675 9750 1    50   Input ~ 0
+Text GLabel 3050 9275 1    50   Input ~ 0
 3V3_SYS
 Wire Wire Line
-	6125 9850 6675 9850
+	2500 9375 3050 9375
 Wire Wire Line
-	5925 10425 6100 10425
+	2300 9950 2475 9950
 Wire Wire Line
-	6675 9850 6675 9750
-Connection ~ 6675 9850
+	3050 9375 3050 9275
+Connection ~ 3050 9375
 $Comp
 L data-center-ddr5-tester:C_100n_0402_6V3 C168
 U 1 1 652BE058
-P 6675 10000
-F 0 "C168" H 6400 10100 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 6675 9850 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 6875 10200 60  0001 L CNN
-F 3 "" H 6675 10000 50  0001 C CNN
-F 4 "Walsin" H 6875 10400 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 6875 10300 60  0001 L CNN "MPN"
-F 6 "100n" H 6350 9925 50  0000 L CNN "Val"
-	1    6675 10000
+P 3050 9525
+F 0 "C168" H 2775 9625 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 3050 9375 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 3250 9725 60  0001 L CNN
+F 3 "" H 3050 9525 50  0001 C CNN
+F 4 "Walsin" H 3250 9925 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 3250 9825 60  0001 L CNN "MPN"
+F 6 "100n" H 2725 9450 50  0000 L CNN "Val"
+	1    3050 9525
 	-1   0    0    -1  
 $EndComp
-Text Notes 4675 10025 0    50   ~ 0
+Text Notes 1050 9550 0    50   ~ 0
 IC2
 Wire Wire Line
-	4675 10425 4575 10425
-Text GLabel 6100 10425 2    50   Input ~ 0
+	1050 9950 950  9950
+Text GLabel 2475 9950 2    50   Input ~ 0
 GCLK100
 Wire Wire Line
-	5925 10325 6125 10325
+	2300 9850 2500 9850
 Wire Wire Line
-	6125 10325 6125 9850
+	2500 9850 2500 9375
 Wire Wire Line
-	4500 9850 4500 10325
+	875  9375 875  9850
 Wire Wire Line
-	4500 10325 4675 10325
+	875  9850 1050 9850
 $Comp
 L data-center-ddr5-tester:GND #PWR0198
 U 1 1 652BE065
-P 6675 10450
-F 0 "#PWR0198" H 6675 10200 50  0001 C CNN
-F 1 "GND" H 6680 10277 50  0000 C CNN
-F 2 "" H 6675 10450 50  0001 C CNN
-F 3 "" H 6675 10450 50  0001 C CNN
-	1    6675 10450
+P 3050 9975
+F 0 "#PWR0198" H 3050 9725 50  0001 C CNN
+F 1 "GND" H 3055 9802 50  0000 C CNN
+F 2 "" H 3050 9975 50  0001 C CNN
+F 3 "" H 3050 9975 50  0001 C CNN
+	1    3050 9975
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4500 9850 6125 9850
-Connection ~ 6125 9850
+	875  9375 2500 9375
+Connection ~ 2500 9375
 Wire Wire Line
-	6675 10150 6675 10450
-Text Notes 5275 9475 0    98   ~ 20
+	3050 9675 3050 9975
+Text Notes 1650 9000 0    98   ~ 20
 Clock source
 $Comp
 L data-center-ddr5-tester:ASFLMB-100.000MHZ-XY-T U13
 U 1 1 652BE0D1
-P 4675 10325
-F 0 "U13" H 5300 10612 60  0000 C CNN
-F 1 "ASFLMB-100.000MHZ-XY-T" H 5300 10506 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:ASFLMB-100.000MHZ-XY-T" H 5475 10565 60  0001 C CNN
-F 3 "" H 4675 10325 60  0000 C CNN
-F 4 "ASFLMB-100.000MHZ-XY-T" H 4675 10325 50  0001 C CNN "MPN"
-F 5 "Abracon" H 4675 10325 50  0001 C CNN "Manufacturer"
-	1    4675 10325
+P 1050 9850
+F 0 "U13" H 1675 10137 60  0000 C CNN
+F 1 "ASFLMB-100.000MHZ-XY-T" H 1675 10031 60  0000 C CNN
+F 2 "data-center-ddr5-tester-footprints:ASFLMB-100.000MHZ-XY-T" H 1850 10090 60  0001 C CNN
+F 3 "" H 1050 9850 60  0000 C CNN
+F 4 "ASFLMB-100.000MHZ-XY-T" H 1050 9850 50  0001 C CNN "MPN"
+F 5 "Abracon" H 1050 9850 50  0001 C CNN "Manufacturer"
+	1    1050 9850
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -258,56 +258,37 @@ SDA_3V3
 $Comp
 L data-center-ddr5-tester:GND #PWR0201
 U 1 1 6227AEF6
-P 9150 9850
-F 0 "#PWR0201" H 9150 9600 50  0001 C CNN
-F 1 "GND" H 9155 9677 50  0000 C CNN
-F 2 "" H 9150 9850 50  0001 C CNN
-F 3 "" H 9150 9850 50  0001 C CNN
-	1    9150 9850
+P 9225 9850
+F 0 "#PWR0201" H 9225 9600 50  0001 C CNN
+F 1 "GND" H 9230 9677 50  0000 C CNN
+F 2 "" H 9225 9850 50  0001 C CNN
+F 3 "" H 9225 9850 50  0001 C CNN
+	1    9225 9850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L data-center-ddr5-tester:GND #PWR0200
 U 1 1 6227AEFC
-P 8750 9850
-F 0 "#PWR0200" H 8750 9600 50  0001 C CNN
-F 1 "GND" H 8755 9677 50  0000 C CNN
-F 2 "" H 8750 9850 50  0001 C CNN
-F 3 "" H 8750 9850 50  0001 C CNN
-	1    8750 9850
+P 9000 9850
+F 0 "#PWR0200" H 9000 9600 50  0001 C CNN
+F 1 "GND" H 9005 9677 50  0000 C CNN
+F 2 "" H 9000 9850 50  0001 C CNN
+F 3 "" H 9000 9850 50  0001 C CNN
+	1    9000 9850
 	-1   0    0    -1  
 $EndComp
 $Comp
 L data-center-ddr5-tester:C_100n_0402_6V3 C170
 U 1 1 6227AF05
-P 9150 9700
-F 0 "C170" H 9175 9800 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 9150 9550 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 9350 9900 60  0001 L CNN
-F 3 "" H 9150 9700 50  0001 C CNN
-F 4 "Walsin" H 9350 10100 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 9350 10000 60  0001 L CNN "MPN"
-F 6 "100n" H 9175 9625 50  0000 L CNN "Val"
-	1    9150 9700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	9150 9550 8750 9550
-Wire Wire Line
-	8750 9550 8275 9550
-Connection ~ 8750 9550
-$Comp
-L data-center-ddr5-tester:C_100n_0402_6V3 C169
-U 1 1 6227AF11
-P 8750 9700
-F 0 "C169" H 8775 9800 60  0000 L CNN
-F 1 "C_100n_0402_6V3" H 8750 9550 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8950 9900 60  0001 L CNN
-F 3 "" H 8750 9700 50  0001 C CNN
-F 4 "Walsin" H 8950 10100 60  0001 L CNN "Manufacturer"
-F 5 "0402X104K6R3CT" H 8950 10000 60  0001 L CNN "MPN"
-F 6 "100n" H 8775 9625 50  0000 L CNN "Val"
-	1    8750 9700
+P 9225 9700
+F 0 "C170" H 9110 9745 60  0000 R CNN
+F 1 "C_100n_0402_6V3" H 9225 9550 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 9425 9900 60  0001 L CNN
+F 3 "" H 9225 9700 50  0001 C CNN
+F 4 "Walsin" H 9425 10100 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9425 10000 60  0001 L CNN "MPN"
+F 6 "100n" H 9110 9647 50  0000 R CNN "Val"
+	1    9225 9700
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
@@ -323,40 +304,36 @@ F 3 "" H 8275 9850 50  0001 C CNN
 	1    8275 9850
 	-1   0    0    -1  
 $EndComp
-Connection ~ 9150 9550
-Wire Wire Line
-	9300 9550 9150 9550
 $Comp
 L data-center-ddr5-tester:R_1k_0603 R160
 U 1 1 6227AF24
 P 8275 9700
-F 0 "R160" V 8225 9450 60  0000 L CNN
+F 0 "R160" V 8230 9631 60  0000 R CNN
 F 1 "R_1k_0603" H 8275 9550 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0603-res" H 8475 9900 60  0001 L CNN
 F 3 "" H 8275 9700 50  0001 C CNN
 F 4 "BOURNS" H 8475 10100 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-JW-102ELF" H 8475 10000 60  0001 L CNN "MPN"
-F 6 "1k" V 8325 9525 50  0000 L CNN "Val"
+F 6 "1k" V 8328 9631 50  0000 R CNN "Val"
 	1    8275 9700
 	0    1    1    0   
 $EndComp
-Connection ~ 8275 9550
 $Comp
 L data-center-ddr5-tester:R_1k_0603 R159
 U 1 1 6227AF2E
 P 8275 9400
-F 0 "R159" V 8225 9150 60  0000 L CNN
+F 0 "R159" V 8230 9331 60  0000 R CNN
 F 1 "R_1k_0603" H 8275 9250 60  0001 C CNN
 F 2 "data-center-ddr5-tester-footprints:0603-res" H 8475 9600 60  0001 L CNN
 F 3 "" H 8275 9400 50  0001 C CNN
 F 4 "BOURNS" H 8475 9800 60  0001 L CNN "Manufacturer"
 F 5 "CR0603-JW-102ELF" H 8475 9700 60  0001 L CNN "MPN"
-F 6 "1k" V 8325 9225 50  0000 L CNN "Val"
+F 6 "1k" V 8328 9331 50  0000 R CNN "Val"
 	1    8275 9400
 	0    1    1    0   
 $EndComp
-Text GLabel 9300 9550 2    50   Output ~ 0
-VREF_33
+Text GLabel 9550 9550 2    50   Output ~ 0
+VREF_34
 $Comp
 L data-center-ddr5-tester:GND #PWR0207
 U 1 1 6227AF37
@@ -369,51 +346,43 @@ F 3 "" H 13300 9750 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	8525 10850 8725 10850
+	9175 10850 8975 10850
 Wire Wire Line
-	8700 10500 8525 10500
+	9000 10475 9175 10475
 Wire Wire Line
-	9000 10500 9150 10500
+	8700 10475 8550 10475
 $Comp
 L data-center-ddr5-tester:R_120R_0603 R162
 U 1 1 6227AF44
-P 8875 10850
-F 0 "R162" H 8875 11063 60  0000 C CNN
-F 1 "R_120R_0603" H 8875 10700 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-res" H 9075 11050 60  0001 L CNN
-F 3 "" H 8875 10850 50  0001 C CNN
-F 4 "VISHAY" H 9075 11250 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0603120RFKEA" H 9075 11150 60  0001 L CNN "MPN"
-F 6 "120R" H 8875 10965 50  0000 C CNN "Val"
-	1    8875 10850
-	1    0    0    -1  
+P 8825 10850
+F 0 "R162" H 8825 11063 60  0000 C CNN
+F 1 "R_120R_0603" H 8825 10700 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 9025 11050 60  0001 L CNN
+F 3 "" H 8825 10850 50  0001 C CNN
+F 4 "VISHAY" H 9025 11250 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 9025 11150 60  0001 L CNN "MPN"
+F 6 "120R" H 8825 10965 50  0000 C CNN "Val"
+	1    8825 10850
+	-1   0    0    -1  
 $EndComp
 $Comp
 L data-center-ddr5-tester:R_120R_0603 R161
 U 1 1 6227AF4D
-P 8850 10500
-F 0 "R161" H 8850 10713 60  0000 C CNN
-F 1 "R_120R_0603" H 8850 10350 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-res" H 9050 10700 60  0001 L CNN
-F 3 "" H 8850 10500 50  0001 C CNN
-F 4 "VISHAY" H 9050 10900 60  0001 L CNN "Manufacturer"
-F 5 "CRCW0603120RFKEA" H 9050 10800 60  0001 L CNN "MPN"
-F 6 "120R" H 8850 10615 50  0000 C CNN "Val"
-	1    8850 10500
-	1    0    0    -1  
+P 8850 10475
+F 0 "R161" H 8850 10688 60  0000 C CNN
+F 1 "R_120R_0603" H 8850 10325 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 9050 10675 60  0001 L CNN
+F 3 "" H 8850 10475 50  0001 C CNN
+F 4 "VISHAY" H 9050 10875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 9050 10775 60  0001 L CNN "MPN"
+F 6 "120R" H 8850 10590 50  0000 C CNN "Val"
+	1    8850 10475
+	-1   0    0    -1  
 $EndComp
-Text GLabel 8525 10500 0    50   Input ~ 0
-VRN
-Text GLabel 8525 10850 0    50   Input ~ 0
-VRP
-Wire Wire Line
-	13925 3125 15025 3125
-Text GLabel 15025 3125 2    50   Input ~ 0
-VRN
-Text Notes 8675 8900 0    98   ~ 20
-VREF
-Wire Notes Line
-	7725 475  7725 11225
+Text GLabel 9175 10475 2    50   Output ~ 0
+VRN_34
+Text GLabel 9175 10850 2    50   Input ~ 0
+VRP_34
 Wire Notes Line
 	11825 9975 11825 8725
 $Comp
@@ -709,16 +678,16 @@ Wire Notes Line
 $Comp
 L data-center-ddr5-tester:GND #PWR0202
 U 1 1 6279F27C
-P 9325 10850
-F 0 "#PWR0202" H 9325 10600 50  0001 C CNN
-F 1 "GND" H 9330 10677 50  0000 C CNN
-F 2 "" H 9325 10850 50  0001 C CNN
-F 3 "" H 9325 10850 50  0001 C CNN
-	1    9325 10850
-	-1   0    0    -1  
+P 8375 10850
+F 0 "#PWR0202" H 8375 10600 50  0001 C CNN
+F 1 "GND" H 8380 10677 50  0000 C CNN
+F 2 "" H 8375 10850 50  0001 C CNN
+F 3 "" H 8375 10850 50  0001 C CNN
+	1    8375 10850
+	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9025 10850 9325 10850
+	8675 10850 8375 10850
 Text Notes 10700 9025 0    50   ~ 0
 Default 000
 $Bitmap
@@ -4705,11 +4674,11 @@ Wire Wire Line
 Wire Wire Line
 	5800 6200 6900 6200
 Wire Wire Line
-	5800 6700 6900 6700
+	5800 6600 6900 6600
 Wire Wire Line
 	5800 7000 6900 7000
 Wire Wire Line
-	5800 6800 6900 6800
+	5800 6700 6900 6700
 Wire Wire Line
 	5800 6900 6900 6900
 Wire Wire Line
@@ -4779,53 +4748,53 @@ Wire Wire Line
 Wire Wire Line
 	9925 3925 8825 3925
 Wire Wire Line
-	9925 4525 8825 4525
+	9925 4425 8825 4425
 Wire Wire Line
 	9925 4125 8825 4125
 Wire Wire Line
 	9925 4025 8825 4025
 Wire Wire Line
-	9925 4425 8825 4425
-Wire Wire Line
-	9925 4725 8825 4725
+	9925 6525 8825 6525
 Wire Wire Line
 	9925 4625 8825 4625
 Wire Wire Line
-	9925 5125 8825 5125
-Wire Wire Line
-	9925 4825 8825 4825
-Wire Wire Line
-	9925 4925 8825 4925
+	9925 4525 8825 4525
 Wire Wire Line
 	9925 5025 8825 5025
 Wire Wire Line
-	9925 5325 8825 5325
-Wire Wire Line
-	9925 5225 8825 5225
+	9925 4725 8825 4725
 Wire Wire Line
 	9925 5425 8825 5425
 Wire Wire Line
 	9925 5525 8825 5525
 Wire Wire Line
-	9925 5825 8825 5825
+	9925 5225 8825 5225
+Wire Wire Line
+	9925 5125 8825 5125
+Wire Wire Line
+	9925 5325 8825 5325
+Wire Wire Line
+	9925 5625 8825 5625
 Wire Wire Line
 	9925 5925 8825 5925
 Wire Wire Line
-	9925 6025 8825 6025
-Wire Wire Line
-	9925 5725 8825 5725
-Wire Wire Line
-	9925 6125 8825 6125
+	9925 6225 8825 6225
 Wire Wire Line
 	9925 6325 8825 6325
 Wire Wire Line
-	9925 6225 8825 6225
+	9925 5825 8825 5825
 Wire Wire Line
-	9925 6725 8825 6725
+	9925 6425 8825 6425
 Wire Wire Line
-	9925 6625 8825 6625
+	5800 5400 6900 5400
 Wire Wire Line
-	9925 6925 8825 6925
+	5800 5300 6900 5300
+Wire Wire Line
+	13925 7825 15025 7825
+Wire Wire Line
+	13925 7925 15025 7925
+Wire Wire Line
+	9925 6825 8825 6825
 Wire Wire Line
 	9925 7225 8825 7225
 Wire Wire Line
@@ -4866,8 +4835,6 @@ Wire Wire Line
 	15025 7725 13925 7725
 Wire Wire Line
 	15025 7625 13925 7625
-Wire Wire Line
-	15025 8025 13925 8025
 Text GLabel 2150 1975 0    50   Input ~ 0
 1V1_SYS
 Wire Wire Line
@@ -4904,7 +4871,7 @@ Wire Wire Line
 	15625 9225 15575 9225
 Wire Wire Line
 	15575 9225 15575 9275
-Text GLabel 9150 10500 2    50   Input ~ 0
+Text GLabel 8550 10475 0    50   Input ~ 0
 1V1_SYS
 Text GLabel 11300 9475 1    50   Input ~ 0
 1V0_SYS
@@ -4944,9 +4911,9 @@ Text GLabel 15025 6225 2    50   BiDi ~ 0
 DQ20_A
 Text GLabel 15025 6325 2    50   BiDi ~ 0
 DQ21_A
-Text GLabel 15025 6825 2    50   BiDi ~ 0
+Text GLabel 15025 6725 2    50   BiDi ~ 0
 DQ24_A
-Text GLabel 15025 6925 2    50   BiDi ~ 0
+Text GLabel 15025 6825 2    50   BiDi ~ 0
 DQ25_A
 Text GLabel 15025 7225 2    50   BiDi ~ 0
 DQS3_A_P
@@ -4966,9 +4933,9 @@ Text GLabel 8825 3825 0    50   BiDi ~ 0
 CB4_A
 Text GLabel 8825 3925 0    50   BiDi ~ 0
 CB5_A
-Text GLabel 8825 6525 0    50   BiDi ~ 0
+Text GLabel 15025 5425 2    50   BiDi ~ 0
 ALERT_N
-Text GLabel 8825 6725 0    50   BiDi ~ 0
+Text GLabel 15025 7825 2    50   BiDi ~ 0
 CS0_A_N
 Text GLabel 8825 5325 0    50   BiDi ~ 0
 PAR_A
@@ -4988,11 +4955,11 @@ Text GLabel 8825 4025 0    50   BiDi ~ 0
 CB6_A
 Text GLabel 8825 4125 0    50   BiDi ~ 0
 CB7_A
-Text GLabel 8825 6425 0    50   BiDi ~ 0
+Text GLabel 15025 5525 2    50   BiDi ~ 0
 RESET_N
-Text GLabel 8825 6625 0    50   BiDi ~ 0
+Text GLabel 15025 7925 2    50   BiDi ~ 0
 CS1_A_N
-Text GLabel 8825 4925 0    50   BiDi ~ 0
+Text GLabel 8825 5525 0    50   BiDi ~ 0
 CK_N
 Text GLabel 8825 4525 0    50   BiDi ~ 0
 CA1_A
@@ -5000,7 +4967,7 @@ Text GLabel 8825 4725 0    50   BiDi ~ 0
 CA3_A
 Text GLabel 8825 5125 0    50   BiDi ~ 0
 CA5_A
-Text GLabel 8825 4825 0    50   BiDi ~ 0
+Text GLabel 8825 5425 0    50   BiDi ~ 0
 CK_P
 Text GLabel 15025 7625 2    50   BiDi ~ 0
 DQ30_A
@@ -5053,36 +5020,26 @@ Wire Wire Line
 Wire Wire Line
 	15025 7025 13925 7025
 Wire Wire Line
-	15025 6925 13925 6925
-Wire Wire Line
 	15025 6825 13925 6825
 Wire Wire Line
-	9925 5625 8825 5625
+	15025 6725 13925 6725
 Wire Wire Line
-	9925 6525 8825 6525
+	9925 5725 8825 5725
 Wire Wire Line
-	9925 6425 8825 6425
+	13925 5425 15025 5425
 Wire Wire Line
-	9925 6825 8825 6825
+	13925 5525 15025 5525
+Wire Wire Line
+	9925 6725 8825 6725
 Wire Wire Line
 	15025 4925 13925 4925
 Wire Wire Line
 	15025 4825 13925 4825
-Wire Wire Line
-	9925 3125 8825 3125
-Text GLabel 8825 3125 0    50   Input ~ 0
-VRN
-Text GLabel 15025 8025 2    50   Input ~ 0
-VRP
-Wire Wire Line
-	8825 8025 9925 8025
-Text GLabel 8825 8025 0    50   Input ~ 0
-VRP
 Text Notes 4425 1850 0    50   ~ 0
 VCCO (HP bank) max: 2.0V
-Text GLabel 8825 6825 0    50   BiDi ~ 0
+Text GLabel 8825 6725 0    50   BiDi ~ 0
 CB4_B
-Text GLabel 8825 6925 0    50   BiDi ~ 0
+Text GLabel 8825 6825 0    50   BiDi ~ 0
 CB5_B
 Text GLabel 8825 7425 0    50   BiDi ~ 0
 CB0_B
@@ -5092,17 +5049,17 @@ Text GLabel 8825 7025 0    50   BiDi ~ 0
 CB6_B
 Text GLabel 8825 7125 0    50   BiDi ~ 0
 CB7_B
-Text GLabel 8825 5525 0    50   BiDi ~ 0
-CA1_B
 Text GLabel 8825 5725 0    50   BiDi ~ 0
+CA1_B
+Text GLabel 8825 5925 0    50   BiDi ~ 0
 CA3_B
-Text GLabel 8825 5625 0    50   BiDi ~ 0
+Text GLabel 8825 5825 0    50   BiDi ~ 0
 CA2_B
-Text GLabel 8825 5425 0    50   BiDi ~ 0
+Text GLabel 8825 5625 0    50   BiDi ~ 0
 CA0_B
-Text GLabel 8825 6225 0    50   BiDi ~ 0
+Text GLabel 6900 5300 2    50   BiDi ~ 0
 DLBDQ
-Text GLabel 8825 6325 0    50   BiDi ~ 0
+Text GLabel 6900 5400 2    50   BiDi ~ 0
 DLBDQS
 Text GLabel 6900 7500 2    50   BiDi ~ 0
 DQ30_B
@@ -5178,9 +5135,9 @@ Text GLabel 6900 6100 2    50   BiDi ~ 0
 DQ20_B
 Text GLabel 6900 6200 2    50   BiDi ~ 0
 DQ21_B
-Text GLabel 6900 6700 2    50   BiDi ~ 0
+Text GLabel 6900 6600 2    50   BiDi ~ 0
 DQ24_B
-Text GLabel 6900 6800 2    50   BiDi ~ 0
+Text GLabel 6900 6700 2    50   BiDi ~ 0
 DQ25_B
 Text GLabel 6900 7100 2    50   BiDi ~ 0
 DQS3_B_P
@@ -5192,13 +5149,13 @@ Text GLabel 6900 7400 2    50   BiDi ~ 0
 DQ29_B
 Text GLabel 6900 3700 2    50   BiDi ~ 0
 DQ4_B
-Text GLabel 8825 5825 0    50   BiDi ~ 0
+Text GLabel 8825 6225 0    50   BiDi ~ 0
 CA4_B
-Text GLabel 8825 6025 0    50   BiDi ~ 0
+Text GLabel 8825 6425 0    50   BiDi ~ 0
 CA6_B
-Text GLabel 8825 5925 0    50   BiDi ~ 0
+Text GLabel 8825 6325 0    50   BiDi ~ 0
 CA5_B
-Text GLabel 8825 6125 0    50   BiDi ~ 0
+Text GLabel 8825 6525 0    50   BiDi ~ 0
 PAR_B
 Text GLabel 8825 7925 0    50   BiDi ~ 0
 CS1_B_N
@@ -5210,22 +5167,470 @@ Wire Wire Line
 	5800 3300 6900 3300
 Wire Wire Line
 	5800 3700 6900 3700
-Text GLabel 950  4700 0    50   BiDi ~ 0
-DQS9_B_P
-Text GLabel 950  4800 0    50   BiDi ~ 0
-DQS9_B_N
-Text GLabel 950  3500 0    50   BiDi ~ 0
-DQS9_A_P
-Text GLabel 950  3600 0    50   BiDi ~ 0
-DQS9_A_N
-Wire Wire Line
-	1800 3500 950  3500
-Wire Wire Line
-	1800 3600 950  3600
-Wire Wire Line
-	1800 4700 950  4700
-Wire Wire Line
-	1800 4800 950  4800
 Text Notes 12500 1925 0    50   ~ 0
 VCCO (HP bank) max: 2.0V
+Connection ~ 9225 9550
+Wire Wire Line
+	9225 9550 9000 9550
+Wire Wire Line
+	9225 9550 9550 9550
+Wire Notes Line
+	7725 475  7725 8725
+$Comp
+L data-center-ddr5-tester:GND #PWR?
+U 1 1 62CEDDD3
+P 7250 9850
+F 0 "#PWR?" H 7250 9600 50  0001 C CNN
+F 1 "GND" H 7255 9677 50  0000 C CNN
+F 2 "" H 7250 9850 50  0001 C CNN
+F 3 "" H 7250 9850 50  0001 C CNN
+	1    7250 9850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L data-center-ddr5-tester:GND #PWR?
+U 1 1 62CEDDD9
+P 7025 9850
+F 0 "#PWR?" H 7025 9600 50  0001 C CNN
+F 1 "GND" H 7030 9677 50  0000 C CNN
+F 2 "" H 7025 9850 50  0001 C CNN
+F 3 "" H 7025 9850 50  0001 C CNN
+	1    7025 9850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L data-center-ddr5-tester:C_100n_0402_6V3 C?
+U 1 1 62CEDDE2
+P 7250 9700
+F 0 "C?" H 7135 9745 60  0000 R CNN
+F 1 "C_100n_0402_6V3" H 7250 9550 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 7450 9900 60  0001 L CNN
+F 3 "" H 7250 9700 50  0001 C CNN
+F 4 "Walsin" H 7450 10100 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7450 10000 60  0001 L CNN "MPN"
+F 6 "100n" H 7135 9647 50  0000 R CNN "Val"
+	1    7250 9700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 9150 6300 9250
+$Comp
+L data-center-ddr5-tester:GND #PWR?
+U 1 1 62CEDDF4
+P 6300 9850
+F 0 "#PWR?" H 6300 9600 50  0001 C CNN
+F 1 "GND" H 6305 9677 50  0000 C CNN
+F 2 "" H 6300 9850 50  0001 C CNN
+F 3 "" H 6300 9850 50  0001 C CNN
+	1    6300 9850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L data-center-ddr5-tester:R_1k_0603 R?
+U 1 1 62CEDDFD
+P 6300 9700
+F 0 "R?" V 6255 9631 60  0000 R CNN
+F 1 "R_1k_0603" H 6300 9550 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 6500 9900 60  0001 L CNN
+F 3 "" H 6300 9700 50  0001 C CNN
+F 4 "BOURNS" H 6500 10100 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-102ELF" H 6500 10000 60  0001 L CNN "MPN"
+F 6 "1k" V 6353 9631 50  0000 R CNN "Val"
+	1    6300 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L data-center-ddr5-tester:R_1k_0603 R?
+U 1 1 62CEDE07
+P 6300 9400
+F 0 "R?" V 6255 9331 60  0000 R CNN
+F 1 "R_1k_0603" H 6300 9250 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 6500 9600 60  0001 L CNN
+F 3 "" H 6300 9400 50  0001 C CNN
+F 4 "BOURNS" H 6500 9800 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-102ELF" H 6500 9700 60  0001 L CNN "MPN"
+F 6 "1k" V 6353 9331 50  0000 R CNN "Val"
+	1    6300 9400
+	0    1    1    0   
+$EndComp
+Text GLabel 7575 9550 2    50   Output ~ 0
+VREF_33
+Wire Wire Line
+	7175 10850 6975 10850
+Wire Wire Line
+	7000 10475 7175 10475
+Wire Wire Line
+	6700 10475 6550 10475
+$Comp
+L data-center-ddr5-tester:R_120R_0603 R?
+U 1 1 62CEDE14
+P 6825 10850
+F 0 "R?" H 6825 11063 60  0000 C CNN
+F 1 "R_120R_0603" H 6825 10700 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 7025 11050 60  0001 L CNN
+F 3 "" H 6825 10850 50  0001 C CNN
+F 4 "VISHAY" H 7025 11250 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 7025 11150 60  0001 L CNN "MPN"
+F 6 "120R" H 6825 10965 50  0000 C CNN "Val"
+	1    6825 10850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L data-center-ddr5-tester:R_120R_0603 R?
+U 1 1 62CEDE1D
+P 6850 10475
+F 0 "R?" H 6850 10688 60  0000 C CNN
+F 1 "R_120R_0603" H 6850 10325 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 7050 10675 60  0001 L CNN
+F 3 "" H 6850 10475 50  0001 C CNN
+F 4 "VISHAY" H 7050 10875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 7050 10775 60  0001 L CNN "MPN"
+F 6 "120R" H 6850 10590 50  0000 C CNN "Val"
+	1    6850 10475
+	-1   0    0    -1  
+$EndComp
+Text GLabel 7175 10475 2    50   Output ~ 0
+VRN_33
+Text GLabel 7175 10850 2    50   Input ~ 0
+VRP_33
+Text Notes 6675 8900 0    98   ~ 20
+VREF
+$Comp
+L data-center-ddr5-tester:GND #PWR?
+U 1 1 62CEDE26
+P 6375 10850
+F 0 "#PWR?" H 6375 10600 50  0001 C CNN
+F 1 "GND" H 6380 10677 50  0000 C CNN
+F 2 "" H 6375 10850 50  0001 C CNN
+F 3 "" H 6375 10850 50  0001 C CNN
+	1    6375 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6675 10850 6375 10850
+Text GLabel 6250 9150 0    50   Input ~ 0
+1V1_SYS
+Text GLabel 6550 10475 0    50   Input ~ 0
+1V1_SYS
+$Comp
+L data-center-ddr5-tester:GND #PWR?
+U 1 1 62D0E33D
+P 5225 9850
+F 0 "#PWR?" H 5225 9600 50  0001 C CNN
+F 1 "GND" H 5230 9677 50  0000 C CNN
+F 2 "" H 5225 9850 50  0001 C CNN
+F 3 "" H 5225 9850 50  0001 C CNN
+	1    5225 9850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L data-center-ddr5-tester:GND #PWR?
+U 1 1 62D0E343
+P 5000 9850
+F 0 "#PWR?" H 5000 9600 50  0001 C CNN
+F 1 "GND" H 5005 9677 50  0000 C CNN
+F 2 "" H 5000 9850 50  0001 C CNN
+F 3 "" H 5000 9850 50  0001 C CNN
+	1    5000 9850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L data-center-ddr5-tester:C_100n_0402_6V3 C?
+U 1 1 62D0E34C
+P 5225 9700
+F 0 "C?" H 5110 9745 60  0000 R CNN
+F 1 "C_100n_0402_6V3" H 5225 9550 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 5425 9900 60  0001 L CNN
+F 3 "" H 5225 9700 50  0001 C CNN
+F 4 "Walsin" H 5425 10100 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5425 10000 60  0001 L CNN "MPN"
+F 6 "100n" H 5110 9647 50  0000 R CNN "Val"
+	1    5225 9700
+	-1   0    0    -1  
+$EndComp
+Connection ~ 5000 9550
+$Comp
+L data-center-ddr5-tester:C_100n_0402_6V3 C?
+U 1 1 62D0E357
+P 5000 9700
+F 0 "C?" H 5114 9745 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 5000 9550 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 5200 9900 60  0001 L CNN
+F 3 "" H 5000 9700 50  0001 C CNN
+F 4 "Walsin" H 5200 10100 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 5200 10000 60  0001 L CNN "MPN"
+F 6 "100n" H 5114 9647 50  0000 L CNN "Val"
+	1    5000 9700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4275 9150 4275 9250
+$Comp
+L data-center-ddr5-tester:GND #PWR?
+U 1 1 62D0E35E
+P 4275 9850
+F 0 "#PWR?" H 4275 9600 50  0001 C CNN
+F 1 "GND" H 4280 9677 50  0000 C CNN
+F 2 "" H 4275 9850 50  0001 C CNN
+F 3 "" H 4275 9850 50  0001 C CNN
+	1    4275 9850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L data-center-ddr5-tester:R_1k_0603 R?
+U 1 1 62D0E367
+P 4275 9700
+F 0 "R?" V 4230 9631 60  0000 R CNN
+F 1 "R_1k_0603" H 4275 9550 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 4475 9900 60  0001 L CNN
+F 3 "" H 4275 9700 50  0001 C CNN
+F 4 "BOURNS" H 4475 10100 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-102ELF" H 4475 10000 60  0001 L CNN "MPN"
+F 6 "1k" V 4328 9631 50  0000 R CNN "Val"
+	1    4275 9700
+	0    1    1    0   
+$EndComp
+$Comp
+L data-center-ddr5-tester:R_1k_0603 R?
+U 1 1 62D0E371
+P 4275 9400
+F 0 "R?" V 4230 9331 60  0000 R CNN
+F 1 "R_1k_0603" H 4275 9250 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 4475 9600 60  0001 L CNN
+F 3 "" H 4275 9400 50  0001 C CNN
+F 4 "BOURNS" H 4475 9800 60  0001 L CNN "Manufacturer"
+F 5 "CR0603-JW-102ELF" H 4475 9700 60  0001 L CNN "MPN"
+F 6 "1k" V 4328 9331 50  0000 R CNN "Val"
+	1    4275 9400
+	0    1    1    0   
+$EndComp
+Text GLabel 5550 9550 2    50   Output ~ 0
+VREF_32
+Wire Wire Line
+	5175 10850 4975 10850
+Wire Wire Line
+	5000 10475 5175 10475
+Wire Wire Line
+	4700 10475 4550 10475
+$Comp
+L data-center-ddr5-tester:R_120R_0603 R?
+U 1 1 62D0E37E
+P 4825 10850
+F 0 "R?" H 4825 11063 60  0000 C CNN
+F 1 "R_120R_0603" H 4825 10700 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 5025 11050 60  0001 L CNN
+F 3 "" H 4825 10850 50  0001 C CNN
+F 4 "VISHAY" H 5025 11250 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 5025 11150 60  0001 L CNN "MPN"
+F 6 "120R" H 4825 10965 50  0000 C CNN "Val"
+	1    4825 10850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L data-center-ddr5-tester:R_120R_0603 R?
+U 1 1 62D0E387
+P 4850 10475
+F 0 "R?" H 4850 10688 60  0000 C CNN
+F 1 "R_120R_0603" H 4850 10325 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0603-res" H 5050 10675 60  0001 L CNN
+F 3 "" H 4850 10475 50  0001 C CNN
+F 4 "VISHAY" H 5050 10875 60  0001 L CNN "Manufacturer"
+F 5 "CRCW0603120RFKEA" H 5050 10775 60  0001 L CNN "MPN"
+F 6 "120R" H 4850 10590 50  0000 C CNN "Val"
+	1    4850 10475
+	-1   0    0    -1  
+$EndComp
+Text GLabel 5175 10475 2    50   Output ~ 0
+VRN_32
+Text GLabel 5175 10850 2    50   Input ~ 0
+VRP_32
+$Comp
+L data-center-ddr5-tester:GND #PWR?
+U 1 1 62D0E390
+P 4375 10850
+F 0 "#PWR?" H 4375 10600 50  0001 C CNN
+F 1 "GND" H 4380 10677 50  0000 C CNN
+F 2 "" H 4375 10850 50  0001 C CNN
+F 3 "" H 4375 10850 50  0001 C CNN
+	1    4375 10850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4675 10850 4375 10850
+Text GLabel 4225 9150 0    50   Input ~ 0
+1V1_SYS
+Wire Wire Line
+	4275 9150 4225 9150
+Text GLabel 4550 10475 0    50   Input ~ 0
+1V1_SYS
+Connection ~ 5225 9550
+Wire Wire Line
+	5225 9550 5000 9550
+Wire Wire Line
+	5225 9550 5550 9550
+Wire Notes Line
+	3675 8725 3675 11225
+$Comp
+L antmicroFerriteBeadsandChips:BLM15AG601SN1D FB?
+U 1 1 62DA32A7
+P 4525 9550
+F 0 "FB?" H 4450 9825 60  0000 C CNN
+F 1 "BLM15AG601SN1D" H 4775 9725 60  0000 C CNN
+F 2 "antmicro-footprints:0402-res" H 4725 9750 60  0001 L CNN
+F 3 "" H 4725 9850 60  0001 L CNN
+F 4 "BLM15AG601SN1D" H 4725 10050 60  0001 L CNN "MPN"
+F 5 "Murata" H 4725 10650 60  0001 L CNN "Manufacturer"
+	1    4525 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4275 9550 4325 9550
+Connection ~ 4275 9550
+Wire Wire Line
+	4725 9550 5000 9550
+$Comp
+L antmicroFerriteBeadsandChips:BLM15AG601SN1D FB?
+U 1 1 62E346CA
+P 6550 9550
+F 0 "FB?" H 6475 9825 60  0000 C CNN
+F 1 "BLM15AG601SN1D" H 6800 9725 60  0000 C CNN
+F 2 "antmicro-footprints:0402-res" H 6750 9750 60  0001 L CNN
+F 3 "" H 6750 9850 60  0001 L CNN
+F 4 "BLM15AG601SN1D" H 6750 10050 60  0001 L CNN "MPN"
+F 5 "Murata" H 6750 10650 60  0001 L CNN "Manufacturer"
+	1    6550 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 9550 6350 9550
+Wire Wire Line
+	7250 9550 7575 9550
+Wire Wire Line
+	6750 9550 7025 9550
+$Comp
+L data-center-ddr5-tester:C_100n_0402_6V3 C?
+U 1 1 62CEDDED
+P 7025 9700
+F 0 "C?" H 7139 9745 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 7025 9550 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 7225 9900 60  0001 L CNN
+F 3 "" H 7025 9700 50  0001 C CNN
+F 4 "Walsin" H 7225 10100 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 7225 10000 60  0001 L CNN "MPN"
+F 6 "100n" H 7139 9647 50  0000 L CNN "Val"
+	1    7025 9700
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7025 9550 7250 9550
+Connection ~ 7025 9550
+Connection ~ 7250 9550
+$Comp
+L antmicroFerriteBeadsandChips:BLM15AG601SN1D FB?
+U 1 1 62FA8BAD
+P 8525 9550
+F 0 "FB?" H 8450 9825 60  0000 C CNN
+F 1 "BLM15AG601SN1D" H 8775 9725 60  0000 C CNN
+F 2 "antmicro-footprints:0402-res" H 8725 9750 60  0001 L CNN
+F 3 "" H 8725 9850 60  0001 L CNN
+F 4 "BLM15AG601SN1D" H 8725 10050 60  0001 L CNN "MPN"
+F 5 "Murata" H 8725 10650 60  0001 L CNN "Manufacturer"
+	1    8525 9550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8275 9550 8325 9550
+Wire Wire Line
+	8725 9550 9000 9550
+Connection ~ 9000 9550
+$Comp
+L data-center-ddr5-tester:C_100n_0402_6V3 C169
+U 1 1 6227AF11
+P 9000 9700
+F 0 "C169" H 9114 9745 60  0000 L CNN
+F 1 "C_100n_0402_6V3" H 9000 9550 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-cap" H 9200 9900 60  0001 L CNN
+F 3 "" H 9000 9700 50  0001 C CNN
+F 4 "Walsin" H 9200 10100 60  0001 L CNN "Manufacturer"
+F 5 "0402X104K6R3CT" H 9200 10000 60  0001 L CNN "MPN"
+F 6 "100n" H 9114 9647 50  0000 L CNN "Val"
+	1    9000 9700
+	-1   0    0    -1  
+$EndComp
+Connection ~ 8275 9550
+Connection ~ 6300 9550
+Wire Wire Line
+	6250 9150 6300 9150
+Text GLabel 6900 6800 2    50   Input ~ 0
+VREF_32
+Wire Wire Line
+	5800 6800 6900 6800
+Text GLabel 6900 4200 2    50   Input ~ 0
+VREF_32
+Wire Wire Line
+	5800 4200 6900 4200
+Text GLabel 6900 3000 2    50   Input ~ 0
+VRN_32
+Text GLabel 6900 7900 2    50   Input ~ 0
+VRP_32
+Wire Wire Line
+	5800 7900 6900 7900
+Wire Wire Line
+	5800 3000 6900 3000
+Wire Wire Line
+	8825 3125 9925 3125
+Wire Wire Line
+	8825 4325 9925 4325
+Wire Wire Line
+	8825 6925 9925 6925
+Wire Wire Line
+	8825 8025 9925 8025
+Text GLabel 8825 4325 0    50   Input ~ 0
+VREF_33
+Text GLabel 8825 6925 0    50   Input ~ 0
+VREF_33
+Text GLabel 8825 3125 0    50   Input ~ 0
+VRN_33
+Text GLabel 8825 8025 0    50   Input ~ 0
+VRP_33
+Text GLabel 15025 3125 2    50   Input ~ 0
+VRN_34
+Text GLabel 15025 8025 2    50   Input ~ 0
+VRP_34
+Wire Wire Line
+	15025 8025 13925 8025
+Wire Wire Line
+	15025 3125 13925 3125
+Text GLabel 15025 4325 2    50   Input ~ 0
+VREF_34
+Wire Wire Line
+	15025 4325 13925 4325
+Text GLabel 15025 6925 2    50   Input ~ 0
+VREF_34
+Wire Wire Line
+	15025 6925 13925 6925
+Wire Wire Line
+	9925 6125 8825 6125
+Wire Wire Line
+	9925 6025 8825 6025
+Text GLabel 8825 4825 0    50   BiDi ~ 0
+DQS5_A_P
+Text GLabel 8825 4925 0    50   BiDi ~ 0
+DQS5_A_N
+Wire Wire Line
+	9925 4825 8825 4825
+Wire Wire Line
+	9925 4925 8825 4925
+Text GLabel 8825 6125 0    50   BiDi ~ 0
+DQS5_B_N
+Text GLabel 8825 6025 0    50   BiDi ~ 0
+DQS5_B_P
+NoConn ~ 9925 4225
+NoConn ~ 9925 6625
+NoConn ~ 5800 6500
+NoConn ~ 5800 7700
+NoConn ~ 5800 7800
+NoConn ~ 5800 4100
+NoConn ~ 13925 4225
+NoConn ~ 13925 6625
 $EndSCHEMATC
