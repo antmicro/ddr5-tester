@@ -5659,37 +5659,37 @@ Wire Wire Line
 	1450 5300 1800 5300
 Wire Wire Line
 	1450 5400 1800 5400
-Text GLabel 1450 7300 0    50   Input ~ 0
-TMDS_CLK_P
-Text GLabel 1450 7400 0    50   Input ~ 0
-TMDS_CLK_N
 Text GLabel 1450 7500 0    50   Input ~ 0
-TMDS_D1_P
+TMDS_CLK_P
 Text GLabel 1450 7600 0    50   Input ~ 0
+TMDS_CLK_N
+Text GLabel 1450 7700 0    50   Input ~ 0
+TMDS_D1_P
+Text GLabel 1450 7800 0    50   Input ~ 0
 TMDS_D1_N
+Wire Wire Line
+	1800 7800 1450 7800
+Wire Wire Line
+	1800 7700 1450 7700
 Wire Wire Line
 	1800 7600 1450 7600
 Wire Wire Line
 	1800 7500 1450 7500
 Wire Wire Line
-	1800 7400 1450 7400
-Wire Wire Line
-	1800 7300 1450 7300
-Wire Wire Line
-	1800 7000 1450 7000
-Wire Wire Line
-	1800 6900 1450 6900
+	1800 7200 1450 7200
 Wire Wire Line
 	1800 7100 1450 7100
 Wire Wire Line
-	1800 7200 1450 7200
-Text GLabel 1450 7200 0    50   Input ~ 0
+	1800 7300 1450 7300
+Wire Wire Line
+	1800 7400 1450 7400
+Text GLabel 1450 7400 0    50   Input ~ 0
 TMDS_D2_N
-Text GLabel 1450 7100 0    50   Input ~ 0
+Text GLabel 1450 7300 0    50   Input ~ 0
 TMDS_D2_P
-Text GLabel 1450 7000 0    50   Input ~ 0
+Text GLabel 1450 7200 0    50   Input ~ 0
 TMDS_D0_N
-Text GLabel 1450 6900 0    50   Input ~ 0
+Text GLabel 1450 7100 0    50   Input ~ 0
 TMDS_D0_P
 Text GLabel 1450 5300 0    50   Input ~ 0
 SD_DAT0
@@ -5727,8 +5727,8 @@ NoConn ~ 1800 6400
 NoConn ~ 1800 6500
 NoConn ~ 1800 6600
 NoConn ~ 1800 6700
-NoConn ~ 1800 7700
-NoConn ~ 1800 7800
+NoConn ~ 1800 6900
+NoConn ~ 1800 7000
 NoConn ~ 1800 7900
 NoConn ~ 1800 6800
 $EndSCHEMATC
