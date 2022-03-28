@@ -4887,17 +4887,17 @@ Text GLabel 15025 3725 2    50   BiDi ~ 0
 DQS0_A_N
 Text GLabel 15025 3925 2    50   BiDi ~ 0
 DQ5_A
-Text GLabel 15025 4425 2    50   BiDi ~ 0
+Text GLabel 15025 4725 2    50   BiDi ~ 0
 DQ8_A
-Text GLabel 15025 4525 2    50   BiDi ~ 0
+Text GLabel 15025 5025 2    50   BiDi ~ 0
 DQ9_A
 Text GLabel 15025 4825 2    50   BiDi ~ 0
 DQS1_A_P
 Text GLabel 15025 4925 2    50   BiDi ~ 0
 DQS1_A_N
-Text GLabel 15025 5025 2    50   BiDi ~ 0
+Text GLabel 15025 4525 2    50   BiDi ~ 0
 DQ12_A
-Text GLabel 15025 5125 2    50   BiDi ~ 0
+Text GLabel 15025 4425 2    50   BiDi ~ 0
 DQ13_A
 Text GLabel 15025 5625 2    50   BiDi ~ 0
 DQ16_A
@@ -4993,17 +4993,17 @@ Text GLabel 15025 5825 2    50   BiDi ~ 0
 DQ18_A
 Text GLabel 15025 5925 2    50   BiDi ~ 0
 DQ19_A
-Text GLabel 15025 4025 2    50   BiDi ~ 0
+Text GLabel 15025 3425 2    50   BiDi ~ 0
 DQ6_A
-Text GLabel 15025 4125 2    50   BiDi ~ 0
+Text GLabel 15025 3525 2    50   BiDi ~ 0
 DQ7_A
 Text GLabel 15025 4625 2    50   BiDi ~ 0
 DQ10_A
-Text GLabel 15025 4725 2    50   BiDi ~ 0
+Text GLabel 15025 5125 2    50   BiDi ~ 0
 DQ11_A
-Text GLabel 15025 3425 2    50   BiDi ~ 0
+Text GLabel 15025 4025 2    50   BiDi ~ 0
 DQ2_A
-Text GLabel 15025 3525 2    50   BiDi ~ 0
+Text GLabel 15025 4125 2    50   BiDi ~ 0
 DQ3_A
 Wire Wire Line
 	15025 5825 13925 5825
