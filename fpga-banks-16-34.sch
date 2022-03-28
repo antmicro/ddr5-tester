@@ -4901,7 +4901,7 @@ Text GLabel 15025 4425 2    50   BiDi ~ 0
 DQ13_A
 Text GLabel 15025 5625 2    50   BiDi ~ 0
 DQ16_A
-Text GLabel 15025 5725 2    50   BiDi ~ 0
+Text GLabel 15025 5825 2    50   BiDi ~ 0
 DQ17_A
 Text GLabel 15025 6025 2    50   BiDi ~ 0
 DQS2_A_P
@@ -4909,7 +4909,7 @@ Text GLabel 15025 6125 2    50   BiDi ~ 0
 DQS2_A_N
 Text GLabel 15025 6225 2    50   BiDi ~ 0
 DQ20_A
-Text GLabel 15025 6325 2    50   BiDi ~ 0
+Text GLabel 15025 6425 2    50   BiDi ~ 0
 DQ21_A
 Text GLabel 15025 6725 2    50   BiDi ~ 0
 DQ24_A
@@ -4977,9 +4977,9 @@ Text GLabel 8825 3425 0    50   BiDi ~ 0
 CB2_A
 Text GLabel 8825 3525 0    50   BiDi ~ 0
 CB3_A
-Text GLabel 15025 6425 2    50   BiDi ~ 0
-DQ22_A
 Text GLabel 15025 6525 2    50   BiDi ~ 0
+DQ22_A
+Text GLabel 15025 6325 2    50   BiDi ~ 0
 DQ23_A
 Text GLabel 15025 7025 2    50   BiDi ~ 0
 DQ26_A
@@ -4989,9 +4989,9 @@ Text GLabel 15025 5225 2    50   BiDi ~ 0
 DQ14_A
 Text GLabel 15025 5325 2    50   BiDi ~ 0
 DQ15_A
-Text GLabel 15025 5825 2    50   BiDi ~ 0
-DQ18_A
 Text GLabel 15025 5925 2    50   BiDi ~ 0
+DQ18_A
+Text GLabel 15025 5725 2    50   BiDi ~ 0
 DQ19_A
 Text GLabel 15025 3425 2    50   BiDi ~ 0
 DQ6_A
