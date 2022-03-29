@@ -4734,45 +4734,25 @@ Wire Wire Line
 Wire Wire Line
 	9925 3225 8825 3225
 Wire Wire Line
-	9925 3525 8825 3525
+	9925 6525 8825 6525
 Wire Wire Line
 	9925 3425 8825 3425
 Wire Wire Line
 	9925 3325 8825 3325
 Wire Wire Line
-	9925 3625 8825 3625
-Wire Wire Line
-	9925 3725 8825 3725
-Wire Wire Line
 	9925 3825 8825 3825
 Wire Wire Line
-	9925 3925 8825 3925
-Wire Wire Line
-	9925 4425 8825 4425
-Wire Wire Line
-	9925 4125 8825 4125
-Wire Wire Line
-	9925 4025 8825 4025
-Wire Wire Line
-	9925 6525 8825 6525
-Wire Wire Line
-	9925 4625 8825 4625
-Wire Wire Line
-	9925 4525 8825 4525
-Wire Wire Line
-	9925 5025 8825 5025
-Wire Wire Line
-	9925 4725 8825 4725
+	9925 3525 8825 3525
 Wire Wire Line
 	9925 5425 8825 5425
 Wire Wire Line
 	9925 5525 8825 5525
 Wire Wire Line
-	9925 5225 8825 5225
+	9925 4025 8825 4025
 Wire Wire Line
-	9925 5125 8825 5125
+	9925 3925 8825 3925
 Wire Wire Line
-	9925 5325 8825 5325
+	9925 4125 8825 4125
 Wire Wire Line
 	9925 5625 8825 5625
 Wire Wire Line
@@ -4911,72 +4891,52 @@ Text GLabel 15025 6225 2    50   BiDi ~ 0
 DQ20_A
 Text GLabel 15025 5825 2    50   BiDi ~ 0
 DQ21_A
-Text GLabel 15025 6725 2    50   BiDi ~ 0
+Text GLabel 15025 7425 2    50   BiDi ~ 0
 DQ24_A
-Text GLabel 15025 6825 2    50   BiDi ~ 0
+Text GLabel 15025 7525 2    50   BiDi ~ 0
 DQ25_A
 Text GLabel 15025 7225 2    50   BiDi ~ 0
 DQS3_A_P
 Text GLabel 15025 7325 2    50   BiDi ~ 0
 DQS3_A_N
-Text GLabel 15025 7425 2    50   BiDi ~ 0
+Text GLabel 15025 6825 2    50   BiDi ~ 0
 DQ28_A
-Text GLabel 15025 7525 2    50   BiDi ~ 0
+Text GLabel 15025 6725 2    50   BiDi ~ 0
 DQ29_A
-Text GLabel 8825 3225 0    50   BiDi ~ 0
-CB0_A
-Text GLabel 8825 3325 0    50   BiDi ~ 0
-CB1_A
-Text GLabel 8825 3725 0    50   BiDi ~ 0
-DQS4_A_N
-Text GLabel 8825 3825 0    50   BiDi ~ 0
-CB4_A
-Text GLabel 8825 3925 0    50   BiDi ~ 0
-CB5_A
 Text GLabel 15025 5425 2    50   BiDi ~ 0
 ALERT_N
 Text GLabel 15025 7825 2    50   BiDi ~ 0
 CS0_A_N
-Text GLabel 8825 5325 0    50   BiDi ~ 0
+Text GLabel 8825 4125 0    50   BiDi ~ 0
 PAR_A
-Text GLabel 8825 4725 0    50   BiDi ~ 0
+Text GLabel 8825 3525 0    50   BiDi ~ 0
 CA0_A
-Text GLabel 8825 4625 0    50   BiDi ~ 0
+Text GLabel 8825 3425 0    50   BiDi ~ 0
 CA2_A
-Text GLabel 8825 4525 0    50   BiDi ~ 0
+Text GLabel 8825 3325 0    50   BiDi ~ 0
 CA4_A
-Text GLabel 8825 5225 0    50   BiDi ~ 0
+Text GLabel 8825 4025 0    50   BiDi ~ 0
 CA6_A
 Text GLabel 15025 3825 2    50   BiDi ~ 0
 DQ4_A
-Text GLabel 8825 3625 0    50   BiDi ~ 0
-DQS4_A_P
-Text GLabel 8825 4025 0    50   BiDi ~ 0
-CB6_A
-Text GLabel 8825 4125 0    50   BiDi ~ 0
-CB7_A
 Text GLabel 15025 5525 2    50   BiDi ~ 0
 RESET_N
 Text GLabel 15025 7925 2    50   BiDi ~ 0
 CS1_A_N
 Text GLabel 8825 5525 0    50   BiDi ~ 0
 CK_N
-Text GLabel 8825 5025 0    50   BiDi ~ 0
+Text GLabel 8825 3825 0    50   BiDi ~ 0
 CA1_A
-Text GLabel 8825 5125 0    50   BiDi ~ 0
+Text GLabel 8825 3925 0    50   BiDi ~ 0
 CA3_A
-Text GLabel 8825 4425 0    50   BiDi ~ 0
+Text GLabel 8825 3225 0    50   BiDi ~ 0
 CA5_A
 Text GLabel 8825 5425 0    50   BiDi ~ 0
 CK_P
-Text GLabel 15025 7625 2    50   BiDi ~ 0
-DQ30_A
 Text GLabel 15025 7725 2    50   BiDi ~ 0
+DQ30_A
+Text GLabel 15025 7625 2    50   BiDi ~ 0
 DQ31_A
-Text GLabel 8825 3425 0    50   BiDi ~ 0
-CB2_A
-Text GLabel 8825 3525 0    50   BiDi ~ 0
-CB3_A
 Text GLabel 15025 5925 2    50   BiDi ~ 0
 DQ22_A
 Text GLabel 15025 6325 2    50   BiDi ~ 0
@@ -5613,14 +5573,14 @@ Wire Wire Line
 	9925 6125 8825 6125
 Wire Wire Line
 	9925 6025 8825 6025
-Text GLabel 8825 4825 0    50   BiDi ~ 0
+Text GLabel 8825 3625 0    50   BiDi ~ 0
 DQS5_A_P
-Text GLabel 8825 4925 0    50   BiDi ~ 0
+Text GLabel 8825 3725 0    50   BiDi ~ 0
 DQS5_A_N
 Wire Wire Line
-	9925 4825 8825 4825
+	9925 3625 8825 3625
 Wire Wire Line
-	9925 4925 8825 4925
+	9925 3725 8825 3725
 Text GLabel 8825 6125 0    50   BiDi ~ 0
 DQS5_B_N
 Text GLabel 8825 6025 0    50   BiDi ~ 0
@@ -5731,4 +5691,44 @@ NoConn ~ 1800 6900
 NoConn ~ 1800 7000
 NoConn ~ 1800 7900
 NoConn ~ 1800 6800
+Wire Wire Line
+	9925 4425 8825 4425
+Wire Wire Line
+	9925 4725 8825 4725
+Wire Wire Line
+	9925 4625 8825 4625
+Wire Wire Line
+	9925 4525 8825 4525
+Wire Wire Line
+	9925 4825 8825 4825
+Wire Wire Line
+	9925 4925 8825 4925
+Wire Wire Line
+	9925 5025 8825 5025
+Wire Wire Line
+	9925 5125 8825 5125
+Wire Wire Line
+	9925 5325 8825 5325
+Wire Wire Line
+	9925 5225 8825 5225
+Text GLabel 8825 4925 0    50   BiDi ~ 0
+DQS4_A_N
+Text GLabel 8825 4825 0    50   BiDi ~ 0
+DQS4_A_P
+Text GLabel 8825 4625 0    50   BiDi ~ 0
+CB6_A
+Text GLabel 8825 5225 0    50   BiDi ~ 0
+CB7_A
+Text GLabel 8825 4525 0    50   BiDi ~ 0
+CB3_A
+Text GLabel 8825 4425 0    50   BiDi ~ 0
+CB1_A
+Text GLabel 8825 5125 0    50   BiDi ~ 0
+CB2_A
+Text GLabel 8825 5025 0    50   BiDi ~ 0
+CB0_A
+Text GLabel 8825 5325 0    50   BiDi ~ 0
+CB5_A
+Text GLabel 8825 4725 0    50   BiDi ~ 0
+CB4_A
 $EndSCHEMATC
