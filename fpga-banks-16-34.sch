@@ -4939,11 +4939,11 @@ Text GLabel 15025 7825 2    50   BiDi ~ 0
 CS0_A_N
 Text GLabel 8825 5325 0    50   BiDi ~ 0
 PAR_A
-Text GLabel 8825 4425 0    50   BiDi ~ 0
+Text GLabel 8825 4725 0    50   BiDi ~ 0
 CA0_A
 Text GLabel 8825 4625 0    50   BiDi ~ 0
 CA2_A
-Text GLabel 8825 5025 0    50   BiDi ~ 0
+Text GLabel 8825 4525 0    50   BiDi ~ 0
 CA4_A
 Text GLabel 8825 5225 0    50   BiDi ~ 0
 CA6_A
@@ -4961,11 +4961,11 @@ Text GLabel 15025 7925 2    50   BiDi ~ 0
 CS1_A_N
 Text GLabel 8825 5525 0    50   BiDi ~ 0
 CK_N
-Text GLabel 8825 4525 0    50   BiDi ~ 0
+Text GLabel 8825 5025 0    50   BiDi ~ 0
 CA1_A
-Text GLabel 8825 4725 0    50   BiDi ~ 0
-CA3_A
 Text GLabel 8825 5125 0    50   BiDi ~ 0
+CA3_A
+Text GLabel 8825 4425 0    50   BiDi ~ 0
 CA5_A
 Text GLabel 8825 5425 0    50   BiDi ~ 0
 CK_P
