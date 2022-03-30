@@ -5719,9 +5719,9 @@ Text GLabel 8825 5325 0    50   BiDi ~ 0
 CB6_A
 Text GLabel 8825 5225 0    50   BiDi ~ 0
 CB7_A
-Text GLabel 8825 4525 0    50   BiDi ~ 0
-CB3_A
 Text GLabel 8825 4425 0    50   BiDi ~ 0
+CB3_A
+Text GLabel 8825 4525 0    50   BiDi ~ 0
 CB1_A
 Text GLabel 8825 5125 0    50   BiDi ~ 0
 CB2_A
