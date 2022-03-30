@@ -4865,7 +4865,7 @@ Text GLabel 15025 3625 2    50   BiDi ~ 0
 DQS0_A_P
 Text GLabel 15025 3725 2    50   BiDi ~ 0
 DQS0_A_N
-Text GLabel 15025 3925 2    50   BiDi ~ 0
+Text GLabel 15025 3825 2    50   BiDi ~ 0
 DQ5_A
 Text GLabel 15025 4725 2    50   BiDi ~ 0
 DQ8_A
@@ -4903,9 +4903,9 @@ Text GLabel 15025 6825 2    50   BiDi ~ 0
 DQ28_A
 Text GLabel 15025 6725 2    50   BiDi ~ 0
 DQ29_A
-Text GLabel 15025 5425 2    50   BiDi ~ 0
+Text GLabel 15025 7925 2    50   BiDi ~ 0
 ALERT_N
-Text GLabel 15025 7825 2    50   BiDi ~ 0
+Text GLabel 15025 5425 2    50   BiDi ~ 0
 CS0_A_N
 Text GLabel 8825 4125 0    50   BiDi ~ 0
 PAR_A
@@ -4917,11 +4917,11 @@ Text GLabel 8825 3325 0    50   BiDi ~ 0
 CA4_A
 Text GLabel 8825 4025 0    50   BiDi ~ 0
 CA6_A
-Text GLabel 15025 3825 2    50   BiDi ~ 0
+Text GLabel 15025 3525 2    50   BiDi ~ 0
 DQ4_A
-Text GLabel 15025 5525 2    50   BiDi ~ 0
+Text GLabel 15025 7825 2    50   BiDi ~ 0
 RESET_N
-Text GLabel 15025 7925 2    50   BiDi ~ 0
+Text GLabel 15025 5525 2    50   BiDi ~ 0
 CS1_A_N
 Text GLabel 8825 5525 0    50   BiDi ~ 0
 CK_N
@@ -4955,7 +4955,7 @@ Text GLabel 15025 5725 2    50   BiDi ~ 0
 DQ19_A
 Text GLabel 15025 3425 2    50   BiDi ~ 0
 DQ6_A
-Text GLabel 15025 3525 2    50   BiDi ~ 0
+Text GLabel 15025 3925 2    50   BiDi ~ 0
 DQ7_A
 Text GLabel 15025 4625 2    50   BiDi ~ 0
 DQ10_A
@@ -4997,25 +4997,25 @@ Wire Wire Line
 	15025 4825 13925 4825
 Text Notes 4425 1850 0    50   ~ 0
 VCCO (HP bank) max: 2.0V
-Text GLabel 8825 6725 0    50   BiDi ~ 0
+Text GLabel 8825 6425 0    50   BiDi ~ 0
 CB4_B
-Text GLabel 8825 6825 0    50   BiDi ~ 0
+Text GLabel 8825 6525 0    50   BiDi ~ 0
 CB5_B
-Text GLabel 8825 7425 0    50   BiDi ~ 0
-CB0_B
-Text GLabel 8825 7525 0    50   BiDi ~ 0
-CB1_B
-Text GLabel 8825 7025 0    50   BiDi ~ 0
-CB6_B
-Text GLabel 8825 7125 0    50   BiDi ~ 0
-CB7_B
-Text GLabel 8825 5725 0    50   BiDi ~ 0
-CA1_B
-Text GLabel 8825 5925 0    50   BiDi ~ 0
-CA3_B
 Text GLabel 8825 5825 0    50   BiDi ~ 0
+CB0_B
+Text GLabel 8825 5925 0    50   BiDi ~ 0
+CB1_B
+Text GLabel 8825 6725 0    50   BiDi ~ 0
+CB6_B
+Text GLabel 8825 6825 0    50   BiDi ~ 0
+CB7_B
+Text GLabel 8825 7425 0    50   BiDi ~ 0
+CA1_B
+Text GLabel 8825 7825 0    50   BiDi ~ 0
+CA3_B
+Text GLabel 8825 7925 0    50   BiDi ~ 0
 CA2_B
-Text GLabel 8825 5625 0    50   BiDi ~ 0
+Text GLabel 8825 7525 0    50   BiDi ~ 0
 CA0_B
 Text GLabel 6900 5300 2    50   BiDi ~ 0
 DLBDQ
@@ -5023,23 +5023,23 @@ Text GLabel 6900 5400 2    50   BiDi ~ 0
 DLBDQS
 Text GLabel 6900 7500 2    50   BiDi ~ 0
 DQ30_B
-Text GLabel 6900 7600 2    50   BiDi ~ 0
+Text GLabel 6900 6900 2    50   BiDi ~ 0
 DQ31_B
 Text GLabel 6900 6300 2    50   BiDi ~ 0
 DQ22_B
-Text GLabel 6900 6400 2    50   BiDi ~ 0
+Text GLabel 6900 6200 2    50   BiDi ~ 0
 DQ23_B
-Text GLabel 6900 6900 2    50   BiDi ~ 0
+Text GLabel 6900 7300 2    50   BiDi ~ 0
 DQ26_B
-Text GLabel 6900 7000 2    50   BiDi ~ 0
+Text GLabel 6900 7400 2    50   BiDi ~ 0
 DQ27_B
 Text GLabel 6900 5100 2    50   BiDi ~ 0
 DQ14_B
 Text GLabel 6900 5200 2    50   BiDi ~ 0
 DQ15_B
-Text GLabel 6900 5700 2    50   BiDi ~ 0
-DQ18_B
 Text GLabel 6900 5800 2    50   BiDi ~ 0
+DQ18_B
+Text GLabel 6900 5500 2    50   BiDi ~ 0
 DQ19_B
 Text GLabel 6900 3900 2    50   BiDi ~ 0
 DQ6_B
@@ -5053,9 +5053,9 @@ Text GLabel 6900 3300 2    50   BiDi ~ 0
 DQ2_B
 Text GLabel 6900 3400 2    50   BiDi ~ 0
 DQ3_B
-Text GLabel 8825 7725 0    50   BiDi ~ 0
+Text GLabel 8825 6325 0    50   BiDi ~ 0
 CB3_B
-Text GLabel 8825 7625 0    50   BiDi ~ 0
+Text GLabel 8825 6225 0    50   BiDi ~ 0
 CB2_B
 Text GLabel 8825 7225 0    50   BiDi ~ 0
 DQS4_B_N
@@ -5083,17 +5083,17 @@ Text GLabel 6900 4900 2    50   BiDi ~ 0
 DQ12_B
 Text GLabel 6900 5000 2    50   BiDi ~ 0
 DQ13_B
-Text GLabel 6900 5500 2    50   BiDi ~ 0
-DQ16_B
 Text GLabel 6900 5600 2    50   BiDi ~ 0
+DQ16_B
+Text GLabel 6900 6400 2    50   BiDi ~ 0
 DQ17_B
 Text GLabel 6900 5900 2    50   BiDi ~ 0
 DQS2_B_P
 Text GLabel 6900 6000 2    50   BiDi ~ 0
 DQS2_B_N
-Text GLabel 6900 6100 2    50   BiDi ~ 0
+Text GLabel 6900 5700 2    50   BiDi ~ 0
 DQ20_B
-Text GLabel 6900 6200 2    50   BiDi ~ 0
+Text GLabel 6900 6100 2    50   BiDi ~ 0
 DQ21_B
 Text GLabel 6900 6600 2    50   BiDi ~ 0
 DQ24_B
@@ -5103,23 +5103,23 @@ Text GLabel 6900 7100 2    50   BiDi ~ 0
 DQS3_B_P
 Text GLabel 6900 7200 2    50   BiDi ~ 0
 DQS3_B_N
-Text GLabel 6900 7300 2    50   BiDi ~ 0
+Text GLabel 6900 7600 2    50   BiDi ~ 0
 DQ28_B
-Text GLabel 6900 7400 2    50   BiDi ~ 0
+Text GLabel 6900 7000 2    50   BiDi ~ 0
 DQ29_B
 Text GLabel 6900 3700 2    50   BiDi ~ 0
 DQ4_B
-Text GLabel 8825 6225 0    50   BiDi ~ 0
+Text GLabel 8825 7125 0    50   BiDi ~ 0
 CA4_B
-Text GLabel 8825 6425 0    50   BiDi ~ 0
+Text GLabel 8825 7625 0    50   BiDi ~ 0
 CA6_B
-Text GLabel 8825 6325 0    50   BiDi ~ 0
+Text GLabel 8825 7025 0    50   BiDi ~ 0
 CA5_B
-Text GLabel 8825 6525 0    50   BiDi ~ 0
+Text GLabel 8825 7725 0    50   BiDi ~ 0
 PAR_B
-Text GLabel 8825 7925 0    50   BiDi ~ 0
+Text GLabel 8825 5725 0    50   BiDi ~ 0
 CS1_B_N
-Text GLabel 8825 7825 0    50   BiDi ~ 0
+Text GLabel 8825 5625 0    50   BiDi ~ 0
 CS0_B_N
 Wire Wire Line
 	5800 3400 6900 3400
