@@ -5039,7 +5039,7 @@ Text GLabel 6900 3900 2    50   BiDi ~ 0
 DQ6_B
 Text GLabel 6900 4000 2    50   BiDi ~ 0
 DQ7_B
-Text GLabel 6900 4300 2    50   BiDi ~ 0
+Text GLabel 6900 4600 2    50   BiDi ~ 0
 DQ10_B
 Text GLabel 6900 4400 2    50   BiDi ~ 0
 DQ11_B
@@ -5067,7 +5067,7 @@ Text GLabel 6900 3700 2    50   BiDi ~ 0
 DQ5_B
 Text GLabel 6900 4500 2    50   BiDi ~ 0
 DQ8_B
-Text GLabel 6900 4600 2    50   BiDi ~ 0
+Text GLabel 6900 4300 2    50   BiDi ~ 0
 DQ9_B
 Text GLabel 6900 4700 2    50   BiDi ~ 0
 DQS1_B_P
