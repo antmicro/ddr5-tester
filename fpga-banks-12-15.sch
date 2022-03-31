@@ -4135,14 +4135,6 @@ Text GLabel 2600 2600 0    50   Input ~ 0
 3V3_SYS
 Wire Wire Line
 	2750 2600 2600 2600
-Text GLabel 14650 6550 2    50   BiDi ~ 0
-DQS8_B_P
-Text GLabel 14650 6650 2    50   BiDi ~ 0
-DQS8_B_N
-Text GLabel 14650 5350 2    50   BiDi ~ 0
-DQS7_B_P
-Text GLabel 14650 5450 2    50   BiDi ~ 0
-DQS7_B_N
 Wire Wire Line
 	13975 6650 14650 6650
 Wire Wire Line
@@ -4215,17 +4207,17 @@ Text GLabel 2350 4425 0    50   Input ~ 0
 ETH_RXD2
 Text GLabel 2350 4625 0    50   Input ~ 0
 ETH_RXD0
-Text GLabel 7025 6525 2    50   BiDi ~ 0
+Text GLabel 14650 7750 2    50   BiDi ~ 0
 DQS8_A_P
-Text GLabel 7025 6625 2    50   BiDi ~ 0
+Text GLabel 14650 7850 2    50   BiDi ~ 0
 DQS8_A_N
-Text GLabel 7025 5325 2    50   BiDi ~ 0
+Text GLabel 14650 5350 2    50   BiDi ~ 0
 DQS7_A_P
-Text GLabel 7025 5425 2    50   BiDi ~ 0
+Text GLabel 14650 5450 2    50   BiDi ~ 0
 DQS7_A_N
-Text GLabel 7025 4125 2    50   BiDi ~ 0
+Text GLabel 14650 6550 2    50   BiDi ~ 0
 DQS6_A_P
-Text GLabel 7025 4225 2    50   BiDi ~ 0
+Text GLabel 14650 6650 2    50   BiDi ~ 0
 DQS6_A_N
 Wire Wire Line
 	6350 6625 7025 6625
@@ -4241,17 +4233,9 @@ Wire Wire Line
 	6350 4225 7025 4225
 Connection ~ 2750 2600
 Connection ~ 10375 2625
-Text GLabel 7025 7725 2    50   BiDi ~ 0
-DQS9_A_P
-Text GLabel 7025 7825 2    50   BiDi ~ 0
-DQS9_A_N
-Text GLabel 14650 7750 2    50   BiDi ~ 0
-DQS9_B_N
-Text GLabel 14650 7850 2    50   BiDi ~ 0
-DQS9_B_P
-Text GLabel 14650 4150 2    50   BiDi ~ 0
+Text GLabel 7025 5325 2    50   BiDi ~ 0
 DQS6_B_P
-Text GLabel 14650 4250 2    50   BiDi ~ 0
+Text GLabel 7025 5425 2    50   BiDi ~ 0
 DQS6_B_N
 Wire Wire Line
 	6350 7825 7025 7825
@@ -4416,4 +4400,20 @@ NoConn ~ 9975 6450
 NoConn ~ 9975 5950
 NoConn ~ 9975 6050
 NoConn ~ 9975 6850
+Text GLabel 14650 4150 2    50   BiDi ~ 0
+DQS5_A_P
+Text GLabel 14650 4250 2    50   BiDi ~ 0
+DQS5_A_N
+Text GLabel 7025 7825 2    50   BiDi ~ 0
+DQS5_B_N
+Text GLabel 7025 7725 2    50   BiDi ~ 0
+DQS5_B_P
+Text GLabel 7025 6525 2    50   BiDi ~ 0
+DQS7_B_P
+Text GLabel 7025 6625 2    50   BiDi ~ 0
+DQS7_B_N
+Text GLabel 7025 4125 2    50   BiDi ~ 0
+DQS8_B_P
+Text GLabel 7025 4225 2    50   BiDi ~ 0
+DQS8_B_N
 $EndSCHEMATC

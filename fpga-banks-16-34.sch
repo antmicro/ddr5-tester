@@ -4907,7 +4907,7 @@ Text GLabel 15025 7925 2    50   BiDi ~ 0
 ALERT_N
 Text GLabel 15025 5525 2    50   BiDi ~ 0
 CS0_A_N
-Text GLabel 8825 4125 0    50   BiDi ~ 0
+Text GLabel 8825 4025 0    50   BiDi ~ 0
 PAR_A
 Text GLabel 8825 3525 0    50   BiDi ~ 0
 CA0_A
@@ -5567,18 +5567,10 @@ Wire Wire Line
 	9925 6125 8825 6125
 Wire Wire Line
 	9925 6025 8825 6025
-Text GLabel 8825 3625 0    50   BiDi ~ 0
-DQS5_A_P
-Text GLabel 8825 3725 0    50   BiDi ~ 0
-DQS5_A_N
 Wire Wire Line
 	9925 3625 8825 3625
 Wire Wire Line
 	9925 3725 8825 3725
-Text GLabel 8825 6125 0    50   BiDi ~ 0
-DQS5_B_N
-Text GLabel 8825 6025 0    50   BiDi ~ 0
-DQS5_B_P
 NoConn ~ 9925 4225
 NoConn ~ 9925 6625
 NoConn ~ 5800 6500
@@ -5729,6 +5721,14 @@ Text GLabel 8825 3925 0    50   BiDi ~ 0
 CA1_A
 Text GLabel 8825 5325 0    50   BiDi ~ 0
 CB3_A
-Text GLabel 8825 4025 0    50   BiDi ~ 0
+Text GLabel 8825 4125 0    50   BiDi ~ 0
 CA6_A
+Text GLabel 8825 3625 0    50   BiDi ~ 0
+DQS9_A_P
+Text GLabel 8825 3725 0    50   BiDi ~ 0
+DQS9_A_N
+Text GLabel 8825 6025 0    50   BiDi ~ 0
+DQS9_B_N
+Text GLabel 8825 6125 0    50   BiDi ~ 0
+DQS9_B_P
 $EndSCHEMATC
