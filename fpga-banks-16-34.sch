@@ -4911,12 +4911,8 @@ Text GLabel 8825 4125 0    50   BiDi ~ 0
 PAR_A
 Text GLabel 8825 3525 0    50   BiDi ~ 0
 CA0_A
-Text GLabel 8825 3825 0    50   BiDi ~ 0
-CA2_A
 Text GLabel 8825 3325 0    50   BiDi ~ 0
 CA4_A
-Text GLabel 8825 4025 0    50   BiDi ~ 0
-CA6_A
 Text GLabel 15025 3525 2    50   BiDi ~ 0
 DQ4_A
 Text GLabel 15025 7825 2    50   BiDi ~ 0
@@ -4925,8 +4921,6 @@ Text GLabel 15025 5425 2    50   BiDi ~ 0
 CS1_A_N
 Text GLabel 8825 5525 0    50   BiDi ~ 0
 CK_N
-Text GLabel 8825 3925 0    50   BiDi ~ 0
-CA1_A
 Text GLabel 8825 3425 0    50   BiDi ~ 0
 CA3_A
 Text GLabel 8825 3225 0    50   BiDi ~ 0
@@ -4997,17 +4991,17 @@ Wire Wire Line
 	15025 4825 13925 4825
 Text Notes 4425 1850 0    50   ~ 0
 VCCO (HP bank) max: 2.0V
-Text GLabel 8825 5825 0    50   BiDi ~ 0
+Text GLabel 8825 5925 0    50   BiDi ~ 0
 CB4_B
-Text GLabel 8825 6725 0    50   BiDi ~ 0
+Text GLabel 8825 6825 0    50   BiDi ~ 0
 CB5_B
 Text GLabel 8825 6525 0    50   BiDi ~ 0
 CB0_B
 Text GLabel 8825 6325 0    50   BiDi ~ 0
 CB1_B
-Text GLabel 8825 5925 0    50   BiDi ~ 0
+Text GLabel 8825 5825 0    50   BiDi ~ 0
 CB6_B
-Text GLabel 8825 6825 0    50   BiDi ~ 0
+Text GLabel 8825 6725 0    50   BiDi ~ 0
 CB7_B
 Text GLabel 8825 7425 0    50   BiDi ~ 0
 CA1_B
@@ -5715,20 +5709,26 @@ Text GLabel 8825 4925 0    50   BiDi ~ 0
 DQS4_A_N
 Text GLabel 8825 4825 0    50   BiDi ~ 0
 DQS4_A_P
-Text GLabel 8825 5325 0    50   BiDi ~ 0
+Text GLabel 8825 4525 0    50   BiDi ~ 0
 CB6_A
 Text GLabel 8825 5225 0    50   BiDi ~ 0
 CB7_A
-Text GLabel 8825 4425 0    50   BiDi ~ 0
-CB3_A
-Text GLabel 8825 4525 0    50   BiDi ~ 0
-CB1_A
 Text GLabel 8825 5125 0    50   BiDi ~ 0
+CB1_A
+Text GLabel 8825 4725 0    50   BiDi ~ 0
 CB2_A
 Text GLabel 8825 5025 0    50   BiDi ~ 0
 CB0_A
 Text GLabel 8825 4625 0    50   BiDi ~ 0
 CB5_A
-Text GLabel 8825 4725 0    50   BiDi ~ 0
+Text GLabel 8825 4425 0    50   BiDi ~ 0
 CB4_A
+Text GLabel 8825 3825 0    50   BiDi ~ 0
+CA2_A
+Text GLabel 8825 3925 0    50   BiDi ~ 0
+CA1_A
+Text GLabel 8825 5325 0    50   BiDi ~ 0
+CB3_A
+Text GLabel 8825 4025 0    50   BiDi ~ 0
+CA6_A
 $EndSCHEMATC
