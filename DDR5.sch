@@ -5058,8 +5058,6 @@ Text GLabel 6800 4500 2    50   BiDi ~ 0
 DQ11_A
 Text GLabel 6800 4700 2    50   BiDi ~ 0
 DQS6_A_N
-Text GLabel 6800 2800 2    50   BiDi ~ 0
-HSA
 Text GLabel 6800 3700 2    50   BiDi ~ 0
 DQS5_A_P
 Text GLabel 6800 2700 2    50   Output ~ 0
@@ -5230,4 +5228,37 @@ Text GLabel 8150 5600 0    50   BiDi ~ 0
 DQ4_B
 Text GLabel 4500 7900 0    50   BiDi ~ 0
 DQS4_A_P
+$Comp
+L data-center-ddr5-tester:R_10k_0402 R134
+U 1 1 656F92D0
+P 6950 2800
+F 0 "R134" H 6950 2923 60  0000 C CNN
+F 1 "R_10k_0402" H 6950 2650 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 7150 3000 60  0001 L CNN
+F 3 "" H 6950 2800 50  0001 C CNN
+F 4 "VISHAY" H 7150 3200 60  0001 L CNN "Manufacturer"
+F 5 "CRCW040210K0FKEDHP" H 7150 3100 60  0001 L CNN "MPN"
+F 6 "10k" H 6950 3021 50  0000 C CNN "Val"
+	1    6950 2800
+	-1   0    0    1   
+$EndComp
+$Comp
+L data-center-ddr5-tester:GND #PWR?
+U 1 1 65711B5E
+P 7150 2850
+AR Path="/5F96C515/65711B5E" Ref="#PWR?"  Part="1" 
+AR Path="/6001D167/65711B5E" Ref="#PWR?"  Part="1" 
+AR Path="/5FEA2994/65711B5E" Ref="#PWR?"  Part="1" 
+AR Path="/61827943/65711B5E" Ref="#PWR0217"  Part="1" 
+F 0 "#PWR0217" H 7150 2600 50  0001 C CNN
+F 1 "GND" H 7155 2677 50  0000 C CNN
+F 2 "" H 7150 2850 50  0001 C CNN
+F 3 "" H 7150 2850 50  0001 C CNN
+	1    7150 2850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7100 2800 7150 2800
+Wire Wire Line
+	7150 2800 7150 2850
 $EndSCHEMATC
