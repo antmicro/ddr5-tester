@@ -4207,18 +4207,10 @@ Text GLabel 2350 4425 0    50   Input ~ 0
 ETH_RXD2
 Text GLabel 2350 4625 0    50   Input ~ 0
 ETH_RXD0
-Text GLabel 14650 7750 2    50   BiDi ~ 0
-DQS8_A_P
-Text GLabel 14650 7850 2    50   BiDi ~ 0
-DQS8_A_N
 Text GLabel 14650 5350 2    50   BiDi ~ 0
-DQS7_A_P
+DQS8_A_P
 Text GLabel 14650 5450 2    50   BiDi ~ 0
-DQS7_A_N
-Text GLabel 14650 6550 2    50   BiDi ~ 0
-DQS6_A_P
-Text GLabel 14650 6650 2    50   BiDi ~ 0
-DQS6_A_N
+DQS8_A_N
 Wire Wire Line
 	6350 6625 7025 6625
 Wire Wire Line
@@ -4416,4 +4408,12 @@ Text GLabel 7025 4125 2    50   BiDi ~ 0
 DQS8_B_P
 Text GLabel 7025 4225 2    50   BiDi ~ 0
 DQS8_B_N
+Text GLabel 14650 7850 2    50   BiDi ~ 0
+DQS7_A_N
+Text GLabel 14650 7750 2    50   BiDi ~ 0
+DQS7_A_P
+Text GLabel 14650 6650 2    50   BiDi ~ 0
+DQS6_A_N
+Text GLabel 14650 6550 2    50   BiDi ~ 0
+DQS6_A_P
 $EndSCHEMATC

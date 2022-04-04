@@ -1,4 +1,4 @@
-update=Thu 31 Mar 2022 09:28:37 AM CEST
+update=Mon 04 Apr 2022 06:41:17 PM CEST
 version=1
 last_client=kicad
 [general]
@@ -39,11 +39,13 @@ MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
 TrackWidth1=0.1
-TrackWidth2=0.11
-TrackWidth3=0.127
-TrackWidth4=0.15
-TrackWidth5=0.2
-TrackWidth6=0.4
+TrackWidth2=0.1
+TrackWidth3=0.11
+TrackWidth4=0.127
+TrackWidth5=0.15
+TrackWidth6=0.2
+TrackWidth7=0.21336
+TrackWidth8=0.4
 ViaDiameter1=0.5
 ViaDrill1=0.2
 ViaDiameter2=0.5
@@ -261,8 +263,8 @@ ViaDiameter=0.5
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.21
-dPairGap=0.1
+dPairWidth=0.21336
+dPairGap=0.1016
 dPairViaGap=0.25
 [pcbnew/Netclasses/2]
 Name=DIFF80
@@ -272,8 +274,8 @@ ViaDiameter=0.5
 ViaDrill=0.2
 uViaDiameter=0.3
 uViaDrill=0.1
-dPairWidth=0.11
-dPairGap=0.1
+dPairWidth=0.1016
+dPairGap=0.12446
 dPairViaGap=0.25
 [pcbnew/Netclasses/3]
 Name=SE40
