@@ -6684,20 +6684,6 @@ F 6 "10u" H 8140 3297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_49R9_0402 R23
-U 1 1 625E0F38
-P 10275 3300
-F 0 "R23" V 10230 3370 60  0000 L CNN
-F 1 "R_49R9_0402" H 10275 3150 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10475 3500 60  0001 L CNN
-F 3 "" H 10275 3300 50  0001 C CNN
-F 4 "VISHAY" H 10475 3700 60  0001 L CNN "Manufacturer"
-F 5 "CRCW040249R9FKED" H 10475 3600 60  0001 L CNN "MPN"
-F 6 "49R9" V 10328 3370 50  0000 L CNN "Val"
-	1    10275 3300
-	0    1    1    0   
-$EndComp
-$Comp
 L data-center-ddr5-tester:R_66k5_0402 R21
 U 1 1 62626DBC
 P 10225 10125
@@ -6864,21 +6850,7 @@ F 6 "43k" V 4953 4620 50  0000 L CNN "Val"
 $EndComp
 Wire Wire Line
 	10050 8075 10050 8125
-NoConn ~ 10575 8275
 Connection ~ 10050 8075
-$Comp
-L data-center-ddr5-tester:TC33X-2-203E POT1
-U 1 1 63EA85E3
-P 10575 8075
-F 0 "POT1" V 10275 8125 60  0000 R CNN
-F 1 "TC33X-2-203E" V 10175 8125 60  0000 R CNN
-F 2 "data-center-ddr5-tester-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" H 10775 8275 60  0001 L CNN
-F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 10775 8375 60  0001 L CNN
-F 4 "TC33X-2-203E" H 10775 8575 60  0001 L CNN "MPN"
-F 5 "Bourns Inc." H 10775 9175 60  0001 L CNN "Manufacturer"
-	1    10575 8075
-	0    -1   -1   0   
-$EndComp
 Wire Wire Line
 	10050 7725 10050 8075
 Connection ~ 10575 7375
@@ -6924,4 +6896,32 @@ Wire Wire Line
 	9875 8075 10050 8075
 Wire Wire Line
 	9875 7675 9875 8075
+$Comp
+L data-center-ddr5-tester:R_200k_0402 R23
+U 1 1 6258EC28
+P 10275 3300
+F 0 "R23" V 10230 3370 60  0000 L CNN
+F 1 "R_200k_0402" H 10275 3150 60  0001 C CNN
+F 2 "data-center-ddr5-tester-footprints:0402-res" H 10475 3500 60  0001 L CNN
+F 3 "" H 10275 3300 50  0001 C CNN
+F 4 "YAGEO_(PHYCOMP)" H 10475 3700 60  0001 L CNN "Manufacturer"
+F 5 "RC0402FR-07200KL" H 10475 3600 60  0001 L CNN "MPN"
+F 6 "200k" V 10328 3370 50  0000 L CNN "Val"
+	1    10275 3300
+	0    1    1    0   
+$EndComp
+$Comp
+L data-center-ddr5-tester:TC33X-2-203E POT1
+U 1 1 63EA85E3
+P 10575 8075
+F 0 "POT1" V 10275 8125 60  0000 R CNN
+F 1 "TC33X-2-203E" V 10175 8125 60  0000 R CNN
+F 2 "data-center-ddr5-tester-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" H 10775 8275 60  0001 L CNN
+F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 10775 8375 60  0001 L CNN
+F 4 "TC33X-2-203E" H 10775 8575 60  0001 L CNN "MPN"
+F 5 "Bourns Inc." H 10775 9175 60  0001 L CNN "Manufacturer"
+	1    10575 8075
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 10575 8275
 $EndSCHEMATC
