@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L data-center-ddr5-tester:TPS54561 IC2
+L ddr5-testboard:TPS54561 IC2
 U 1 1 602D964D
 P 3175 8425
 F 0 "IC2" H 3175 9114 60  0000 C CNN
 F 1 "TPS54561" H 3175 9008 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:WSON-10_4x4" H 3175 8425 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:WSON-10_4x4" H 3175 8425 60  0001 C CNN
 F 3 "" H 3175 8425 60  0001 C CNN
 F 4 "Texas Instrumets" H 3175 8425 50  0001 C CNN "Manufacturer"
 F 5 "TPS54561-Q1" H 3175 8425 50  0001 C CNN "MPN"
@@ -38,7 +38,7 @@ Wire Wire Line
 Text GLabel 4425 8025 2    50   Output ~ 0
 SYS_ON
 $Comp
-L data-center-ddr5-tester:GND #PWR018
+L ddr5-testboard:GND #PWR018
 U 1 1 602ED98B
 P 4225 8625
 F 0 "#PWR018" H 4225 8375 50  0001 C CNN
@@ -49,12 +49,12 @@ F 3 "" H 4225 8625 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:WE_7447798720 L2
+L ddr5-testboard:WE_7447798720 L2
 U 1 1 602EF283
 P 4575 8425
 F 0 "L2" H 4575 8624 60  0000 C CNN
 F 1 "WE_7447798720" H 5125 8500 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:WE_7447798720" H 4625 8275 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:WE_7447798720" H 4625 8275 60  0001 C CNN
 F 3 "" H 4630 8455 60  0001 C CNN
 F 4 "Wurth Elektronik" H 4575 8325 50  0001 C CNN "Manufacturer"
 F 5 "7447798720" H 4575 8526 50  0000 C CNN "MPN"
@@ -69,12 +69,12 @@ Connection ~ 4225 8425
 Wire Wire Line
 	4225 8425 4425 8425
 $Comp
-L data-center-ddr5-tester:PDS760-13 D3
+L ddr5-testboard:PDS760-13 D3
 U 1 1 6030A796
 P 4225 8525
 F 0 "D3" H 4305 8525 60  0000 L CNN
 F 1 "PDS760-13" H 4325 8425 60  0001 L BNN
-F 2 "data-center-ddr5-tester-footprints:PDS760-13" H 4225 8525 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:PDS760-13" H 4225 8525 60  0001 C CNN
 F 3 "" H 4225 8525 60  0001 C CNN
 F 4 "Diodes Inc." H 4225 8525 50  0001 C CNN "Manufacturer"
 F 5 "PDS760-13" H 4525 8425 50  0000 C CNN "MPN"
@@ -84,12 +84,12 @@ $EndComp
 Wire Wire Line
 	3775 8625 4025 8625
 $Comp
-L data-center-ddr5-tester:R_49R9_0402 R13
+L ddr5-testboard:R_49R9_0402 R13
 U 1 1 603151DE
 P 4925 8625
 F 0 "R13" V 4880 8695 60  0000 L CNN
 F 1 "R_49R9_0402" H 4925 8475 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 5125 8825 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 5125 8825 60  0001 L CNN
 F 3 "" H 4925 8625 50  0001 C CNN
 F 4 "VISHAY" H 5125 9025 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040249R9FKED" H 5125 8925 60  0001 L CNN "MPN"
@@ -98,12 +98,12 @@ F 6 "49R9" V 4978 8695 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_53k6_0402 R14
+L ddr5-testboard:R_53k6_0402 R14
 U 1 1 6031590C
 P 4925 8925
 F 0 "R14" V 4880 8995 60  0000 L CNN
 F 1 "R_53k6_0402" H 4925 8775 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 5125 9125 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 5125 9125 60  0001 L CNN
 F 3 "" H 4925 8925 50  0001 C CNN
 F 4 "TE_CONNECTIVITY" H 5125 9325 60  0001 L CNN "Manufacturer"
 F 5 "CPF0402B53K6E1_" H 5125 9225 60  0001 L CNN "MPN"
@@ -126,12 +126,12 @@ Wire Wire Line
 Wire Wire Line
 	4025 8625 4025 9125
 $Comp
-L data-center-ddr5-tester:C_47u_0603 C16
+L ddr5-testboard:C_47u_0603 C16
 U 1 1 603492A6
 P 5375 8625
 F 0 "C16" H 5375 8725 60  0000 L CNN
 F 1 "C_47u_0603" H 5375 8475 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-cap" H 5575 8825 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0603-cap" H 5575 8825 60  0001 L CNN
 F 3 "" H 5375 8625 50  0001 C CNN
 F 4 "MURATA" H 5575 9025 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 5575 8925 60  0001 L CNN "MPN"
@@ -140,12 +140,12 @@ F 6 "47u" H 5375 8525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47u_0603 C18
+L ddr5-testboard:C_47u_0603 C18
 U 1 1 60349A43
 P 5625 8625
 F 0 "C18" H 5625 8725 60  0000 L CNN
 F 1 "C_47u_0603" H 5625 8475 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-cap" H 5825 8825 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0603-cap" H 5825 8825 60  0001 L CNN
 F 3 "" H 5625 8625 50  0001 C CNN
 F 4 "MURATA" H 5825 9025 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 5825 8925 60  0001 L CNN "MPN"
@@ -154,12 +154,12 @@ F 6 "47u" H 5625 8525 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47u_0603 C20
+L ddr5-testboard:C_47u_0603 C20
 U 1 1 60349D0A
 P 5875 8625
 F 0 "C20" H 5875 8725 60  0000 L CNN
 F 1 "C_47u_0603" H 5875 8475 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-cap" H 6075 8825 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0603-cap" H 6075 8825 60  0001 L CNN
 F 3 "" H 5875 8625 50  0001 C CNN
 F 4 "MURATA" H 6075 9025 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 6075 8925 60  0001 L CNN "MPN"
@@ -193,7 +193,7 @@ Connection ~ 5625 8875
 Wire Wire Line
 	5625 8875 5875 8875
 $Comp
-L data-center-ddr5-tester:GND #PWR022
+L ddr5-testboard:GND #PWR022
 U 1 1 60367DB3
 P 5625 9475
 F 0 "#PWR022" H 5625 9225 50  0001 C CNN
@@ -206,7 +206,7 @@ $EndComp
 Wire Wire Line
 	5625 8875 5625 9475
 $Comp
-L data-center-ddr5-tester:GND #PWR020
+L ddr5-testboard:GND #PWR020
 U 1 1 60370C6A
 P 4925 9475
 F 0 "#PWR020" H 4925 9225 50  0001 C CNN
@@ -217,12 +217,12 @@ F 3 "" H 4925 9475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_100k_0402 R9
+L ddr5-testboard:R_100k_0402 R9
 U 1 1 6039308E
 P 3825 7825
 F 0 "R9" V 3780 7895 60  0000 L CNN
 F 1 "R_100k_0402" H 3825 7675 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 4025 8025 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 4025 8025 60  0001 L CNN
 F 3 "" H 3825 7825 50  0001 C CNN
 F 4 "VISHAY" H 4025 8225 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4025 8125 60  0001 L CNN "MPN"
@@ -231,12 +231,12 @@ F 6 "100k" V 3878 7895 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47p_0402 C12
+L ddr5-testboard:C_47p_0402 C12
 U 1 1 6039FE7B
 P 2425 9375
 F 0 "C12" H 2450 9475 60  0000 L CNN
 F 1 "C_47p_0402" H 2425 9225 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 2625 9575 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 2625 9575 60  0001 L CNN
 F 3 "" H 2425 9375 50  0001 C CNN
 F 4 "KEMET" H 2625 9775 60  0001 L CNN "Manufacturer"
 F 5 "C0402C470J5GACTU" H 2625 9675 60  0001 L CNN "MPN"
@@ -245,12 +245,12 @@ F 6 "47p" H 2450 9275 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_4n7_0402 C8
+L ddr5-testboard:C_4n7_0402 C8
 U 1 1 603A0E92
 P 2125 9375
 F 0 "C8" H 2150 9475 60  0000 L CNN
 F 1 "C_4n7_0402" H 2125 9225 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 2325 9575 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 2325 9575 60  0001 L CNN
 F 3 "" H 2125 9375 50  0001 C CNN
 F 4 "TDK" H 2325 9775 60  0001 L CNN "Manufacturer"
 F 5 "CGA2B3X7S2A472K050BB" H 2325 9675 60  0001 L CNN "MPN"
@@ -259,12 +259,12 @@ F 6 "4n7" H 2125 9275 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_16k9_0402 R3
+L ddr5-testboard:R_16k9_0402 R3
 U 1 1 603A1C9F
 P 2125 9075
 F 0 "R3" V 2080 9145 60  0000 L CNN
 F 1 "R_16k9_0402" H 2125 8925 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 2325 9275 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 2325 9275 60  0001 L CNN
 F 3 "" H 2125 9075 50  0001 C CNN
 F 4 "PANASONIC" H 2325 9475 60  0001 L CNN "Manufacturer"
 F 5 "ERA2AEB1692X" H 2325 9375 60  0001 L CNN "MPN"
@@ -282,7 +282,7 @@ Connection ~ 2425 8825
 Wire Wire Line
 	2425 8825 2575 8825
 $Comp
-L data-center-ddr5-tester:GND #PWR016
+L ddr5-testboard:GND #PWR016
 U 1 1 602E456B
 P 3825 9475
 F 0 "#PWR016" H 3825 9225 50  0001 C CNN
@@ -293,7 +293,7 @@ F 3 "" H 3825 9475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR011
+L ddr5-testboard:GND #PWR011
 U 1 1 603D117A
 P 2125 9525
 F 0 "#PWR011" H 2125 9275 50  0001 C CNN
@@ -304,7 +304,7 @@ F 3 "" H 2125 9525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR013
+L ddr5-testboard:GND #PWR013
 U 1 1 603D16EC
 P 2425 9525
 F 0 "#PWR013" H 2425 9275 50  0001 C CNN
@@ -315,7 +315,7 @@ F 3 "" H 2425 9525 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR04
+L ddr5-testboard:GND #PWR04
 U 1 1 603D4A1C
 P 800 7925
 F 0 "#PWR04" H 800 7675 50  0001 C CNN
@@ -326,7 +326,7 @@ F 3 "" H 800 7925 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR05
+L ddr5-testboard:GND #PWR05
 U 1 1 603D4F8F
 P 800 8700
 F 0 "#PWR05" H 800 8450 50  0001 C CNN
@@ -337,7 +337,7 @@ F 3 "" H 800 8700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR06
+L ddr5-testboard:GND #PWR06
 U 1 1 603D54DC
 P 800 9475
 F 0 "#PWR06" H 800 9225 50  0001 C CNN
@@ -348,12 +348,12 @@ F 3 "" H 800 9475 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_10n_0402 C11
+L ddr5-testboard:C_10n_0402 C11
 U 1 1 603E471F
 P 2425 8625
 F 0 "C11" V 2375 8450 60  0000 C CNN
 F 1 "C_10n_0402" H 2425 8475 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 2625 8825 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 2625 8825 60  0001 L CNN
 F 3 "" H 2425 8625 50  0001 C CNN
 F 4 "AVX" H 2625 9025 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2625 8925 60  0001 L CNN "MPN"
@@ -362,12 +362,12 @@ F 6 "10n" V 2475 8750 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_243k_0402 R5
+L ddr5-testboard:R_243k_0402 R5
 U 1 1 603E579D
 P 2425 8425
 F 0 "R5" H 2375 8525 60  0000 C CNN
 F 1 "R_243k_0402" H 2425 8275 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 2625 8625 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 2625 8625 60  0001 L CNN
 F 3 "" H 2425 8425 50  0001 C CNN
 F 4 "MULTICOMP" H 2625 8825 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X2433FTL" H 2625 8725 60  0001 L CNN "MPN"
@@ -376,7 +376,7 @@ F 6 "243k" H 2625 8375 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR010
+L ddr5-testboard:GND #PWR010
 U 1 1 603E5D69
 P 2125 8625
 F 0 "#PWR010" H 2125 8375 50  0001 C CNN
@@ -400,12 +400,12 @@ VIN
 Text GLabel 800  9175 1    50   Input ~ 0
 VIN
 $Comp
-L data-center-ddr5-tester:DC_SOCKET J1
+L ddr5-testboard:DC_SOCKET J1
 U 1 1 607A5F4D
 P 1100 1575
 F 0 "J1" H 800 1775 60  0000 C CNN
 F 1 "DC_SOCKET" H 1150 1300 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:DC_SOCKET" H 1150 1225 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:DC_SOCKET" H 1150 1225 60  0001 C CNN
 F 3 "" H 1100 1575 60  0001 C CNN
 F 4 "Multicomp" H 1125 1100 50  0001 C CNN "Manufacturer"
 F 5 "MJ-179PH" H 950 1375 50  0000 C CNN "MPN"
@@ -422,7 +422,7 @@ Connection ~ 1500 1675
 Wire Wire Line
 	1500 1675 1500 1825
 $Comp
-L data-center-ddr5-tester:GND #PWR07
+L ddr5-testboard:GND #PWR07
 U 1 1 607DAC0B
 P 1500 1825
 F 0 "#PWR07" H 1500 1575 50  0001 C CNN
@@ -433,12 +433,12 @@ F 3 "" H 1500 1825 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:KP-1608CGCK PWR1
+L ddr5-testboard:KP-1608CGCK PWR1
 U 1 1 607F0796
 P 3150 1525
 F 0 "PWR1" H 3100 1862 60  0000 C CNN
 F 1 "KP-1608CGCK" H 3100 1756 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:LED_0603" H 3350 1725 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:LED_0603" H 3350 1725 60  0001 L CNN
 F 3 "http://www.farnell.com/datasheets/2045956.pdf" H 3350 1825 60  0001 L CNN
 F 4 "KP-1608CGCK" H 3350 2025 60  0001 L CNN "MPN"
 F 5 "KINGBRIGHT" H 3360 2145 60  0001 L CNN "Manufacturer"
@@ -448,12 +448,12 @@ $EndComp
 Text GLabel 2950 1525 0    50   Input ~ 0
 3V3_SYS
 $Comp
-L data-center-ddr5-tester:R_330R_0402 R7
+L ddr5-testboard:R_330R_0402 R7
 U 1 1 60801709
 P 3400 1525
 F 0 "R7" H 3400 1402 60  0000 C CNN
 F 1 "R_330R_0402" H 3400 1375 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 3600 1725 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 3600 1725 60  0001 L CNN
 F 3 "" H 3400 1525 50  0001 C CNN
 F 4 "MULTICOMP" H 3600 1925 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X3300FTL" H 3600 1825 60  0001 L CNN "MPN"
@@ -462,7 +462,7 @@ F 6 "330R" H 3400 1304 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR014
+L ddr5-testboard:GND #PWR014
 U 1 1 6080350C
 P 3550 1525
 F 0 "#PWR014" H 3550 1275 50  0001 C CNN
@@ -473,12 +473,12 @@ F 3 "" H 3550 1525 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_10k2_0402 R15
+L ddr5-testboard:R_10k2_0402 R15
 U 1 1 61AA3234
 P 4925 9325
 F 0 "R15" V 4880 9395 60  0000 L CNN
 F 1 "R_10k2_0402" H 4925 9175 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 5125 9525 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 5125 9525 60  0001 L CNN
 F 3 "" H 4925 9325 50  0001 C CNN
 F 4 "MULTICOMP PRO" H 5125 9725 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X1022FTL" H 5125 9625 60  0001 L CNN "MPN"
@@ -489,12 +489,12 @@ $EndComp
 Text Notes 725  7100 0    79   ~ 16
 5V0 supply
 $Comp
-L data-center-ddr5-tester:C_100n_0402_6V3 C14
+L ddr5-testboard:C_100n_0402_6V3 C14
 U 1 1 602ECA11
 P 4025 8225
 F 0 "C14" V 3950 7950 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 4025 8075 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 4225 8425 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 4225 8425 60  0001 L CNN
 F 3 "" H 4025 8225 50  0001 C CNN
 F 4 "Walsin" H 4225 8625 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4225 8525 60  0001 L CNN "MPN"
@@ -507,23 +507,23 @@ Wire Wire Line
 Wire Wire Line
 	4175 8225 4225 8225
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM TP1
+L ddr5-testboard:TP_SMD1MM TP1
 U 1 1 6C3554ED
 P 2050 8225
 F 0 "TP1" V 2050 8100 50  0000 C CNN
 F 1 "TP_SMD1MM" H 2050 8125 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 2250 8425 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 2250 8425 60  0001 L CNN
 F 3 "" H 2250 8525 60  0001 L CNN
 	1    2050 8225
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:TPS62823DLCT U2
+L ddr5-testboard:TPS62823DLCT U2
 U 1 1 6014DA7E
 P 8925 1900
 F 0 "U2" H 8975 2665 50  0000 C CNN
 F 1 "TPS62823DLCT" H 8975 2574 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:QFN-8_2x1mm" H 8825 1700 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:QFN-8_2x1mm" H 8825 1700 50  0001 C CNN
 F 3 "" H 8925 1800 50  0001 C CNN
 F 4 "TPS62823DLCT" H 8975 2664 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 8975 2573 50  0001 C CNN "Manufacturer"
@@ -534,7 +534,7 @@ Wire Wire Line
 	9375 1400 9500 1400
 NoConn ~ 8575 1700
 $Comp
-L data-center-ddr5-tester:GND #PWR030
+L ddr5-testboard:GND #PWR030
 U 1 1 601CEA05
 P 9475 2000
 F 0 "#PWR030" H 9475 1750 50  0001 C CNN
@@ -549,12 +549,12 @@ Wire Wire Line
 Wire Wire Line
 	9475 1850 9475 2000
 $Comp
-L data-center-ddr5-tester:IHLP1212AEERR47M11 L5
+L ddr5-testboard:IHLP1212AEERR47M11 L5
 U 1 1 602421C5
 P 9700 1400
 F 0 "L5" H 9550 1575 60  0000 C CNN
 F 1 "IHLP1212AEERR47M11" H 10000 1475 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:IHLP-1212AE" H 9700 1400 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:IHLP-1212AE" H 9700 1400 60  0001 C CNN
 F 3 "" H 9700 1400 60  0001 C CNN
 F 4 "Vishay" H 9700 1400 50  0001 C CNN "Manufacturer"
 F 5 "IHLP1212AEERR47M11" H 9700 1400 50  0001 C CNN "MPN"
@@ -562,7 +562,7 @@ F 5 "IHLP1212AEERR47M11" H 9700 1400 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR043
+L ddr5-testboard:GND #PWR043
 U 1 1 601F9B65
 P 11425 1950
 F 0 "#PWR043" H 11425 1700 50  0001 C CNN
@@ -577,12 +577,12 @@ Text GLabel 15450 6550 2    50   Output ~ 0
 Text Notes 7225 850  0    79   ~ 16
 3V3 supply (2A)
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM 5V0
+L ddr5-testboard:TP_SMD1MM 5V0
 U 1 1 60212554
 P 13475 6900
 F 0 "5V0" V 13380 6947 50  0000 C CNN
 F 1 "TP_SMD1MM" H 13475 6800 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 7100 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 13675 7100 60  0001 L CNN
 F 3 "" H 13675 7200 60  0001 L CNN
 	1    13475 6900
 	0    -1   1    0   
@@ -592,12 +592,12 @@ Wire Wire Line
 Wire Wire Line
 	11425 1900 11425 1950
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM 3V3
+L ddr5-testboard:TP_SMD1MM 3V3
 U 1 1 6026C4D0
 P 13475 6450
 F 0 "3V3" V 13380 6497 50  0000 C CNN
 F 1 "TP_SMD1MM" H 13475 6350 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 6650 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 13675 6650 60  0001 L CNN
 F 3 "" H 13675 6750 60  0001 L CNN
 	1    13475 6450
 	0    -1   1    0   
@@ -618,12 +618,12 @@ Input power connector
 Text Notes 11975 5350 0    79   ~ 16
 Probes
 $Comp
-L data-center-ddr5-tester:TPS62823DLCT U1
+L ddr5-testboard:TPS62823DLCT U1
 U 1 1 5FDF826B
 P 8775 10475
 F 0 "U1" H 8825 11240 50  0000 C CNN
 F 1 "TPS62823DLCT" H 8825 11149 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:QFN-8_2x1mm" H 8675 10275 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:QFN-8_2x1mm" H 8675 10275 50  0001 C CNN
 F 3 "" H 8775 10375 50  0001 C CNN
 F 4 "TPS62823DLCT" H 8750 11250 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 8825 11149 50  0001 C CNN "Manufacturer"
@@ -638,7 +638,7 @@ Wire Wire Line
 	9225 9975 9350 9975
 NoConn ~ 8425 10275
 $Comp
-L data-center-ddr5-tester:GND #PWR028
+L ddr5-testboard:GND #PWR028
 U 1 1 5FDF8278
 P 8350 10575
 F 0 "#PWR028" H 8350 10325 50  0001 C CNN
@@ -653,7 +653,7 @@ Wire Wire Line
 Wire Wire Line
 	8350 10425 8350 10575
 $Comp
-L data-center-ddr5-tester:GND #PWR029
+L ddr5-testboard:GND #PWR029
 U 1 1 5FDF8280
 P 9325 10575
 F 0 "#PWR029" H 9325 10325 50  0001 C CNN
@@ -668,12 +668,12 @@ Wire Wire Line
 Wire Wire Line
 	9325 10425 9325 10575
 $Comp
-L data-center-ddr5-tester:IHLP1212AEERR47M11 L3
+L ddr5-testboard:IHLP1212AEERR47M11 L3
 U 1 1 5FDF828A
 P 9550 9975
 F 0 "L3" H 9400 10150 60  0000 C CNN
 F 1 "IHLP1212AEERR47M11" H 9850 10050 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:IHLP-1212AE" H 9550 9975 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:IHLP-1212AE" H 9550 9975 60  0001 C CNN
 F 3 "" H 9550 9975 60  0001 C CNN
 F 4 "Vishay" H 9550 9975 50  0001 C CNN "Manufacturer"
 F 5 "IHLP1212AEERR47M11" H 9550 9975 50  0001 C CNN "MPN"
@@ -681,7 +681,7 @@ F 5 "IHLP1212AEERR47M11" H 9550 9975 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR038
+L ddr5-testboard:GND #PWR038
 U 1 1 5FDF8290
 P 10625 10575
 F 0 "#PWR038" H 10625 10325 50  0001 C CNN
@@ -692,12 +692,12 @@ F 3 "" H 10625 10575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C32
+L ddr5-testboard:C_10u_0402 C32
 U 1 1 5FDF8299
 P 10625 10375
 F 0 "C32" H 10740 10420 60  0000 L CNN
 F 1 "C_10u_0402" H 10625 10225 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 10825 10575 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 10825 10575 60  0001 L CNN
 F 3 "" H 10625 10375 50  0001 C CNN
 F 4 "MURATA" H 10825 10775 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 10825 10675 60  0001 L CNN "MPN"
@@ -706,7 +706,7 @@ F 6 "10u" H 10740 10322 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR035
+L ddr5-testboard:GND #PWR035
 U 1 1 5FDF82A0
 P 10225 10575
 F 0 "#PWR035" H 10225 10325 50  0001 C CNN
@@ -723,12 +723,12 @@ VCC5V0_INT
 Wire Wire Line
 	7175 10125 7700 10125
 $Comp
-L data-center-ddr5-tester:R_453k_0402 R27
+L ddr5-testboard:R_453k_0402 R27
 U 1 1 5FE38DF2
 P 10375 1550
 F 0 "R27" V 10330 1620 60  0000 L CNN
 F 1 "R_453k_0402" H 10375 1400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10575 1750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10575 1750 60  0001 L CNN
 F 3 "" H 10375 1550 50  0001 C CNN
 F 4 "VISHAY" H 10575 1950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402453KFKED" H 10575 1850 60  0001 L CNN "MPN"
@@ -737,12 +737,12 @@ F 6 "453k" V 10428 1620 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_100k_1%_0402 R28
+L ddr5-testboard:R_100k_1%_0402 R28
 U 1 1 5FE39D9C
 P 10375 1850
 F 0 "R28" V 10330 1920 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 10375 1700 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402" H 10575 2050 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402" H 10575 2050 60  0001 L CNN
 F 3 "" H 10375 1850 50  0001 C CNN
 F 4 "PANASONIC" H 10575 2250 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 10575 2150 60  0001 L CNN "MPN"
@@ -752,7 +752,7 @@ F 6 "100k_1%" V 10428 1920 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 10375 1700
 $Comp
-L data-center-ddr5-tester:GND #PWR026
+L ddr5-testboard:GND #PWR026
 U 1 1 5FE45CFA
 P 8100 10575
 F 0 "#PWR026" H 8100 10325 50  0001 C CNN
@@ -771,12 +771,12 @@ SYS_ON
 Wire Wire Line
 	12825 2750 13300 2750
 $Comp
-L data-center-ddr5-tester:LM3881MME_NOPB U6
+L ddr5-testboard:LM3881MME_NOPB U6
 U 1 1 5FE68F88
 P 13700 2750
 F 0 "U6" H 13700 3243 60  0000 C CNN
 F 1 "LM3881MME_NOPB" H 13450 2400 60  0001 L CNN
-F 2 "data-center-ddr5-tester-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 13900 2950 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:VSSOP8-Texas_Instruments-DGK0008A" H 13900 2950 60  0001 L CNN
 F 3 "https://www.ti.com/lit/ds/symlink/lm3881.pdf?ts=1607507933694&ref_url=https%253A%252F%252Fwww.ti.com%252Fpower-management%252Fsequencers%252Fproducts.html" H 13900 3050 60  0001 L CNN
 F 4 "Texas Instruments" H 13700 3137 60  0000 C CNN "Manufacturer"
 F 5 "LM3881MME/NOPB" H 13700 3031 60  0000 C CNN "MPN"
@@ -784,7 +784,7 @@ F 5 "LM3881MME/NOPB" H 13700 3031 60  0000 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR049
+L ddr5-testboard:GND #PWR049
 U 1 1 5FE96A8E
 P 14200 3300
 F 0 "#PWR049" H 14200 3050 50  0001 C CNN
@@ -807,12 +807,12 @@ VCC_AUX_EN
 Text Label 14700 2850 0    50   ~ 0
 VCC_IO_EN
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R31
+L ddr5-testboard:R_0R_0402 R31
 U 1 1 5FEBD15D
 P 13100 3150
 F 0 "R31" V 13055 3220 60  0000 L CNN
 F 1 "R_0R_0402" H 13100 3000 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 13300 3350 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 13300 3350 60  0001 L CNN
 F 3 "" H 13100 3150 50  0001 C CNN
 F 4 "PANASONIC" H 13300 3550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 13300 3450 60  0001 L CNN "MPN"
@@ -821,7 +821,7 @@ F 6 "0R" V 13153 3220 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR046
+L ddr5-testboard:GND #PWR046
 U 1 1 5FEBD76A
 P 13100 3300
 F 0 "#PWR046" H 13100 3050 50  0001 C CNN
@@ -840,12 +840,12 @@ Wire Wire Line
 Text Notes 13750 4750 0    47   ~ 0
 STEP1 - VCCINT   (1.0V) for FPGA\nSTEP2 - VCCAUX (1.8V, 2.5V, 1.2V) for FPGA and DDR\nSTEP3 - VCCIO  (3.3V, 1.2V,  0.6V) for FPGA, PHY and DDR
 $Comp
-L data-center-ddr5-tester:C_10n_0603 C41
+L ddr5-testboard:C_10n_0603 C41
 U 1 1 5FEE4E91
 P 12750 3100
 F 0 "C41" H 12725 3000 60  0000 R CNN
 F 1 "C_10n_0603" H 12750 2950 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-cap" H 12950 3300 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0603-cap" H 12950 3300 60  0001 L CNN
 F 3 "" H 12750 3100 50  0001 C CNN
 F 4 "AVX" H 12950 3500 60  0001 L CNN "Manufacturer"
 F 5 "06031C103JAT2A" H 12950 3400 60  0001 L CNN "MPN"
@@ -858,7 +858,7 @@ Wire Wire Line
 Wire Wire Line
 	12750 2850 12750 2950
 $Comp
-L data-center-ddr5-tester:GND #PWR044
+L ddr5-testboard:GND #PWR044
 U 1 1 5FEEBF8B
 P 12750 3300
 F 0 "#PWR044" H 12750 3050 50  0001 C CNN
@@ -873,34 +873,34 @@ Wire Wire Line
 Text Label 7175 10125 0    50   ~ 0
 VCC_INT_EN
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM TP4
+L ddr5-testboard:TP_SMD1MM TP4
 U 1 1 5FF04F72
 P 15250 2850
 F 0 "TP4" V 15225 2750 50  0000 C CNN
 F 1 "TP_SMD1MM" H 15250 2750 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 15450 3050 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 15450 3050 60  0001 L CNN
 F 3 "" H 15450 3150 60  0001 L CNN
 	1    15250 2850
 	0    -1   -1   0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM TP3
+L ddr5-testboard:TP_SMD1MM TP3
 U 1 1 5FF061AA
 P 15250 2750
 F 0 "TP3" V 15225 2650 50  0000 C CNN
 F 1 "TP_SMD1MM" H 15250 2650 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 15450 2950 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 15450 2950 60  0001 L CNN
 F 3 "" H 15450 3050 60  0001 L CNN
 	1    15250 2750
 	0    -1   -1   0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM TP2
+L ddr5-testboard:TP_SMD1MM TP2
 U 1 1 5FF0650C
 P 15250 2650
 F 0 "TP2" V 15225 2550 50  0000 C CNN
 F 1 "TP_SMD1MM" H 15250 2550 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 15450 2850 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 15450 2850 60  0001 L CNN
 F 3 "" H 15450 2950 60  0001 L CNN
 	1    15250 2650
 	0    -1   -1   0   
@@ -908,7 +908,7 @@ $EndComp
 Text Notes 11975 8600 0    79   ~ 16
 Power switch
 $Comp
-L data-center-ddr5-tester:GND #PWR040
+L ddr5-testboard:GND #PWR040
 U 1 1 6002D001
 P 11000 10575
 F 0 "#PWR040" H 11000 10325 50  0001 C CNN
@@ -919,12 +919,12 @@ F 3 "" H 11000 10575 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C36
+L ddr5-testboard:C_10u_0402 C36
 U 1 1 6002D00A
 P 11000 10375
 F 0 "C36" H 11115 10420 60  0000 L CNN
 F 1 "C_10u_0402" H 11000 10225 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11200 10575 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 11200 10575 60  0001 L CNN
 F 3 "" H 11000 10375 50  0001 C CNN
 F 4 "MURATA" H 11200 10775 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 11200 10675 60  0001 L CNN "MPN"
@@ -945,7 +945,7 @@ SYS_EN
 Wire Wire Line
 	13175 9275 12550 9275
 $Comp
-L data-center-ddr5-tester:GND #PWR048
+L ddr5-testboard:GND #PWR048
 U 1 1 602A0B72
 P 13700 9550
 F 0 "#PWR048" H 13700 9300 50  0001 C CNN
@@ -960,12 +960,12 @@ Wire Wire Line
 Wire Wire Line
 	13700 9375 13700 9550
 $Comp
-L data-center-ddr5-tester:C_47u_16V_1206 C4
+L ddr5-testboard:C_47u_16V_1206 C4
 U 1 1 602EDD65
 P 800 7775
 F 0 "C4" H 915 7820 60  0000 L CNN
 F 1 "C_47u_16V_1206" H 800 7625 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-cap" H 1000 7975 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:1206-cap" H 1000 7975 60  0001 L CNN
 F 3 "" H 800 7775 50  0001 C CNN
 F 4 "TDK" H 1000 8175 60  0001 L CNN "Manufacturer"
 F 5 "C3216X5R1C476M160AB" H 1000 8075 60  0001 L CNN "MPN"
@@ -974,12 +974,12 @@ F 6 "47u/16V" H 915 7722 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47u_16V_1206 C5
+L ddr5-testboard:C_47u_16V_1206 C5
 U 1 1 602EFA5A
 P 800 8550
 F 0 "C5" H 915 8595 60  0000 L CNN
 F 1 "C_47u_16V_1206" H 800 8400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-cap" H 1000 8750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:1206-cap" H 1000 8750 60  0001 L CNN
 F 3 "" H 800 8550 50  0001 C CNN
 F 4 "TDK" H 1000 8950 60  0001 L CNN "Manufacturer"
 F 5 "C3216X5R1C476M160AB" H 1000 8850 60  0001 L CNN "MPN"
@@ -988,12 +988,12 @@ F 6 "47u/16V" H 915 8497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47u_16V_1206 C6
+L ddr5-testboard:C_47u_16V_1206 C6
 U 1 1 602EFC89
 P 800 9325
 F 0 "C6" H 915 9370 60  0000 L CNN
 F 1 "C_47u_16V_1206" H 800 9175 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-cap" H 1000 9525 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:1206-cap" H 1000 9525 60  0001 L CNN
 F 3 "" H 800 9325 50  0001 C CNN
 F 4 "TDK" H 1000 9725 60  0001 L CNN "Manufacturer"
 F 5 "C3216X5R1C476M160AB" H 1000 9625 60  0001 L CNN "MPN"
@@ -1002,7 +1002,7 @@ F 6 "47u/16V" H 915 9272 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR050
+L ddr5-testboard:GND #PWR050
 U 1 1 60003077
 P 15275 9450
 F 0 "#PWR050" H 15275 9200 50  0001 C CNN
@@ -1022,12 +1022,12 @@ Wire Wire Line
 	15000 9175 15350 9175
 NoConn ~ 15000 9275
 $Comp
-L data-center-ddr5-tester:R_10k_0402 R32
+L ddr5-testboard:R_10k_0402 R32
 U 1 1 605A4625
 P 14200 2250
 F 0 "R32" V 14050 2250 60  0000 L CNN
 F 1 "R_10k_0402" H 14200 2100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 14400 2450 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 14400 2450 60  0001 L CNN
 F 3 "" H 14200 2250 50  0001 C CNN
 F 4 "VISHAY" H 14400 2650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 14400 2550 60  0001 L CNN "MPN"
@@ -1041,12 +1041,12 @@ Connection ~ 14200 2650
 Wire Wire Line
 	14200 2650 15150 2650
 $Comp
-L data-center-ddr5-tester:R_10k_0402 R33
+L ddr5-testboard:R_10k_0402 R33
 U 1 1 605B87F5
 P 14425 2250
 F 0 "R33" V 14275 2250 60  0000 L CNN
 F 1 "R_10k_0402" H 14425 2100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 14625 2450 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 14625 2450 60  0001 L CNN
 F 3 "" H 14425 2250 50  0001 C CNN
 F 4 "VISHAY" H 14625 2650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 14625 2550 60  0001 L CNN "MPN"
@@ -1055,12 +1055,12 @@ F 6 "10k" V 14575 2250 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_10k_0402 R34
+L ddr5-testboard:R_10k_0402 R34
 U 1 1 605B94B6
 P 14650 2250
 F 0 "R34" V 14500 2250 60  0000 L CNN
 F 1 "R_10k_0402" H 14650 2100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 14850 2450 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 14850 2450 60  0001 L CNN
 F 3 "" H 14650 2250 50  0001 C CNN
 F 4 "VISHAY" H 14850 2650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 14850 2550 60  0001 L CNN "MPN"
@@ -1090,12 +1090,12 @@ Wire Notes Line
 Wire Notes Line
 	11800 5000 16050 5000
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM PHY1
+L ddr5-testboard:TP_SMD1MM PHY1
 U 1 1 61AF8860
 P 13475 6000
 F 0 "PHY1" V 13380 6047 50  0000 C CNN
 F 1 "TP_SMD1MM" H 13475 5900 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 6200 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 13675 6200 60  0001 L CNN
 F 3 "" H 13675 6300 60  0001 L CNN
 	1    13475 6000
 	0    -1   1    0   
@@ -1129,23 +1129,23 @@ Wire Wire Line
 Text GLabel 13375 6900 0    50   Input ~ 0
 VCC5V0_INT
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM 1V0
+L ddr5-testboard:TP_SMD1MM 1V0
 U 1 1 6248DC65
 P 13475 5775
 F 0 "1V0" V 13380 5822 50  0000 C CNN
 F 1 "TP_SMD1MM" H 13475 5675 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 5975 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 13675 5975 60  0001 L CNN
 F 3 "" H 13675 6075 60  0001 L CNN
 	1    13475 5775
 	0    -1   1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM 1V8
+L ddr5-testboard:TP_SMD1MM 1V8
 U 1 1 6248DE95
 P 13475 6225
 F 0 "1V8" V 13380 6272 50  0000 C CNN
 F 1 "TP_SMD1MM" H 13475 6125 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 6425 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 13675 6425 60  0001 L CNN
 F 3 "" H 13675 6525 60  0001 L CNN
 	1    13475 6225
 	0    -1   1    0   
@@ -1153,18 +1153,18 @@ $EndComp
 Text GLabel 13375 7100 0    50   Input ~ 0
 VIN
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM VIN1
+L ddr5-testboard:TP_SMD1MM VIN1
 U 1 1 62506200
 P 13475 7100
 F 0 "VIN1" V 13380 7147 50  0000 C CNN
 F 1 "TP_SMD1MM" H 13475 7000 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 7300 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 13675 7300 60  0001 L CNN
 F 3 "" H 13675 7400 60  0001 L CNN
 	1    13475 7100
 	0    -1   1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR033
+L ddr5-testboard:GND #PWR033
 U 1 1 6008D6C6
 P 9650 6275
 F 0 "#PWR033" H 9650 6025 50  0001 C CNN
@@ -1175,7 +1175,7 @@ F 3 "" H 9650 6275 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR027
+L ddr5-testboard:GND #PWR027
 U 1 1 6008D29B
 P 8150 6250
 F 0 "#PWR027" H 8150 6000 50  0001 C CNN
@@ -1186,14 +1186,14 @@ F 3 "" H 8150 6250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:IHLP1212AEERR47M11 L?
+L ddr5-testboard:IHLP1212AEERR47M11 L?
 U 1 1 600835CD
 P 9800 5325
 AR Path="/6004278D/600835CD" Ref="L?"  Part="1" 
 AR Path="/60225B0C/600835CD" Ref="L7"  Part="1" 
 F 0 "L7" H 9675 5525 60  0000 C CNN
 F 1 "IHLP1212AEERR47M11" H 10125 5425 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:IHLP-1212AE" H 9800 5325 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:IHLP-1212AE" H 9800 5325 60  0001 C CNN
 F 3 "" H 9800 5325 60  0001 C CNN
 F 4 "Vishay" H 9800 5325 50  0001 C CNN "Manufacturer"
 F 5 "IHLP1212AEERR47M11" H 9800 5325 50  0001 C CNN "MPN"
@@ -1205,14 +1205,14 @@ Wire Wire Line
 Wire Wire Line
 	8050 5475 8750 5475
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R?
+L ddr5-testboard:R_0R_0402 R?
 U 1 1 600835C3
 P 7900 5475
 AR Path="/6004278D/600835C3" Ref="R?"  Part="1" 
 AR Path="/60225B0C/600835C3" Ref="R20"  Part="1" 
 F 0 "R20" V 7809 5545 60  0000 L CNN
 F 1 "R_0R_0402" H 7900 5325 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 8100 5675 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 8100 5675 60  0001 L CNN
 F 3 "" H 7900 5475 50  0001 C CNN
 F 4 "PANASONIC" H 8100 5875 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8100 5775 60  0001 L CNN "MPN"
@@ -1236,14 +1236,14 @@ Wire Wire Line
 Wire Wire Line
 	10400 5775 10400 5800
 $Comp
-L data-center-ddr5-tester:R_100k_0402 R?
+L ddr5-testboard:R_100k_0402 R?
 U 1 1 60083593
 P 10400 5950
 AR Path="/6004278D/60083593" Ref="R?"  Part="1" 
 AR Path="/60225B0C/60083593" Ref="R30"  Part="1" 
 F 0 "R30" V 10355 6020 60  0000 L CNN
 F 1 "R_100k_0402" H 10400 5800 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10600 6150 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10600 6150 60  0001 L CNN
 F 3 "" H 10400 5950 50  0001 C CNN
 F 4 "VISHAY" H 10600 6350 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 10600 6250 60  0001 L CNN "MPN"
@@ -1263,14 +1263,14 @@ Wire Wire Line
 Wire Wire Line
 	8150 5750 8150 5775
 $Comp
-L data-center-ddr5-tester:TPS62823DLCT U?
+L ddr5-testboard:TPS62823DLCT U?
 U 1 1 60083579
 P 9100 5825
 AR Path="/6004278D/60083579" Ref="U?"  Part="1" 
 AR Path="/60225B0C/60083579" Ref="U5"  Part="1" 
 F 0 "U5" H 9150 6590 50  0000 C CNN
 F 1 "TPS62823DLCT" H 9150 6499 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:QFN-8_2x1mm" H 9000 5625 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:QFN-8_2x1mm" H 9000 5625 50  0001 C CNN
 F 3 "" H 9100 5725 50  0001 C CNN
 F 4 "TPS62823DLCT" H 9150 6590 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 9150 6499 50  0001 C CNN "Manufacturer"
@@ -1282,14 +1282,14 @@ Wire Wire Line
 Wire Wire Line
 	8150 5325 8150 5450
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C?
+L ddr5-testboard:C_10u_0402 C?
 U 1 1 6008356D
 P 8150 5600
 AR Path="/6004278D/6008356D" Ref="C?"  Part="1" 
 AR Path="/60225B0C/6008356D" Ref="C25"  Part="1" 
 F 0 "C25" H 8225 5650 60  0000 L CNN
 F 1 "C_10u_0402" H 8150 5450 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8350 5800 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 8350 5800 60  0001 L CNN
 F 3 "" H 8150 5600 50  0001 C CNN
 F 4 "MURATA" H 8350 6000 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 8350 5900 60  0001 L CNN "MPN"
@@ -1310,7 +1310,7 @@ Connection ~ 8150 5325
 Text Notes 7225 2600 0    79   ~ 16
 1V8 supply
 $Comp
-L data-center-ddr5-tester:GND #PWR031
+L ddr5-testboard:GND #PWR031
 U 1 1 621F738D
 P 9525 4025
 F 0 "#PWR031" H 9525 3775 50  0001 C CNN
@@ -1321,7 +1321,7 @@ F 3 "" H 9525 4025 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR024
+L ddr5-testboard:GND #PWR024
 U 1 1 621F7387
 P 8025 4000
 F 0 "#PWR024" H 8025 3750 50  0001 C CNN
@@ -1332,14 +1332,14 @@ F 3 "" H 8025 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:IHLP1212AEERR47M11 L?
+L ddr5-testboard:IHLP1212AEERR47M11 L?
 U 1 1 621F7377
 P 9675 3075
 AR Path="/6004278D/621F7377" Ref="L?"  Part="1" 
 AR Path="/60225B0C/621F7377" Ref="L4"  Part="1" 
 F 0 "L4" H 9525 3250 60  0000 C CNN
 F 1 "IHLP1212AEERR47M11" H 9975 3150 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:IHLP-1212AE" H 9675 3075 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:IHLP-1212AE" H 9675 3075 60  0001 C CNN
 F 3 "" H 9675 3075 60  0001 C CNN
 F 4 "Vishay" H 9675 3075 50  0001 C CNN "Manufacturer"
 F 5 "IHLP1212AEERR47M11" H 9675 3075 50  0001 C CNN "MPN"
@@ -1351,14 +1351,14 @@ Wire Wire Line
 Wire Wire Line
 	7925 3225 8625 3225
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R?
+L ddr5-testboard:R_0R_0402 R?
 U 1 1 621F736D
 P 7775 3225
 AR Path="/6004278D/621F736D" Ref="R?"  Part="1" 
 AR Path="/60225B0C/621F736D" Ref="R17"  Part="1" 
 F 0 "R17" H 7775 3348 60  0000 C CNN
 F 1 "R_0R_0402" H 7775 3075 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 7975 3425 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 7975 3425 60  0001 L CNN
 F 3 "" H 7775 3225 50  0001 C CNN
 F 4 "PANASONIC" H 7975 3625 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7975 3525 60  0001 L CNN "MPN"
@@ -1380,14 +1380,14 @@ Connection ~ 8025 3525
 Wire Wire Line
 	8025 3500 8025 3525
 $Comp
-L data-center-ddr5-tester:TPS62823DLCT U?
+L ddr5-testboard:TPS62823DLCT U?
 U 1 1 621F732B
 P 8975 3575
 AR Path="/6004278D/621F732B" Ref="U?"  Part="1" 
 AR Path="/60225B0C/621F732B" Ref="U3"  Part="1" 
 F 0 "U3" H 9025 4340 50  0000 C CNN
 F 1 "TPS62823DLCT" H 9025 4249 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:QFN-8_2x1mm" H 8875 3375 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:QFN-8_2x1mm" H 8875 3375 50  0001 C CNN
 F 3 "" H 8975 3475 50  0001 C CNN
 F 4 "TPS62823DLCT" H 9025 4340 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 9025 4249 50  0001 C CNN "Manufacturer"
@@ -1408,12 +1408,12 @@ VIN
 Text Notes 14475 5350 0    79   ~ 16
 Fuses
 $Comp
-L data-center-ddr5-tester:1206L450SLWR F3
+L ddr5-testboard:1206L450SLWR F3
 U 1 1 61A082F9
 P 15125 6550
 F 0 "F3" H 14975 6600 50  0000 C CNN
 F 1 "1206L450SLWR" H 15525 6625 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 6325 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:1206-res" H 15175 6325 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6400 50  0001 C CNN
 F 4 "1206L450SLWR" H 15150 6250 50  0001 C CNN "MPN"
 F 5 "LITTELFUSE" H 15175 6175 50  0001 C CNN "Manufacturer"
@@ -1421,12 +1421,12 @@ F 5 "LITTELFUSE" H 15175 6175 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:1206L450SLWR F4
+L ddr5-testboard:1206L450SLWR F4
 U 1 1 61A08A26
 P 15125 6825
 F 0 "F4" H 14975 6875 50  0000 C CNN
 F 1 "1206L450SLWR" H 15525 6900 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 6600 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:1206-res" H 15175 6600 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6675 50  0001 C CNN
 F 4 "1206L450SLWR" H 15150 6525 50  0001 C CNN "MPN"
 F 5 "LITTELFUSE" H 15175 6450 50  0001 C CNN "Manufacturer"
@@ -1434,12 +1434,12 @@ F 5 "LITTELFUSE" H 15175 6450 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:1206L450SLWR F5
+L ddr5-testboard:1206L450SLWR F5
 U 1 1 61A090C6
 P 15125 7100
 F 0 "F5" H 14975 7150 50  0000 C CNN
 F 1 "1206L450SLWR" H 15525 7175 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 6875 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:1206-res" H 15175 6875 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 6950 50  0001 C CNN
 F 4 "1206L450SLWR" H 15150 6800 50  0001 C CNN "MPN"
 F 5 "LITTELFUSE" H 15175 6725 50  0001 C CNN "Manufacturer"
@@ -1447,12 +1447,12 @@ F 5 "LITTELFUSE" H 15175 6725 50  0001 C CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:1206L450SLWR F7
+L ddr5-testboard:1206L450SLWR F7
 U 1 1 61A097E7
 P 15125 7650
 F 0 "F7" H 14975 7700 50  0000 C CNN
 F 1 "1206L450SLWR" H 15525 7725 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 7425 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:1206-res" H 15175 7425 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7500 50  0001 C CNN
 F 4 "1206L450SLWR" H 15150 7350 50  0001 C CNN "MPN"
 F 5 "LITTELFUSE" H 15175 7275 50  0001 C CNN "Manufacturer"
@@ -5335,12 +5335,12 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 EndData
 $EndBitmap
 $Comp
-L data-center-ddr5-tester:EG1218 S1
+L ddr5-testboard:EG1218 S1
 U 1 1 62A0958B
 P 13375 9275
 F 0 "S1" H 13375 9556 50  0000 C CNN
 F 1 "EG1218" H 13375 9465 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:Switch_Slide_11.6x4mm_EG1218" H 13575 9475 50  0001 L CNN
+F 2 "ddr5-testboard-footprints:Switch_Slide_11.6x4mm_EG1218" H 13575 9475 50  0001 L CNN
 F 3 "http://spec_sheets.e-switch.com/specs/P040040.pdf" H 13575 9575 60  0001 L CNN
 F 4 "EG1218" H 13575 9775 60  0001 L CNN "MPN"
 F 5 "E-Switch" H 13575 10375 60  0001 L CNN "Manufacturer"
@@ -5348,12 +5348,12 @@ F 5 "E-Switch" H 13575 10375 60  0001 L CNN "Manufacturer"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:61300311121 J2
+L ddr5-testboard:61300311121 J2
 U 1 1 62A210B6
 P 14850 9175
 F 0 "J2" V 14750 9175 50  0000 C CNN
 F 1 "61300311121" H 14950 9075 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 15050 9375 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:PinHeader_1x3_P2.54_Drill1.1mm" H 15050 9375 60  0001 L CNN
 F 3 "https://katalog.we-online.de/em/datasheet/6130xx11121.pdf" H 15050 9475 60  0001 L CNN
 F 4 "61300311121" H 15050 9675 60  0001 L CNN "MPN"
 F 5 "Wurth Electronics Inc." H 15050 10275 60  0001 L CNN "Manufacturer"
@@ -5371,14 +5371,14 @@ Wire Wire Line
 Wire Wire Line
 	11175 5875 11175 6125
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C?
+L ddr5-testboard:C_10u_0402 C?
 U 1 1 600835AA
 P 11175 5725
 AR Path="/6004278D/600835AA" Ref="C?"  Part="1" 
 AR Path="/60225B0C/600835AA" Ref="C38"  Part="1" 
 F 0 "C38" H 11200 5825 60  0000 L CNN
 F 1 "C_10u_0402" H 11175 5575 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11375 5925 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 11375 5925 60  0001 L CNN
 F 3 "" H 11175 5725 50  0001 C CNN
 F 4 "MURATA" H 11375 6125 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 11375 6025 60  0001 L CNN "MPN"
@@ -5393,14 +5393,14 @@ Wire Wire Line
 Wire Wire Line
 	10875 5325 10875 5575
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C?
+L ddr5-testboard:C_10u_0402 C?
 U 1 1 6008359E
 P 10875 5725
 AR Path="/6004278D/6008359E" Ref="C?"  Part="1" 
 AR Path="/60225B0C/6008359E" Ref="C34"  Part="1" 
 F 0 "C34" H 10900 5825 60  0000 L CNN
 F 1 "C_10u_0402" H 10875 5575 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11075 5925 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 11075 5925 60  0001 L CNN
 F 3 "" H 10875 5725 50  0001 C CNN
 F 4 "MURATA" H 11075 6125 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 11075 6025 60  0001 L CNN "MPN"
@@ -5423,7 +5423,7 @@ Connection ~ 10400 6125
 Text GLabel 11275 5325 2    50   Output ~ 0
 VCC1V2
 $Comp
-L data-center-ddr5-tester:GND #PWR032
+L ddr5-testboard:GND #PWR032
 U 1 1 624C4E4A
 P 9525 8000
 F 0 "#PWR032" H 9525 7750 50  0001 C CNN
@@ -5434,7 +5434,7 @@ F 3 "" H 9525 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR025
+L ddr5-testboard:GND #PWR025
 U 1 1 624C4E50
 P 8075 8000
 F 0 "#PWR025" H 8075 7750 50  0001 C CNN
@@ -5445,14 +5445,14 @@ F 3 "" H 8075 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:IHLP1212AEERR47M11 L?
+L ddr5-testboard:IHLP1212AEERR47M11 L?
 U 1 1 624C4E58
 P 9725 7375
 AR Path="/6004278D/624C4E58" Ref="L?"  Part="1" 
 AR Path="/60225B0C/624C4E58" Ref="L6"  Part="1" 
 F 0 "L6" H 9600 7575 60  0000 C CNN
 F 1 "IHLP1212AEERR47M11" H 10050 7475 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:IHLP-1212AE" H 9725 7375 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:IHLP-1212AE" H 9725 7375 60  0001 C CNN
 F 3 "" H 9725 7375 60  0001 C CNN
 F 4 "Vishay" H 9725 7375 50  0001 C CNN "Manufacturer"
 F 5 "IHLP1212AEERR47M11" H 9725 7375 50  0001 C CNN "MPN"
@@ -5464,14 +5464,14 @@ Wire Wire Line
 Wire Wire Line
 	7975 7525 8675 7525
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R?
+L ddr5-testboard:R_0R_0402 R?
 U 1 1 624C4E63
 P 7825 7525
 AR Path="/6004278D/624C4E63" Ref="R?"  Part="1" 
 AR Path="/60225B0C/624C4E63" Ref="R18"  Part="1" 
 F 0 "R18" V 7734 7595 60  0000 L CNN
 F 1 "R_0R_0402" H 7825 7375 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 8025 7725 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 8025 7725 60  0001 L CNN
 F 3 "" H 7825 7525 50  0001 C CNN
 F 4 "PANASONIC" H 8025 7925 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8025 7825 60  0001 L CNN "MPN"
@@ -5488,14 +5488,14 @@ Text Notes 7225 7100 0    79   ~ 16
 Wire Wire Line
 	8350 7675 8675 7675
 $Comp
-L data-center-ddr5-tester:R_100k_0402 R?
+L ddr5-testboard:R_100k_0402 R?
 U 1 1 624C4E74
 P 10050 8275
 AR Path="/6004278D/624C4E74" Ref="R?"  Part="1" 
 AR Path="/60225B0C/624C4E74" Ref="R26"  Part="1" 
 F 0 "R26" V 10005 8345 60  0000 L CNN
 F 1 "R_100k_0402" H 10050 8125 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10250 8475 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10250 8475 60  0001 L CNN
 F 3 "" H 10050 8275 50  0001 C CNN
 F 4 "VISHAY" H 10250 8675 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 10250 8575 60  0001 L CNN "MPN"
@@ -5515,14 +5515,14 @@ Wire Wire Line
 Wire Wire Line
 	8075 7800 8075 7825
 $Comp
-L data-center-ddr5-tester:TPS62823DLCT U?
+L ddr5-testboard:TPS62823DLCT U?
 U 1 1 624C4E8D
 P 9025 7875
 AR Path="/6004278D/624C4E8D" Ref="U?"  Part="1" 
 AR Path="/60225B0C/624C4E8D" Ref="U4"  Part="1" 
 F 0 "U4" H 9075 8640 50  0000 C CNN
 F 1 "TPS62823DLCT" H 9075 8549 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:QFN-8_2x1mm" H 8925 7675 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:QFN-8_2x1mm" H 8925 7675 50  0001 C CNN
 F 3 "" H 9025 7775 50  0001 C CNN
 F 4 "TPS62823DLCT" H 9075 8640 50  0001 C CNN "MPN"
 F 5 "Texas Instruments" H 9075 8549 50  0001 C CNN "Manufacturer"
@@ -5532,14 +5532,14 @@ $EndComp
 Wire Wire Line
 	8075 7375 8075 7500
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C?
+L ddr5-testboard:C_10u_0402 C?
 U 1 1 624C4E9A
 P 8075 7650
 AR Path="/6004278D/624C4E9A" Ref="C?"  Part="1" 
 AR Path="/60225B0C/624C4E9A" Ref="C23"  Part="1" 
 F 0 "C23" H 8150 7700 60  0000 L CNN
 F 1 "C_10u_0402" H 8075 7500 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8275 7850 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 8275 7850 60  0001 L CNN
 F 3 "" H 8075 7650 50  0001 C CNN
 F 4 "MURATA" H 8275 8050 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 8275 7950 60  0001 L CNN "MPN"
@@ -5555,12 +5555,12 @@ Text Label 8350 7675 0    50   ~ 0
 1V1_PG
 Connection ~ 8075 7375
 $Comp
-L data-center-ddr5-tester:R_82k5_1%_0402 R25
+L ddr5-testboard:R_82k5_1%_0402 R25
 U 1 1 624C4EB1
 P 10575 7550
 F 0 "R25" V 10530 7480 60  0000 R CNN
 F 1 "R_82k5_1%_0402" H 10575 7400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10775 7750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10775 7750 60  0001 L CNN
 F 3 "" H 10575 7550 50  0001 C CNN
 F 4 "" H 10775 7950 60  0001 L CNN "Manufacturer"
 F 5 "" H 10775 7850 60  0001 L CNN "MPN"
@@ -5586,14 +5586,14 @@ Wire Wire Line
 Text GLabel 11200 7375 2    50   Output ~ 0
 VCC1V1
 $Comp
-L data-center-ddr5-tester:R_100k_0402 R?
+L ddr5-testboard:R_100k_0402 R?
 U 1 1 624EB31A
 P 10400 5550
 AR Path="/6004278D/624EB31A" Ref="R?"  Part="1" 
 AR Path="/60225B0C/624EB31A" Ref="R29"  Part="1" 
 F 0 "R29" V 10355 5620 60  0000 L CNN
 F 1 "R_100k_0402" H 10400 5400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10600 5750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10600 5750 60  0001 L CNN
 F 3 "" H 10400 5550 50  0001 C CNN
 F 4 "VISHAY" H 10600 5950 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 10600 5850 60  0001 L CNN "MPN"
@@ -5616,12 +5616,12 @@ Wire Wire Line
 Wire Wire Line
 	14975 7375 14775 7375
 $Comp
-L data-center-ddr5-tester:1206L450SLWR F6
+L ddr5-testboard:1206L450SLWR F6
 U 1 1 6256C0A5
 P 15125 7375
 F 0 "F6" H 14975 7425 50  0000 C CNN
 F 1 "1206L450SLWR" H 15525 7450 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 7150 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:1206-res" H 15175 7150 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 7225 50  0001 C CNN
 F 4 "1206L450SLWR" H 15150 7075 50  0001 C CNN "MPN"
 F 5 "LITTELFUSE" H 15175 7000 50  0001 C CNN "Manufacturer"
@@ -5641,12 +5641,12 @@ Wire Wire Line
 Wire Wire Line
 	15275 5850 15450 5850
 $Comp
-L data-center-ddr5-tester:1206L450SLWR F2
+L ddr5-testboard:1206L450SLWR F2
 U 1 1 62C41615
 P 15125 5850
 F 0 "F2" H 14975 5900 50  0000 C CNN
 F 1 "1206L450SLWR" H 15525 5925 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 5625 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:1206-res" H 15175 5625 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5700 50  0001 C CNN
 F 4 "1206L450SLWR" H 15150 5550 50  0001 C CNN "MPN"
 F 5 "LITTELFUSE" H 15175 5475 50  0001 C CNN "Manufacturer"
@@ -5660,12 +5660,12 @@ VCC12V0
 Wire Wire Line
 	14775 5600 14975 5600
 $Comp
-L data-center-ddr5-tester:1206L450SLWR F1
+L ddr5-testboard:1206L450SLWR F1
 U 1 1 62CC8265
 P 15125 5600
 F 0 "F1" H 14975 5650 50  0000 C CNN
 F 1 "1206L450SLWR" H 15525 5675 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-res" H 15175 5375 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:1206-res" H 15175 5375 50  0001 C CNN
 F 3 "http://www.farnell.com/datasheets/2282556.pdf" H 15125 5450 50  0001 C CNN
 F 4 "1206L450SLWR" H 15150 5300 50  0001 C CNN "MPN"
 F 5 "LITTELFUSE" H 15175 5225 50  0001 C CNN "Manufacturer"
@@ -5675,12 +5675,12 @@ $EndComp
 Wire Wire Line
 	15275 5600 15450 5600
 $Comp
-L data-center-ddr5-tester:TPS54561 IC1
+L ddr5-testboard:TPS54561 IC1
 U 1 1 62DE6A1E
 P 3150 4350
 F 0 "IC1" H 3150 5039 60  0000 C CNN
 F 1 "TPS54561" H 3150 4933 60  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:WSON-10_4x4" H 3150 4350 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:WSON-10_4x4" H 3150 4350 60  0001 C CNN
 F 3 "" H 3150 4350 60  0001 C CNN
 F 4 "Texas Instrumets" H 3150 4350 50  0001 C CNN "Manufacturer"
 F 5 "TPS54561-Q1" H 3150 4350 50  0001 C CNN "MPN"
@@ -5697,7 +5697,7 @@ Connection ~ 3800 4850
 Wire Wire Line
 	3800 4850 3800 5400
 $Comp
-L data-center-ddr5-tester:GND #PWR017
+L ddr5-testboard:GND #PWR017
 U 1 1 62DE6A2B
 P 4200 4550
 F 0 "#PWR017" H 4200 4300 50  0001 C CNN
@@ -5708,12 +5708,12 @@ F 3 "" H 4200 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:WE_7447798720 L1
+L ddr5-testboard:WE_7447798720 L1
 U 1 1 62DE6A33
 P 4550 4350
 F 0 "L1" H 4425 4525 60  0000 C CNN
 F 1 "WE_7447798720" H 5100 4425 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:WE_7447798720" H 4600 4200 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:WE_7447798720" H 4600 4200 60  0001 C CNN
 F 3 "" H 4605 4380 60  0001 C CNN
 F 4 "Wurth Elektronik" H 4550 4250 50  0001 C CNN "Manufacturer"
 F 5 "7447798720" H 4600 4425 50  0000 C CNN "MPN"
@@ -5728,12 +5728,12 @@ Connection ~ 4200 4350
 Wire Wire Line
 	4200 4350 4400 4350
 $Comp
-L data-center-ddr5-tester:PDS760-13 D2
+L ddr5-testboard:PDS760-13 D2
 U 1 1 62DE6A3F
 P 4200 4450
 F 0 "D2" H 4280 4450 60  0000 L CNN
 F 1 "PDS760-13" H 4300 4350 60  0001 L BNN
-F 2 "data-center-ddr5-tester-footprints:PDS760-13" H 4200 4450 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:PDS760-13" H 4200 4450 60  0001 C CNN
 F 3 "" H 4200 4450 60  0001 C CNN
 F 4 "Diodes Inc." H 4200 4450 50  0001 C CNN "Manufacturer"
 F 5 "PDS760-13" H 4500 4350 50  0000 C CNN "MPN"
@@ -5757,12 +5757,12 @@ Wire Wire Line
 Wire Wire Line
 	4000 4550 4000 5050
 $Comp
-L data-center-ddr5-tester:C_47u_0603 C15
+L ddr5-testboard:C_47u_0603 C15
 U 1 1 62DE6A63
 P 5350 4550
 F 0 "C15" H 5350 4650 60  0000 L CNN
 F 1 "C_47u_0603" H 5350 4400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-cap" H 5550 4750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0603-cap" H 5550 4750 60  0001 L CNN
 F 3 "" H 5350 4550 50  0001 C CNN
 F 4 "MURATA" H 5550 4950 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 5550 4850 60  0001 L CNN "MPN"
@@ -5771,12 +5771,12 @@ F 6 "47u" H 5350 4450 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47u_0603 C17
+L ddr5-testboard:C_47u_0603 C17
 U 1 1 62DE6A6C
 P 5600 4550
 F 0 "C17" H 5600 4650 60  0000 L CNN
 F 1 "C_47u_0603" H 5600 4400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-cap" H 5800 4750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0603-cap" H 5800 4750 60  0001 L CNN
 F 3 "" H 5600 4550 50  0001 C CNN
 F 4 "MURATA" H 5800 4950 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 5800 4850 60  0001 L CNN "MPN"
@@ -5785,12 +5785,12 @@ F 6 "47u" H 5600 4450 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47u_0603 C19
+L ddr5-testboard:C_47u_0603 C19
 U 1 1 62DE6A75
 P 5850 4550
 F 0 "C19" H 5850 4650 60  0000 L CNN
 F 1 "C_47u_0603" H 5850 4400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0603-cap" H 6050 4750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0603-cap" H 6050 4750 60  0001 L CNN
 F 3 "" H 5850 4550 50  0001 C CNN
 F 4 "MURATA" H 6050 4950 60  0001 L CNN "Manufacturer"
 F 5 "GRM188R60J476ME15D" H 6050 4850 60  0001 L CNN "MPN"
@@ -5824,7 +5824,7 @@ Connection ~ 5600 4800
 Wire Wire Line
 	5600 4800 5850 4800
 $Comp
-L data-center-ddr5-tester:GND #PWR021
+L ddr5-testboard:GND #PWR021
 U 1 1 62DE6A89
 P 5600 5400
 F 0 "#PWR021" H 5600 5150 50  0001 C CNN
@@ -5837,7 +5837,7 @@ $EndComp
 Wire Wire Line
 	5600 4800 5600 5400
 $Comp
-L data-center-ddr5-tester:GND #PWR019
+L ddr5-testboard:GND #PWR019
 U 1 1 62DE6A90
 P 4900 5400
 F 0 "#PWR019" H 4900 5150 50  0001 C CNN
@@ -5848,12 +5848,12 @@ F 3 "" H 4900 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_100k_0402 R8
+L ddr5-testboard:R_100k_0402 R8
 U 1 1 62DE6A99
 P 3800 3750
 F 0 "R8" V 3755 3820 60  0000 L CNN
 F 1 "R_100k_0402" H 3800 3600 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 4000 3950 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 4000 3950 60  0001 L CNN
 F 3 "" H 3800 3750 50  0001 C CNN
 F 4 "VISHAY" H 4000 4150 60  0001 L CNN "Manufacturer"
 F 5 "CRCW0402100KFKEDHP" H 4000 4050 60  0001 L CNN "MPN"
@@ -5862,12 +5862,12 @@ F 6 "100k" V 3853 3820 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47p_0402 C10
+L ddr5-testboard:C_47p_0402 C10
 U 1 1 62DE6AA3
 P 2400 5300
 F 0 "C10" H 2425 5400 60  0000 L CNN
 F 1 "C_47p_0402" H 2400 5150 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 2600 5500 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 2600 5500 60  0001 L CNN
 F 3 "" H 2400 5300 50  0001 C CNN
 F 4 "KEMET" H 2600 5700 60  0001 L CNN "Manufacturer"
 F 5 "C0402C470J5GACTU" H 2600 5600 60  0001 L CNN "MPN"
@@ -5876,12 +5876,12 @@ F 6 "47p" H 2425 5200 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_4n7_0402 C7
+L ddr5-testboard:C_4n7_0402 C7
 U 1 1 62DE6AAC
 P 2100 5300
 F 0 "C7" H 2125 5400 60  0000 L CNN
 F 1 "C_4n7_0402" H 2100 5150 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 2300 5500 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 2300 5500 60  0001 L CNN
 F 3 "" H 2100 5300 50  0001 C CNN
 F 4 "TDK" H 2300 5700 60  0001 L CNN "Manufacturer"
 F 5 "CGA2B3X7S2A472K050BB" H 2300 5600 60  0001 L CNN "MPN"
@@ -5890,12 +5890,12 @@ F 6 "4n7" H 2100 5200 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_16k9_0402 R2
+L ddr5-testboard:R_16k9_0402 R2
 U 1 1 62DE6AB5
 P 2100 5000
 F 0 "R2" V 2055 5070 60  0000 L CNN
 F 1 "R_16k9_0402" H 2100 4850 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 2300 5200 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 2300 5200 60  0001 L CNN
 F 3 "" H 2100 5000 50  0001 C CNN
 F 4 "PANASONIC" H 2300 5400 60  0001 L CNN "Manufacturer"
 F 5 "ERA2AEB1692X" H 2300 5300 60  0001 L CNN "MPN"
@@ -5913,7 +5913,7 @@ Connection ~ 2400 4750
 Wire Wire Line
 	2400 4750 2550 4750
 $Comp
-L data-center-ddr5-tester:GND #PWR015
+L ddr5-testboard:GND #PWR015
 U 1 1 62DE6AC0
 P 3800 5400
 F 0 "#PWR015" H 3800 5150 50  0001 C CNN
@@ -5924,7 +5924,7 @@ F 3 "" H 3800 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR09
+L ddr5-testboard:GND #PWR09
 U 1 1 62DE6AC6
 P 2100 5450
 F 0 "#PWR09" H 2100 5200 50  0001 C CNN
@@ -5935,7 +5935,7 @@ F 3 "" H 2100 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR012
+L ddr5-testboard:GND #PWR012
 U 1 1 62DE6ACC
 P 2400 5450
 F 0 "#PWR012" H 2400 5200 50  0001 C CNN
@@ -5946,7 +5946,7 @@ F 3 "" H 2400 5450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR01
+L ddr5-testboard:GND #PWR01
 U 1 1 62DE6AD2
 P 750 3775
 F 0 "#PWR01" H 750 3525 50  0001 C CNN
@@ -5957,7 +5957,7 @@ F 3 "" H 750 3775 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR02
+L ddr5-testboard:GND #PWR02
 U 1 1 62DE6AD8
 P 750 4550
 F 0 "#PWR02" H 750 4300 50  0001 C CNN
@@ -5968,7 +5968,7 @@ F 3 "" H 750 4550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR03
+L ddr5-testboard:GND #PWR03
 U 1 1 62DE6ADE
 P 750 5325
 F 0 "#PWR03" H 750 5075 50  0001 C CNN
@@ -5979,12 +5979,12 @@ F 3 "" H 750 5325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_10n_0402 C9
+L ddr5-testboard:C_10n_0402 C9
 U 1 1 62DE6AE7
 P 2400 4550
 F 0 "C9" V 2350 4375 60  0000 C CNN
 F 1 "C_10n_0402" H 2400 4400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 2600 4750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 2600 4750 60  0001 L CNN
 F 3 "" H 2400 4550 50  0001 C CNN
 F 4 "AVX" H 2600 4950 60  0001 L CNN "Manufacturer"
 F 5 "04025G103ZAT2A" H 2600 4850 60  0001 L CNN "MPN"
@@ -5993,12 +5993,12 @@ F 6 "10n" V 2450 4675 50  0000 C CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_243k_0402 R4
+L ddr5-testboard:R_243k_0402 R4
 U 1 1 62DE6AF0
 P 2400 4350
 F 0 "R4" H 2350 4450 60  0000 C CNN
 F 1 "R_243k_0402" H 2400 4200 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 2600 4550 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 2600 4550 60  0001 L CNN
 F 3 "" H 2400 4350 50  0001 C CNN
 F 4 "MULTICOMP" H 2600 4750 60  0001 L CNN "Manufacturer"
 F 5 "MCMR04X2433FTL" H 2600 4650 60  0001 L CNN "MPN"
@@ -6007,7 +6007,7 @@ F 6 "243k" H 2600 4300 50  0000 C CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR08
+L ddr5-testboard:GND #PWR08
 U 1 1 62DE6AF6
 P 2100 4550
 F 0 "#PWR08" H 2100 4300 50  0001 C CNN
@@ -6031,12 +6031,12 @@ VIN
 Text GLabel 750  5025 1    50   Input ~ 0
 VIN
 $Comp
-L data-center-ddr5-tester:R_10k2_0402 R12
+L ddr5-testboard:R_10k2_0402 R12
 U 1 1 62DE6B08
 P 4900 5250
 F 0 "R12" V 4855 5320 60  0000 L CNN
 F 1 "R_10k2_0402" H 4900 5100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 5100 5450 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 5100 5450 60  0001 L CNN
 F 3 "" H 4900 5250 50  0001 C CNN
 F 4 "MULTICOMP PRO" H 5100 5650 60  0001 L CNN "Manufacturer"
 F 5 "MCWR04X1022FTL" H 5100 5550 60  0001 L CNN "MPN"
@@ -6047,12 +6047,12 @@ $EndComp
 Text Notes 750  2625 0    79   ~ 16
 Main supply (12V 5A)
 $Comp
-L data-center-ddr5-tester:C_100n_0402_6V3 C13
+L ddr5-testboard:C_100n_0402_6V3 C13
 U 1 1 62DE6B15
 P 4000 4150
 F 0 "C13" V 3925 3875 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 4000 4000 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 4200 4350 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 4200 4350 60  0001 L CNN
 F 3 "" H 4000 4150 50  0001 C CNN
 F 4 "Walsin" H 4200 4550 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 4200 4450 60  0001 L CNN "MPN"
@@ -6070,12 +6070,12 @@ Connection ~ 5850 4350
 Wire Wire Line
 	2125 4150 2550 4150
 $Comp
-L data-center-ddr5-tester:C_47u_16V_1206 C1
+L ddr5-testboard:C_47u_16V_1206 C1
 U 1 1 62DE6B2B
 P 750 3625
 F 0 "C1" H 865 3670 60  0000 L CNN
 F 1 "C_47u_16V_1206" H 750 3475 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-cap" H 950 3825 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:1206-cap" H 950 3825 60  0001 L CNN
 F 3 "" H 750 3625 50  0001 C CNN
 F 4 "TDK" H 950 4025 60  0001 L CNN "Manufacturer"
 F 5 "C3216X5R1C476M160AB" H 950 3925 60  0001 L CNN "MPN"
@@ -6084,12 +6084,12 @@ F 6 "47u/16V" H 865 3572 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47u_16V_1206 C2
+L ddr5-testboard:C_47u_16V_1206 C2
 U 1 1 62DE6B34
 P 750 4400
 F 0 "C2" H 865 4445 60  0000 L CNN
 F 1 "C_47u_16V_1206" H 750 4250 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-cap" H 950 4600 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:1206-cap" H 950 4600 60  0001 L CNN
 F 3 "" H 750 4400 50  0001 C CNN
 F 4 "TDK" H 950 4800 60  0001 L CNN "Manufacturer"
 F 5 "C3216X5R1C476M160AB" H 950 4700 60  0001 L CNN "MPN"
@@ -6098,12 +6098,12 @@ F 6 "47u/16V" H 865 4347 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_47u_16V_1206 C3
+L ddr5-testboard:C_47u_16V_1206 C3
 U 1 1 62DE6B3D
 P 750 5175
 F 0 "C3" H 865 5220 60  0000 L CNN
 F 1 "C_47u_16V_1206" H 750 5025 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:1206-cap" H 950 5375 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:1206-cap" H 950 5375 60  0001 L CNN
 F 3 "" H 750 5175 50  0001 C CNN
 F 4 "TDK" H 950 5575 60  0001 L CNN "Manufacturer"
 F 5 "C3216X5R1C476M160AB" H 950 5475 60  0001 L CNN "MPN"
@@ -6123,12 +6123,12 @@ VCC5V0_INT
 Wire Wire Line
 	1800 1475 1700 1475
 $Comp
-L data-center-ddr5-tester:PDS760-13 D1
+L ddr5-testboard:PDS760-13 D1
 U 1 1 6034544D
 P 1600 1475
 F 0 "D1" V 1377 1475 60  0000 C CNN
 F 1 "PDS760-13" H 1700 1375 60  0001 L BNN
-F 2 "data-center-ddr5-tester-footprints:PDS760-13" H 1600 1475 60  0001 C CNN
+F 2 "ddr5-testboard-footprints:PDS760-13" H 1600 1475 60  0001 C CNN
 F 3 "" H 1600 1475 60  0001 C CNN
 F 4 "Diodes Inc." H 1600 1475 50  0001 C CNN "Manufacturer"
 F 5 "PDS760-13" V 1475 1475 50  0000 C CNN "MPN"
@@ -6142,7 +6142,7 @@ Wire Wire Line
 Text GLabel 12825 1975 0    50   Input ~ 0
 VCC5V0_INT
 $Comp
-L data-center-ddr5-tester:GND #PWR045
+L ddr5-testboard:GND #PWR045
 U 1 1 5FE7633A
 P 12875 2325
 F 0 "#PWR045" H 12875 2075 50  0001 C CNN
@@ -6153,14 +6153,14 @@ F 3 "" H 12875 2325 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_100n_0402_6V3-antmicroCapacitors0402 C?
+L ddr5-testboard:C_100n_0402_6V3-antmicroCapacitors0402 C?
 U 1 1 5FE75452
 P 12875 2175
 AR Path="/5FE75452" Ref="C?"  Part="1" 
 AR Path="/60225B0C/5FE75452" Ref="C42"  Part="1" 
 F 0 "C42" H 12990 2220 60  0000 L CNN
 F 1 "C_100n_0402_6V3" H 12875 2025 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 13075 2375 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 13075 2375 60  0001 L CNN
 F 3 "" H 12875 2175 50  0001 C CNN
 F 4 "Walsin" H 13075 2575 60  0001 L CNN "Manufacturer"
 F 5 "0402X104K6R3CT" H 13075 2475 60  0001 L CNN "MPN"
@@ -6175,7 +6175,7 @@ Wire Wire Line
 Wire Wire Line
 	7675 7375 8075 7375
 $Comp
-L data-center-ddr5-tester:GND #PWR036
+L ddr5-testboard:GND #PWR036
 U 1 1 62599B6E
 P 10050 8450
 F 0 "#PWR036" H 10050 8200 50  0001 C CNN
@@ -6188,7 +6188,7 @@ $EndComp
 Wire Wire Line
 	10050 8425 10050 8450
 $Comp
-L data-center-ddr5-tester:GND #PWR039
+L ddr5-testboard:GND #PWR039
 U 1 1 6265F68E
 P 10800 8000
 F 0 "#PWR039" H 10800 7750 50  0001 C CNN
@@ -6199,7 +6199,7 @@ F 3 "" H 10800 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR041
+L ddr5-testboard:GND #PWR041
 U 1 1 62674B94
 P 11100 8000
 F 0 "#PWR041" H 11100 7750 50  0001 C CNN
@@ -6210,14 +6210,14 @@ F 3 "" H 11100 8000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C?
+L ddr5-testboard:C_10u_0402 C?
 U 1 1 624C4EBE
 P 11100 7775
 AR Path="/6004278D/624C4EBE" Ref="C?"  Part="1" 
 AR Path="/60225B0C/624C4EBE" Ref="C37"  Part="1" 
 F 0 "C37" H 11125 7875 60  0000 L CNN
 F 1 "C_10u_0402" H 11100 7625 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11300 7975 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 11300 7975 60  0001 L CNN
 F 3 "" H 11100 7775 50  0001 C CNN
 F 4 "MURATA" H 11300 8175 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 11300 8075 60  0001 L CNN "MPN"
@@ -6226,14 +6226,14 @@ F 6 "10u" H 11125 7675 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C?
+L ddr5-testboard:C_10u_0402 C?
 U 1 1 624C4ECA
 P 10800 7775
 AR Path="/6004278D/624C4ECA" Ref="C?"  Part="1" 
 AR Path="/60225B0C/624C4ECA" Ref="C33"  Part="1" 
 F 0 "C33" H 10825 7875 60  0000 L CNN
 F 1 "C_10u_0402" H 10800 7625 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11000 7975 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 11000 7975 60  0001 L CNN
 F 3 "" H 10800 7775 50  0001 C CNN
 F 4 "MURATA" H 11000 8175 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 11000 8075 60  0001 L CNN "MPN"
@@ -6265,12 +6265,12 @@ Connection ~ 3825 8025
 Wire Wire Line
 	3825 8025 4425 8025
 $Comp
-L data-center-ddr5-tester:R_100k_1%_0402 R11
+L ddr5-testboard:R_100k_1%_0402 R11
 U 1 1 62CD3C38
 P 4900 4850
 F 0 "R11" V 4855 4920 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 4900 4700 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402" H 5100 5050 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402" H 5100 5050 60  0001 L CNN
 F 3 "" H 4900 4850 50  0001 C CNN
 F 4 "PANASONIC" H 5100 5250 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 5100 5150 60  0001 L CNN "MPN"
@@ -6313,12 +6313,12 @@ Wire Wire Line
 Wire Wire Line
 	14425 1975 14650 1975
 $Comp
-L data-center-ddr5-tester:R_0R_2010 R6
+L ddr5-testboard:R_0R_2010 R6
 U 1 1 63342A49
 P 3150 3250
 F 0 "R6" H 3150 3463 60  0000 C CNN
 F 1 "R_0R_2010" H 3150 3100 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:2010-res" H 3350 3450 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:2010-res" H 3350 3450 60  0001 L CNN
 F 3 "" H 3150 3250 50  0001 C CNN
 F 4 "VISHAY" H 3350 3650 60  0001 L CNN "Manufacturer"
 F 5 "CRCW20100000Z0EF" H 3350 3550 60  0001 L CNN "MPN"
@@ -6364,14 +6364,14 @@ Wire Wire Line
 Wire Wire Line
 	10925 3075 10925 3325
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C?
+L ddr5-testboard:C_10u_0402 C?
 U 1 1 621F735C
 P 10925 3475
 AR Path="/6004278D/621F735C" Ref="C?"  Part="1" 
 AR Path="/60225B0C/621F735C" Ref="C35"  Part="1" 
 F 0 "C35" H 10950 3575 60  0000 L CNN
 F 1 "C_10u_0402" H 10925 3325 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11125 3675 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 11125 3675 60  0001 L CNN
 F 3 "" H 10925 3475 50  0001 C CNN
 F 4 "MURATA" H 11125 3875 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 11125 3775 60  0001 L CNN "MPN"
@@ -6388,14 +6388,14 @@ Wire Wire Line
 Wire Wire Line
 	10625 3075 10625 3325
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C?
+L ddr5-testboard:C_10u_0402 C?
 U 1 1 621F7350
 P 10625 3475
 AR Path="/6004278D/621F7350" Ref="C?"  Part="1" 
 AR Path="/60225B0C/621F7350" Ref="C31"  Part="1" 
 F 0 "C31" H 10650 3575 60  0000 L CNN
 F 1 "C_10u_0402" H 10625 3325 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 10825 3675 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 10825 3675 60  0001 L CNN
 F 3 "" H 10625 3475 50  0001 C CNN
 F 4 "MURATA" H 10825 3875 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 10825 3775 60  0001 L CNN "MPN"
@@ -6421,7 +6421,7 @@ Wire Wire Line
 Wire Wire Line
 	10100 3075 10100 3125
 $Comp
-L data-center-ddr5-tester:GND #PWR042
+L ddr5-testboard:GND #PWR042
 U 1 1 624705EA
 P 11225 1950
 F 0 "#PWR042" H 11225 1700 50  0001 C CNN
@@ -6438,12 +6438,12 @@ Wire Wire Line
 Text GLabel 11225 1525 1    50   Input ~ 0
 VCC3V3
 $Comp
-L data-center-ddr5-tester:C_120p_0402 C26
+L ddr5-testboard:C_120p_0402 C26
 U 1 1 624BCCF5
 P 9975 1550
 F 0 "C26" H 10090 1595 60  0000 L CNN
 F 1 "C_120p_0402" H 9975 1400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10175 1750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10175 1750 60  0001 L CNN
 F 3 "" H 9975 1550 50  0001 C CNN
 F 4 "KEMET" H 10175 1950 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10175 1850 60  0001 L CNN "MPN"
@@ -6452,12 +6452,12 @@ F 6 "120p" H 10090 1497 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_120p_0402 C28
+L ddr5-testboard:C_120p_0402 C28
 U 1 1 624C3CA0
 P 10100 3275
 F 0 "C28" H 9986 3320 60  0000 R CNN
 F 1 "C_120p_0402" H 10100 3125 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10300 3475 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10300 3475 60  0001 L CNN
 F 3 "" H 10100 3275 50  0001 C CNN
 F 4 "KEMET" H 10300 3675 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10300 3575 60  0001 L CNN "MPN"
@@ -6492,12 +6492,12 @@ Wire Wire Line
 Wire Wire Line
 	10225 5325 10225 5375
 $Comp
-L data-center-ddr5-tester:C_120p_0402 C30
+L ddr5-testboard:C_120p_0402 C30
 U 1 1 6259F516
 P 10225 5525
 F 0 "C30" H 10111 5570 60  0000 R CNN
 F 1 "C_120p_0402" H 10225 5375 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10425 5725 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10425 5725 60  0001 L CNN
 F 3 "" H 10225 5525 50  0001 C CNN
 F 4 "KEMET" H 10425 5925 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10425 5825 60  0001 L CNN "MPN"
@@ -6520,12 +6520,12 @@ Wire Wire Line
 Wire Wire Line
 	9750 5775 10225 5775
 $Comp
-L data-center-ddr5-tester:C_120p_0402 C29
+L ddr5-testboard:C_120p_0402 C29
 U 1 1 6261A03B
 P 10050 7550
 F 0 "C29" H 9935 7595 60  0000 R CNN
 F 1 "C_120p_0402" H 10050 7400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10250 7750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10250 7750 60  0001 L CNN
 F 3 "" H 10050 7550 50  0001 C CNN
 F 4 "KEMET" H 10250 7950 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10250 7850 60  0001 L CNN "MPN"
@@ -6534,12 +6534,12 @@ F 6 "120p" H 9935 7497 50  0000 R CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_120p_0402 C27
+L ddr5-testboard:C_120p_0402 C27
 U 1 1 626B30DB
 P 10050 10125
 F 0 "C27" H 9935 10170 60  0000 R CNN
 F 1 "C_120p_0402" H 10050 9975 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10250 10325 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10250 10325 60  0001 L CNN
 F 3 "" H 10050 10125 50  0001 C CNN
 F 4 "KEMET" H 10250 10525 60  0001 L CNN "Manufacturer"
 F 5 "C0402C121J5GACTU" H 10250 10425 60  0001 L CNN "MPN"
@@ -6563,14 +6563,14 @@ Wire Wire Line
 Wire Wire Line
 	7875 1550 8575 1550
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R?
+L ddr5-testboard:R_0R_0402 R?
 U 1 1 6271D5B1
 P 7725 1550
 AR Path="/6004278D/6271D5B1" Ref="R?"  Part="1" 
 AR Path="/60225B0C/6271D5B1" Ref="R16"  Part="1" 
 F 0 "R16" H 7725 1673 60  0000 C CNN
 F 1 "R_0R_0402" H 7725 1400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 7925 1750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 7925 1750 60  0001 L CNN
 F 3 "" H 7725 1550 50  0001 C CNN
 F 4 "PANASONIC" H 7925 1950 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 7925 1850 60  0001 L CNN "MPN"
@@ -6581,12 +6581,12 @@ $EndComp
 Wire Wire Line
 	7975 1850 8575 1850
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C40
+L ddr5-testboard:C_10u_0402 C40
 U 1 1 601F8FE9
 P 11425 1750
 F 0 "C40" H 11540 1795 60  0000 L CNN
 F 1 "C_10u_0402" H 11425 1600 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11625 1950 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 11625 1950 60  0001 L CNN
 F 3 "" H 11425 1750 50  0001 C CNN
 F 4 "MURATA" H 11625 2150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 11625 2050 60  0001 L CNN "MPN"
@@ -6595,12 +6595,12 @@ F 6 "10u" H 11540 1697 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C39
+L ddr5-testboard:C_10u_0402 C39
 U 1 1 624705F3
 P 11225 1750
 F 0 "C39" H 11110 1795 60  0000 R CNN
 F 1 "C_10u_0402" H 11225 1600 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 11425 1950 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 11425 1950 60  0001 L CNN
 F 3 "" H 11225 1750 50  0001 C CNN
 F 4 "MURATA" H 11425 2150 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 11425 2050 60  0001 L CNN "MPN"
@@ -6620,7 +6620,7 @@ Connection ~ 7975 1400
 Wire Wire Line
 	7975 1850 7975 2000
 $Comp
-L data-center-ddr5-tester:GND #PWR023
+L ddr5-testboard:GND #PWR023
 U 1 1 627E2B66
 P 7975 2000
 F 0 "#PWR023" H 7975 1750 50  0001 C CNN
@@ -6631,12 +6631,12 @@ F 3 "" H 7975 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C21
+L ddr5-testboard:C_10u_0402 C21
 U 1 1 628701AA
 P 7975 1675
 F 0 "C21" H 8090 1720 60  0000 L CNN
 F 1 "C_10u_0402" H 7975 1525 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8175 1875 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 8175 1875 60  0001 L CNN
 F 3 "" H 7975 1675 50  0001 C CNN
 F 4 "MURATA" H 8175 2075 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 8175 1975 60  0001 L CNN "MPN"
@@ -6645,7 +6645,7 @@ F 6 "10u" H 8090 1622 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR037
+L ddr5-testboard:GND #PWR037
 U 1 1 601C6B4F
 P 10375 2000
 F 0 "#PWR037" H 10375 1750 50  0001 C CNN
@@ -6656,12 +6656,12 @@ F 3 "" H 10375 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_100k_1%_0402 R24
+L ddr5-testboard:R_100k_1%_0402 R24
 U 1 1 62562C43
 P 10275 3700
 F 0 "R24" V 10230 3770 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 10275 3550 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402" H 10475 3900 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402" H 10475 3900 60  0001 L CNN
 F 3 "" H 10275 3700 50  0001 C CNN
 F 4 "PANASONIC" H 10475 4100 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 10475 4000 60  0001 L CNN "MPN"
@@ -6670,12 +6670,12 @@ F 6 "100k_1%" V 10328 3770 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C22
+L ddr5-testboard:C_10u_0402 C22
 U 1 1 625A0599
 P 8025 3350
 F 0 "C22" H 8140 3395 60  0000 L CNN
 F 1 "C_10u_0402" H 8025 3200 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8225 3550 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 8225 3550 60  0001 L CNN
 F 3 "" H 8025 3350 50  0001 C CNN
 F 4 "MURATA" H 8225 3750 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 8225 3650 60  0001 L CNN "MPN"
@@ -6684,12 +6684,12 @@ F 6 "10u" H 8140 3297 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_66k5_0402 R21
+L ddr5-testboard:R_66k5_0402 R21
 U 1 1 62626DBC
 P 10225 10125
 F 0 "R21" V 10180 10195 60  0000 L CNN
 F 1 "R_66k5_0402" H 10225 9975 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10425 10325 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10425 10325 60  0001 L CNN
 F 3 "" H 10225 10125 50  0001 C CNN
 F 4 "PANASONIC" H 10425 10525 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2RKF6652X" H 10425 10425 60  0001 L CNN "MPN"
@@ -6703,12 +6703,12 @@ Connection ~ 10225 9975
 Wire Wire Line
 	10225 9975 10625 9975
 $Comp
-L data-center-ddr5-tester:R_100k_1%_0402 R22
+L ddr5-testboard:R_100k_1%_0402 R22
 U 1 1 62666BFD
 P 10225 10425
 F 0 "R22" V 10180 10495 60  0000 L CNN
 F 1 "R_100k_1%_0402" H 10225 10275 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402" H 10425 10625 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402" H 10425 10625 60  0001 L CNN
 F 3 "" H 10225 10425 50  0001 C CNN
 F 4 "PANASONIC" H 10425 10825 60  0001 L CNN "Manufacturer"
 F 5 "ERA-6AEB104V" H 10425 10725 60  0001 L CNN "MPN"
@@ -6718,14 +6718,14 @@ F 6 "100k_1%" V 10278 10495 50  0000 L CNN "Val"
 $EndComp
 Connection ~ 10225 10275
 $Comp
-L data-center-ddr5-tester:C_10u_0402 C?
+L ddr5-testboard:C_10u_0402 C?
 U 1 1 626A58B2
 P 8100 10425
 AR Path="/6004278D/626A58B2" Ref="C?"  Part="1" 
 AR Path="/60225B0C/626A58B2" Ref="C24"  Part="1" 
 F 0 "C24" H 8175 10475 60  0000 L CNN
 F 1 "C_10u_0402" H 8100 10275 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-cap" H 8300 10625 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-cap" H 8300 10625 60  0001 L CNN
 F 3 "" H 8100 10425 50  0001 C CNN
 F 4 "MURATA" H 8300 10825 60  0001 L CNN "Manufacturer"
 F 5 "GRM155R60J106ME44D" H 8300 10725 60  0001 L CNN "MPN"
@@ -6734,14 +6734,14 @@ F 6 "10u" H 8200 10400 50  0000 L CNN "Val"
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R?
+L ddr5-testboard:R_0R_0402 R?
 U 1 1 6275F230
 P 7850 10125
 AR Path="/6004278D/6275F230" Ref="R?"  Part="1" 
 AR Path="/60225B0C/6275F230" Ref="R19"  Part="1" 
 F 0 "R19" H 7850 10248 60  0000 C CNN
 F 1 "R_0R_0402" H 7850 9975 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 8050 10325 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 8050 10325 60  0001 L CNN
 F 3 "" H 7850 10125 50  0001 C CNN
 F 4 "PANASONIC" H 8050 10525 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 8050 10425 60  0001 L CNN "MPN"
@@ -6768,14 +6768,14 @@ Wire Wire Line
 Text Label 1400 4150 0    50   ~ 0
 VCC_IO_EN
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R?
+L ddr5-testboard:R_0R_0402 R?
 U 1 1 626F750E
 P 1975 4150
 AR Path="/6004278D/626F750E" Ref="R?"  Part="1" 
 AR Path="/60225B0C/626F750E" Ref="R1"  Part="1" 
 F 0 "R1" H 1975 4273 60  0000 C CNN
 F 1 "R_0R_0402" H 1975 4000 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 2175 4350 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 2175 4350 60  0001 L CNN
 F 3 "" H 1975 4150 50  0001 C CNN
 F 4 "PANASONIC" H 2175 4550 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 2175 4450 60  0001 L CNN "MPN"
@@ -6796,29 +6796,29 @@ Text GLabel 13375 6650 0    50   Input ~ 0
 Text GLabel 13375 5775 0    50   Input ~ 0
 1V0_SYS
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM 1V1
+L ddr5-testboard:TP_SMD1MM 1V1
 U 1 1 625B8349
 P 13475 6650
 F 0 "1V1" V 13380 6697 50  0000 C CNN
 F 1 "TP_SMD1MM" H 13475 6550 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 6850 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 13675 6850 60  0001 L CNN
 F 3 "" H 13675 6950 60  0001 L CNN
 	1    13475 6650
 	0    -1   1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:TP_SMD1MM GND1
+L ddr5-testboard:TP_SMD1MM GND1
 U 1 1 62606CD9
 P 13475 7300
 F 0 "GND1" V 13380 7347 50  0000 C CNN
 F 1 "TP_SMD1MM" H 13475 7200 50  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:Testpoint_smd_1mm" H 13675 7500 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Testpoint_smd_1mm" H 13675 7500 60  0001 L CNN
 F 3 "" H 13675 7600 60  0001 L CNN
 	1    13475 7300
 	0    -1   1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR047
+L ddr5-testboard:GND #PWR047
 U 1 1 62622993
 P 13325 7350
 F 0 "#PWR047" H 13325 7100 50  0001 C CNN
@@ -6835,12 +6835,12 @@ Wire Wire Line
 Text GLabel 14775 5850 0    50   Input ~ 0
 3V3_SYS
 $Comp
-L data-center-ddr5-tester:R_43k_0402 R10
+L ddr5-testboard:R_43k_0402 R10
 U 1 1 624F6644
 P 4900 4550
 F 0 "R10" V 4855 4620 60  0000 L CNN
 F 1 "R_43k_0402" H 4900 4400 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 5100 4750 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 5100 4750 60  0001 L CNN
 F 3 "" H 4900 4550 50  0001 C CNN
 F 4 "ROYAL_OHM" H 5100 4950 60  0001 L CNN "Manufacturer"
 F 5 "0402WGF4302TCE" H 5100 4850 60  0001 L CNN "MPN"
@@ -6873,14 +6873,14 @@ Connection ~ 10050 7725
 Wire Wire Line
 	10050 7725 10100 7725
 $Comp
-L data-center-ddr5-tester:R_0R_0402 R?
+L ddr5-testboard:R_0R_0402 R?
 U 1 1 63DB1652
 P 10250 7725
 AR Path="/6004278D/63DB1652" Ref="R?"  Part="1" 
 AR Path="/60225B0C/63DB1652" Ref="R175"  Part="1" 
 F 0 "R175" H 10250 7625 60  0000 C CNN
 F 1 "R_0R_0402" H 10250 7575 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10450 7925 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10450 7925 60  0001 L CNN
 F 3 "" H 10250 7725 50  0001 C CNN
 F 4 "PANASONIC" H 10450 8125 60  0001 L CNN "Manufacturer"
 F 5 "ERJ2GE0R00X" H 10450 8025 60  0001 L CNN "MPN"
@@ -6897,12 +6897,12 @@ Wire Wire Line
 Wire Wire Line
 	9875 7675 9875 8075
 $Comp
-L data-center-ddr5-tester:R_200k_0402 R23
+L ddr5-testboard:R_200k_0402 R23
 U 1 1 6258EC28
 P 10275 3300
 F 0 "R23" V 10230 3370 60  0000 L CNN
 F 1 "R_200k_0402" H 10275 3150 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 10475 3500 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 10475 3500 60  0001 L CNN
 F 3 "" H 10275 3300 50  0001 C CNN
 F 4 "YAGEO_(PHYCOMP)" H 10475 3700 60  0001 L CNN "Manufacturer"
 F 5 "RC0402FR-07200KL" H 10475 3600 60  0001 L CNN "MPN"
@@ -6911,12 +6911,12 @@ F 6 "200k" V 10328 3370 50  0000 L CNN "Val"
 	0    1    1    0   
 $EndComp
 $Comp
-L data-center-ddr5-tester:TC33X-2-203E POT1
+L ddr5-testboard:TC33X-2-203E POT1
 U 1 1 63EA85E3
 P 10575 8075
 F 0 "POT1" V 10275 8125 60  0000 R CNN
 F 1 "TC33X-2-203E" V 10175 8125 60  0000 R CNN
-F 2 "data-center-ddr5-tester-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" H 10775 8275 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:Trimpot_3.8mmx3.6mm_TC33X-2-103E" H 10775 8275 60  0001 L CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/TC33.pdf" H 10775 8375 60  0001 L CNN
 F 4 "TC33X-2-203E" H 10775 8575 60  0001 L CNN "MPN"
 F 5 "Bourns Inc." H 10775 9175 60  0001 L CNN "Manufacturer"

@@ -3891,12 +3891,12 @@ EE 6D 6C 6C DC BB 77 EF 5E BD 7A 99 9A 9A F6 EF DF BF 5F BF 7E 7D FB F6 35 31 31
 EndData
 $EndBitmap
 $Comp
-L data-center-ddr5-tester:DDR504111002KQ U12
+L ddr5-testboard:DDR504111002KQ U12
 U 1 1 6228701A
 P 5650 6300
 F 0 "U12" H 5650 10365 50  0000 C CNN
 F 1 "DDR504111002KQ" H 5650 10274 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:DDR504111002KQ" H 4975 13000 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:DDR504111002KQ" H 4975 13000 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/ddr5-smt-ddr504111002kq.html" H 4975 13000 50  0001 C CNN
 F 4 "Amphenol FCI" H 6250 14190 50  0001 C CNN "Manufaturer"
 F 5 "DDR504111002KQ" H 6250 14099 50  0001 C CNN "MPN"
@@ -3908,7 +3908,7 @@ Wire Wire Line
 Wire Wire Line
 	6500 3100 6500 3300
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L ddr5-testboard:GND #PWR?
 U 1 1 623D1D7C
 P 6500 9950
 AR Path="/5F96C515/623D1D7C" Ref="#PWR?"  Part="1" 
@@ -4242,7 +4242,7 @@ Connection ~ 4800 9900
 Wire Wire Line
 	4800 9900 4800 9950
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L ddr5-testboard:GND #PWR?
 U 1 1 62482A43
 P 4800 9950
 AR Path="/5F96C515/62482A43" Ref="#PWR?"  Part="1" 
@@ -4471,7 +4471,7 @@ Connection ~ 10150 9300
 Wire Wire Line
 	10150 9300 10150 9950
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L ddr5-testboard:GND #PWR?
 U 1 1 6263C76F
 P 10150 9950
 AR Path="/5F96C515/6263C76F" Ref="#PWR?"  Part="1" 
@@ -4486,7 +4486,7 @@ F 3 "" H 10150 9950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L ddr5-testboard:GND #PWR?
 U 1 1 62649499
 P 8450 9950
 AR Path="/5F96C515/62649499" Ref="#PWR?"  Part="1" 
@@ -4859,12 +4859,12 @@ NoConn ~ 4850 2600
 NoConn ~ 6450 2900
 NoConn ~ 6450 3000
 $Comp
-L data-center-ddr5-tester:DDR504111002KQ U12
+L ddr5-testboard:DDR504111002KQ U12
 U 2 1 6228B4AB
 P 9300 6300
 F 0 "U12" H 9300 10365 50  0000 C CNN
 F 1 "DDR504111002KQ" H 9300 10274 50  0000 C CNN
-F 2 "data-center-ddr5-tester-footprints:DDR504111002KQ" H 8625 13000 50  0001 C CNN
+F 2 "ddr5-testboard-footprints:DDR504111002KQ" H 8625 13000 50  0001 C CNN
 F 3 "https://www.amphenol-icc.com/ddr5-smt-ddr504111002kq.html" H 8625 13000 50  0001 C CNN
 F 4 "Amphenol FCI" H 9900 14190 50  0001 C CNN "Manufaturer"
 F 5 "DDR504111002KQ" H 9900 14099 50  0001 C CNN "MPN"
@@ -5229,12 +5229,12 @@ DQ4_B
 Text GLabel 4500 7900 0    50   BiDi ~ 0
 DQS4_A_P
 $Comp
-L data-center-ddr5-tester:R_10k_0402 R134
+L ddr5-testboard:R_10k_0402 R134
 U 1 1 656F92D0
 P 6950 2800
 F 0 "R134" H 6950 2923 60  0000 C CNN
 F 1 "R_10k_0402" H 6950 2650 60  0001 C CNN
-F 2 "data-center-ddr5-tester-footprints:0402-res" H 7150 3000 60  0001 L CNN
+F 2 "ddr5-testboard-footprints:0402-res" H 7150 3000 60  0001 L CNN
 F 3 "" H 6950 2800 50  0001 C CNN
 F 4 "VISHAY" H 7150 3200 60  0001 L CNN "Manufacturer"
 F 5 "CRCW040210K0FKEDHP" H 7150 3100 60  0001 L CNN "MPN"
@@ -5243,7 +5243,7 @@ F 6 "10k" H 6950 3021 50  0000 C CNN "Val"
 	-1   0    0    1   
 $EndComp
 $Comp
-L data-center-ddr5-tester:GND #PWR?
+L ddr5-testboard:GND #PWR?
 U 1 1 65711B5E
 P 7150 2850
 AR Path="/5F96C515/65711B5E" Ref="#PWR?"  Part="1" 
