@@ -7037,8 +7037,6 @@ Wire Wire Line
 Connection ~ 11275 7425
 Wire Wire Line
 	11275 7425 11375 7425
-Wire Wire Line
-	7875 9725 8300 9725
 NoConn ~ 10475 8300
 $Comp
 L ddr5-testboard:TC33X-2-203E POT1
@@ -7098,4 +7096,6 @@ Wire Wire Line
 	9825 7825 9200 7825
 Text Notes 9975 8900 0    50   ~ 0
 POT1 fine tuning:\n1V1 - 0 R\n1V2 - 2k5 R
+Wire Wire Line
+	7875 9725 8325 9725
 $EndSCHEMATC
