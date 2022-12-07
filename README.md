@@ -29,7 +29,7 @@ directories:
 Key Features
 ------------
 
--   Kintex-7 FPGA - XC7K100T-FBG686
+-   Kintex-7 FPGA - XC7K160T-2FBG676C
 -   DDR5 DIMM connector
 -   HDMI output connector
 -   Ethernet RJ45 connector with 1GbE transciever
