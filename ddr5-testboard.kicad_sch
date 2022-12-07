@@ -3170,34 +3170,34 @@
       (reference "C30") (unit 1) (value "C_100n_0402_6V3") (footprint "ddr5-testboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000630b1509"
-      (reference "C31") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C31") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000638c2d1b"
-      (reference "C32") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C32") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000063c68084"
-      (reference "C33") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C33") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000634e3cb3"
-      (reference "C34") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C34") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000630b14f7"
-      (reference "C35") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C35") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000638ac79f"
-      (reference "C36") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C36") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000063c68072"
-      (reference "C37") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C37") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000634e3ca1"
-      (reference "C38") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C38") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062dc055e"
-      (reference "C39") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C39") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062dad7b8"
-      (reference "C40") (unit 1) (value "C_22u_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "C40") (unit 1) (value "C_22u_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00005fee4e91"
       (reference "C41") (unit 1) (value "C_10n_0603") (footprint "ddr5-testboard-footprints:0603-cap")
@@ -3608,19 +3608,19 @@
       (reference "C176") (unit 1) (value "C_100n_0402_6V3") (footprint "ddr5-testboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062daa38b"
-      (reference "C177") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C177") (unit 1) (value "C_1u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000630b1500"
-      (reference "C178") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C178") (unit 1) (value "C_1u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000634e3caa"
-      (reference "C179") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C179") (unit 1) (value "C_1u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000638ac7a8"
-      (reference "C180") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C180") (unit 1) (value "C_1u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000063c6807b"
-      (reference "C181") (unit 1) (value "C_1u_0402") (footprint "antmicro-footprints:0402-cap")
+      (reference "C181") (unit 1) (value "C_1u_0402") (footprint "ddr5-testboard-footprints:0402-cap")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006034544d"
       (reference "D1") (unit 1) (value "PDS760-13") (footprint "ddr5-testboard-footprints:PDS760-13")
@@ -3758,19 +3758,19 @@
       (reference "L2") (unit 1) (value "WE_7447798720") (footprint "ddr5-testboard-footprints:WE_7447798720")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000636fccc0"
-      (reference "L3") (unit 1) (value "SRP0420-1R5K") (footprint "antmicro-footprints:SRP4020")
+      (reference "L3") (unit 1) (value "SRP0420-1R5K") (footprint "ddr5-testboard-footprints:SRP4020")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000627ac104"
-      (reference "L5") (unit 1) (value "SRP0420-1R5K") (footprint "antmicro-footprints:SRP4020")
+      (reference "L5") (unit 1) (value "SRP0420-1R5K") (footprint "ddr5-testboard-footprints:SRP4020")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000063b0f6b2"
-      (reference "L6") (unit 1) (value "SRP0420-1R5K") (footprint "antmicro-footprints:SRP4020")
+      (reference "L6") (unit 1) (value "SRP0420-1R5K") (footprint "ddr5-testboard-footprints:SRP4020")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000063405b47"
-      (reference "L7") (unit 1) (value "SRP0420-1R5K") (footprint "antmicro-footprints:SRP4020")
+      (reference "L7") (unit 1) (value "SRP0420-1R5K") (footprint "ddr5-testboard-footprints:SRP4020")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062f34d26"
-      (reference "L8") (unit 1) (value "SRP0420-1R5K") (footprint "antmicro-footprints:SRP4020")
+      (reference "L8") (unit 1) (value "SRP0420-1R5K") (footprint "ddr5-testboard-footprints:SRP4020")
     )
     (path "/00000000-0000-0000-0000-00005fd53c7d/00000000-0000-0000-0000-000062a159e9"
       (reference "MODE1") (unit 1) (value "61300311121") (footprint "ddr5-testboard-footprints:PinHeader_1x3_P2.54_Drill1.1mm")
@@ -3890,31 +3890,31 @@
       (reference "R20") (unit 1) (value "R_0R_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000637db2bc"
-      (reference "R21") (unit 1) (value "R_1k5_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R21") (unit 1) (value "R_1k5_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000637dc6d4"
-      (reference "R22") (unit 1) (value "R_1k_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R22") (unit 1) (value "R_1k_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062fa7e55"
-      (reference "R23") (unit 1) (value "R_12k4_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R23") (unit 1) (value "R_12k4_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062fd7d43"
       (reference "R24") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000639dca3b"
-      (reference "R25") (unit 1) (value "R_7k5_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R25") (unit 1) (value "R_7k5_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000063bdf074"
       (reference "R26") (unit 1) (value "R_20k_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006282e01d"
-      (reference "R27") (unit 1) (value "R_31k6_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R27") (unit 1) (value "R_31k6_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062849e80"
       (reference "R28") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000634bf316"
-      (reference "R29") (unit 1) (value "R_4k99_0402") (footprint "antmicro-footprints:0402-res")
+      (reference "R29") (unit 1) (value "R_4k99_0402") (footprint "ddr5-testboard-footprints:0402-res")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006340a314"
       (reference "R30") (unit 1) (value "R_10k_0402") (footprint "ddr5-testboard-footprints:0402-res")
@@ -4316,19 +4316,19 @@
       (reference "TP10") (unit 1) (value "TP_SMD1MM") (footprint "ddr5-testboard-footprints:Testpoint_smd_1mm")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000063646ce0"
-      (reference "U1") (unit 1) (value "AP62301WU-7") (footprint "antmicro-footprints:TSOT23-6")
+      (reference "U1") (unit 1) (value "AP62301WU-7") (footprint "ddr5-testboard-footprints:TSOT23-6")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00006252f260"
-      (reference "U2") (unit 1) (value "AP62301WU-7") (footprint "antmicro-footprints:TSOT23-6")
+      (reference "U2") (unit 1) (value "AP62301WU-7") (footprint "ddr5-testboard-footprints:TSOT23-6")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-000062e63719"
-      (reference "U3") (unit 1) (value "AP62301WU-7") (footprint "antmicro-footprints:TSOT23-6")
+      (reference "U3") (unit 1) (value "AP62301WU-7") (footprint "ddr5-testboard-footprints:TSOT23-6")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000639defd9"
-      (reference "U4") (unit 1) (value "AP62301WU-7") (footprint "antmicro-footprints:TSOT23-6")
+      (reference "U4") (unit 1) (value "AP62301WU-7") (footprint "ddr5-testboard-footprints:TSOT23-6")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-0000632bc2f8"
-      (reference "U5") (unit 1) (value "AP62301WU-7") (footprint "antmicro-footprints:TSOT23-6")
+      (reference "U5") (unit 1) (value "AP62301WU-7") (footprint "ddr5-testboard-footprints:TSOT23-6")
     )
     (path "/00000000-0000-0000-0000-000060225b0c/00000000-0000-0000-0000-00005fe68f88"
       (reference "U6") (unit 1) (value "LM3881MME_NOPB") (footprint "ddr5-testboard-footprints:VSSOP8-Texas_Instruments-DGK0008A")
