@@ -2234,7 +2234,7 @@
     )
   )
 
-  (text "DDR5 Tester" (at 193.04 36.195 0)
+  (text "Data Center RDIMM DDR5 Tester" (at 164.465 36.195 0)
     (effects (font (size 3.9878 3.9878) (thickness 0.7976) bold) (justify left bottom))
     (uuid b6dde140-e4a2-4523-bd56-1e2716cf7efd)
   )
