@@ -39,7 +39,7 @@ directories:
 -   5 user LEDs
 -   4 user buttons
 
-## Board diagram
+## Block diagram
 
 ![Data Center RDIMM DDR5 Tester board diagram](doc/Data-Center-RDIMM-DDR5-Tester-block-diagram.png)
 
