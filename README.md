@@ -1,10 +1,10 @@
-# DDR5 Tester
+# Data Center RDIMM DDR5 Tester
 
 Copyright (c) 2021-2022 [Antmicro](https://www.antmicro.com)
 
 [![image](https://img.shields.io/badge/View%20on-Antmicro%20Open%20Source%20Portal-332d37?style=flat-square)](https://opensource.antmicro.com/projects/ddr5-tester)
 
-![](img/ddr5-tester.png)
+![](img/datacenter-rdimm-ddr5-tester..png)
 
 ## Overview
 
