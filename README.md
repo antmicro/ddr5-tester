@@ -8,15 +8,13 @@ Copyright (c) 2021-2023 [Antmicro](https://www.antmicro.com)
 
 ## Overview
 
-This repository contains open hardware design files for an experimental
-platform built around Xilinx Kintex-7 FPGA. The main purpose of this
-platform is to develop and customize RAM controllers supporting DIMM
-DDR5 RAM modules used in data centers. The design files were prepared in
-KiCad.
+This project contains open hardware design files for an experimental platform built around Xilinx Kintex-7 FPGA.
+The main purpose of this platform is to develop and customize RAM controllers supporting DIMM DDR5 RAM modules used in data centers.
+The design files were prepared in KiCad.
 
-## Repository structure
+## Project structure
 
-The main repository directory contains KiCad PCB project files, a
+The main directory contains KiCad PCB project files, a
 LICENSE and README. The remaining files are stored in the following
 directories:
 
@@ -43,6 +41,6 @@ directories:
 
 ![Data Center RDIMM DDR5 Tester board diagram](doc/Data-Center-RDIMM-DDR5-Tester-block-diagram.png)
 
-## Licensing
+## License
 
 This project is published under the [Apache-2.0](LICENSE) license.
