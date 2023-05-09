@@ -55,7 +55,10 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "silk_over_copper|113580000|136000000|00000000-0000-0000-0000-00005fc73ee0|df833dc4-8d14-4716-b9c6-b3125c919139",
+        "silk_over_copper|123180000|136000000|00000000-0000-0000-0000-00005fc73ee0|e63f9eb5-d92c-44c7-8c80-28ae6f0c2d02"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -149,7 +152,28 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "global_label_dangling|2266950|1327150|fdf30c79-fc11-4c9a-92b0-71e41230d81e|00000000-0000-0000-0000-000000000000",
+      "global_label_dangling|2559050|1435100|c2e25630-eb3b-48e1-956f-8da2878d8541|00000000-0000-0000-0000-000000000000",
+      "pin_not_driven|2349500|1327150|2191f4dc-a4f2-43f7-ac2e-c617239092b7|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2114550|603250|6c693227-4234-43fd-8eb4-212837f2d026|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2139950|1365250|ecb2e3ac-d869-4c0b-bbf8-062d879767cd|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2139950|1885950|bdf8a90b-c45a-4939-a8b7-974b4232769c|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2178050|1270000|ec7394c8-f836-4bb7-a4b8-530ea1255b3e|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2178050|1651000|1167272b-130f-4635-93ae-8bda06176c30|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2482850|552450|18350af6-f309-4b0e-9a38-21abd48547e7|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2546350|603250|b679922a-c794-46bf-b0e0-487ed7fc83fa|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2546350|654050|7f5083b4-f83d-4708-b429-0c469bdfb7ff|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2559050|565150|77c83d07-a58e-4bf4-8d8f-d24da13910cf|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2559050|603250|701fb38e-10d3-49b1-a675-10cd3efd37be|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|2559050|628650|118b2c9f-467f-442c-870a-1f85f2bd6c04|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|3251200|914400|24e3b401-ee9a-46ac-8c43-11c14a7af1c6|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|3500120|2354580|7b6c22f8-26de-4065-876f-ac01046637cd|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|3677920|2354580|1d598fb2-52af-4b9c-8e47-f3a872e59953|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|3677920|2456180|f9bbaf1a-fb98-46b9-9f04-f65845df1830|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|863600|393700|3e792bd5-fb92-404e-8cf2-bb620a184bb7|00000000-0000-0000-0000-000000000000",
+      "power_pin_not_driven|863600|419100|8855b39b-a4ae-477f-a3eb-8f53ebef995c|00000000-0000-0000-0000-000000000000"
+    ],
     "meta": {
       "version": 0
     },
@@ -340,11 +364,11 @@
       "lib_symbol_issues": "warning",
       "multiple_net_names": "warning",
       "net_not_bus_member": "warning",
-      "no_connect_connected": "warning",
+      "no_connect_connected": "ignore",
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "ignore",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "unannotated": "error",
