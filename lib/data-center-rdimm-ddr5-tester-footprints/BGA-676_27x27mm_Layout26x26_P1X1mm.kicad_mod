@@ -1321,7 +1321,7 @@
     (die_length 14.135) (tstamp cd650842-b278-4bb1-8c48-4a3de1c7b757))
   (pad "Y26" smd circle (at 12.499 6.499) (size 0.5 0.5) (layers "F.Cu" "F.Paste" "F.Mask")
     (die_length 15.98) (tstamp c227a6cf-cc1b-4dfe-b78c-dcaa5fa2a8b9))
-  (model "${KIPRJMOD}/lib/3d-models/BGA-676_27x27mm_Layout26x26_P1X1mm.step"
+  (model "/media/HDD/prjs/antmicro-ddr5-tester-hw/lib/3d-models/BGA-676_27x27mm_Layout26x26_P1X1mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz -90 0 0))

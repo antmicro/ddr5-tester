@@ -187,7 +187,7 @@
   (fp_line (start -2.101 -1.815) (end -2.101 -1.801) (layer "User.9") (width 0.02) (tstamp ff952e89-d3e0-4783-a31f-f022f183dda1))
   (pad "1" smd roundrect (at -2 -0.0015) (size 1.4 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp 581f8c34-8b25-49ad-bee7-d7c01a8e3ac9))
   (pad "2" smd roundrect (at 2 -0.0015) (size 1.4 1.9) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.05) (tstamp d322aeb0-0652-4c9b-8a53-6a59214d8163))
-  (model "${KIPRJMOD}/lib/3d-models/L_1716_4441Metric.step"
+  (model "/media/HDD/prjs/antmicro-ddr5-tester-hw/lib/3d-models/L_1716_4441Metric.step"
     (offset (xyz 7.75 5.9 -0.2))
     (scale (xyz 1 1 1))
     (rotate (xyz 180 0 90))

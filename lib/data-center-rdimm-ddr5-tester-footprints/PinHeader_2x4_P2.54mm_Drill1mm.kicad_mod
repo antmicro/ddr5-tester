@@ -170,7 +170,7 @@
   (pad "6" thru_hole oval (at 2.539 5.078) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 7043915f-0086-45c6-a0a3-27ffec5c154d))
   (pad "7" thru_hole oval (at 0 7.618) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 1ab1978c-3a1b-4962-9615-b82b7f584922))
   (pad "8" thru_hole oval (at 2.539 7.618) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) (tstamp 8b924e28-aea1-4418-87bc-4bfac327caa3))
-  (model "${KIPRJMOD}/lib/3d-models/PinHeader_2x4_P2.54mm_Drill1mm.step"
+  (model "/media/HDD/prjs/antmicro-ddr5-tester-hw/lib/3d-models/PinHeader_2x4_P2.54mm_Drill1mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 90))

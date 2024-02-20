@@ -5872,7 +5872,7 @@
   (pad "S1" thru_hole oval (at -68.976 0) (size 1.875 3.75) (drill oval 1.25 2.53) (layers *.Cu *.Mask) (tstamp f8ab1653-4ea9-4614-abad-ad805623f5d1))
   (pad "S2" thru_hole oval (at 3.874 0) (size 1.875 3.75) (drill oval 1.25 2.53) (layers *.Cu *.Mask) (tstamp dca7f428-29bb-431b-9f39-65ef1febf269))
   (pad "S3" thru_hole oval (at 68.974 0) (size 1.875 3.75) (drill oval 1.25 2.53) (layers *.Cu *.Mask) (tstamp 473716fb-61fb-4870-83ea-20e447378c01))
-  (model "${KIPRJMOD}/lib/3d-models/Bus_DDR5_Socket_Amphenol_DDR504111002KQ.step"
+  (model "/media/HDD/prjs/antmicro-ddr5-tester-hw/lib/3d-models/Bus_DDR5_Socket_Amphenol_DDR504111002KQ.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 90 -90))

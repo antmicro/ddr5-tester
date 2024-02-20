@@ -658,7 +658,7 @@
   (pad "63" smd roundrect (at -3.25 -4.414) (size 0.2 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp b29b5f7a-af3a-4da3-adf6-811cb3668605))
   (pad "64" smd roundrect (at -3.75 -4.414) (size 0.2 0.875) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp d607a771-3dd3-45d0-8346-f6eb138d53bc))
   (pad "65" smd roundrect (at 0 0) (size 4.7 4.7) (layers "F.Cu" "F.Mask") (roundrect_rratio 0.053191) (tstamp 3f5287ab-b12e-407d-8680-7ea86ad1d512))
-  (model "${KIPRJMOD}/lib/3d-models/QFN-64_1EP_9x9mm_P0.5mm.step"
+  (model "/media/HDD/prjs/antmicro-ddr5-tester-hw/lib/3d-models/QFN-64_1EP_9x9mm_P0.5mm.step"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

@@ -127,7 +127,7 @@
   (pad "4" smd rect (at 0.947 -1.18) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 329c0e1a-4266-4942-ba50-eeccea532819))
   (pad "5" smd rect (at -0.001 -1.18) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 863e81bd-4332-4cc4-96f8-8dccf429f4dc))
   (pad "6" smd rect (at -0.952 -1.18) (size 0.7 0.8) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 7550256c-3bcf-427b-93c7-1760a5bfdf4e))
-  (model "${KIPRJMOD}/lib/3d-models/sot23-6.step"
+  (model "/media/HDD/prjs/antmicro-ddr5-tester-hw/lib/3d-models/sot23-6.step"
     (offset (xyz -0.9525 -0.95885 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))
